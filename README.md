@@ -29,7 +29,7 @@ Plan
 
 1. Morphologie ist die Lehre von der Zusammensetzung und Formbildung der Wörter.
 2. Syntax werden die von den Wörtern gebildeten Strukturen zusammengefasst. Hierzu zählen die Grammatiken.
-3 Lexikalische Semantik - Bedeutung auf Wortebene + Kompositionelle Semantik - Bedeutung von Sätzen oder längeren Abschnitten.
+3. Semantik - (Lexikalisch - Bedeutung auf Wortebene) + (Kompositionell - Bedeutung von Sätzen/Abschnitten)
 
 <s>Pragmatik und Diskurs</s>
 
