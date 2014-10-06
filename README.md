@@ -76,7 +76,7 @@ Synonym: *part-of-speech, POS, word class, morphological class, lexical tag*
 2. Eindeutigkeit - Eine Repräsentation muss eine einzige eindeutige Interpretation besitzen. (Mehrdeutigkeiten auflösen)
 3. Kanonische Form - gleiche Aussagen in unterschiedlichen Repräsentationen werden in eine kanonische Form überführt z.B. „In diesem Lokal gibt es vegetarisches Essen“ und „Dieses Lokal bietet vegetarische Gerichte an“ -> Dieses Lokal + Vegetarisches Essen
 
-*Prädikat-Argument-Strukturen* (predicate-argument structures) - legen Beziehungen zwischen den Konstituenten eines Satzes fest. Den formalen Rahmen dieser Beziehungen bildet die Grammatik.
+*Prädikat-Argument-Strukturen* (predicate-argument structures) - legen Beziehungen zwischen den Konstituenten eines Satzes fest. Den formalen Rahmen dieser Beziehungen bildet die Grammatik.
 
 *Linking* - Zum einen nehmen bestimmte Konstituenten an bestimmten Stellen im Satz auf der inhaltlichen Ebene bestimmte Rollen ein. Die Analyse solcher Zusammenhänge bezeichnet man als Linking. Anwendung: Informationsextraktion im Rahmen des Information Retrieval oder Text Mining, weil nach der Erkennung von semantischem Subjekt und Objekt Fragen der Art „Wer hat was mit welchem Objekt getan?“ beantwortet werden können.
 
@@ -87,9 +87,9 @@ Synonym: *part-of-speech, POS, word class, morphological class, lexical tag*
 *Lexikon* - Liste von Lexemen (z.B. WordNet), Einträge müssen zueinander in Beziehung gesetzt werden für die Folgerung von inhaltlichem Wissen.
 
 *Homonymie* - Wörter haben dieselbe Form, aber unterschiedliche Bedeutungen, zum Beispiel „Bank“.
-*Polysemie* - Unterschiedliche, aber verwandte oder auf einen gemeinsamen Ursprung zurückzuführende Bedeutungen: „Horn“ als Berg, Instrument, Gebäck.
-*Synonymie* - Verschiedene Lexeme mit gleicher Bedeutung: „Streichholz“, „Zündholz“.
-*Antonymie* - Lexeme mit gegensätzlicher Bedeutung: „groß“, „klein“.
+*Polysemie* - Unterschiedliche, aber verwandte oder auf einen gemeinsamen Ursprung zurückzuführende Bedeutungen: „Horn“ als Berg, Instrument, Gebäck.<br />
+*Synonymie* - Verschiedene Lexeme mit gleicher Bedeutung: „Streichholz“, „Zündholz“.<br />
+*Antonymie* - Lexeme mit gegensätzlicher Bedeutung: „groß“, „klein“.<br />
 *Hyponymie* - Klassen- und Unterklassenbildung: „Auto“ ↔ „Fahrzeug“.
 
 Usage
