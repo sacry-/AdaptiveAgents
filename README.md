@@ -87,10 +87,10 @@ Synonym: *part-of-speech, POS, word class, morphological class, lexical tag*
 *Lexikon* - Liste von Lexemen (z.B. WordNet), Einträge müssen zueinander in Beziehung gesetzt werden für die Folgerung von inhaltlichem Wissen.
 
 *Homonymie* - Wörter haben dieselbe Form, aber unterschiedliche Bedeutungen, zum Beispiel „Bank“.
-*Polysemie* - Unterschiedliche, aber verwandte oder auf einen gemeinsamen Ursprung zurückzuführende Bedeutungen: „Horn“ als Berg, Instrument, Gebäck
-*Synonymie* - Verschiedene Lexeme mit gleicher Bedeutung: „Streichholz“, „Zündholz“
-*Antonymie* - Lexeme mit gegensätzlicher Bedeutung: „groß“, „klein“
-*Hyponymie* - Klassen- und Unterklassenbildung: „Auto“ ↔ „Fahrzeug“
+*Polysemie* - Unterschiedliche, aber verwandte oder auf einen gemeinsamen Ursprung zurückzuführende Bedeutungen: „Horn“ als Berg, Instrument, Gebäck.
+*Synonymie* - Verschiedene Lexeme mit gleicher Bedeutung: „Streichholz“, „Zündholz“.
+*Antonymie* - Lexeme mit gegensätzlicher Bedeutung: „groß“, „klein“.
+*Hyponymie* - Klassen- und Unterklassenbildung: „Auto“ ↔ „Fahrzeug“.
 
 Usage
 -
