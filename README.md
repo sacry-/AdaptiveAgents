@@ -27,7 +27,7 @@ Plan
 -
 <s>Phonetik und Phonologie</s>
 
-1. Morphologie ist die Lehre von der Zusammensetzung und Formbildung der Wörter.
+1. Morphologie ist die Lehre von der Zusammensetzung und Formbildung  der Wörter.
 2. Syntax werden die von den Wörtern gebildeten Strukturen zusammengefasst. Hierzu zählen die Grammatiken.
 3. Semantik - (Lexikalisch - Bedeutung auf Wortebene) + (Kompositionell - Bedeutung von Sätzen/Abschnitten)
 
@@ -92,10 +92,41 @@ Synonym: *part-of-speech, POS, word class, morphological class, lexical tag*
 *Antonymie* - Lexeme mit gegensätzlicher Bedeutung: „groß“, „klein“.<br />
 *Hyponymie* - Klassen- und Unterklassenbildung: „Auto“ ↔ „Fahrzeug“.
 
+**Methoden des statistischen Text Mining**
+
+*Korpus*,*Corpus* - Referenzquelltext auf dem Methoden trainiert werden können, zusätzliche Information wie POS-Tags, Syntaxtrees etc. enthalten; Brown Corpus, Lancaster-Oslo-Bergen Corpus, Penn Treebank, Canadian Hansard
+
+*Worttoken* - Anazhl der Wörter (in einem Satz/Paragraphen/Korpus ...)
+
+*Worttypen* - Anazhl der voneinander verschiedener Wörter (in einem Satz/Paragraphen/Korpus ...)
+
+*Durchchnittliche Häufigkeit eines Wortes* - ![#Token/#Typen](http://latex.codecogs.com/svg.latex?%5Cinline%20%5Cfrac%20%7BAnazahl%5C%2C%20von%5C%2C%20Worttoken%7D%20%7BAnzahl%5C%2C%20von%5C%2C%20Worttypen%7D), ein Indikator für die Wortreichheit des Textes, Vergleiche Tom Sawyer mit einem wissenschaftlichen Text
+
+*Zipf's Gesetz* - Zipf's Gesetz ist eine mathematische Approximation der Beobachtung, dass einige weniger Worte viel öfter in einem Text erscheinen als alle restlichen Wörter. Sei *f(w)* die Frequenz und *r(w)* der Häufigkeitsrang des Wortes, dann besagt Zipf's Gesetz, dass das Produkt beider konstant ist, ![Zipf's Gesetz](http://latex.codecogs.com/svg.latex?%5Cinline%20f%28w%29%20r%28w%29%20=%20const.). In anderen Worten heißt das, dass das zehnthäufigste Wort fünfmal häufiger vorkommtals das 50st-häufigste Wort. Mandelbrot entwickelte in den 1950er eine bessere Approximation des Zipf's Gesetzes.
+
+*Kollokationen* - Ausdrücke mit zwei oder mehr Wörtern die gemeinsam einen gesonderten Sinn ergeben, bsp. *Schwarzes Brett* 
+
+*Erkennung von Kollokationen durch Häufigkeit* - Kollokationen werden anhand wiederkehrenden Wortgruppen erkannt. Dabei bieten sich Wortklassensequenzen zur Erkennung an. Zum Beispiel wird "New York City" durch die POS-Tags ![New York City Pos-Tag](http://latex.codecogs.com/svg.latex?%5Cinline%20%5BN%5C!N,%20N%5C!N,%20N%5C!N%5D) erkannt. Diese Methode erkennt jedoch auch Phrasen wie *letzten Abend* als Kollokation. Daher bietet sich diese Methode für feste Phrasen wie *Bundeskanzler Schröder* an.
+
+*Erkennung von Kollokationen durch Mittelwert und Streuung* - Sollen zwei Wörter (z.B. *nahm* und *Abschied*) als Kollokation erkannt werden, bietet es sich an die mittleren Abstände zwischen den Worten und die Streuung dieser Abstande zu betrachten.
+Durchschnitt der Abstände: ![enter image description here](http://latex.codecogs.com/svg.latex?%5Cmu%20%3D%20%5Cfrac%20%7B%5Csum_%7Bi%3D1%7D%5E%7BN%7D%20d_i%7D%20%7BN%7D)
+Streuung: ![enter image description here](http://latex.codecogs.com/svg.latex?%5Csigma%20=%20%5Csqrt%7B%5Cfrac%20%7B%5Csum_%7Bi=1%7D%5E%7BN%7D%20%28d_i%20-%20%5Cmu%29%5E%7B2%7D%7D%20%7BN%20-1%7D%7D)
+
 Usage
 -
 
 Notes
 -
+
+
+
+
+
+Usage
+-
+
+Notes
+-
+
 
 
