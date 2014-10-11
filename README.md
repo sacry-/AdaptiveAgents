@@ -111,14 +111,12 @@ Synonym: *part-of-speech, POS, word class, morphological class, lexical tag*
 *Erkennung von Kollokationen durch Mittelwert und Streuung* - Sollen zwei Wörter (z.B. *nahm* und *Abschied*) als Kollokation erkannt werden, bietet es sich an die mittleren Abstände zwischen den Worten und die Streuung dieser Abstande zu betrachten.
 Durchschnitt der Abstände: ![enter image description here](http://latex.codecogs.com/svg.latex?%5Cmu%20%3D%20%5Cfrac%20%7B%5Csum_%7Bi%3D1%7D%5E%7BN%7D%20d_i%7D%20%7BN%7D)
 Streuung: ![enter image description here](http://latex.codecogs.com/svg.latex?%5Csigma%20=%20%5Csqrt%7B%5Cfrac%20%7B%5Csum_%7Bi=1%7D%5E%7BN%7D%20%28d_i%20-%20%5Cmu%29%5E%7B2%7D%7D%20%7BN%20-1%7D%7D)
+Paare mit geriger Standardabweichung und einem Mittelwert > 1 werden als Kollokationen erkannt. Trotzdem werden dennoch einige Wortpaare aufgrund ihrer schieren Käufigkeit als Kollokation erkannt. Durch einen Signifikanztest (T-Test/Chi-Quadrat-Test) können solche Fälle eliminiert werden.
 
-Usage
--
-
-Notes
--
-
-
+*Theorem von Bayes* - Oft ist die Wahrscheinlichkeit ![enter image description here](http://latex.codecogs.com/gif.latex?%5Cinline%20P%28Ereignis%7CUrsache%29) bekannt, während die
+Wahrscheinlichkeit ![enter image description here](http://latex.codecogs.com/gif.latex?%5Cinline%20P%28Ursache%7CEreignis%29) gesucht ist. Das Theorem von Bayes ermöglicht die Berechnung, ob die Ursache gegeben dem vorliegenden Ergebnis zutrifft oder nicht.
+![enter image description here](http://latex.codecogs.com/gif.latex?%5Cinline%20P%28U%7CE%29%20=%20%5Cfrac%20%7BP%28E%7CU%29P%28U%29%7D%20%7BP%28E%29%7D)
+Das Theorem von Bayes ist zum Beispiel zur Spamfilterung von Emails sehr nützlich.
 
 
 
