@@ -146,8 +146,13 @@ Probabalistisches Parsen hat zwei große Probleme:
 1. Das Modell geht davon aus, dass die einzellnen Sätze voneinander uabhängig sind.  Dies ist aber nicht der Fall.
 2. Die semantischen Abhängigkeiten zwischen Worten eines Satzes lassen sich hierdurch nicht modellieren oder sinnvoll verabreiten.
 
-**Statistische Zuordnung**
+**Statistische Zuordnung** - Maschinelle Übersetzung eines Quelltextes in eine Zielsprache. Dabie gibt es vier Methoden:
 
+1. Wort-für-Wort. Einfach, aber Unzureichend
 
+2.  Syntaktische Überführung. Ein Syntaxbaum des Quelltextes wird erzeugt, uberstetzt und in der Zielsprache ausformuliert. Löst einige Probleme von (1). Aber semantische Fehler können auftreten: "Ich esse gerne" wird zu "I eat willingly" übersetzt, obwohl es "I like to eat" sein sollte.
 
+3.  Semantische Überführung. Die Semantik jedes Satzes wird übersetzt und anschließsend ausformuliert. Löst Probleme von (1) und (2). Aufwändiger. Kann jedoch unnatürliche Übersetztungen erzeugen.
+
+4. Interlingua. Der Quelltext wird zunächst in eine (universelle) intermediäre Sprache (Interlingua) übersetzt und anschließend in die Zielsprache ausformuliert. Die Interlingua dient rein zur Wissensrespräsensation und ist unabhängig von der Art und Weise wie verschiedene Sprache den Sinngehalt ausdrücken. Es ist außerdem einfacher für viele Übersetzungen zwischen verschied. Sprachen eine gemeinsame Interlingua zu haben, anstatt Übersetztungen zwischen je zwei Sprachen bauen zu müssen.
 
