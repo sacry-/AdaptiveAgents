@@ -20,20 +20,27 @@ Graph Visualization:
 
 BA Arbeit: erwin.lang@haw-hamburg.de
 
-Setup
--
+### Setup ###
+coming soon
 
-Plan
--
+# Plan #
 <s>Phonetik und Phonologie</s>
-
 1. Morphologie ist die Lehre von der Zusammensetzung und Formbildung  der Wörter.
 2. Syntax werden die von den Wörtern gebildeten Strukturen zusammengefasst. Hierzu zählen die Grammatiken.
 3. Semantik - (Lexikalisch - Bedeutung auf Wortebene) + (Kompositionell - Bedeutung von Sätzen/Abschnitten)
-
 <s>Pragmatik und Diskurs</s>
 
-**Morphologie**
+### Usage ###
+coming soon
+
+# Notes #
+coming soon
+
+# Mitschrift #
+
+### Allgemein ###
+
+***Morphologie***
 *Morpheme* sind die kleinsten Einheiten mit Bedeutung in einer Sprache. Zwei Klassen: Stämme und Affixe.
 
 *Stemming* - bezeichnet das Zurückführen eines Wortes auf seinen Wortstamm.
@@ -41,7 +48,7 @@ Lemmatisierung das Wort wird auf eine in der Sprache vorhandene Grundform zurüc
 
 |>  Kombination aus Regeln (z.B. "ing" -> empty) und einem Lexikon.
 
-**Syntax - Wortarten und Konstituenten**
+***Syntax - Wortarten und Konstituenten***
 
 *POS Tagging* Part-Of-Speech - Wortart eines Wortes hat erheblichen Einfluss (hilfreich beim Stemming)
 Synonym: *part-of-speech, POS, word class, morphological class, lexical tag*
@@ -68,7 +75,7 @@ Synonym: *part-of-speech, POS, word class, morphological class, lexical tag*
 
 *Earley Algorithmus* - Laufzeit O(n) für LR(k)-Grammatiken, O(n^2) für nicht mehrdeutige nicht-LR(k)-Grammatiken und O(n^3) sonst.
 
-**Semantik** "Inhaltliches Verständnis"
+***Semantik*** "Inhaltliches Verständnis"
 
 *Semantische Analyse* -Bedeutungsrepräsentation (meaning representation) muss der linguistischen Struktur zugeordnet werden.
 
@@ -80,7 +87,7 @@ Synonym: *part-of-speech, POS, word class, morphological class, lexical tag*
 
 *Linking* - Zum einen nehmen bestimmte Konstituenten an bestimmten Stellen im Satz auf der inhaltlichen Ebene bestimmte Rollen ein. Die Analyse solcher Zusammenhänge bezeichnet man als Linking. Anwendung: Informationsextraktion im Rahmen des Information Retrieval oder Text Mining, weil nach der Erkennung von semantischem Subjekt und Objekt Fragen der Art „Wer hat was mit welchem Objekt getan?“ beantwortet werden können.
 
-**Lexikalische Semantik** - Lexem und das Lexikon
+***Lexikalische Semantik*** - Lexem und das Lexikon
 
 *Lexem* - bezeichnet man eine Kombination aus Form (orthographisch und phonologisch) und Bedeutung auf Wortebene, sozusagen ein „lexikalisches Morphem“. Der Bedeutungs-Teil eines Lexems heißt *Sinn* (Sense).
 
@@ -92,7 +99,7 @@ Synonym: *part-of-speech, POS, word class, morphological class, lexical tag*
 *Antonymie* - Lexeme mit gegensätzlicher Bedeutung: „groß“, „klein“.<br />
 *Hyponymie* - Klassen- und Unterklassenbildung: „Auto“ ↔ „Fahrzeug“.
 
-**Methoden des statistischen Text Mining**
+### Methoden des statistischen Text Mining ###
 
 *Korpus*,*Corpus* - Referenzquelltext auf dem Methoden trainiert werden können, zusätzliche Information wie POS-Tags, Syntaxtrees etc. enthalten; Brown Corpus, Lancaster-Oslo-Bergen Corpus, Penn Treebank, Canadian Hansard
 
@@ -108,7 +115,7 @@ Synonym: *part-of-speech, POS, word class, morphological class, lexical tag*
 
 *Erkennung von Kollokationen durch Häufigkeit* - Kollokationen werden anhand wiederkehrenden Wortgruppen erkannt. Dabei bieten sich Wortklassensequenzen zur Erkennung an. Zum Beispiel wird "New York City" durch die POS-Tags ![New York City Pos-Tag](http://latex.codecogs.com/svg.latex?%5Cinline%20%5BN%5C!N,%20N%5C!N,%20N%5C!N%5D) erkannt. Diese Methode erkennt jedoch auch Phrasen wie *letzten Abend* als Kollokation. Daher bietet sich diese Methode für feste Phrasen wie *Bundeskanzler Schröder* an.
 
-*Erkennung von Kollokationen durch Mittelwert und Streuung* - Sollen zwei Wörter (z.B. *nahm* und *Abschied*) als Kollokation erkannt werden, bietet es sich an die mittleren Abstände zwischen den Worten und die Streuung dieser Abstande zu betrachten. Paare mit geriger Standardabweichung und einem Mittelwert > 1 werden als Kollokationen erkannt. Trotzdem werden dennoch einige Wortpaare aufgrund ihrer schieren Käufigkeit als Kollokation erkannt. Durch einen Signifikanztest (T-Test/Chi-Quadrat-Test) können solche Fälle eliminiert werden.
+**Erkennung von Kollokationen durch Mittelwert und Streuung** - Sollen zwei Wörter (z.B. *nahm* und *Abschied*) als Kollokation erkannt werden, bietet es sich an die mittleren Abstände zwischen den Worten und die Streuung dieser Abstande zu betrachten. Paare mit geriger Standardabweichung und einem Mittelwert > 1 werden als Kollokationen erkannt. Trotzdem werden dennoch einige Wortpaare aufgrund ihrer schieren Käufigkeit als Kollokation erkannt. Durch einen Signifikanztest (T-Test/Chi-Quadrat-Test) können solche Fälle eliminiert werden.
 
 Durchschnitt der Abstände: ![enter image description here](http://latex.codecogs.com/svg.latex?%5Cmu%20%3D%20%5Cfrac%20%7B%5Csum_%7Bi%3D1%7D%5E%7BN%7D%20d_i%7D%20%7BN%7D)
 
@@ -119,14 +126,28 @@ Wahrscheinlichkeit ![enter image description here](http://latex.codecogs.com/gif
 ![enter image description here](http://latex.codecogs.com/gif.latex?%5Cinline%20P%28U%7CE%29%20=%20%5Cfrac%20%7BP%28E%7CU%29P%28U%29%7D%20%7BP%28E%29%7D)
 Das Theorem von Bayes ist zum Beispiel zur Spamfilterung von Emails sehr nützlich.
 
-*n-Gramm Modell*
+
+**n-Gramm Modelle** - Dient bei Sprachverarbeitung dazu die Wahrscheinlichkeit des n-ten Wortes aus den n-1 vorherigen Worten zu berechnen. Speziell: 2:Bigramm, 3:Trigramm, 4: Tetragramm. Ein Bigramm eines Textes ordnet jedem Wort zu wie oft ein anderes Wort als dessen Nachfolger auftaucht. Z.B. gilt ![enter image description here](http://latex.codecogs.com/svg.latex?%5Cinline%20P%28%22Film%22%7C%22Ich%22%29%20%3C%20P%28%22gehe%22%7C%22Ich%22%29).
+
+![enter image description here](http://latex.codecogs.com/svg.latex?%5Cinline%20P%28w_i%7Cw_%7Bi-1%7D,w_%7Bi-2%7D,...w_%7Bi-N%7D%29) - Die Wahscheinlichkeit, dass ![enter image description here](http://latex.codecogs.com/svg.latex?%5Cinline%20w_i) nach den n-Worten davor vorkommt.
+
+Die Maximum-Likelihood-Methode bestimmt aus deer Anzahl der Vorkommen der n-Gramme ihre Wahrscheinlichkeiten. Da aber oft 0 als Ergebnis vorkommt und dadurch Produkte zu 0 zusammenfallen, wird noch Smoothing eingesetzt, was das Sinken der Wahscheinlichkeit begrenzt. Daneben gibt es noch das Witten-Bell Discounting und das Good-Turing Discounting als Smoothing-Verfahren.
+
+**Hidden-Markov-Modelle** - Hidden-Markov-Modelle sind Automaten mit probabilistischen Zustandsübergängen. Dies folgt aus den Beiden folgenden Annahmen:
+
+*begrenztes Horizont*: ![enter image description here](http://latex.codecogs.com/svg.latex?%5Cinline%20P%28X_%7Bt&plus;1%7D%20=%20s_k%7CX_1,%20.%20.%20.%20,X_t%29%20=%20P%28X_%7Bt&plus;1%7D%20=%20s_k%7CX_t%29) - Die Wahscheinlichkeit des Folgezustandes ist nur vom letzten Zustand abhängig.
+
+*Der Zeitinvarianz*: ![enter image description here](http://latex.codecogs.com/svg.latex?%5Cinline%20P%28X_%7Bt&plus;1%7D%20=%20s_k%7CX_1,%20.%20.%20.%20,X_t%29%20=%20P%28X_1%20=%20s_k%7CX_1%29) - Die Übergangswahscheinlichkeiten änderen sich nicht.
+Das Hidden Markov Modell eignet sich gut in der Spracherkennung.
 
 
-Usage
--
+**Probabalistisches Parsen** - Eine Parsing Methode, bei der die Regeln mit Wahscheinlichkeiten versehen sind. alle Regeln mit gleichem Kopf addieren sich zu 1 zusammen. Probabalistisches Parsen geht mit den Mehrdeutigkeiten, die beim Erzeugen eines Syntaxbaums eines natürlichsprachlichen Satzes entsehen, um. Es wird einfach der Syntaxbaum mit der insgesamt höchsten Wahrscheinlichkeit genommen. Die Wahscheinlichkeiten einer Regeln kann z.B. an einem Korpus mit Syntaxtrees (Penn Treebank) trainiert werden.
+Probabalistisches Parsen hat zwei große Probleme:
+1. Das Modell geht davon aus, dass die einzellnen Sätze voneinander uabhängig sind.  Dies ist aber nicht der Fall.
+2. Die semantischen Abhängigkeiten zwischen Worten eines Satzes lassen sich hierdurch nicht modellieren oder sinnvoll verabreiten.
 
-Notes
--
+**Statistische Zuordnung**
+
 
 
 
