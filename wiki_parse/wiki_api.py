@@ -1,8 +1,12 @@
 import urllib2
 import ast
+from dewiki.parser import Parser # https://github.com/daddyd/dewiki.git
 
+# Mhhhh... https://wikipedia.readthedocs.org/en/latest/code.html#api
+# https://pypi.python.org/pypi/wikipedia/1.3.1 ... :-(
 
 BASE_URL = "http://en.wikipedia.org/w/api.php?"
+
 
 # Dictionary -> String
 def query_from_hash(h):
@@ -73,10 +77,30 @@ def categories_of_next_depth(titles, limit):
       result.append(sub_category)
   return result
 
+# JsonHash -> Dictionary[ String -> { Int, String } ]
+def fetch_body_from_article_response(nested_response_hash):
+  response_hash = nested_response_hash["query"]["pages"]
+  page_id, body = response_hash.items()[0]
+  return { 
+    "page_id" : page_id, 
+    "title" : body["title"], 
+    "content" : remove_markup(body["revisions"][0]["*"])
+    }
+
+# String -> String
+def remove_markup(s):
+  return Parser().parse_string(s)
+
 # List[String] -> Unit
-def fetch_articles_by_titles(title_list):
+def fetch_articles_by_titles(title_list, limit):
+  collected_articles = []
   for title in title_list:
+    if limit < 1: 
+      return collected_articles
     query = query_by_data(article(title))
     response = fire_query(query)
-    print response
+    article_hash = fetch_body_from_article_response(response)
+    collected_articles.append(article_hash)
+    limit -= 1
+  return collected_articles
 

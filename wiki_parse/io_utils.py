@@ -5,19 +5,22 @@ import ast
 
 # String
 def relative_path():
-  return "%s/" % os.path.realpath('') 
+  return "%s" % os.path.realpath('') 
+
+def json_path(fname):
+  return "%s/%s.%s" % (relative_path(), fname, "json")
 
 # String -> Dictionary 
 def load_json(fname):
   data = ""
-  with open (relative_path() + fname + ".json", "r") as myfile:
+  with open(json_path(fname), "r") as myfile:
     data = myfile.read()
   return ast.literal_eval(data)
 
 # Dictionary -> String -> Unit 
 def save_json(h, fname):
   json_data = json.dumps(h, indent=2, sort_keys=True).encode('utf8')
-  with open(relative_path() + fname + ".json", 'w+') as json_file:
+  with open(json_path(fname), 'w+') as json_file:
     json_file.write(json_data)
 
 # JsonHash -> List[String] 

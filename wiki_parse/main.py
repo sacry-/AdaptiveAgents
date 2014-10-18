@@ -8,5 +8,6 @@ from wiki_api import categories_by_depth, fetch_articles_by_titles
 # Fetch all Articles by given titles (as List)
 # Number stands for depth
 file_name = "bio_titles_%s" % 1
-title_list = flatten_hash(load_json(file_name))
-fetch_articles_by_titles(title_list)
+titles = flatten_hash(load_json(file_name))
+test_article = fetch_articles_by_titles(title_list=titles, limit=1)
+save_json(test_article[0], "art1")
