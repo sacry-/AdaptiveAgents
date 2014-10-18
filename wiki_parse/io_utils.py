@@ -24,6 +24,13 @@ def save_json(h, fname):
     json_file.write(json_data)
 
 # JsonHash -> List[String] 
+# JsonHash ~>
+# { "titles" : [
+#    "Biology", 
+#    "More Biology",
+#    { "name" : "sub_category of Biology", 
+#      "titles" : ["Biology2", "", {..}] }
+# ]}
 def flatten_hash(h):
   for t in h["titles"]:
     if type(t) == type({}):
@@ -31,3 +38,4 @@ def flatten_hash(h):
         yield j
     else:
       yield t
+
