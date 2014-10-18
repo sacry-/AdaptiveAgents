@@ -1,10 +1,14 @@
 import urllib2
-import json 
 import ast
 
-BASE = "/Users/sacry/dev/uni/s5/la/AdaptiveAgents/wiki_parse/"
-base_url = "http://en.wikipedia.org/w/api.php?"
 
+BASE_URL = "http://en.wikipedia.org/w/api.php?"
+
+# Dictionary -> String
+def query_from_hash(h):
+  return "&".join(["%s=%s" % (k, v) for (k, v) in h.iteritems()])
+
+# String -> Dictionary
 def category(cmtitle):
   return {
     "format" : "json",
@@ -14,6 +18,7 @@ def category(cmtitle):
     "cmlimit" : 100
   }
 
+# String -> Dictionary
 def article(title="Biological dark matter"):
   return {
     "format" : "json",
@@ -23,72 +28,55 @@ def article(title="Biological dark matter"):
     "rvprop" : "content"
   }
 
-def load_json(fname):
-  data = ""
-  with open (BASE + fname + ".json", "r") as myfile:
-    data = myfile.read()
-  return ast.literal_eval(data)
+# String -> Dictionary
+def fire_query(query):
+  str_resp = urllib2.urlopen(query).read()
+  dict_resp = ast.literal_eval(str_resp)
+  if dict_resp.has_key("error"):
+    raise "Error Firing query to wikipedia! %s" % query
+  else:
+    return dict_resp
 
-def save_json(h, fname):
-  json_data = json.dumps(h, indent=2, sort_keys=True).encode('utf8')
-  with open(BASE + fname + ".json", 'w+') as json_file:
-    json_file.write(json_data)
+# Dictionary -> String
+def query_by_data(data):
+  return "%s%s" % (BASE_URL, query_from_hash(data))
 
-def hash_to_data(h):
-  return "&".join(["%s=%s" % (k, v) for (k, v) in h.iteritems()])
+# String -> Int -> JsonHash
+def categories_by_depth(category_string, limit):
+  query = query_by_data(category(category_string))
+  titles = fetch_continued_titles(query, [], "")
+  return categories_of_next_depth(titles, limit)
 
-def get_all(cat, limit=0):
-  cat = hash_to_data(category(cat))
-  query = "%s%s" % (base_url, cat)
-  print query
-
-  def get_all_by(query, titles, code=""):
-    tmp = query + ("&" + code if code else "")
-    str_resp = urllib2.urlopen(tmp).read()
-    dict_resp = ast.literal_eval(str_resp)
-    titles += [node["title"] for node in dict_resp["query"]["categorymembers"]]
+# String -> List[String] -> String -> List[String]
+def fetch_continued_titles(query, titles, code):
+  query_with_possible_code = "%s%s" % (query, ("&" + code if code else ""))
+  dict_resp = fire_query(query_with_possible_code)
+  titles += [node["title"] for node in dict_resp["query"]["categorymembers"]]
     
-    if dict_resp.has_key("query-continue"):
-      code = dict_resp["query-continue"]["categorymembers"]["cmcontinue"]
-      return get_all_by(query, titles, "cmcontinue=%s" % code)
-    else:
-      return titles
+  if dict_resp.has_key("query-continue"):
+    code = dict_resp["query-continue"]["categorymembers"]["cmcontinue"]
+    return fetch_continued_titles(query, titles, "cmcontinue=%s" % code)
+  else:
+    return titles
 
-  titles = get_all_by(query, [], "")
-
+# JsonHash -> Int -> JsonHash
+def categories_of_next_depth(titles, limit):
   result = []
+  print limit
   for sub_category in titles:
-    if sub_category.find("Category:") != -1 and limit < 1:
-      print "%s. %s" % (limit, sub_category)
-      result.append({"name": sub_category.split(":")[-1], "titles" : get_all(sub_category, limit + 1)})
+    if sub_category.find("Category:") != -1 and limit > 0:
+      result.append({
+        "name" : sub_category.split(":")[-1], 
+        "titles" : categories_by_depth(sub_category, limit - 1)
+      })
     else:
       result.append(sub_category)
-
   return result
 
-def flatten_to_titles(hs):
-  ls = []
-  print hs
-  for elem in hs["titles"]:
-    if type(elem) == type("string"):
-      ls.append(elem)
-    else:
-      ls += flatten_to_titles(elem)
-  return ls
-
-def get_all_articles(fname):
-  all_titles = flatten_to_titles(load_json(fname))
-  for title in all_titles:
-    query = "%s%s" % (base_url, hash_to_data(article(title)))
-    print query
-
-
-
-# titles = get_all("Category:Biology")
-# save_json({"name":"Biology", "titles" : titles}, "bio_titles2")
-
-
-get_all_articles("bio_titles2")
-
-
+# List[String] -> Unit
+def fetch_articles_by_titles(title_list):
+  for title in title_list:
+    query = query_by_data(article(title))
+    response = fire_query(query)
+    print response
 
