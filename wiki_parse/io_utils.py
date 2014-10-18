@@ -1,4 +1,3 @@
-import sys
 import os
 import json 
 import ast
@@ -30,7 +29,8 @@ def save_json(h, fname):
 #    "More Biology",
 #    { "name" : "sub_category of Biology", 
 #      "titles" : ["Biology2", "", {..}] }
-# ]}
+# ]} 
+# -> ["Biology", "More Biology", "Biology2", ..]
 def flatten_hash(h):
   for t in h["titles"]:
     if type(t) == type({}):

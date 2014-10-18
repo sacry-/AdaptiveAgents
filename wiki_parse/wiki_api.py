@@ -1,5 +1,6 @@
 import urllib2
 import ast
+import re
 from dewiki.parser import Parser # https://github.com/daddyd/dewiki.git
 
 # Mhhhh... https://wikipedia.readthedocs.org/en/latest/code.html#api
@@ -77,14 +78,23 @@ def categories_of_next_depth(titles, limit):
       result.append(sub_category)
   return result
 
+def good_title(title):
+  title = re.sub("\s+", '_', title)
+  title = re.sub("_", '_', title)
+  return title.lower()
+
 # JsonHash -> Dictionary[ String -> { Int, String } ]
 def fetch_body_from_article_response(nested_response_hash):
   response_hash = nested_response_hash["query"]["pages"]
   page_id, body = response_hash.items()[0]
+  scrape_content = ""
+  if body.has_key("revisions"):
+    scrape_content = remove_markup(body["revisions"][0]["*"])
+  print "Fetched Title: %s" % good_title(body["title"])
   return { 
     "page_id" : page_id, 
-    "title" : body["title"], 
-    "content" : remove_markup(body["revisions"][0]["*"])
+    "title" : good_title(body["title"]), 
+    "content" : scrape_content
     }
 
 # String -> String
