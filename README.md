@@ -158,6 +158,8 @@ Probabalistisches Parsen hat zwei große Probleme:
 
 
 ### Text Mining ###
+
+
 *Information Overload* - seit der Verbreitung Internets ist jemend Menschen immer mehr Information in immer weniger Zeit zugreifbar. Dadurch wachsen aber auch die Anforderungen an Mensch und Maschine mit der Informationsflut umzugehen. Obwohl die größten Unternhemen und Forschungseinheiten mit riesigen Mengen strukturierter Daten umgehen, gibt es jedoch einen größeren und relevanteren Anteil and unstrukturierten Informationen. Diese sind meist in natürlicher Sprache geschrieben und umfassten im Jahre 2000 geschätzt 1000 Petabyte an Daten in allen Unternehmen und Instituten auf der gesamten Welt. Eine (automatische) Verarbeitung/Aufbereitung durch den Computer ist daher sehr hilfreich.
 
 
@@ -182,6 +184,7 @@ Informationen aus Texten.]
 
 
 **Suche & Information Retrieval**
+
 Ziel dieses Schrittes ist es zu einer gegebenen Anfrage auf eine Textdatenbank die Menge an relevanten Texten ausfindig zu machen. Die Menge soll aber nicht soweit reduziert werden, dass der Nutzer diese durchgehen kann - vielmehr ist dieser Schritt ein erster Filter der für die folgenden Schritte die Textmenge und damit die Arbeit verringert. Es werden hier zwei Verfahren vorgestellt, die diesen Schritt durchführen.
 
 
@@ -196,12 +199,14 @@ Die Spärlichkeit und das Clustering der Objekte an bestimmten Worten ist der zw
 
 
 **Vorverarbeitung**
+
 Bei der Vorverarbeitung werden die relevanten Dokumente auf linguistischer Ebene analysiert und für die nächsten Schritte aufbereitet. Dabei kommen die, bereits in der Einführung genannten, Schritte der Computerliguistik zum tragen. Diese sind Morphologie, Tokenisierung, POS-Tagging, Chunk-Parser sowie Syntaxanalyse und semantische Analyse. Ergebnisse all dieser Zwischenschritte sind zum darauffolgenden Clustering hilfreich. Hinzu kommen statistische Methoden die zwar teils weniger genau sind, aber dafür ohne großen Menschenfleiß durchgeführt werden können. (Was das Ziel von Text Mining in erster Linie ist.)
 
 Neben semantischen Netzten, die die Bedeutung von Texten festhalten, sind auch die Verwerndung der Makrostrukturen eine nützlich um die Bedeutung eines Dokumentes festzuhalten. Makrostrukturen verweist hierbei auf nicht-linguistische kontextuelle Informationen - z.B. Weblinks oder Hierarchische Gliederungen des Textes. Weblinks werden z.B. in dem von Google vorgestlelten Pagerank Algorithmus verwendet um Hubs (Dokumente mit vielen ausgehenden Links) und Authorities (Dokumente mit vielen eingehenden Links) zu erknenen.
 
 
 **Bewertung & Selektion**
+
 Nach der Aufbereitung für den Computer können die Dokumente nun Themen zugeordnet werden(Klassifizierung) oder zu Gemeinsamkeiten geruppiert werden(Clustering). 
 
 
@@ -218,6 +223,7 @@ Hierarchisches Clustering ordnet die Cluster stattdessen in einem Baum - wobei d
 
 
 **Mustererkennung & Information Extraction**
+
 Nun sind die Ergebnisse dem Nutzer visualiziert und zugeordnet und es geht darum konkret die relevanten Informationen aus den Texten zu extrahieren und dem Nutzer zu präsentieren. Dabei werden hier nun 'komplexere' Methoden als nur einfache reguläre Ausdrücke verwendet um die Informationen ausfindig zu machen. Vorgestellt werden hierbei Wort/Term Matchings und Relevancy Signatures.
 
 
