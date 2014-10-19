@@ -23,3 +23,13 @@ P(Ereignis|Ursache)
 P(Ursache|Ereignis)
 
 P(U|E) = \frac {P(E|U)P(U)} {P(E)}
+
+P("Film"|"Ich") < P("gehe"|"Ich")
+
+P(w_i|w_{i-1},w_{i-2},...w_{i-N})
+
+w_i
+
+P(X_{t+1} = s_k|X_1, . . . ,X_t) = P(X_{t+1} = s_k|X_t)
+
+P(X_{t+1} = s_k|X_1, . . . ,X_t) = P(X_1 = s_k|X_1)

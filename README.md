@@ -156,3 +156,72 @@ Probabalistisches Parsen hat zwei große Probleme:
 
 4. Interlingua. Der Quelltext wird zunächst in eine (universelle) intermediäre Sprache (Interlingua) übersetzt und anschließend in die Zielsprache ausformuliert. Die Interlingua dient rein zur Wissensrespräsensation und ist unabhängig von der Art und Weise wie verschiedene Sprache den Sinngehalt ausdrücken. Es ist außerdem einfacher für viele Übersetzungen zwischen verschied. Sprachen eine gemeinsame Interlingua zu haben, anstatt Übersetztungen zwischen je zwei Sprachen bauen zu müssen.
 
+
+### Text Mining ###
+*Information Overload* - seit der Verbreitung Internets ist jemend Menschen immer mehr Information in immer weniger Zeit zugreifbar. Dadurch wachsen aber auch die Anforderungen an Mensch und Maschine mit der Informationsflut umzugehen. Obwohl die größten Unternhemen und Forschungseinheiten mit riesigen Mengen strukturierter Daten umgehen, gibt es jedoch einen größeren und relevanteren Anteil and unstrukturierten Informationen. Diese sind meist in natürlicher Sprache geschrieben und umfassten im Jahre 2000 geschätzt 1000 Petabyte an Daten in allen Unternehmen und Instituten auf der gesamten Welt. Eine (automatische) Verarbeitung/Aufbereitung durch den Computer ist daher sehr hilfreich.
+
+
+*Text Mining* - Wissensextraction und -verarbeitung basierend auf Texten (in diesem Sinne Data Mining auf Texten statt Daten).
+
+Eine Definition von Marti Hearst: [Text Mining ist die Menge von Techniken zum Entdecken und automatischen Extrahieren von neuen, zuvor unbekannten
+Informationen aus Texten.]
+
+
+*Möglichkeiten des Text Mining* - Text Mining stellt die automatisierte Verarbeitung und Auswertung riesiger natürlichsprachlicher Textdatenbanken (Internet, interne Kommunikation, externe Archive, ...) zur Verfügung und ermöglicht es damit Aktionen auf einer höheren semantischen Ebene. Kundenmeinungen großer Anzahl von Kunden automatisch zu klassifizieren um sich ein Bild der Kunden zu machen, Beschwerdenmails automatisch den richigen Ansprechpartner zuordnnen und weiterleiten oder Hinweise für Korrelationen & Kausalitäten aus Publikationen in der Medizin erkennen und melden und vieles mehr.
+
+
+*Vier Schritte des Text Mining* - Dan Sullivan erkennt vier Schritte im Prozess des Text Mining:
+
+1. Suche (Welche Texte sind relevant?)
+
+2. Vorberarbeitung (Wie kann ich die Texte machinenlesbar machen?)
+
+3. Bewertung & Selektion (Wie hängen die Texte miteinander zusammen?)
+
+4. Extrahierung & Mustererkennung (Welche konkreten Informationen will der Nutzer?)
+
+
+**Suche & Information Retrieval**
+Ziel dieses Schrittes ist es zu einer gegebenen Anfrage auf eine Textdatenbank die Menge an relevanten Texten ausfindig zu machen. Die Menge soll aber nicht soweit reduziert werden, dass der Nutzer diese durchgehen kann - vielmehr ist dieser Schritt ein erster Filter der für die folgenden Schritte die Textmenge und damit die Arbeit verringert. Es werden hier zwei Verfahren vorgestellt, die diesen Schritt durchführen.
+
+
+*Vektorraummodell* - Das Vektorraummodell ist ein einfaches Modell zum Vergleich arbiträrer Texte und Anfragen verwendet werden kann - jedoch mit unzureichenden Ergebnissen. In diesem Verfahren wird jedem Wort eine Dimension zugeordnet - ein Text der ein bestimmtes Wort enthält, wird der bei der Dimension des Wortes der Zahl 1 zugeordnet - sonst bekommt der Text die Zahl 0. Dies kann man auch für Anfragen wiederholen. Dadurch kann man jeder/m Anfrage/Text einen Punkt im n-dimentionalen Vektorraum zuordnen. Die Ähnlichkeit zweier Objekte in diesem Raum lässt sich damit ziemlich einfach als geometischer Abstand oder als die Winkelabweichung ihrer Vektoren implementieren. Die Suche gibt nun die Dokumente zurück, die ein gewisses Grad an Ähnlichkeit mit der Anfrage haben.
+
+Dieses Verfahren hat jedoch zwei Nachteile. Erstens werden Wörte mit gleicher Bedeutung (Synonyme) auf unterschiedliche Dimensionen zugeordnet. Dies führt zu spärlichem Auftauchen der Objekte im Raum.
+
+Die Spärlichkeit und das Clustering der Objekte an bestimmten Worten ist der zweite Nachteil dieses Verfahrens. Bei manchen Anfragen stehen einfahc nicht genügend Texte mit ähnlichen Ort im Raum zur Verfügung, sodass die Suche sehr wenige Ergebnisse liefert.
+
+
+*Latent Semantic Indexing* - Beim Latent Semantic Indexing wird nicht die inhaltliche Bedeutung eines Wortes oder eines Konzeptes berücksichtigt, sondern es werden Verfahren der Statistik und der linearen Algebra eingesetzt, um Termcluster zu finden, die bestimmte Konzepte beschreiben. Die Cluster werden nicht vorgegeben sondern werden anhand der Wahrscheinlichkeit für das Auftreten eines Terms gegeben eines anderen Terms geschätzt. Dadurch können Konzepte approximiert werden, die regelmäßig gemeinsam auftretende Terme beschreiben. Während in einem einfachen Vektorraummodell alle Begriffe verschiedene Dimensionen benötigen, wird genau durch das Zusammenführen von Dimensionen zu einem gemeinsamen Konzept so viel Genauigkeit verloren, dass nun auch Dokumente, die nur einen Teil der Begriffe beinhalten eine Suchanfrage erfüllen.
+
+
+**Vorverarbeitung**
+Bei der Vorverarbeitung werden die relevanten Dokumente auf linguistischer Ebene analysiert und für die nächsten Schritte aufbereitet. Dabei kommen die, bereits in der Einführung genannten, Schritte der Computerliguistik zum tragen. Diese sind Morphologie, Tokenisierung, POS-Tagging, Chunk-Parser sowie Syntaxanalyse und semantische Analyse. Ergebnisse all dieser Zwischenschritte sind zum darauffolgenden Clustering hilfreich. Hinzu kommen statistische Methoden die zwar teils weniger genau sind, aber dafür ohne großen Menschenfleiß durchgeführt werden können. (Was das Ziel von Text Mining in erster Linie ist.)
+
+Neben semantischen Netzten, die die Bedeutung von Texten festhalten, sind auch die Verwerndung der Makrostrukturen eine nützlich um die Bedeutung eines Dokumentes festzuhalten. Makrostrukturen verweist hierbei auf nicht-linguistische kontextuelle Informationen - z.B. Weblinks oder Hierarchische Gliederungen des Textes. Weblinks werden z.B. in dem von Google vorgestlelten Pagerank Algorithmus verwendet um Hubs (Dokumente mit vielen ausgehenden Links) und Authorities (Dokumente mit vielen eingehenden Links) zu erknenen.
+
+
+**Bewertung & Selektion**
+Nach der Aufbereitung für den Computer können die Dokumente nun Themen zugeordnet werden(Klassifizierung) oder zu Gemeinsamkeiten geruppiert werden(Clustering). 
+
+
+*Klassifikation durch Labeling* - Durch einfache statistische Verfahren wie Wortfrequenzstatistiken über den standardisierten Morphemen des vorherigen Schrittes lassen sich nun durch die Inverse Dokumentenfrequenz die Relevanz einzellner Morpheme zur Klassifikation dr Dokumente verwenden. Taucht ein Morphen nur in weniger ausgewählten Dokumenten auf, dann kann dieses Morphem als Klasse verwendet werden. Diese relativ einfache Methode hat jedoch den Nachteil, dass es nicht generalisieren kann. Dokumente mit Bus, Bahn und Auto gelabelt werden, werden damit nicht automatisch auch dem Begriff Bodentransportmittel zugeordnet.
+
+
+*Klassifkation durch Multidimensionale Taxonomien* - Gegeben einer Taxonomie (einer Menge von "Is-A" Beziehungen zwischen Klassen, z.B *Mensch is-a Lebewesen*) kann dieses Verfahren eine Reihe konkreter Instanzen solcher Klassen erkennen und zuordnen - und  nach und nach die allgemeineren Klassifizierungen ergänzen.
+
+*Clustering* - Clustering versucht anhand der Texte (und ggf. ihrer Makrostrukturen) zusammengehörige Dokuemente ausfindig zu machen. Im Gegensatz zur Klassifizierung sind keine Themen/Texonomien vordefiniert. Es gibt im wesentlichen zwei Clustering Arten - binäre und hierarchische Verfahren.
+
+Binäres Clustering versucht Dokumente in ineinander ähnliche aber voneinander möglichst verschiedene Cluster zusammenzuordnen. Dabei gehört ein Dokument genau einem Cluster. Ergebnisse aus der Aufbereitung können verwendet werden um das Thema eines Clusters zu bestimmen.
+
+Hierarchisches Clustering ordnet die Cluster stattdessen in einem Baum - wobei die Cluster und die Dokumente nach oben hin allgemeineren Themen zugeordnet werden. Dieses Verfahren fängt zunäcsht mit allen Dokumenten in ihrem eigenen Cluster an und fasst nach und nach je zwei Cluster mit dem geringsten Abstand zueinander zusammen - bis nur noch ein Cluster übrig bleibt oder die Cluster einen Schwellwert an Ähnlichkeit unterschreiten und der Algorithmus abgebrochen wird. Hierarchisches Clustering ist ausserdem aufgrund der Navigierbarkeit sehr vorteilhaft. Ein Beispiel sei hierbei [Carrot² Search](http://search.carrotsearch.com/carrot2-webapp/search?source=web&view=foamtree&skin=fancy-compact&query=Ebola&results=100&algorithm=lingo3g&EToolsDocumentSource.country=ALL&EToolsDocumentSource.language=ALL&EToolsDocumentSource.customerId=&EToolsDocumentSource.safeSearch=false). (Man bemerke, wie man hierbei auch in die einzelnen Themen navigieren kann.) 
+
+
+**Mustererkennung & Information Extraction**
+Nun sind die Ergebnisse dem Nutzer visualiziert und zugeordnet und es geht darum konkret die relevanten Informationen aus den Texten zu extrahieren und dem Nutzer zu präsentieren. Dabei werden hier nun 'komplexere' Methoden als nur einfache reguläre Ausdrücke verwendet um die Informationen ausfindig zu machen. Vorgestellt werden hierbei Wort/Term Matchings und Relevancy Signatures.
+
+
+*Wort/Term Matchings* - Die Ergebnisse der vorherigen Schritte können verwendet werden um Korrelationen zwischen bestimmten Wörtern zu finden und zu bewerten (z.B. Diebstahl und Kreditkartenmissbrauch). Dabei setzt man einen Schwellwert für eine Korreleation fest und eliminiert Stopp-wörter oder Wörte ohne relevante Semantik (wie Präpositionen oder Konjunktionen im Gegensatz zu Substantiven). Ist bereits vorher bekannt nach was für einer Art von Zusammenhängen gesucht wird (z.B. im Rahmen eines monatlichen Geschäftsberichtes), so bietet sich auch der Einsatz von Templates an. Anhand von Matchings versucht man dann die korrekten Wörter/Ergebnisse Felder einzufüllen.
+
+
+*Relevancy Signatures* - Ein Relevance Signature ist ein Paar der Form (Wort, Konzept) wobei das Wort eine starker Indikator für das Konzept/den Kontext ist. Durch Fund eines Wortes oder bei der suche eines Konzeptes/in einem Kontext ist der Fund des Wortes ein Indikator für die Relevanz dieses Satzes/Absatzes/Dokuments. Relevancy Signatures beschreiben einen heuristischen Ansatz um Informationen aus einem Text zu extrahieren.
