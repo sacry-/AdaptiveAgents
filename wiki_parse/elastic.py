@@ -1,5 +1,5 @@
 from elasticsearch import Elasticsearch
-from wiki_api import good_title
+from wiki_api import good_title, fetch_articles_by_titles
 
 # localhost:9200/biology/title/[:article_title]
 # i.e. localhost:9200/biology/title/biologist
@@ -32,6 +32,29 @@ def all_unpersisted_titles(es, _index, _doc_type, titles):
     if not normalized_title in persisted_titles:
       result.append(title)
   return result
+
+def fetch_articles_and_add_to_elastic_search(es, titles, index, doc_type):
+  unpersisted_titles = all_unpersisted_titles(es, index, doc_type, titles)
+  size_title, size_unpersisted = len(titles), len(unpersisted_titles)
+  print "total titles: %s, to go: %s, persisted: %s" % (size_title, size_unpersisted, size_title - size_unpersisted)
+  grouped_titles = [unpersisted_titles[i:i+10] for i in range(0, len(unpersisted_titles), 10)]
+  for sub_titles in grouped_titles:
+    all_articles = fetch_articles_by_titles(title_list=sub_titles, limit=len(sub_titles))
+    add_multiple_articles(es, "biology", "title", all_articles)
+  print "Done Loading %s articles in total. For index=%s and doc_type=%s" % (size_unpersisted, index, doc_type)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
