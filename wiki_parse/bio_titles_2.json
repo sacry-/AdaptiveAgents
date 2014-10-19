@@ -1,4 +1,5 @@
 {
+  "name": "Biology", 
   "titles": [
     "Biologist", 
     "Biology", 
@@ -85,7 +86,8 @@
     "Xenotransfusion", 
     "Xenotransplantation", 
     {
-      "Biology-related lists": [
+      "name": "Biology-related lists", 
+      "titles": [
         "Index of biology articles", 
         "Outline of biochemistry", 
         "Outline of biology", 
@@ -198,7 +200,8 @@
         "List of virus families", 
         "List of viruses", 
         {
-          "Lists of biologists": [
+          "name": "Lists of biologists", 
+          "titles": [
             "List of biologists", 
             "Lists of biologists by author abbreviation", 
             "List of entomologists", 
@@ -216,7 +219,8 @@
           ]
         }, 
         {
-          "Lists of biota": [
+          "name": "Lists of biota", 
+          "titles": [
             "List of Lessepsian migrants", 
             "List of bioluminescent organisms", 
             "List of endophytes", 
@@ -232,7 +236,8 @@
           ]
         }, 
         {
-          "Lists of ecoregions": [
+          "name": "Lists of ecoregions", 
+          "titles": [
             "Lists of ecoregions by country", 
             "List of marine ecoregions", 
             "List of freshwater ecoregions in Africa and Madagascar", 
@@ -248,7 +253,8 @@
           ]
         }, 
         {
-          "Lists of forests": [
+          "name": "Lists of forests", 
+          "titles": [
             "List of countries by forest area", 
             "Lists of forests", 
             "List of ancient woods in England", 
@@ -277,7 +283,8 @@
           ]
         }, 
         {
-          "Lists of fungal species": [
+          "name": "Lists of fungal species", 
+          "titles": [
             "List of Agaricus species", 
             "List of Amanita species", 
             "List of Armillaria species", 
@@ -319,13 +326,15 @@
           ]
         }, 
         {
-          "Life extension lists": [
+          "name": "Life extension lists", 
+          "titles": [
             "Index of topics related to life extension", 
             "Outline of life extension"
           ]
         }, 
         {
-          "Lists of invasive species": [
+          "name": "Lists of invasive species", 
+          "titles": [
             "List of globally invasive species", 
             "Lists of invasive species", 
             "List of invasive species in Africa", 
@@ -340,7 +349,8 @@
           ]
         }, 
         {
-          "Lists of mammals": [
+          "name": "Lists of mammals", 
+          "titles": [
             "List of mammal genera", 
             "List of mammals displaying homosexual behavior", 
             "Mammals described in the 2000s", 
@@ -352,7 +362,8 @@
           ]
         }, 
         {
-          "Ornithology lists": [
+          "name": "Ornithology lists", 
+          "titles": [
             "List of ornithologists abbreviated names", 
             "List of birds", 
             "List of fossil bird genera", 
@@ -365,7 +376,8 @@
           ]
         }, 
         {
-          "Lists of plants": [
+          "name": "Lists of plants", 
+          "titles": [
             "Glossary of botanical terms", 
             "Glossary of plant morphology", 
             "List of Acacia species", 
@@ -385,6 +397,7 @@
             "List of Australian herbs and spices", 
             "List of Baeckea species", 
             "List of beneficial weeds", 
+            "List of Berberis and Mahonia species", 
             "List of plants in the Bible", 
             "List of species used in bonsai", 
             "List of Brachyscome species", 
@@ -576,7 +589,8 @@
       ]
     }, 
     {
-      "Branches of biology": [
+      "name": "Branches of biology", 
+      "titles": [
         "Allometry", 
         "Alternative biology", 
         "Archaeobiology", 
@@ -607,7 +621,8 @@
         "Scotobiology", 
         "Zoology", 
         {
-          "History of biology by subdiscipline": [
+          "name": "History of biology by subdiscipline", 
+          "titles": [
             "History of biochemistry", 
             "History of biotechnology", 
             "History of botany", 
@@ -627,7 +642,8 @@
           ]
         }, 
         {
-          "Anatomy": [
+          "name": "Anatomy", 
+          "titles": [
             "Anatomical terms of location", 
             "Anatomy", 
             "Index of anatomy articles", 
@@ -777,7 +793,8 @@
           ]
         }, 
         {
-          "Astrobiology": [
+          "name": "Astrobiology", 
+          "titles": [
             "Portal:Astrobiology", 
             "Allan Hills 84001", 
             "Astrobiology", 
@@ -876,7 +893,8 @@
           ]
         }, 
         {
-          "Biochemistry": [
+          "name": "Biochemistry", 
+          "titles": [
             "Biochemistry", 
             "History of biochemistry", 
             "Index of biochemistry articles", 
@@ -900,9 +918,9 @@
             "Bio-Rad Laboratories", 
             "Biochemical detection", 
             "Bioconjugation", 
+            "Bioelement", 
             "Bioenergetics", 
             "Bioinorganic chemistry", 
-            "Biokinetics", 
             "Biological aspects of fluorine", 
             "Biological unit", 
             "Biomolecule", 
@@ -1103,7 +1121,8 @@
           ]
         }, 
         {
-          "Biomedicine": [
+          "name": "Biomedicine", 
+          "titles": [
             "Biomedicine", 
             "Abel Salazar Biomedical Sciences Institute", 
             "Ciba-Drew Award", 
@@ -1116,7 +1135,8 @@
           ]
         }, 
         {
-          "Bionics": [
+          "name": "Bionics", 
+          "titles": [
             "Bionics", 
             "Argus retinal prosthesis", 
             "Bebionic", 
@@ -1134,7 +1154,8 @@
           ]
         }, 
         {
-          "Biophysics": [
+          "name": "Biophysics", 
+          "titles": [
             "Biophysics", 
             "Cardiophysics", 
             "Outline of biophysics", 
@@ -1270,7 +1291,8 @@
           ]
         }, 
         {
-          "Botany": [
+          "name": "Botany", 
+          "titles": [
             "Botany", 
             "Outline of botany", 
             "Adventitiousness", 
@@ -1288,7 +1310,6 @@
             "Botanical Survey of India", 
             "Template:Botany", 
             "Botany 2000", 
-            "Botany of the Death Valley Expedition", 
             "Bud", 
             "Ornamental bulbous plant", 
             "Canopy research", 
@@ -1428,7 +1449,8 @@
           ]
         }, 
         {
-          "Cell biology": [
+          "name": "Cell biology", 
+          "titles": [
             "Cell biology", 
             "List of proteins", 
             "Acrasin", 
@@ -1650,6 +1672,7 @@
             "Incubator (culture)", 
             "Inhibitor of apoptosis", 
             "Inhibitor protein", 
+            "Inorganic ions", 
             "Integrated stress response", 
             "Intercellular adhesion molecule", 
             "Intercellular cleft", 
@@ -1880,7 +1903,8 @@
           ]
         }, 
         {
-          "Chronobiology": [
+          "name": "Chronobiology", 
+          "titles": [
             "Chronobiology", 
             "Ingeborg Beling", 
             "Patricia DeCoursey", 
@@ -1903,7 +1927,8 @@
           ]
         }, 
         {
-          "Computational biology": [
+          "name": "Computational biology", 
+          "titles": [
             "Computational biology", 
             "Adaptive sampling", 
             "Alignment-free sequence analysis", 
@@ -1944,7 +1969,8 @@
           ]
         }, 
         {
-          "Conservation biology": [
+          "name": "Conservation biology", 
+          "titles": [
             "Conservation biology", 
             "Biodiversity", 
             "Biological integrity", 
@@ -2004,7 +2030,8 @@
           ]
         }, 
         {
-          "Ecology": [
+          "name": "Ecology", 
+          "titles": [
             "Bibliography of ecology", 
             "Ecology", 
             "Glossary of ecology", 
@@ -2243,7 +2270,6 @@
             "Seed dispersal", 
             "Sensory ecology", 
             "Shadow biosphere", 
-            "Slope effect", 
             "SLOSS debate", 
             "Society for Andaman and Nicobar Ecology", 
             "Sociobiology", 
@@ -2314,7 +2340,8 @@
           ]
         }, 
         {
-          "Evolutionary biology": [
+          "name": "Evolutionary biology", 
+          "titles": [
             "Evolutionary biology", 
             "Fisherian runaway", 
             "Genetic purging", 
@@ -2403,7 +2430,6 @@
             "Emotional selection", 
             "Empathic concern", 
             "Encephalization", 
-            "Endosymbiotic theory", 
             "Error threshold (evolution)", 
             "Escalation hypothesis", 
             "Eurasian Adam", 
@@ -2689,7 +2715,8 @@
           ]
         }, 
         {
-          "Genetics": [
+          "name": "Genetics", 
+          "titles": [
             "Genetics", 
             "History of genetics", 
             "Outline of genetics", 
@@ -3284,7 +3311,8 @@
           ]
         }, 
         {
-          "Geobiology": [
+          "name": "Geobiology", 
+          "titles": [
             "Geobiology", 
             "Biogeology", 
             "Geobiology (journal)", 
@@ -3294,7 +3322,8 @@
           ]
         }, 
         {
-          "Gerontology": [
+          "name": "Gerontology", 
+          "titles": [
             "Calcutta Metropolitan Institute of Gerontology", 
             "Gerontology", 
             "Activity theory (aging)", 
@@ -3360,6 +3389,7 @@
             "Mortality displacement", 
             "Narrative gerontology", 
             "New England Centenarian Study", 
+            "User:Nith117/sandbox", 
             "Okinawa Centenarian Study", 
             "Okinawa diet", 
             "Old age", 
@@ -3402,7 +3432,8 @@
           ]
         }, 
         {
-          "Human biology": [
+          "name": "Human biology", 
+          "titles": [
             "Human biology", 
             "Adverse Childhood Experiences Study", 
             "Biological economics", 
@@ -3413,7 +3444,8 @@
           ]
         }, 
         {
-          "Marine biology": [
+          "name": "Marine biology", 
+          "titles": [
             "Marine biology", 
             "Marine ecosystem", 
             "Marine habitats", 
@@ -3534,7 +3566,8 @@
           ]
         }, 
         {
-          "Medicine": [
+          "name": "Medicine", 
+          "titles": [
             "Medicine", 
             "Outline of medicine", 
             "Academic medicine", 
@@ -3618,7 +3651,8 @@
           ]
         }, 
         {
-          "Microbiology": [
+          "name": "Microbiology", 
+          "titles": [
             "Microbiology", 
             "Aerobic organism", 
             "Agricultural microbiology", 
@@ -3747,7 +3781,8 @@
           ]
         }, 
         {
-          "Molecular biology": [
+          "name": "Molecular biology", 
+          "titles": [
             "Cell\\u2013cell fusogens", 
             "Index of molecular biology articles", 
             "Molecular biology", 
@@ -4372,7 +4407,8 @@
           ]
         }, 
         {
-          "Morphology (biology)": [
+          "name": "Morphology (biology)", 
+          "titles": [
             "Morphology (biology)", 
             "Cilia (entomology)", 
             "Form classification", 
@@ -4389,7 +4425,8 @@
           ]
         }, 
         {
-          "Mycology": [
+          "name": "Mycology", 
+          "titles": [
             "Ectomycorrhizal extramatrical mycelium", 
             "Mycology", 
             "Acanthocyte (mycology)", 
@@ -4486,7 +4523,8 @@
           ]
         }, 
         {
-          "Neuroscience": [
+          "name": "Neuroscience", 
+          "titles": [
             "Index of neuroscience articles", 
             "Portal:Mind and brain", 
             "Neuromechanics", 
@@ -4889,7 +4927,8 @@
           ]
         }, 
         {
-          "Nutrition": [
+          "name": "Nutrition", 
+          "titles": [
             "Medical nutrition therapy", 
             "Nutrition", 
             "Outline of nutrition", 
@@ -5090,7 +5129,6 @@
             "Nesfatin-1", 
             "Network for Capacity Development in Nutrition", 
             "Nutraceutical", 
-            "Nutrient density", 
             "Nutrient enema", 
             "Nutrient sensing", 
             "Nutrient systems", 
@@ -5145,7 +5183,7 @@
             "Polyunsaturated fat", 
             "Polyunsaturated fatty acid", 
             "Portion control (dieting)", 
-            "Positive Deviance", 
+            "Positive deviance", 
             "Prediabetes", 
             "Price-Pottenger Nutrition Foundation", 
             "Probiotic", 
@@ -5249,7 +5287,8 @@
           ]
         }, 
         {
-          "Paleobiology": [
+          "name": "Paleobiology", 
+          "titles": [
             "Cenomanian", 
             "Chronozone", 
             "Eonothem", 
@@ -5270,7 +5309,8 @@
           ]
         }, 
         {
-          "Physiology": [
+          "name": "Physiology", 
+          "titles": [
             "Physiology", 
             "Surgical stress", 
             "Acclimatization", 
@@ -5485,7 +5525,8 @@
           ]
         }, 
         {
-          "Radiobiology": [
+          "name": "Radiobiology", 
+          "titles": [
             "Radiobiology", 
             "Absorbed dose", 
             "Actinides in the environment", 
@@ -5582,7 +5623,8 @@
           ]
         }, 
         {
-          "Soil biology": [
+          "name": "Soil biology", 
+          "titles": [
             "Soil biology", 
             "Actinorhizal plant", 
             "Ammonia fungi", 
@@ -5663,7 +5705,8 @@
           ]
         }, 
         {
-          "Structural biology": [
+          "name": "Structural biology", 
+          "titles": [
             "Structural biology", 
             "Biomolecular complex", 
             "Conformational ensembles", 
@@ -5680,7 +5723,8 @@
           ]
         }, 
         {
-          "Systems biology": [
+          "name": "Systems biology", 
+          "titles": [
             "Systems biology", 
             "Uri Alon", 
             "Biochemical systems theory", 
@@ -5806,7 +5850,8 @@
           ]
         }, 
         {
-          "Zoology": [
+          "name": "Zoology", 
+          "titles": [
             "Zoology", 
             "Acarology", 
             "Outline of zoology", 
@@ -5959,7 +6004,8 @@
       ]
     }, 
     {
-      "Biocides": [
+      "name": "Biocides", 
+      "titles": [
         "Biocide", 
         "Antimicrobial", 
         "Antiparasitic", 
@@ -5979,7 +6025,8 @@
         "Stylisin", 
         "Virucide", 
         {
-          "Acaricides": [
+          "name": "Acaricides", 
+          "titles": [
             "Acaricide", 
             "Acrinathrin", 
             "Amitraz", 
@@ -6000,14 +6047,16 @@
           ]
         }, 
         {
-          "Algaecides": [
+          "name": "Algaecides", 
+          "titles": [
             "Algaecide", 
             "Fluorenol", 
             "Polyquat"
           ]
         }, 
         {
-          "Antibiotics": [
+          "name": "Antibiotics", 
+          "titles": [
             "A23187", 
             "Acetic acid/hydrocortisone", 
             "Acetoxycycloheximide", 
@@ -6257,7 +6306,8 @@
           ]
         }, 
         {
-          "Antimicrobials": [
+          "name": "Antimicrobials", 
+          "titles": [
             "Antimicrobial", 
             "Alexidine", 
             "Antimicrobial copper-alloy touch surfaces", 
@@ -6305,7 +6355,8 @@
           ]
         }, 
         {
-          "Antiparasitic agents": [
+          "name": "Antiparasitic agents", 
+          "titles": [
             "Antiparasitic", 
             "Abamectin", 
             "Template:Anti-arthropod medications", 
@@ -6372,7 +6423,8 @@
           ]
         }, 
         {
-          "Antiprotozoal agents": [
+          "name": "Antiprotozoal agents", 
+          "titles": [
             "Antiprotozoal agent", 
             "Acetarsol", 
             "Template:Agents against amoebozoa", 
@@ -6440,7 +6492,8 @@
           ]
         }, 
         {
-          "Antivirals": [
+          "name": "Antivirals", 
+          "titles": [
             "Antiviral drug", 
             "Afovirsen", 
             "Alisporivir", 
@@ -6504,7 +6557,8 @@
           ]
         }, 
         {
-          "Avicides": [
+          "name": "Avicides", 
+          "titles": [
             "Avicide", 
             "4-Aminopyridine", 
             "Chloralose", 
@@ -6514,7 +6568,8 @@
           ]
         }, 
         {
-          "Bactericides": [
+          "name": "Bactericides", 
+          "titles": [
             "Antibiotics", 
             "Antiseptic", 
             "Bactericide", 
@@ -6526,12 +6581,14 @@
           ]
         }, 
         {
-          "Biocides by mechanism": [
+          "name": "Biocides by mechanism", 
+          "titles": [
             "Category:Avian embryotoxicants"
           ]
         }, 
         {
-          "Fungicides": [
+          "name": "Fungicides", 
+          "titles": [
             "Fungicide", 
             "Acibenzolar", 
             "Acibenzolar-S-methyl", 
@@ -6619,7 +6676,8 @@
           ]
         }, 
         {
-          "Herbicides": [
+          "name": "Herbicides", 
+          "titles": [
             "Herbicide", 
             "4-hydroxyphenylpyruvate dioxygenase inhibitor", 
             "Acetochlor", 
@@ -6715,7 +6773,8 @@
           ]
         }, 
         {
-          "Insecticides": [
+          "name": "Insecticides", 
+          "titles": [
             "Insecticide", 
             "Abamectin", 
             "Acrinathrin", 
@@ -6827,8 +6886,8 @@
           ]
         }, 
         {
-          "Microbicides": [
-            "BMS-663068", 
+          "name": "Microbicides", 
+          "titles": [
             "BufferGel", 
             "CAPRISA 004", 
             "Carrageenan", 
@@ -6848,7 +6907,8 @@
           ]
         }, 
         {
-          "Molluscicides": [
+          "name": "Molluscicides", 
+          "titles": [
             "Molluscicide", 
             "Aluminium sulfate", 
             "Metaldehyde", 
@@ -6856,7 +6916,8 @@
           ]
         }, 
         {
-          "Pesticides": [
+          "name": "Pesticides", 
+          "titles": [
             "Pesticide Action Network", 
             "Acaricide", 
             "Acephate", 
@@ -6963,7 +7024,8 @@
           ]
         }, 
         {
-          "Rodenticides": [
+          "name": "Rodenticides", 
+          "titles": [
             "Rodenticide", 
             "Aluminium phosphide", 
             "Brodifacoum", 
@@ -6997,7 +7059,8 @@
           ]
         }, 
         {
-          "Spermicide": [
+          "name": "Spermicide", 
+          "titles": [
             "Spermicide", 
             "BufferGel", 
             "Contraceptive sponge", 
@@ -7005,7 +7068,8 @@
           ]
         }, 
         {
-          "Virucides": [
+          "name": "Virucides", 
+          "titles": [
             "Emodin", 
             "Hypericin", 
             "Ribavirin", 
@@ -7015,7 +7079,8 @@
       ]
     }, 
     {
-      "Biological classification": [
+      "name": "Biological classification", 
+      "titles": [
         "Biological classification", 
         "Animalia Paradoxa", 
         "ARKive", 
@@ -7054,7 +7119,8 @@
         "Virus classification", 
         "Web-based taxonomy", 
         {
-          "Biological nomenclature": [
+          "name": "Biological nomenclature", 
+          "titles": [
             "-ase", 
             "Bacterial taxonomy", 
             "Binomial nomenclature", 
@@ -7087,7 +7153,8 @@
           ]
         }, 
         {
-          "Phylogenetics": [
+          "name": "Phylogenetics", 
+          "titles": [
             "Microbial phylogenetics", 
             "Phylogenetics", 
             "Afroinsectiphilia", 
@@ -7202,7 +7269,8 @@
           ]
         }, 
         {
-          "Protein classification": [
+          "name": "Protein classification", 
+          "titles": [
             "Alpha-2-Macroglobulin-like 1", 
             "CATH", 
             "DcGO", 
@@ -7222,7 +7290,8 @@
           ]
         }, 
         {
-          "Systems of taxonomy by organism": [
+          "name": "Systems of taxonomy by organism", 
+          "titles": [
             "Category:High-level systems of taxonomy", 
             "Category:Systems of animal taxonomy", 
             "Category:Systems of bacterial taxonomy", 
@@ -7233,7 +7302,8 @@
           ]
         }, 
         {
-          "Taxonomy": [
+          "name": "Taxonomy", 
+          "titles": [
             "Taxonomy (general)", 
             "Taxonomy", 
             "Affinity (taxonomy)", 
@@ -7344,7 +7414,8 @@
           ]
         }, 
         {
-          "Tree of life": [
+          "name": "Tree of life", 
+          "titles": [
             "Phylogenetic tree", 
             "RedToL", 
             "Tree of life (biology)", 
@@ -7356,7 +7427,8 @@
       ]
     }, 
     {
-      "Biologists": [
+      "name": "Biologists", 
+      "titles": [
         "Biologist", 
         "List of biologists", 
         "Al-Asma'i", 
@@ -7371,7 +7443,8 @@
         "Carol Ruckdeschel", 
         "Mitchell Taylor", 
         {
-          "Biologists by century": [
+          "name": "Biologists by century", 
+          "titles": [
             "Category:19th-century biologists", 
             "Category:20th-century biologists", 
             "Category:21st-century biologists", 
@@ -7379,7 +7452,8 @@
           ]
         }, 
         {
-          "Biologists by field of research": [
+          "name": "Biologists by field of research", 
+          "titles": [
             "Category:Anatomists", 
             "Category:Auxologists", 
             "Category:Biochemists", 
@@ -7428,7 +7502,8 @@
           ]
         }, 
         {
-          "Biologists by nationality": [
+          "name": "Biologists by nationality", 
+          "titles": [
             "Category:Anatomists by nationality", 
             "Category:Biochemists by nationality", 
             "Category:Biotechnologists by nationality", 
@@ -7532,7 +7607,8 @@
           ]
         }, 
         {
-          "Lists of biologists": [
+          "name": "Lists of biologists", 
+          "titles": [
             "List of biologists", 
             "Lists of biologists by author abbreviation", 
             "List of entomologists", 
@@ -7550,7 +7626,8 @@
           ]
         }, 
         {
-          "Biostatisticians": [
+          "name": "Biostatisticians", 
+          "titles": [
             "Doug Altman", 
             "Hal V. Barron", 
             "Brian Caffo", 
@@ -7583,7 +7660,8 @@
           ]
         }, 
         {
-          "Botanists": [
+          "name": "Botanists", 
+          "titles": [
             "List of students of Linnaeus", 
             "List of biologists", 
             "Jumaat Haji Adam", 
@@ -7623,7 +7701,8 @@
           ]
         }, 
         {
-          "Fictional biologists": [
+          "name": "Fictional biologists", 
+          "titles": [
             "Amy Farrah Fowler", 
             "Elexis Sinclaire", 
             "Hazmat (Marvel Nemesis: Rise of the Imperfects)", 
@@ -7637,7 +7716,8 @@
           ]
         }, 
         {
-          "Women biologists": [
+          "name": "Women biologists", 
+          "titles": [
             "Nora Lilian Alcock", 
             "June Almeida", 
             "Jannette Anderson", 
@@ -7672,6 +7752,7 @@
             "Vera Byers", 
             "Jane M. Carlton", 
             "Rachel Carson", 
+            "User:Drevf1/sandbox", 
             "Lorna Casselton", 
             "Maharani Chakravorty", 
             "Sallie W. Chisholm", 
@@ -7777,6 +7858,7 @@
             "Winifred Pennington", 
             "Grace Evelyn Pickford", 
             "Julia Polak", 
+            "Draft:Mary Eleanor Power", 
             "Dawn Prince-Hughes", 
             "Lydia Rabinowitsch-Kempner", 
             "F. Gwendolen Rees", 
@@ -7841,7 +7923,8 @@
           ]
         }, 
         {
-          "Biologist stubs": [
+          "name": "Biologist stubs", 
+          "titles": [
             "Template:Biologist-stub", 
             "Template:Switzerland-biologist-stub", 
             "Ali Abdelghany", 
@@ -8054,28 +8137,33 @@
       ]
     }, 
     {
-      "Biology software": [
+      "name": "Biology software", 
+      "titles": [
         "Intrinsic Noise Analyzer", 
         {
-          "Biomedical software": [
+          "name": "Biomedical software", 
+          "titles": [
             "Category:Bioimaging software", 
             "Category:Biovisualization software", 
             "Category:Free biomedical software"
           ]
         }, 
         {
-          "Biosimulation software": [
+          "name": "Biosimulation software", 
+          "titles": [
             "Category:Free biosimulation software"
           ]
         }, 
         {
-          "Biovisualization software": [
+          "name": "Biovisualization software", 
+          "titles": [
             "Category:Bioimaging software", 
             "Category:Free biovisualization software"
           ]
         }, 
         {
-          "Free biology software": [
+          "name": "Free biology software", 
+          "titles": [
             "Category:Free biosimulation software", 
             "Category:Free biovisualization software"
           ]
@@ -8083,7 +8171,8 @@
       ]
     }, 
     {
-      "Biotechnology": [
+      "name": "Biotechnology", 
+      "titles": [
         "Biotechnology", 
         "Portal:Biotechnology", 
         "Index of biotechnology articles", 
@@ -8413,6 +8502,7 @@
         "Secretomics", 
         "Selection and amplification binding assay", 
         "Selective breeding", 
+        "SensiQ", 
         "SequenceBase", 
         "Shanghai Stem Cell Institute", 
         "Single molecule fluorescent sequencing", 
@@ -8458,7 +8548,8 @@
         "Xenobiology", 
         "ZMapp", 
         {
-          "Biotechnology by country": [
+          "name": "Biotechnology by country", 
+          "titles": [
             "Category:Biotechnology in India", 
             "Category:Biotechnology in Switzerland", 
             "Category:Biotechnology in the United Kingdom", 
@@ -8467,7 +8558,8 @@
           ]
         }, 
         {
-          "Artificial organs": [
+          "name": "Artificial organs", 
+          "titles": [
             "Artificial organ", 
             "Artificial bone", 
             "Artificial heart", 
@@ -8486,7 +8578,8 @@
           ]
         }, 
         {
-          "Biochemical engineering": [
+          "name": "Biochemical engineering", 
+          "titles": [
             "Biochemical engineering", 
             "Algae fuel", 
             "Biological hydrogen production (Algae)", 
@@ -8500,7 +8593,8 @@
           ]
         }, 
         {
-          "Bioinformatics": [
+          "name": "Bioinformatics", 
+          "titles": [
             "Bioinformatics", 
             ".NET Bio", 
             "3D-Jury", 
@@ -8989,7 +9083,8 @@
           ]
         }, 
         {
-          "Biological engineering": [
+          "name": "Biological engineering", 
+          "titles": [
             "Biological engineering", 
             "Aerobiological engineering", 
             "Algae bioreactor", 
@@ -9063,7 +9158,8 @@
           ]
         }, 
         {
-          "Biological patent law": [
+          "name": "Biological patent law", 
+          "titles": [
             "Association for Molecular Pathology v. Myriad Genetics", 
             "Biological patent", 
             "Biological patents in the United States", 
@@ -9080,7 +9176,8 @@
           ]
         }, 
         {
-          "Bioluminescence": [
+          "name": "Bioluminescence", 
+          "titles": [
             "Bioluminescence", 
             "Glowing Plant project", 
             "Aequorin", 
@@ -9111,12 +9208,14 @@
           ]
         }, 
         {
-          "Biomedical districts": [
+          "name": "Biomedical districts", 
+          "titles": [
             "Health Valley"
           ]
         }, 
         {
-          "Bioreactors": [
+          "name": "Bioreactors", 
+          "titles": [
             "Bioreactor", 
             "Algae bioreactor", 
             "Algae fuel", 
@@ -9133,7 +9232,8 @@
           ]
         }, 
         {
-          "Bioremediation": [
+          "name": "Bioremediation", 
+          "titles": [
             "Bioremediation", 
             "Bioretention", 
             "Applied ecology", 
@@ -9170,7 +9270,8 @@
           ]
         }, 
         {
-          "Biotechnologists": [
+          "name": "Biotechnologists", 
+          "titles": [
             "Kauser Abdulla Malik", 
             "Bruce Alberts", 
             "David Baltimore", 
@@ -9217,14 +9318,16 @@
           ]
         }, 
         {
-          "Biotechnology databases": [
+          "name": "Biotechnology databases", 
+          "titles": [
             "Addgene", 
             "Elsevier BIOBASE", 
             "Sequence database"
           ]
         }, 
         {
-          "Cell imaging": [
+          "name": "Cell imaging", 
+          "titles": [
             "7-Aminoactinomycin D", 
             "Brainbow", 
             "Calcium imaging", 
@@ -9265,7 +9368,8 @@
           ]
         }, 
         {
-          "Cloning": [
+          "name": "Cloning", 
+          "titles": [
             "Cloning", 
             "Partial cloning", 
             "Athanogene", 
@@ -9322,7 +9426,8 @@
           ]
         }, 
         {
-          "Genetic engineering": [
+          "name": "Genetic engineering", 
+          "titles": [
             "Genetic engineering", 
             "Index of genetic engineering articles", 
             "Adapter (genetics)", 
@@ -9418,7 +9523,8 @@
           ]
         }, 
         {
-          "Genome projects": [
+          "name": "Genome projects", 
+          "titles": [
             "List of sequenced archaeal genomes", 
             "List of sequenced bacterial genomes", 
             "List of sequenced eukaryotic genomes", 
@@ -9457,7 +9563,8 @@
           ]
         }, 
         {
-          "Induced stem cells": [
+          "name": "Induced stem cells", 
+          "titles": [
             "Altered nuclear transfer", 
             "Anaplasia", 
             "Cancer cell", 
@@ -9493,14 +9600,16 @@
           ]
         }, 
         {
-          "Biotechnology literature": [
+          "name": "Biotechnology literature", 
+          "titles": [
             "Genetic Engineering & Biotechnology News", 
             "Scrip World Pharmaceutical News", 
             "Category:Biotechnology journals"
           ]
         }, 
         {
-          "Biotechnology law": [
+          "name": "Biotechnology law", 
+          "titles": [
             "Bayh\\u2013Dole Act", 
             "Biodefense and Pandemic Vaccine and Drug Development Act of 2005", 
             "Biological patent", 
@@ -9528,7 +9637,8 @@
           ]
         }, 
         {
-          "Microarrays": [
+          "name": "Microarrays", 
+          "titles": [
             "Affymetrix", 
             "Affymetrix GeneChip Operating Software", 
             "AmpliChip", 
@@ -9539,6 +9649,7 @@
             "Artade", 
             "Binarization of consensus partition matrices", 
             "Biochip", 
+            "User:Burmaoften/sandbox", 
             "CaSNP", 
             "Cell-free protein array", 
             "Chemical compound microarray", 
@@ -9590,7 +9701,8 @@
           ]
         }, 
         {
-          "Molecular genetics": [
+          "name": "Molecular genetics", 
+          "titles": [
             "Molecular genetics", 
             "2R hypothesis", 
             "AKNA", 
@@ -9783,7 +9895,8 @@
           ]
         }, 
         {
-          "Biotechnology organizations": [
+          "name": "Biotechnology organizations", 
+          "titles": [
             "All India Biotech Association", 
             "Association of Biomolecular Resource Facilities", 
             "Biochemical Society", 
@@ -9828,7 +9941,8 @@
           ]
         }, 
         {
-          "Pharmaceutical isolates": [
+          "name": "Pharmaceutical isolates", 
+          "titles": [
             "Bacillus isolates", 
             "Bark isolate", 
             "Fungal isolates", 
@@ -9837,7 +9951,8 @@
           ]
         }, 
         {
-          "Biotechnology products": [
+          "name": "Biotechnology products", 
+          "titles": [
             "Acetone", 
             "Anthrax Detection Device", 
             "Arctic Apples", 
@@ -9867,14 +9982,16 @@
           ]
         }, 
         {
-          "Sequenced genomes": [
+          "name": "Sequenced genomes", 
+          "titles": [
             "Category:Bacteria with sequenced genomes", 
             "Category:Eukaryotes with sequenced genomes", 
             "Category:Viruses with sequenced genomes"
           ]
         }, 
         {
-          "Stem cells": [
+          "name": "Stem cells", 
+          "titles": [
             "Stem cell", 
             "Adult stem cell", 
             "Advanced Cell Technology", 
@@ -9976,7 +10093,8 @@
           ]
         }, 
         {
-          "Translational medicine": [
+          "name": "Translational medicine", 
+          "titles": [
             "Translational medicine", 
             "American Journal of Translational Research", 
             "Alim-Louis Benabid", 
@@ -9989,7 +10107,8 @@
           ]
         }, 
         {
-          "Vaccination": [
+          "name": "Vaccination", 
+          "titles": [
             "Pulse vaccination strategy", 
             "Vaccination", 
             "List of vaccine topics", 
@@ -10092,7 +10211,8 @@
           ]
         }, 
         {
-          "Biological warfare": [
+          "name": "Biological warfare", 
+          "titles": [
             "Biological warfare", 
             "1971 Aralsk smallpox outbreak", 
             "Ken Alibek", 
@@ -10210,7 +10330,8 @@
           ]
         }, 
         {
-          "Biotechnology stubs": [
+          "name": "Biotechnology stubs", 
+          "titles": [
             "Template:Biotech-stub", 
             "Acorda Therapeutics", 
             "Amphicelle", 
@@ -10263,7 +10384,8 @@
       ]
     }, 
     {
-      "Borderline life": [
+      "name": "Borderline life", 
+      "titles": [
         "Chemoton", 
         "Jeewanu", 
         "Mycoplasma", 
@@ -10284,7 +10406,8 @@
         "Virus", 
         "Virusoid", 
         {
-          "Prions": [
+          "name": "Prions", 
+          "titles": [
             "Prion", 
             "Fungal prion", 
             "Kuru (disease)", 
@@ -10300,7 +10423,8 @@
           ]
         }, 
         {
-          "Viroids": [
+          "name": "Viroids", 
+          "titles": [
             "Viroid", 
             "Australian grapevine viroid", 
             "Avocado sunblotch viroid", 
@@ -10319,7 +10443,8 @@
           ]
         }, 
         {
-          "Viruses": [
+          "name": "Viruses", 
+          "titles": [
             "List of genera of viruses", 
             "List of virus families", 
             "List of viruses", 
@@ -10397,7 +10522,8 @@
       ]
     }, 
     {
-      "Biological censuses": [
+      "name": "Biological censuses", 
+      "titles": [
         "Australian Bird Count", 
         "BioBlitz", 
         "Biogeography of Deep-Water Chemosynthetic Ecosystems", 
@@ -10414,7 +10540,8 @@
       ]
     }, 
     {
-      "Biological concepts": [
+      "name": "Biological concepts", 
+      "titles": [
         "Adult", 
         "Compilospecies", 
         "Critical depth", 
@@ -10431,7 +10558,8 @@
         "Thermolabile", 
         "Type (biology)", 
         {
-          "Biodiversity": [
+          "name": "Biodiversity", 
+          "titles": [
             "Biodiversity", 
             "2010 Biodiversity Target", 
             "2012 Hyderabad Biodiversity Conference", 
@@ -10576,20 +10704,23 @@
           ]
         }, 
         {
-          "Biological theorems": [
+          "name": "Biological theorems", 
+          "titles": [
             "Bishop\\u2013Cannings theorem", 
             "Fisher's fundamental theorem of natural selection", 
             "Marginal value theorem"
           ]
         }, 
         {
-          "Biology laws": [
+          "name": "Biology laws", 
+          "titles": [
             "All-or-none law", 
             "Taylor's law"
           ]
         }, 
         {
-          "Biological hypotheses": [
+          "name": "Biological hypotheses", 
+          "titles": [
             "2R hypothesis", 
             "Abiogenic petroleum origin", 
             "Archezoa", 
@@ -10600,7 +10731,6 @@
             "Carbon chauvinism", 
             "Cooperative eye hypothesis", 
             "Differential adhesion hypothesis", 
-            "Endosymbiotic theory", 
             "Endurance running hypothesis", 
             "Eocyte hypothesis", 
             "Fermentation theory", 
@@ -10615,9 +10745,11 @@
             "Panspermia", 
             "RNA world hypothesis", 
             "Spontaneous generation", 
+            "Symbiogenesis", 
             "Zoo hypothesis", 
             "Category:AIDS origin hypotheses", 
             "Category:Astrobiology", 
+            "Category:Biophilia", 
             "Category:Hypothetical life forms", 
             "Category:Origin of life", 
             "Category:Panspermia", 
@@ -10626,7 +10758,8 @@
           ]
         }, 
         {
-          "Biology theories": [
+          "name": "Biology theories", 
+          "titles": [
             "Biogenesis", 
             "Boveri\\u2013Sutton chromosome theory", 
             "Britten-Davidson model", 
@@ -10666,13 +10799,15 @@
       ]
     }, 
     {
-      "Biology and culture": [
+      "name": "Biology and culture", 
+      "titles": [
         "Biohacking", 
         "Biology and political science", 
         "Biological illustration", 
         "Pacific Biological Laboratories", 
         {
-          "Biology awards": [
+          "name": "Biology awards", 
+          "titles": [
             "Acharius Medal", 
             "Lasker-DeBakey Clinical Medical Research Award", 
             "Alexander Hollaender Award in Biophysics", 
@@ -10773,7 +10908,8 @@
           ]
         }, 
         {
-          "Biology conferences": [
+          "name": "Biology conferences", 
+          "titles": [
             "List of systems biology conferences", 
             "Australasian Ornithological Conference", 
             "Bioinformatics Open Source Conference", 
@@ -10798,7 +10934,8 @@
           ]
         }, 
         {
-          "Bioscience education": [
+          "name": "Bioscience education", 
+          "titles": [
             "Actionbioscience", 
             "AP Biology", 
             "Canadian Stem Cell Foundation", 
@@ -10810,7 +10947,8 @@
           ]
         }, 
         {
-          "Biological hazards": [
+          "name": "Biological hazards", 
+          "titles": [
             "Biological hazard", 
             "Aeromedical Isolation Team", 
             "Autonomous Detection System", 
@@ -10834,7 +10972,8 @@
           ]
         }, 
         {
-          "Biological media": [
+          "name": "Biological media", 
+          "titles": [
             "Category:BioArt", 
             "Category:Biology images", 
             "Category:Biological literature", 
@@ -10842,7 +10981,8 @@
           ]
         }, 
         {
-          "Biology organizations": [
+          "name": "Biology organizations", 
+          "titles": [
             "African Society for Bioinformatics and Computational Biology", 
             "American Institute of Biological Sciences", 
             "American Society for Bone and Mineral Research", 
@@ -10907,7 +11047,8 @@
       ]
     }, 
     {
-      "Bioscience education": [
+      "name": "Bioscience education", 
+      "titles": [
         "Actionbioscience", 
         "AP Biology", 
         "Canadian Stem Cell Foundation", 
@@ -10916,7 +11057,8 @@
         "Fetal pig", 
         "Integrated Science Center", 
         {
-          "Biology-themed board games": [
+          "name": "Biology-themed board games", 
+          "titles": [
             "American Megafauna", 
             "Conquest of Pangea", 
             "Evo (board game)", 
@@ -10928,7 +11070,8 @@
       ]
     }, 
     {
-      "Biological evolution": [
+      "name": "Biological evolution", 
+      "titles": [
         "Introduction to evolution", 
         "The Ancestor's Tale", 
         "Aquatic adaptation", 
@@ -10966,7 +11109,8 @@
         "Transgressive segregation", 
         "Underwater camouflage", 
         {
-          "Evolution by taxon": [
+          "name": "Evolution by taxon", 
+          "titles": [
             "Evolution of fungi", 
             "Evolution of influenza", 
             "Radiotrophic fungus", 
@@ -10975,7 +11119,8 @@
           ]
         }, 
         {
-          "Antibiotic resistance": [
+          "name": "Antibiotic resistance", 
+          "titles": [
             "Antibiotic resistance", 
             "Antibiotic misuse", 
             "Antibiotic use in livestock", 
@@ -10984,6 +11129,7 @@
             "Eagle effect", 
             "Horizontal gene transfer", 
             "Stuart B. Levy", 
+            "Multidrug tolerance", 
             "New Delhi metallo-beta-lactamase 1", 
             "R-factor", 
             "Resistome", 
@@ -10991,7 +11137,8 @@
           ]
         }, 
         {
-          "Antipredator adaptations": [
+          "name": "Antipredator adaptations", 
+          "titles": [
             "Alarm signal", 
             "Animal suicide", 
             "Aposematism", 
@@ -11029,7 +11176,8 @@
           ]
         }, 
         {
-          "Books about evolution": [
+          "name": "Books about evolution", 
+          "titles": [
             "Adaptation and Natural Selection", 
             "After Man: A Zoology of the Future", 
             "The Beak of the Finch", 
@@ -11080,7 +11228,7 @@
             "Science, Evolution, and Creationism", 
             "The Selfish Gene", 
             "The Selfish Genius", 
-            "Social bonding and nurture kinship", 
+            "Social Bonding and Nurture Kinship", 
             "Sociobiology: The New Synthesis", 
             "Son of Man (novel)", 
             "Sperm Wars", 
@@ -11098,7 +11246,8 @@
           ]
         }, 
         {
-          "Evolution and religion": [
+          "name": "Evolution and religion", 
+          "titles": [
             "1860 Oxford evolution debate", 
             "Allegorical interpretations of Genesis", 
             "Argument from poor design", 
@@ -11131,7 +11280,8 @@
           ]
         }, 
         {
-          "Evolutionarily significant biological phenomena": [
+          "name": "Evolutionarily significant biological phenomena", 
+          "titles": [
             "Abiogenesis", 
             "Cursorial", 
             "Degeneracy (biology)", 
@@ -11149,7 +11299,8 @@
           ]
         }, 
         {
-          "Evolutionary biology": [
+          "name": "Evolutionary biology", 
+          "titles": [
             "Evolutionary biology", 
             "Fisherian runaway", 
             "Genetic purging", 
@@ -11238,7 +11389,6 @@
             "Emotional selection", 
             "Empathic concern", 
             "Encephalization", 
-            "Endosymbiotic theory", 
             "Error threshold (evolution)", 
             "Escalation hypothesis", 
             "Eurasian Adam", 
@@ -11524,7 +11674,8 @@
           ]
         }, 
         {
-          "Extinction events": [
+          "name": "Extinction events", 
+          "titles": [
             "Extinction event", 
             "Template:Extinction events graphical timeline", 
             "Aptian extinction", 
@@ -11572,7 +11723,8 @@
           ]
         }, 
         {
-          "Evolution in popular culture": [
+          "name": "Evolution in popular culture", 
+          "titles": [
             "After Man: A Zoology of the Future", 
             "Alienators: Evolution Continues", 
             "A Clockwork Origin", 
@@ -11604,7 +11756,8 @@
           ]
         }, 
         {
-          "Origin of life": [
+          "name": "Origin of life", 
+          "titles": [
             "Abiogenesis", 
             "Primordial soup", 
             "Akilia", 
@@ -11626,10 +11779,14 @@
             "Jeewanu", 
             "Last universal ancestor", 
             "Methanosarcina acetivorans", 
+            "Stanley Miller", 
             "Miller\\u2013Urey experiment", 
+            "Harold J. Morowitz", 
             "Murchison meteorite", 
             "Neocatastrophism", 
             "Oparin Medal", 
+            "Alexander Oparin", 
+            "Leslie Orgel", 
             "PAH world hypothesis", 
             "Panspermia", 
             "Peptide nucleic acid", 
@@ -11637,6 +11794,7 @@
             "Primordial sandwich", 
             "Proteinoid", 
             "Protocell", 
+            "Henry Quastler", 
             "Rare Earth hypothesis", 
             "Reverse Krebs cycle", 
             "RNA world hypothesis", 
@@ -11653,7 +11811,8 @@
           ]
         }, 
         {
-          "Rate of evolution": [
+          "name": "Rate of evolution", 
+          "titles": [
             "Gradualism", 
             "Phyletic gradualism", 
             "Punctuated equilibrium", 
@@ -11663,7 +11822,8 @@
           ]
         }, 
         {
-          "Tree of life": [
+          "name": "Tree of life", 
+          "titles": [
             "Phylogenetic tree", 
             "RedToL", 
             "Tree of life (biology)", 
@@ -11673,7 +11833,8 @@
           ]
         }, 
         {
-          "United States creationism and evolution case law": [
+          "name": "United States creationism and evolution case law", 
+          "titles": [
             "Association of Christian Schools International v. Roman Stearns", 
             "Bishop v. Aronov", 
             "Daniel v. Waters", 
@@ -11694,7 +11855,8 @@
           ]
         }, 
         {
-          "Evolution stubs": [
+          "name": "Evolution stubs", 
+          "titles": [
             "Template:Evolution-stub", 
             "Template:Evolution-book-stub", 
             "Adaptive value", 
@@ -11800,7 +11962,8 @@
       ]
     }, 
     {
-      "History of biology": [
+      "name": "History of biology", 
+      "titles": [
         "History of biology", 
         "History of agricultural science", 
         "History of anatomy", 
@@ -11849,7 +12012,8 @@
         "Vital heat", 
         "Vitalism", 
         {
-          "History of biology by subdiscipline": [
+          "name": "History of biology by subdiscipline", 
+          "titles": [
             "History of biochemistry", 
             "History of biotechnology", 
             "History of botany", 
@@ -11869,7 +12033,8 @@
           ]
         }, 
         {
-          "Biologists": [
+          "name": "Biologists", 
+          "titles": [
             "Biologist", 
             "List of biologists", 
             "Al-Asma'i", 
@@ -11895,13 +12060,15 @@
           ]
         }, 
         {
-          "Biological events": [
+          "name": "Biological events", 
+          "titles": [
             "Category:Endosymbiotic events", 
             "Category:Extinction events"
           ]
         }, 
         {
-          "Biology experiments": [
+          "name": "Biology experiments", 
+          "titles": [
             "Animal testing", 
             "Designated Member Review", 
             "Avery\\u2013MacLeod\\u2013McCarty experiment", 
@@ -11928,14 +12095,16 @@
           ]
         }, 
         {
-          "History of eugenics": [
+          "name": "History of eugenics", 
+          "titles": [
             "History of eugenics", 
             "Henry H. Goddard", 
             "The Kallikak Family"
           ]
         }, 
         {
-          "Obsolete biological theories": [
+          "name": "Obsolete biological theories", 
+          "titles": [
             "Animal magnetism", 
             "Bead theory", 
             "Colloid Theory", 
@@ -11957,7 +12126,8 @@
           ]
         }, 
         {
-          "Obsolete taxonomic groups": [
+          "name": "Obsolete taxonomic groups", 
+          "titles": [
             "List of defunct taxa", 
             "Bionta", 
             "Evolutionary grade", 
@@ -11967,7 +12137,8 @@
           ]
         }, 
         {
-          "Biology timelines": [
+          "name": "Biology timelines", 
+          "titles": [
             "Timeline of Banksia", 
             "Timeline of biology and organic chemistry", 
             "Timeline of biotechnology", 
@@ -11986,7 +12157,8 @@
       ]
     }, 
     {
-      "Biological interactions": [
+      "name": "Biological interactions", 
+      "titles": [
         "Biological interaction", 
         "Advertising coloration", 
         "Antibiosis", 
@@ -12022,7 +12194,8 @@
         "Scramble competition", 
         "Territory (animal)", 
         {
-          "Aggression": [
+          "name": "Aggression", 
+          "titles": [
             "Aggression", 
             "Workplace safety in healthcare settings", 
             "Aggressionism", 
@@ -12068,7 +12241,8 @@
           ]
         }, 
         {
-          "Biological defense mechanisms": [
+          "name": "Biological defense mechanisms", 
+          "titles": [
             "Apparent death", 
             "Armour (anatomy)", 
             "Photoprotection", 
@@ -12081,7 +12255,8 @@
           ]
         }, 
         {
-          "Eating behaviors": [
+          "name": "Eating behaviors", 
+          "titles": [
             "List of feeding behaviours", 
             "Algophagy", 
             "Bubble net feeding", 
@@ -12170,10 +12345,12 @@
           ]
         }, 
         {
-          "Human\\u2013animal interaction": []
+          "name": "Human\\u2013animal interaction", 
+          "titles": []
         }, 
         {
-          "Mutualism (biology)": [
+          "name": "Mutualism (biology)", 
+          "titles": [
             "Mutualism (biology)", 
             "Ant\\u2013fungus mutualism", 
             "Cleaning symbiosis", 
@@ -12187,7 +12364,8 @@
           ]
         }, 
         {
-          "Reproduction": [
+          "name": "Reproduction", 
+          "titles": [
             "Reproduction", 
             "Adelphogamy", 
             "Allogamy", 
@@ -12261,7 +12439,8 @@
           ]
         }, 
         {
-          "Symbiosis": [
+          "name": "Symbiosis", 
+          "titles": [
             "List of symbiotic relationships", 
             "Actinorhizal plant", 
             "Amphiprioninae", 
@@ -12284,7 +12463,6 @@
             "Ectosymbiosis", 
             "Endophyte", 
             "Endosymbiont", 
-            "Endosymbiotic theory", 
             "Epixenosomes", 
             "Ericoid mycorrhiza", 
             "Ethnolichenology", 
@@ -12346,7 +12524,8 @@
       ]
     }, 
     {
-      "Lists by population": [
+      "name": "Lists by population", 
+      "titles": [
         "List of Canadian provinces and territories by population", 
         "List of Caribbean island countries by population", 
         "List of prefecture-level cities by GDP per capita", 
@@ -12409,7 +12588,8 @@
         "List of U.S. states by population growth rate", 
         "List of urban areas by population", 
         {
-          "Lists of cities by population": [
+          "name": "Lists of cities by population", 
+          "titles": [
             "List of cities proper by population", 
             "List of largest cities and second largest cities by country", 
             "List of Arabian cities by population", 
@@ -12468,7 +12648,8 @@
           ]
         }, 
         {
-          "Lists of countries by population": [
+          "name": "Lists of countries by population", 
+          "titles": [
             "List of countries by population", 
             "List of countries by population (graphical)", 
             "List of Caribbean island countries by population", 
@@ -12506,7 +12687,8 @@
           ]
         }, 
         {
-          "Lists by population density": [
+          "name": "Lists by population density", 
+          "titles": [
             "List of African countries by population density", 
             "Area and population of European countries", 
             "List of Brazilian states by population density", 
@@ -12535,13 +12717,15 @@
           ]
         }, 
         {
-          "Lists by population (non-human)": [
+          "name": "Lists by population (non-human)", 
+          "titles": [
             "Lists of organisms by population", 
             "Category:Lists of birds by population"
           ]
         }, 
         {
-          "Lists of countries by population density": [
+          "name": "Lists of countries by population density", 
+          "titles": [
             "List of African countries by population density", 
             "List of countries by real population density based on food growing capacity", 
             "List of island countries", 
@@ -12551,7 +12735,8 @@
           ]
         }, 
         {
-          "Lists of metropolitan areas by population": [
+          "name": "Lists of metropolitan areas by population", 
+          "titles": [
             "List of metropolitan areas in Japan by population", 
             "List of most populous metropolitan areas in Pakistan", 
             "Largest metropolitan areas in the Nordic countries", 
@@ -12559,7 +12744,8 @@
           ]
         }, 
         {
-          "United Kingdom lists by population": [
+          "name": "United Kingdom lists by population", 
+          "titles": [
             "List of Anglesey towns by population", 
             "List of Bedfordshire settlements by population", 
             "List of districts in Northern Ireland by population", 
@@ -12592,7 +12778,8 @@
       ]
     }, 
     {
-      "Organisms": [
+      "name": "Organisms", 
+      "titles": [
         "Biota (taxonomy)", 
         "Organism", 
         "Biomass (ecology)", 
@@ -12605,8 +12792,10 @@
         "Organisms at high altitude", 
         "Standing crop", 
         {
-          "Organisms by location": [
+          "name": "Organisms by location", 
+          "titles": [
             "Category:Biota by ecozone", 
+            "Category:Cosmopolitan species", 
             "Category:Animals by location", 
             "Category:Biota by continent", 
             "Category:Biota by country", 
@@ -12617,7 +12806,8 @@
           ]
         }, 
         {
-          "Aquatic organisms": [
+          "name": "Aquatic organisms", 
+          "titles": [
             "Aquatic adaptation", 
             "Aquatic predation", 
             "Clean-up crew (aquarium)", 
@@ -12641,7 +12831,8 @@
           ]
         }, 
         {
-          "Biota": [
+          "name": "Biota", 
+          "titles": [
             "Biota (ecology)", 
             "Category:Biota by country", 
             "Category:Biota by continent", 
@@ -12658,7 +12849,8 @@
           ]
         }, 
         {
-          "Cave organisms": [
+          "name": "Cave organisms", 
+          "titles": [
             "List of troglobites", 
             "Subterranean fauna", 
             "Troglofauna", 
@@ -12712,7 +12904,8 @@
           ]
         }, 
         {
-          "Digital organisms": [
+          "name": "Digital organisms", 
+          "titles": [
             "Digital organism", 
             "Avida", 
             "Core War", 
@@ -12726,7 +12919,8 @@
           ]
         }, 
         {
-          "Eukaryotes": [
+          "name": "Eukaryotes", 
+          "titles": [
             "Eukaryote", 
             "Origin recognition complex", 
             "Archaeplastida", 
@@ -12769,7 +12963,8 @@
           ]
         }, 
         {
-          "Fictional life forms": [
+          "name": "Fictional life forms", 
+          "titles": [
             "Amoeba (Star Trek)", 
             "Dark Judges", 
             "Interdimensional being", 
@@ -12794,7 +12989,8 @@
           ]
         }, 
         {
-          "Genetics by type of organisms": [
+          "name": "Genetics by type of organisms", 
+          "titles": [
             "Fungal Genetics and Biology", 
             "Category:Animal genetics", 
             "Category:Bacterial genetics", 
@@ -12803,14 +12999,16 @@
           ]
         }, 
         {
-          "Hybrid organisms": [
+          "name": "Hybrid organisms", 
+          "titles": [
             "Category:Fictional hybrid life forms", 
             "Category:Hybrid animals", 
             "Category:Hybrid plants"
           ]
         }, 
         {
-          "Individual organisms": [
+          "name": "Individual organisms", 
+          "titles": [
             "Humongous Fungus", 
             "King Clone", 
             "Thousand-year Rose", 
@@ -12819,7 +13017,8 @@
           ]
         }, 
         {
-          "Living fossils": [
+          "name": "Living fossils", 
+          "titles": [
             "Living fossil", 
             "Aardvark", 
             "Actinistia", 
@@ -12962,7 +13161,8 @@
           ]
         }, 
         {
-          "Microorganisms": [
+          "name": "Microorganisms", 
+          "titles": [
             "Microorganism", 
             "Antimicrobials in aquaculture", 
             "Beneficial Microbes Museum and Tourism Factory", 
@@ -12993,7 +13193,8 @@
           ]
         }, 
         {
-          "Model organisms": [
+          "name": "Model organisms", 
+          "titles": [
             "History of model organisms", 
             "Model organism", 
             "African clawed frog", 
@@ -13102,7 +13303,8 @@
           ]
         }, 
         {
-          "Negligibly senescent organisms": [
+          "name": "Negligibly senescent organisms", 
+          "titles": [
             "List of longest-living organisms", 
             "Aldabra giant tortoise", 
             "Arctica islandica", 
@@ -13126,7 +13328,8 @@
           ]
         }, 
         {
-          "Organism size": [
+          "name": "Organism size", 
+          "titles": [
             "Dwarfing", 
             "Largest organisms", 
             "Mycoplasma genitalium", 
@@ -13135,7 +13338,8 @@
           ]
         }, 
         {
-          "Parasites": [
+          "name": "Parasites", 
+          "titles": [
             "List of parasitic organisms", 
             "Babesia", 
             "Eichler's rule", 
@@ -13165,7 +13369,8 @@
           ]
         }, 
         {
-          "Pests": [
+          "name": "Pests", 
+          "titles": [
             "Pest (organism)", 
             "Infestation", 
             "Knockdown resistance", 
@@ -13183,7 +13388,8 @@
           ]
         }, 
         {
-          "Prokaryotes": [
+          "name": "Prokaryotes", 
+          "titles": [
             "Prokaryote", 
             "Schizophyte", 
             "Bacteria", 
@@ -13201,7 +13407,8 @@
           ]
         }, 
         {
-          "Superorganisms": [
+          "name": "Superorganisms", 
+          "titles": [
             "Superorganism", 
             "Ant colony", 
             "Biosphere", 
@@ -13228,7 +13435,8 @@
           ]
         }, 
         {
-          "Viruses": [
+          "name": "Viruses", 
+          "titles": [
             "List of genera of viruses", 
             "List of virus families", 
             "List of viruses", 
@@ -13304,7 +13512,8 @@
           ]
         }, 
         {
-          "Wildlife": [
+          "name": "Wildlife", 
+          "titles": [
             "Wildlife", 
             "Andre the Seal", 
             "Do not feed the animals", 
@@ -13342,7 +13551,8 @@
           ]
         }, 
         {
-          "Species by year of formal description": [
+          "name": "Species by year of formal description", 
+          "titles": [
             "Category:Species described in the 18th century", 
             "Category:Species described in the 19th century", 
             "Category:Species described in the 20th century", 
@@ -13357,14 +13567,16 @@
           ]
         }, 
         {
-          "Wikipedia books on organisms": [
+          "name": "Wikipedia books on organisms", 
+          "titles": [
             "Category:Wikipedia books on eukaryotes"
           ]
         }
       ]
     }, 
     {
-      "Philosophy of biology": [
+      "name": "Philosophy of biology", 
+      "titles": [
         "Philosophy of biology", 
         "Robert Arp", 
         "John Beatty (philosopher)", 
@@ -13429,7 +13641,8 @@
         "William C. Wimsatt", 
         "Joseph Henry Woodger", 
         {
-          "Antinatalism": [
+          "name": "Antinatalism", 
+          "titles": [
             "Antinatalism", 
             "Breeder (slang)", 
             "Childfree", 
@@ -13440,7 +13653,8 @@
           ]
         }, 
         {
-          "Antinatalists": [
+          "name": "Antinatalists", 
+          "titles": [
             "Al-Ma\\u02bfarri", 
             "David Benatar", 
             "Gary Mosher", 
@@ -13452,7 +13666,8 @@
           ]
         }, 
         {
-          "Bioethics": [
+          "name": "Bioethics", 
+          "titles": [
             "Bioethics", 
             "Abolitionism (bioethics)", 
             "Abortion doping", 
@@ -13603,7 +13818,8 @@
           ]
         }, 
         {
-          "Biological concepts": [
+          "name": "Biological concepts", 
+          "titles": [
             "Adult", 
             "Compilospecies", 
             "Critical depth", 
@@ -13627,7 +13843,8 @@
           ]
         }, 
         {
-          "Deep ecology": [
+          "name": "Deep ecology", 
+          "titles": [
             "Deep ecology", 
             "Animal rights", 
             "Bambi effect", 
@@ -13643,7 +13860,8 @@
           ]
         }, 
         {
-          "Natalism": [
+          "name": "Natalism", 
+          "titles": [
             "Natalism", 
             "Baby bonus", 
             "Baby boom", 
@@ -13679,7 +13897,8 @@
           ]
         }, 
         {
-          "Philosophy of sexuality": [
+          "name": "Philosophy of sexuality", 
+          "titles": [
             "Philosophy of sex", 
             "Aesthetic relativism", 
             "Desire", 
@@ -13725,7 +13944,8 @@
       ]
     }, 
     {
-      "Biological processes": [
+      "name": "Biological processes", 
+      "titles": [
         "Biological process", 
         "Assimilation (biology)", 
         "Basic rest activity cycle", 
@@ -13761,7 +13981,8 @@
         "Transdifferentiation", 
         "Xenohormesis", 
         {
-          "Cellular processes": [
+          "name": "Cellular processes", 
+          "titles": [
             "Actin nucleation core", 
             "Action potential", 
             "Afterhyperpolarization", 
@@ -13855,7 +14076,8 @@
           ]
         }, 
         {
-          "Evolutionary processes": [
+          "name": "Evolutionary processes", 
+          "titles": [
             "Degeneracy (biology)", 
             "Evolution of the opposed cerebral hemisphere control", 
             "Evolution of the opposite cerebral hemisphere control", 
@@ -13867,7 +14089,8 @@
           ]
         }, 
         {
-          "Homeostasis": [
+          "name": "Homeostasis", 
+          "titles": [
             "Homeostasis", 
             "Allostasis", 
             "Baroreceptor", 
@@ -13887,12 +14110,15 @@
           ]
         }, 
         {
-          "Immune system process": [
+          "name": "Immune system process", 
+          "titles": [
+            "Effector triggered immunity", 
             "Immunoglobulin class switching"
           ]
         }, 
         {
-          "Memory processes": [
+          "name": "Memory processes", 
+          "titles": [
             "1-2-AX working memory task", 
             "Active recall", 
             "Atkinson\\u2013Shiffrin memory model", 
@@ -14001,7 +14227,8 @@
           ]
         }, 
         {
-          "Pigmentation": [
+          "name": "Pigmentation", 
+          "titles": [
             "Autumn leaf color", 
             "Copigmentation", 
             "Melanoblast", 
@@ -14011,7 +14238,8 @@
           ]
         }, 
         {
-          "Reproduction": [
+          "name": "Reproduction", 
+          "titles": [
             "Reproduction", 
             "Adelphogamy", 
             "Allogamy", 
@@ -14085,7 +14313,8 @@
           ]
         }, 
         {
-          "Senescence": [
+          "name": "Senescence", 
+          "titles": [
             "Senescence", 
             "Accelerated aging", 
             "Advanced glycation end-product", 
@@ -14140,6 +14369,7 @@
             "Mitohormesis", 
             "Negligible senescence", 
             "Neurodegeneration", 
+            "User:Nith117/sandbox", 
             "Oxidative stress", 
             "Paternal age effect", 
             "Phenoptosis", 
@@ -14184,7 +14414,8 @@
           ]
         }, 
         {
-          "Viral life cycle": [
+          "name": "Viral life cycle", 
+          "titles": [
             "Viral entry", 
             "Viral life cycle", 
             "Viral replication", 
@@ -14195,14 +14426,16 @@
       ]
     }, 
     {
-      "Professorships in biology": [
+      "name": "Professorships in biology", 
+      "titles": [
         "Arthur Balfour Professor of Genetics", 
         "Professor of Physiology, Cambridge University", 
         "Quick Professor of Biology"
       ]
     }, 
     {
-      "Biological techniques and tools": [
+      "name": "Biological techniques and tools", 
+      "titles": [
         "Agarose gel electrophoresis", 
         "Altered nuclear transfer", 
         "Alzheimer's Disease Neuroimaging Initiative", 
@@ -14265,7 +14498,8 @@
         "Time-lapse microscopy", 
         "Waru Waru", 
         {
-          "Cell imaging": [
+          "name": "Cell imaging", 
+          "titles": [
             "7-Aminoactinomycin D", 
             "Brainbow", 
             "Calcium imaging", 
@@ -14306,7 +14540,8 @@
           ]
         }, 
         {
-          "Cloning": [
+          "name": "Cloning", 
+          "titles": [
             "Cloning", 
             "Partial cloning", 
             "Athanogene", 
@@ -14363,7 +14598,8 @@
           ]
         }, 
         {
-          "Flow cytometry": [
+          "name": "Flow cytometry", 
+          "titles": [
             "Annexin A5 affinity assay", 
             "Carboxyfluorescein succinimidyl ester", 
             "Cell-cycle analysis", 
@@ -14387,7 +14623,8 @@
           ]
         }, 
         {
-          "Fluorescence techniques": [
+          "name": "Fluorescence techniques", 
+          "titles": [
             "Chemical imaging", 
             "FIDSAM", 
             "Fluorescence anisotropy", 
@@ -14400,7 +14637,8 @@
           ]
         }, 
         {
-          "Biological models": [
+          "name": "Biological models", 
+          "titles": [
             "BioSim", 
             "Goodwin model (biology)", 
             "Integrated Biosphere Simulator", 
@@ -14413,7 +14651,8 @@
       ]
     }, 
     {
-      "Biology terminology": [
+      "name": "Biology terminology", 
+      "titles": [
         "Allee effect", 
         "Allopatric speciation", 
         "Anthropophilia", 
@@ -14542,7 +14781,8 @@
         "Woody plant", 
         "Z-value (temperature)", 
         {
-          "Biological nomenclature": [
+          "name": "Biological nomenclature", 
+          "titles": [
             "-ase", 
             "Bacterial taxonomy", 
             "Binomial nomenclature", 
@@ -14575,7 +14815,8 @@
           ]
         }, 
         {
-          "Ecology terminology": [
+          "name": "Ecology terminology", 
+          "titles": [
             "Abundance (ecology)", 
             "Aeroplankton", 
             "Allopatric speciation", 
@@ -14655,7 +14896,8 @@
           ]
         }, 
         {
-          "Evolutionary biology terminology": [
+          "name": "Evolutionary biology terminology", 
+          "titles": [
             "Adaptive radiation", 
             "Adaptive value", 
             "Anagenesis", 
@@ -14673,7 +14915,8 @@
           ]
         }, 
         {
-          "Glossaries of biology": [
+          "name": "Glossaries of biology", 
+          "titles": [
             "Glossary of arachnology terms", 
             "Glossary of biology", 
             "Glossary of entomology terms", 
@@ -14683,7 +14926,8 @@
           ]
         }, 
         {
-          "Landraces": [
+          "name": "Landraces", 
+          "titles": [
             "Landrace", 
             "Gerdeh (rice)", 
             "Category:Cat landraces", 
@@ -14693,7 +14937,8 @@
           ]
         }, 
         {
-          "Latin biological phrases": [
+          "name": "Latin biological phrases", 
+          "titles": [
             "Ad libitum", 
             "Combinatio nova", 
             "De novo synthesis", 
@@ -14715,7 +14960,8 @@
       ]
     }, 
     {
-      "Unsolved problems in biology": [
+      "name": "Unsolved problems in biology", 
+      "titles": [
         "Avalon explosion", 
         "Cambrian explosion", 
         "Nanobacterium", 
@@ -14723,14 +14969,16 @@
       ]
     }, 
     {
-      "Biological waste": [
+      "name": "Biological waste", 
+      "titles": [
         "Banana peel", 
         "Biomedical waste", 
         "Blue ice (precipitation)", 
         "Brewer's spent grain", 
         "Human waste", 
         {
-          "Animal waste products": [
+          "name": "Animal waste products", 
+          "titles": [
             "Animal latrine", 
             "Black Ivory coffee", 
             "Dry animal dung fuel", 
@@ -14745,7 +14993,8 @@
           ]
         }, 
         {
-          "Excretion": [
+          "name": "Excretion", 
+          "titles": [
             "Ammonotelic", 
             "Animal latrine", 
             "Asher yatzar", 
@@ -14786,7 +15035,8 @@
       ]
     }, 
     {
-      "Wikipedia books on biology": [
+      "name": "Wikipedia books on biology", 
+      "titles": [
         "Book:Allergies", 
         "Book:Animal", 
         "Book:Ants", 
@@ -14855,14 +15105,16 @@
         "Book:Turtles", 
         "Book:University Genetics", 
         {
-          "Wikipedia books on ecology": [
+          "name": "Wikipedia books on ecology", 
+          "titles": [
             "Book:Pollution", 
             "Category:Wikipedia books on global warming", 
             "Category:Wikipedia books on sustainability"
           ]
         }, 
         {
-          "Wikipedia books on health": [
+          "name": "Wikipedia books on health", 
+          "titles": [
             "Book:Allergies", 
             "Book:Bipolar Disorder", 
             "Book:Cardiology", 
@@ -14881,30 +15133,35 @@
           ]
         }, 
         {
-          "Wikipedia books on organisms": [
+          "name": "Wikipedia books on organisms", 
+          "titles": [
             "Category:Wikipedia books on eukaryotes"
           ]
         }, 
         {
-          "Wikipedia books on physiology": [
+          "name": "Wikipedia books on physiology", 
+          "titles": [
             "Category:Wikipedia books on organ systems"
           ]
         }, 
         {
-          "Wikipedia books on scientific classification": [
+          "name": "Wikipedia books on scientific classification", 
+          "titles": [
             "Book:Biological classification", 
             "Book:Encyclopedia of Life"
           ]
         }, 
         {
-          "Wikipedia books on zoology": [
+          "name": "Wikipedia books on zoology", 
+          "titles": [
             "Category:Wikipedia books on anatomy"
           ]
         }
       ]
     }, 
     {
-      "Biology stubs": [
+      "name": "Biology stubs", 
+      "titles": [
         "Template:Lifeform-stub", 
         "Template:Biology-stub", 
         "Acidophile (histology)", 
@@ -15122,6 +15379,7 @@
         "Hort.", 
         "Hot aches", 
         "Hot start PCR", 
+        "Human biology", 
         "Humster", 
         "Hutchinson's rule", 
         "Hybrid swarm", 
@@ -15204,7 +15462,6 @@
         "Metabolic network", 
         "Metachronal rhythm", 
         "Metakaryota", 
-        "Metapelma compressipes", 
         "Microbial consortium", 
         "Microcyte", 
         "Microfibril", 
@@ -15439,6 +15696,7 @@
         "Weldon Memorial Prize", 
         "Wellcome Trust Genome Campus", 
         "Wet laboratory", 
+        "Wetware (biology)", 
         "Wheat germ agglutinin", 
         "Whorl (biology)", 
         "Wildlife contraceptive", 
@@ -15451,7 +15709,8 @@
         "YOYO-1", 
         "Z-value (temperature)", 
         {
-          "Anatomy stubs": [
+          "name": "Anatomy stubs", 
+          "titles": [
             "Template:Anatomy-stub", 
             "Abdominal fascia", 
             "Abdominopelvic cavity", 
@@ -15802,7 +16061,6 @@
             "Periamygdaloid cortex", 
             "Pericardial cavity", 
             "Perilymphatic duct", 
-            "Perilymphatic space", 
             "Periodontal ligament stem cells", 
             "Peripharyngeal space", 
             "Peritenon", 
@@ -15890,8 +16148,6 @@
             "Sacrococcygeal membrane", 
             "Salivon", 
             "Salpingopalatine fold", 
-            "Scala tympani", 
-            "Scala vestibuli", 
             "Scapular line", 
             "Schaumann body", 
             "Schultz's rule", 
@@ -15973,7 +16229,6 @@
             "Thyroid isthmus", 
             "Tomentum (anatomy)", 
             "Tonsillar fossa", 
-            "Torus tubarius", 
             "Trabecular sinuses", 
             "Tracheal rings", 
             "Tracheoesophageal septum", 
@@ -15989,6 +16244,7 @@
             "Tubercle of the upper lip", 
             "Tubular gland", 
             "Tubular heart", 
+            "Tympanic duct", 
             "Ulnar canal", 
             "Umbilical folds", 
             "Umbilical plane", 
@@ -16012,6 +16268,7 @@
             "Vesical arteries", 
             "Vesico-uterine pouch", 
             "Vestibular aqueduct", 
+            "Vestibular duct", 
             "Vestibular fold", 
             "Vestibule of larynx", 
             "Vestibule of mouth", 
@@ -16036,7 +16293,8 @@
           ]
         }, 
         {
-          "Animal stubs": [
+          "name": "Animal stubs", 
+          "titles": [
             "Template:Animal-stub", 
             "Actinoposthia beklemischevi", 
             "Agouti (coloration)", 
@@ -16093,7 +16351,8 @@
           ]
         }, 
         {
-          "Biochemistry stubs": [
+          "name": "Biochemistry stubs", 
+          "titles": [
             "Template:Biochem-stub", 
             "Template:Metabolism-stub", 
             "3-Hydroxypropionate pathway", 
@@ -16130,6 +16389,7 @@
             "ADP-ribosylation", 
             "Affinity electrophoresis", 
             "Affinity label", 
+            "Affitin", 
             "AG 489", 
             "Aglycone", 
             "Akt/PKB signaling pathway", 
@@ -16206,6 +16466,7 @@
             "Binding site", 
             "Biochemical detection", 
             "Biochemical techniques", 
+            "Bioelement", 
             "Biogenic amine", 
             "Biological unit", 
             "Biomarker (petroleum)", 
@@ -16773,7 +17034,6 @@
             "N-Acetylglucosamine receptor", 
             "N-acetyllactosamine synthase", 
             "NAD+ kinase", 
-            "Nanofitin", 
             "Native contact", 
             "NatsiRNA", 
             "NBQX", 
@@ -17224,7 +17484,8 @@
           ]
         }, 
         {
-          "Bioinformatics stubs": [
+          "name": "Bioinformatics stubs", 
+          "titles": [
             "Template:Bioinformatics-stub", 
             "3D-Jury", 
             "ABCD Schema", 
@@ -17329,7 +17590,7 @@
             "Shredding (disassembling genomic data)", 
             "Simple Modular Architecture Research Tool", 
             "Soaplab", 
-            "Standard Flowgram Format", 
+            "Standard flowgram format", 
             "SUPERFAMILY", 
             "Simon Tavar\\u00e9", 
             "TIGRFAMs", 
@@ -17347,7 +17608,8 @@
           ]
         }, 
         {
-          "Biologist stubs": [
+          "name": "Biologist stubs", 
+          "titles": [
             "Template:Biologist-stub", 
             "Template:Switzerland-biologist-stub", 
             "Ali Abdelghany", 
@@ -17558,7 +17820,8 @@
           ]
         }, 
         {
-          "Biotechnology stubs": [
+          "name": "Biotechnology stubs", 
+          "titles": [
             "Template:Biotech-stub", 
             "Acorda Therapeutics", 
             "Amphicelle", 
@@ -17609,7 +17872,8 @@
           ]
         }, 
         {
-          "Biology book stubs": [
+          "name": "Biology book stubs", 
+          "titles": [
             "Template:Biology-book-stub", 
             "Template:Evolution-book-stub", 
             "Template:Fungus-book-stub", 
@@ -17694,7 +17958,8 @@
           ]
         }, 
         {
-          "Botany stubs": [
+          "name": "Botany stubs", 
+          "titles": [
             "Template:Botany-stub", 
             "Abortive flower", 
             "Acarodomatia", 
@@ -17746,7 +18011,6 @@
             "Botanisk Tidsskrift", 
             "Botaniska Notiser", 
             "Botaniska tr\\u00e4dg\\u00e5rden (Lund)", 
-            "Botany of the Death Valley Expedition", 
             "Bradyspory", 
             "Bulliform cell", 
             "C-Repeat Binding Factor", 
@@ -17858,6 +18122,7 @@
             "Lodicule", 
             "Macrophyte", 
             "Madro\\u00f1o (journal)", 
+            "Mantissa Plantarum Altera", 
             "Marine botany", 
             "Matrotrophy", 
             "Matutinal", 
@@ -18057,7 +18322,8 @@
           ]
         }, 
         {
-          "Chromalveolate stubs": [
+          "name": "Chromalveolate stubs", 
+          "titles": [
             "Template:Chromalveolate-stub", 
             "Template:Diatom-stub", 
             "Adelea", 
@@ -18296,7 +18562,8 @@
           ]
         }, 
         {
-          "Biological database stubs": [
+          "name": "Biological database stubs", 
+          "titles": [
             "Template:Biodatabase-stub", 
             "3did", 
             "AgBase", 
@@ -18494,7 +18761,8 @@
           ]
         }, 
         {
-          "Developmental biology stubs": [
+          "name": "Developmental biology stubs", 
+          "titles": [
             "Template:Developmental-biology-stub", 
             "Age of onset", 
             "Alar plate", 
@@ -18654,7 +18922,8 @@
           ]
         }, 
         {
-          "Ecology stubs": [
+          "name": "Ecology stubs", 
+          "titles": [
             "Template:Ecology-stub", 
             "Template:Ecology-book-stub", 
             "Abiotic component", 
@@ -18939,7 +19208,6 @@
             "Saprobiontic", 
             "Sclerobiont", 
             "Sihcao Wetlands", 
-            "Slope effect", 
             "Snelsmore Common", 
             "Soil crust", 
             "Soil zoology", 
@@ -18967,6 +19235,7 @@
             "Systematic reconnaissance flight", 
             "Tallgrass Aspen Parkland", 
             "Taxocene", 
+            "Temperate forest", 
             "Thermotropism", 
             "Throughfall", 
             "Titi swamp", 
@@ -19004,7 +19273,8 @@
           ]
         }, 
         {
-          "Evolution stubs": [
+          "name": "Evolution stubs", 
+          "titles": [
             "Template:Evolution-stub", 
             "Template:Evolution-book-stub", 
             "Adaptive value", 
@@ -19108,7 +19378,8 @@
           ]
         }, 
         {
-          "Fungus stubs": [
+          "name": "Fungus stubs", 
+          "titles": [
             "Template:Fungus-stub", 
             "Template:Entomophthorales-stub", 
             "Template:Fungus-book-stub", 
@@ -19402,6 +19673,7 @@
             "Synnema", 
             "Systema Mycologicum", 
             "Termitomyces robustus", 
+            "Terricolous lichen", 
             "Thamnidiaceae", 
             "Thermally dimorphic fungus", 
             "Trichoderma ovalisporum", 
@@ -19415,6 +19687,7 @@
             "Vairimorpha", 
             "Vendomyces", 
             "Volva (mycology)", 
+            "Xanthoparmelia conspersa", 
             "Xerocomellus rubellus", 
             "Zoopagales", 
             "Zoopagomycotina", 
@@ -19425,7 +19698,8 @@
           ]
         }, 
         {
-          "Genetics stubs": [
+          "name": "Genetics stubs", 
+          "titles": [
             "Template:Genetics-stub", 
             "45,X/46,XY mosaicism", 
             "46, XX/XY", 
@@ -20164,7 +20438,8 @@
           ]
         }, 
         {
-          "Biology journal stubs": [
+          "name": "Biology journal stubs", 
+          "titles": [
             "Template:Biology-journal-stub", 
             "Advances in Ecological Research", 
             "African Journal of Ecology", 
@@ -20319,7 +20594,8 @@
           ]
         }, 
         {
-          "Microbiology stubs": [
+          "name": "Microbiology stubs", 
+          "titles": [
             "Template:Microbiology-stub", 
             "A1 broth", 
             "Acetogen", 
@@ -20461,7 +20737,8 @@
           ]
         }, 
         {
-          "Neuroscience stubs": [
+          "name": "Neuroscience stubs", 
+          "titles": [
             "Template:Neuroscience-stub", 
             "Template:Neuroscience-book-stub", 
             "Template:Neuroscience-journal-stub", 
@@ -20525,6 +20802,7 @@
             "Commutation (neurophysiology)", 
             "Comparator system", 
             "Computational and Systems Neuroscience", 
+            "Contemplative neuroscience", 
             "Coprographia", 
             "Copropraxia", 
             "Corpuscles of Herbst", 
@@ -20925,176 +21203,8 @@
           ]
         }, 
         {
-          "Ornithology stubs": [
-            "Template:Ornithology-stub", 
-            "Template:Bird-book-stub", 
-            "1801 in birding and ornithology", 
-            "1802 in birding and ornithology", 
-            "1803 in birding and ornithology", 
-            "1804 in birding and ornithology", 
-            "1805 in birding and ornithology", 
-            "1806 in birding and ornithology", 
-            "1807 in birding and ornithology", 
-            "1808 in birding and ornithology", 
-            "1809 in birding and ornithology", 
-            "1810 in birding and ornithology", 
-            "1811 in birding and ornithology", 
-            "1812 in birding and ornithology", 
-            "1813 in birding and ornithology", 
-            "1814 in birding and ornithology", 
-            "1815 in birding and ornithology", 
-            "1816 in birding and ornithology", 
-            "1817 in birding and ornithology", 
-            "1818 in birding and ornithology", 
-            "1819 in birding and ornithology", 
-            "1820 in birding and ornithology", 
-            "1821 in birding and ornithology", 
-            "1822 in birding and ornithology", 
-            "1823 in birding and ornithology", 
-            "1824 in birding and ornithology", 
-            "1825 in birding and ornithology", 
-            "1826 in birding and ornithology", 
-            "1827 in birding and ornithology", 
-            "1828 in birding and ornithology", 
-            "1829 in birding and ornithology", 
-            "1830 in birding and ornithology", 
-            "1831 in birding and ornithology", 
-            "1832 in birding and ornithology", 
-            "1833 in birding and ornithology", 
-            "1834 in birding and ornithology", 
-            "1835 in birding and ornithology", 
-            "1836 in birding and ornithology", 
-            "1837 in birding and ornithology", 
-            "1838 in birding and ornithology", 
-            "1839 in birding and ornithology", 
-            "1840 in birding and ornithology", 
-            "1841 in birding and ornithology", 
-            "1842 in birding and ornithology", 
-            "1843 in birding and ornithology", 
-            "1844 in birding and ornithology", 
-            "1845 in birding and ornithology", 
-            "1846 in birding and ornithology", 
-            "1847 in birding and ornithology", 
-            "1848 in birding and ornithology", 
-            "1850 in birding and ornithology", 
-            "1851 in birding and ornithology", 
-            "1852 in birding and ornithology", 
-            "1853 in birding and ornithology", 
-            "1854 in birding and ornithology", 
-            "1855 in birding and ornithology", 
-            "1856 in birding and ornithology", 
-            "1857 in birding and ornithology", 
-            "1858 in birding and ornithology", 
-            "1859 in birding and ornithology", 
-            "1860 in birding and ornithology", 
-            "1861 in birding and ornithology", 
-            "1862 in birding and ornithology", 
-            "1863 in birding and ornithology", 
-            "1864 in birding and ornithology", 
-            "1865 in birding and ornithology", 
-            "1866 in birding and ornithology", 
-            "1867 in birding and ornithology", 
-            "1868 in birding and ornithology", 
-            "1880 in birding and ornithology", 
-            "1901 in birding and ornithology", 
-            "Acta Ornithologica", 
-            "Adelaide Ornithologists Club", 
-            "AOU Checklist of North American Birds", 
-            "Artamidae", 
-            "Atlantic Flyway", 
-            "Atlas of Victorian Birds", 
-            "Australasian Raptor Association", 
-            "Australasian Seabird Group", 
-            "Australian Bird Study Association", 
-            "Australian Field Ornithology", 
-            "Avian Brain Nomenclature Consortium", 
-            "Bare-fronted Hoodwink", 
-            "Barren Grounds Bird Observatory", 
-            "Bird hide", 
-            "Bird Life", 
-            "Bird reserve", 
-            "Bird-skyscraper collisions", 
-            "Birds Britannica", 
-            "The Birds of Australia (Broinowski)", 
-            "The Birds of Haiti and the Dominican Republic", 
-            "The Birds of the District of Geelong, Australia", 
-            "British Birdwatching Fair", 
-            "British Ornithologists' Club", 
-            "Bulletin of the British Ornithologists' Club", 
-            "Canberra Ornithologists Group", 
-            "Central Flyway", 
-            "The Clements Checklist of Birds of the World", 
-            "Clutch (eggs)", 
-            "Cnemial crest", 
-            "Collins Bird Guide", 
-            "Connecticut Audubon Society Coastal Center at Milford Point", 
-            "Conspectus of the ornithological fauna of the USSR", 
-            "Corvus: A Life with Birds", 
-            "Cr\\u00e8che (zoology)", 
-            "Dutch Birding", 
-            "East Asian\\u2013Australasian Flyway", 
-            "Fannie Pearson Hardy Eckstorm", 
-            "Feathered Dinosaurs: The Origin of Birds", 
-            "A Field Guide to Nests and Eggs of Australian Birds", 
-            "Field Guide to the Birds of Australia (Simpson & Day)", 
-            "Filicollosis", 
-            "Flock (birds)", 
-            "Flyway", 
-            "A Guide to the Birds of Mexico and Northern Central America", 
-            "H. L. White Collection", 
-            "The Handbook of Australian Sea-birds", 
-            "Handbook of the Birds of India and Pakistan", 
-            "Heligoland trap", 
-            "Hungarian Ornithological and Nature Conservation Society", 
-            "Illustrations of the Family of the Psittacidae, or Parrots", 
-            "The Institute for Bird Populations", 
-            "International Ornithological Committee", 
-            "Jizz (birding)", 
-            "Journal of Ornithology", 
-            "Keel (bird anatomy)", 
-            "Lack's principle", 
-            "List of Recent Holarctic Bird Species", 
-            "The Mallee-Fowl", 
-            "Margaret Morse Nice Medal", 
-            "Mississippi Flyway", 
-            "Nidopallium", 
-            "Norwegian Ornithological Society", 
-            "Nuttall Ornithological Club", 
-            "The Ornithology of Australia", 
-            "Pacific Flyway", 
-            "Paleornithology", 
-            "Parrots of New Guinea", 
-            "Pennaceous feather", 
-            "The Pocket Guide to British Birds", 
-            "Rangle", 
-            "Rookery", 
-            "Scottish Ornithologists' Club", 
-            "Screech Owl Sanctuary", 
-            "Seawatching", 
-            "Silence of the Songbirds", 
-            "Skylarking (birds)", 
-            "The Slater Field Guide to Australian Birds", 
-            "Smithsonian Migratory Bird Center", 
-            "Sort sol", 
-            "Synsacrum", 
-            "Syrinx (bird anatomy)", 
-            "Tibial dyschondroplasia", 
-            "Tibiotarsus", 
-            "Tinamou egg", 
-            "To See Every Bird on Earth", 
-            "Transfer effect", 
-            "Turacin", 
-            "Urohidrosis", 
-            "Welsh Ornithological Society", 
-            "West Pacific Flyway", 
-            "The Wilson Journal of Ornithology", 
-            "Category:Bird stubs", 
-            "Category:Domesticated pigeon breed stubs", 
-            "Category:Ornithologist stubs"
-          ]
-        }, 
-        {
-          "Paleontology stubs": [
+          "name": "Paleontology stubs", 
+          "titles": [
             "Template:Paleo-stub", 
             "Template:Paleo-book-stub", 
             "Template:Paleo-journal-stub", 
@@ -21305,7 +21415,8 @@
           ]
         }, 
         {
-          "Parasite stubs": [
+          "name": "Parasite stubs", 
+          "titles": [
             "Template:Parasite-stub", 
             "Template:Acanthocephalan-stub", 
             "Acanthocephalus (animal)", 
@@ -21620,9 +21731,9 @@
           ]
         }, 
         {
-          "Plant stubs": [
+          "name": "Plant stubs", 
+          "titles": [
             "Template:Plant-stub", 
-            "Acalypha ostryifolia", 
             "Acourtia nana", 
             "Arianis", 
             "Ascarina", 
@@ -21742,6 +21853,7 @@
             "Rosa 'Chopin'", 
             "Runcaria", 
             "Saccharum", 
+            "Salt desert shrub", 
             "Sarcococca", 
             "Sarcococca confusa", 
             "Sarcococca hookeriana", 
@@ -21789,7 +21901,8 @@
           ]
         }, 
         {
-          "Ediacaran biota stubs": [
+          "name": "Ediacaran biota stubs", 
+          "titles": [
             "Template:Ediacaran-stub", 
             "Anhuiphyton", 
             "Arachaeosphaeroides", 

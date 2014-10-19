@@ -8,7 +8,7 @@ from wiki_api import good_title
 # all_titles(es, "biology", "title")
 def all_titles(es, _index, _doc_type):
   le_search = {"fields" : ["title"], "query" : { "match_all" : {}}}
-  r = es.search(index=_index, doc_type=_doc_type, size=10000, body=le_search)
+  r = es.search(index=_index, doc_type=_doc_type, size=25000, body=le_search)
   return map(lambda x: x["_id"], r['hits']["hits"])
 
 def get_single_article(es, _index, _doc_type, _id):
