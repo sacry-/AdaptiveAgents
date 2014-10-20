@@ -4,9 +4,13 @@ import ast
 
 # String
 def relative_path():
+  if os.name == 'nt':
+    return "C:\\Users\\Swaneet\\github\\wikiparse"  # TODO: fixen how in windows.
   return "%s" % os.path.realpath('') 
 
 def json_path(fname):
+  if os.name == 'nt':
+    return "%s\\%s.%s" % (relative_path(), fname, "json")
   return "%s/%s.%s" % (relative_path(), fname, "json")
 
 # String -> Dictionary 
