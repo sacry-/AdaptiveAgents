@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 
+# Swaneets Config
+sconfig.txt
+
 # C extensions
 *.so
 
