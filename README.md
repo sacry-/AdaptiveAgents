@@ -23,7 +23,8 @@ BA Arbeit: erwin.lang@haw-hamburg.de
 ### Setup ###
 
 ```bash
-# Python NLTK http://www.nltk.org/install.html
+# Python 2.7.x used
+# Python NLTK 3.0 http://www.nltk.org/install.html
 # Numpy + Scipy 
 pip install numpy
 pip install scipy
