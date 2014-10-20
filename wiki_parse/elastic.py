@@ -5,11 +5,19 @@ from wiki_api import good_title, fetch_articles_by_titles
 # i.e. localhost:9200/biology/title/biologist
 # i.e. localhost:9200/biology/title/bioactive_plant_food_compounds
 
-# all_titles(es, "biology", "title")
+''' all_titles(es, "biology", "title")
 def all_titles(es, _index, _doc_type):
   le_search = {"fields" : ["title"], "query" : { "match_all" : {}}}
   r = es.search(index=_index, doc_type=_doc_type, size=25000, body=le_search)
   return map(lambda x: x["_id"], r['hits']["hits"])
+'''
+
+def title_exists(es, _index, _doc_type, title):
+  le_search = {"query" : {
+      "term" : {"_id" : title}
+    }}
+  r = es.count(index=_index, doc_type=_doc_type, body=le_search)
+  return r["count"]
 
 def get_single_article(es, _index, _doc_type, _id):
   return es.get(index=_index, doc_type=_doc_type, id=_id)["_source"]
@@ -25,11 +33,9 @@ def flush_all(es):
   es.delete(index="_all")
 
 def all_unpersisted_titles(es, _index, _doc_type, titles):
-  persisted_titles = all_titles(es, _index, _doc_type)
   result = []
   for title in titles:
-    normalized_title = good_title(title)
-    if not normalized_title in persisted_titles:
+    if not title_exists(es, _index, _doc_type, good_title(title)):
       result.append(title)
   return result
 
