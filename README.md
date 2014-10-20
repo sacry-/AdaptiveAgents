@@ -22,7 +22,8 @@ BA Arbeit: erwin.lang@haw-hamburg.de
 
 ### Setup ###
 
-```bash
+Parsing and Text Processing
+```ruby
 # Python 2.7.x used
 # Python NLTK 3.0 http://www.nltk.org/install.html
 # Numpy + Scipy 
@@ -32,20 +33,25 @@ pip install scipy
 git clone https://github.com/daddyd/dewiki.git
 cd dewiki/
 python setup.py install
+```
+
+Infrastructure
+```ruby
 # Install ElasticSearch
 brew install elasticsearch
 brew install logstash
-# Download Kibana from official source and put it to your WebServer System, plenty of documentation available
+# Download Kibana from official source and put it to your WebServer System, 
+# plenty of documentation available
 # ES Kopf Plugin
 git clone https://github.com/lmenezes/elasticsearch-kopf.git
 ```
 
 # Plan #
-<s>Phonetik und Phonologie</s>
-1. Morphologie ist die Lehre von der Zusammensetzung und Formbildung  der Wörter.
-2. Syntax werden die von den Wörtern gebildeten Strukturen zusammengefasst. Hierzu zählen die Grammatiken.
-3. Semantik - (Lexikalisch - Bedeutung auf Wortebene) + (Kompositionell - Bedeutung von Sätzen/Abschnitten)
-<s>Pragmatik und Diskurs</s>
+<s>Phonetik und Phonologie</s><br />
+1. Morphologie ist die Lehre von der Zusammensetzung und Formbildung  der Wörter.<br />
+2. Syntax werden die von den Wörtern gebildeten Strukturen zusammengefasst. Hierzu zählen die Grammatiken.<br />
+3. Semantik - (Lexikalisch - Bedeutung auf Wortebene) + (Kompositionell - Bedeutung von Sätzen/Abschnitten)<br />
+<s>Pragmatik und Diskurs</s><br />
 
 ### Usage ###
 coming soon
