@@ -21,7 +21,19 @@ Graph Visualization:
 BA Arbeit: erwin.lang@haw-hamburg.de
 
 ### Setup ###
-coming soon
+
+```bash
+# Remove Markup from Strings
+git clone https://github.com/daddyd/dewiki.git
+cd dewiki/
+python setup.py install
+# Install ElasticSearch
+brew install elasticsearch
+brew install logstash
+# Download Kibana from official source and put it to your WebServer System, plenty of documentation available
+# ES Kopf Plugin
+git clone https://github.com/lmenezes/elasticsearch-kopf.git
+```
 
 # Plan #
 <s>Phonetik und Phonologie</s>
