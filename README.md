@@ -8,22 +8,12 @@ Lernende Agenten
 - <a href="http://www.nltk.org/" target="_blank">Python NLTK</a>
 
 
-Technologies:
-	- Python NLTK
-	- rdflib? (for owl)
-
-Database:
-	- nosql dbs / Graph dbs
-
-Graph Visualization:
-	http://graph-tool.skewed.de/ (python)
-
 BA Arbeit: erwin.lang@haw-hamburg.de
 
 ### Setup ###
-
+	
 Parsing and Text Processing
-```ruby
+```python
 # Python 2.7.x used
 # Python NLTK 3.0 http://www.nltk.org/install.html
 # Numpy + Scipy 
@@ -36,7 +26,7 @@ python setup.py install
 ```
 
 Infrastructure
-```ruby
+```python
 # Install ElasticSearch
 brew install elasticsearch
 brew install logstash
@@ -44,6 +34,13 @@ brew install logstash
 # plenty of documentation available
 # ES Kopf Plugin
 git clone https://github.com/lmenezes/elasticsearch-kopf.git
+```
+
+Visualization
+
+```python
+# TODO Graph Visualization with graph-tool ~> http://graph-tool.skewed.de/ (python)
+pip install pygraphviz
 ```
 
 # Plan #
