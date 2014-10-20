@@ -34,6 +34,7 @@ def all_unpersisted_titles(es, _index, _doc_type, titles):
   return result
 
 def fetch_articles_and_add_to_elastic_search(es, titles, index, doc_type):
+  es.index(index=_index, doc_type="dummy", id="dummy", body={"dummy" : "dummy"})
   unpersisted_titles = all_unpersisted_titles(es, index, doc_type, titles)
   size_title, size_unpersisted = len(titles), len(unpersisted_titles)
   print "total titles: %s, to go: %s, persisted: %s" % (size_title, size_unpersisted, size_title - size_unpersisted)
