@@ -80,7 +80,7 @@ def categories_of_next_depth(titles, limit):
 
 def good_title(title):
   title = re.sub("\s+", '_', title)
-  title = re.sub("_", '_', title)
+  title = re.sub("_+", '_', title)
   return title.lower()
 
 # JsonHash -> Dictionary[ String -> { Int, String } ]
