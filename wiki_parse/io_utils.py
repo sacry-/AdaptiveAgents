@@ -5,7 +5,7 @@ import ast
 # String
 def relative_path():
   if os.name == 'nt':
-    return "C:\\Users\\Swaneet\\github\\wikiparse"  # TODO: fixen how in windows.
+    return "C:\\Users\\Swaneet\\github\\AdaptiveAgents\\wiki_parse"  # TODO: fixen how in windows.
   return "%s" % os.path.realpath('') 
 
 def json_path(fname):
