@@ -48,6 +48,7 @@ def query_by_data(data):
 
 # String -> Int -> JsonHash
 def categories_by_depth(category_string, limit):
+  print "Category: %s Limit: %s" % (category_string, limit)
   query = query_by_data(category(category_string))
   titles = fetch_continued_titles(query, [], "")
   return categories_of_next_depth(titles, limit)
@@ -67,7 +68,6 @@ def fetch_continued_titles(query, titles, code):
 # JsonHash -> Int -> JsonHash
 def categories_of_next_depth(titles, limit):
   result = []
-  print limit
   for sub_category in titles:
     if sub_category.find("Category:") != -1 and limit > 0:
       result.append({
