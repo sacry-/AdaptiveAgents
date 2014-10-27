@@ -1,0 +1,266 @@
+
+
+
+
+<div class="thumb tright" style="background-color: #f9f9f9; border:purple
+ 1px solid #CCCCCC; margin:0.5em;">
+
+<div style="border: none; width:200px;"><div class="thumbcaption">Biology deals with the study of the many living [[organism]]s ''(clockwise from top-left)'' ''[[E. coli]]'', [[tree fern]], [[gazelle]], [[Goliathus|Goliath beetle]]</div></div></div>
+
+
+'''Biology''' is a [[natural science]] concerned with the study of [[life]] and [[organism|living organisms]], including their structure, function, growth, [[evolution]], distribution, and [[Taxonomy (biology)|taxonomy]].<ref name=aquarenagloss>Based on definition from: </ref>  Modern biology is a vast and eclectic field, composed of many [[List of biology disciplines#Branches of biology|branches and subdisciplines]]. However, despite the broad scope of biology, there are certain general and unifying concepts within it that govern all study and research, consolidating it into single, coherent fields. In general, biology recognizes the [[Cell (biology)|cell]] as the basic unit of life, [[genes]] as the basic unit of [[heredity]], and [[evolution]] as the engine that propels the synthesis and creation of new [[species]]. It is also understood today that all organisms survive by consuming and transforming [[energy]] and by [[homeostasis|regulating]] their internal environment to maintain a stable and vital condition.
+
+Subdisciplines of biology are defined by the scale at which organisms are studied, the kinds of organisms studied, and the methods used to study them: [[Biochemistry]] examines the rudimentary chemistry of life; [[molecular biology]] studies the complex interactions among biological [[molecule]]s; [[botany]] studies the biology of plants; [[cellular biology]] examines the basic building-block of all life, the [[cell (biology)|cell]]; [[physiology]] examines the physical and chemical functions of [[tissue (biology)|tissues]], [[Organ (anatomy)|organs]], and [[organ system]]s of an organism; [[evolutionary biology]] examines the [[evolution|processes]] that produced the diversity of life; and [[ecology]] examines how organisms interact in their [[environment (biophysical)|environment]].<ref></ref>
+
+==History==
+
+[[File:Tree of life by Haeckel.jpg|thumb|[[Ernst Haeckel]]'s Tree of Life (1879)]]
+The term ''[[wikt:biology|biology]]'' is derived from the [[Greek Language|Greek]] word , ''bios'', "[[life]]" and the suffix , ''-logia'', "study of."<ref></ref><ref name=OnlineEtDict></ref> The Latin form of the term first appeared in 1736 when [[Carl Linnaeus|Linnaeus]] (Carl von Linn\u00e9) used ''biologi'' in his ''Bibliotheca botanica''. It was used again in 1766 in a work entitled ''Philosophiae naturalis sive physicae: tomus III, continens geologian, biologian, phytologian generalis'', by [[Michael Christoph Hanow|Michael Christoph Hanov]], a disciple of [[Christian Wolff (philosopher)|Christian Wolff]]. The first German use, ''Biologie'', was used in a 1771 translation of Linnaeus' work. In 1797, Theodor Georg August Roose used the term in a book, ''Grundz\u00fcge der Lehre van der Lebenskraft'', in the preface. [[Karl Friedrich Burdach]] used the term in 1800 in a more restricted sense of the study of human beings from a morphological, physiological and psychological perspective (''Prop\u00e4deutik zum Studien der gesammten Heilkunst''). The term came into its modern usage with the six-volume treatise ''Biologie, oder Philosophie der lebenden Natur'' (1802\u201322) by [[Gottfried Reinhold Treviranus]], who announced:<ref name=Richards></ref>
+
+:The objects of our research will be the different forms and manifestations of life, the conditions and laws under which these phenomena occur, and the causes through which they have been effected. The science that concerns itself with these objects we will indicate by the name biology [Biologie] or the doctrine of life [Lebenslehre].
+
+Although modern biology is a relatively recent development, sciences related to and included within it have been studied since ancient times. [[Natural philosophy]] was studied as early as the ancient civilizations of [[Mesopotamia]], [[Egypt]], the [[Indian subcontinent]], and [[China]]. However, the origins of modern biology and its approach to the study of nature are most often traced back to [[ancient Greece]].<ref></ref> While the formal study of [[medicine]] dates back to [[Hippocrates]] (ca. 460 BC \u2013 ca. 370 BC), it was [[Aristotle]] (384 BC \u2013 322 BC) who contributed most extensively to the development of biology. Especially important are his [[History of Animals]] and other works where he showed naturalist leanings, and later more empirical works that focused on biological causation and the diversity of life. Aristotle's successor at the [[Lyceum]], [[Theophrastus]], wrote a series of books on [[botany]] that survived as the most important contribution of antiquity to the plant sciences, even into the [[Middle Ages]].<ref name="eb1911"></ref>
+
+Scholars of the medieval Islamic world who wrote on biology included [[al-Jahiz]] (781\u2013869), [[Al-Dinawari]] (828\u2013896), who wrote on botany,<ref name=Fahd-815>, in </ref> and [[Muhammad ibn Zakar\u012bya R\u0101zi|Rhazes]] (865\u2013925) who wrote on [[anatomy]] and [[physiology]]. [[Medicine]] was especially well studied by Islamic scholars working in Greek philosopher traditions, while natural history drew heavily on Aristotelian thought, especially in upholding a fixed hierarchy of life.
+
+Biology began to quickly develop and grow with [[Anton van Leeuwenhoek]]'s dramatic improvement of the [[microscope]]. It was then that scholars discovered [[spermatozoa]], [[bacteria]], [[infusoria]] and the diversity of microscopic life. Investigations by [[Jan Swammerdam]] led to new interest in [[entomology]] and helped to develop the basic techniques of microscopic [[dissection]] and [[staining]].<ref></ref>
+
+Advances in [[microscopy]] also had a profound impact on biological thinking. In the early 19th century, a number of biologists pointed to the central importance of the [[cell (biology)|cell]]. Then, in 1838, [[Matthias Jakob Schleiden|Schleiden]] and [[Theodor Schwann|Schwann]] began promoting the now universal ideas that (1) the basic unit of organisms is the cell and (2) that individual cells have all the characteristics of [[life]], although they opposed the idea that (3) all cells come from the division of other cells. Thanks to the work of [[Robert Remak]] and [[Rudolf Virchow]], however, by the 1860s most biologists accepted all three tenets of what came to be known as [[cell theory]].<ref>[[Jan Sapp|Sapp, Jan]] (2003) ''Genesis: The Evolution of Biology'', Ch. 7. Oxford University Press: New York. ISBN 0-19-515618-8</ref><ref>Coleman, William (1977) ''Biology in the Nineteenth Century: Problems of Form, Function, and Transformation'', Ch. 2. Cambridge University Press: New York. ISBN 0-521-29293-X</ref>
+
+Meanwhile, taxonomy and classification became the focus of natural historians. [[Carl Linnaeus]] published a basic [[Taxonomy (biology)|taxonomy]] for the natural world in 1735 (variations of which have been in use ever since), and in the 1750s introduced [[Binomial nomenclature|scientific names]] for all his species.<ref>Mayr, ''The Growth of Biological Thought'', chapter 4</ref> [[Georges-Louis Leclerc, Comte de Buffon]], treated species as artificial categories and living forms as malleable\u2014even suggesting the possibility of [[common descent]]. Though he was opposed to evolution, Buffon is a key figure in the [[history of evolutionary thought]]; his work influenced the evolutionary theories of both [[Lamarck]] and [[Charles Darwin|Darwin]].<ref>Mayr, ''The Growth of Biological Thought'', chapter 7</ref>
+
+Serious evolutionary thinking originated with the works of [[Jean-Baptiste Lamarck]], who was the first to present a coherent theory of evolution.<ref name="Gould 2002 187">[[Stephen Jay Gould|Gould, Stephen Jay]]. ''The Structure of Evolutionary Theory''. The Belknap Press of Harvard University Press: Cambridge, 2002. ISBN 0-674-00613-5. p. 187.</ref> He posited that evolution was the result of environmental stress on properties of animals, meaning that the more frequently and rigorously an organ was used, the more complex and efficient it would become, thus adapting the animal to its environment. Lamarck believed that these acquired traits could then be passed on to the animal's offspring, who would further develop and perfect them.<ref name=Lam1914>[[#Lamarck1914|Lamarck (1914)]]</ref> However, it was the British naturalist [[Charles Darwin]], combining the biogeographical approach of [[Alexander von Humboldt|Humboldt]], the uniformitarian geology of [[Charles Lyell|Lyell]], [[Thomas Malthus|Malthus's]] writings on population growth, and his own morphological expertise and extensive natural observations, who forged a more successful evolutionary theory based on [[natural selection]]; similar reasoning and evidence led [[Alfred Russel Wallace]] to independently reach the same conclusions.<ref>Mayr, ''The Growth of Biological Thought'', chapter 10: "Darwin's evidence for evolution and common descent"; and chapter 11: "The causation of evolution: natural selection"</ref><ref></ref> Although it was the subject of [[Creation\u2013evolution controversy|controversy]] (which continues to this day), Darwin's theory quickly spread through the scientific community and soon became a central axiom of the rapidly developing science of biology.
+
+The discovery of the physical representation of heredity came along with evolutionary principles and [[population genetics]]. In the 1940s and early 1950s, experiments pointed to [[DNA]] as the component of [[chromosomes]] that held the trait-carrying units that had become known as [[genes]]. A focus on new kinds of model organisms such as [[viruses]] and [[bacteria]], along with the discovery of the double helical structure of DNA in 1953, marked the transition to the era of [[molecular genetics]]. From the 1950s to present times, biology has been vastly extended in the [[Molecular Biology|molecular]] domain. The [[genetic code]] was cracked by [[Har Gobind Khorana]], [[Robert W. Holley]] and [[Marshall Warren Nirenberg]] after DNA was understood to contain [[codons]]. Finally, the [[Human Genome Project]] was launched in 1990 with the goal of mapping the general human [[genome]]. This project was essentially completed in 2003,<ref></ref> with further analysis still being published. The Human Genome Project was the first step in a globalized effort to incorporate accumulated knowledge of biology into a functional, molecular definition of the human body and the bodies of other organisms.
+
+==Foundations of modern biology==
+
+===Cell theory===
+[[File:HeLa Hoechst 33258.jpg|thumb|250px|right|Human [[cancer cell]]s with nuclei (specifically the DNA) stained blue. The central and rightmost cell are in [[interphase]], so the entire nuclei are labeled. The cell on the left is going through [[mitosis]] and its DNA has condensed.]]
+
+Cell theory states that the [[cell biology|cell]] is the fundamental unit of [[life]], and that all living things are composed of one or more cells or the [[secretion|secreted]] products of those cells (e.g. [[animal shell|shells]]). All cells arise from other cells through [[cell division]]. In [[multicellular organisms]], every cell in the organism's body derives ultimately from a single cell in a fertilized [[egg (biology)|egg]]. The cell is also considered to be the basic unit in many pathological processes.<ref></ref> In addition, the phenomenon of [[energy transfer|energy flow]] occurs in cells in processes that are part of the function known as [[metabolism]]. Finally, cells contain hereditary information ([[DNA]]), which is passed from cell to cell during cell division.
+
+===Evolution===
+[[File:Mutation and selection diagram.svg|thumb|right|250px|[[Natural selection]] of a population for dark coloration.]]
+
+A central organizing concept in biology is that life changes and develops through evolution, and that all life-forms known have a [[Common descent|common origin]]. The theory of evolution postulates that all [[organism]]s on the [[Earth]], both living and extinct, have descended from a common ancestor or an ancestral [[gene pool]]. This last universal common ancestor of all organisms is believed to have appeared about [[Timeline of evolution|3.5 billion years ago]].<ref></ref> Biologists generally regard the universality and ubiquity of the [[genetic code]] as definitive evidence in favor of the theory of universal common descent for all [[bacterium|bacteria]], [[archaea]], and [[eukaryote]]s (see: [[origin of life]]).<ref name="Futuyma"></ref>
+
+Introduced into the scientific lexicon by [[Jean-Baptiste de Lamarck]] in 1809,<ref name="p15"></ref> evolution was established by [[Charles Darwin]] fifty years later as a viable scientific model when he articulated its driving force: [[natural selection]].<ref>[http://darwin-online.org.uk/biography.html The Complete Works of Darwin Online \u2013 Biography.] ''darwin-online.org.uk''. Retrieved on 2006-12-15</ref><ref></ref><ref>As Darwinian scholar Joseph Carroll of the University of Missouri\u2013St. Louis puts it in his introduction to a modern reprint of Darwin's work: "''The Origin of Species'' has special claims on our attention. It is one of the two or three most significant works of all time\u2014one of those works that fundamentally and permanently alter our vision of the world&nbsp;... It is argued with a singularly rigorous consistency but it is also eloquent, imaginatively evocative, and rhetorically compelling." </ref> ([[Alfred Russel Wallace]] is recognized as the co-discoverer of this concept as he helped research and experiment with the concept of evolution.)<ref>Shermer p. 149.</ref> Evolution is now used to explain the great variations of life found on Earth.
+
+Darwin theorized that species and breeds developed through the processes of [[natural selection]] and [[artificial selection]] or [[selective breeding]].<ref>Darwin, Charles (1859). ''On the Origin of Species'', John Murray.</ref> [[Genetic drift]] was embraced as an additional mechanism of evolutionary development in the [[modern synthesis]] of the theory.<ref name = GGS></ref>
+
+The evolutionary history of the [[species]]\u2014which describes the characteristics of the various species from which it descended\u2014together with its genealogical relationship to every other species is known as its [[phylogeny]]. Widely varied approaches to biology generate information about phylogeny. These include the comparisons of [[DNA sequence]]s conducted within [[molecular biology]] or [[genomics]], and comparisons of [[fossil]]s or other records of ancient organisms in [[paleontology]].<ref></ref> Biologists organize and analyze evolutionary relationships through various methods, including [[phylogenetics]], [[phenetics]], and [[cladistics]]. (For a summary of major events in the evolution of life as currently understood by biologists, see [[evolutionary timeline]].)
+
+
+===Genetics===
+[[File:Punnett square mendel flowers.svg|thumb|250px|A [[Punnett square]] depicting a cross between two pea plants heterozygous for purple (B) and white (b) blossoms]]
+
+[[Gene]]s are the primary units of inheritance in all organisms. A gene is a unit of [[heredity]] and corresponds to a region of [[DNA]] that influences the form or function of an organism in specific ways. All organisms, from bacteria to animals, share the same basic machinery that copies and translates DNA into [[protein]]s. Cells [[Transcription (genetics)|transcribe]] a DNA gene into an [[RNA]] version of the gene, and a [[ribosome]] then [[Translation (biology)|translates]] the RNA into a protein, a sequence of [[amino acid]]s. The [[genetic code|translation code]] from RNA codon to amino acid is the same for most organisms, but slightly different for some. For example, a sequence of DNA that codes for [[insulin]] in humans also codes for insulin when inserted into other organisms, such as plants.<ref>Marcial, Gene G. (August 13, 2007) [http://www.businessweek.com/stories/2007-08-12/from-sembiosys-a-new-kind-of-insulin From SemBiosys, A New Kind Of Insulin]. businessweek.com</ref>
+
+DNA usually occurs as linear [[chromosome]]s in [[eukaryote]]s, and circular chromosomes in [[prokaryote]]s. A chromosome is an organized structure consisting of [[DNA]] and [[histone]]s. The set of chromosomes in a cell and any other hereditary information found in the [[mitochondria]], [[chloroplasts]], or other locations is collectively known as its [[genome]]. In eukaryotes, genomic DNA is located in the [[cell nucleus]], along with small amounts in [[mitochondrion|mitochondria]] and [[chloroplast]]s. In prokaryotes, the DNA is held within an irregularly shaped body in the cytoplasm called the [[nucleoid]].<ref></ref> The genetic information in a genome is held within genes, and the complete assemblage of this information in an organism is called its [[genotype]].<ref></ref>
+
+===Homeostasis===
+
+[[File:ACTH Negative Feedback.svg|right|thumb|The [[hypothalamus]] secretes [[Corticotropin-releasing hormone|CRH]], which directs the [[pituitary gland]] to secrete [[ACTH]]. In turn, ACTH directs the adrenal cortex to secrete [[glucocorticoid]]s, such as [[cortisol]]. The GCs then reduce the rate of secretion by the hypothalamus and the pituitary gland once a sufficient amount of GCs has been released.<ref>Raven, PH; Johnson, GB. (1999) ''Biology'', Fifth Edition, Boston: Hill Companies, Inc. p. 1058. ISBN 0697353532.</ref>]]
+Homeostasis is the ability of an [[Open system (systems theory)|open system]] to regulate its internal environment to maintain stable conditions by means of multiple [[dynamic equilibrium]] adjustments controlled by interrelated regulation mechanisms. All living [[organism]]s, whether [[Single celled|unicellular]] or [[multicellular]], exhibit homeostasis.<ref>Rodolfo, Kelvin (2000-01-03) [http://www.scientificamerican.com/article.cfm?id=what-is-homeostasis What is homeostasis?] Scientific American.</ref>
+
+To maintain dynamic equilibrium and effectively carry out certain functions, a system must detect and respond to perturbations. After the detection of a perturbation, a biological system normally responds through [[negative feedback]]. This means stabilizing conditions by either reducing or increasing the activity of an organ or system. One example is the release of [[glucagon]] when sugar levels are too low.
+
+[[File:Energy and life.svg|thumb|240px|left|Basic overview of [[Bioenergetics|energy and human life]].]]
+
+===Energy===
+The survival of a living organism depends on the continuous input of [[energy]]. Chemical reactions that are responsible for its structure and function are tuned to extract [[Chemistry#Energy|energy]] from substances that act as its food and transform them to help form new cells and sustain them. In this process, [[molecule]]s of [[chemical substance]]s that constitute [[food]] play two roles; first, they contain energy that can be transformed for biological [[chemical reaction]]s; second, they develop new molecular structures made up of biomolecules.
+
+The organisms responsible for the introduction of energy into an ecosystem are known as producers or [[autotroph]]s. Nearly all of these organisms originally draw energy from the sun.<ref name=bryantfrigaard></ref> Plants and other [[phototroph]]s use solar energy via a process known as [[photosynthesis]] to convert raw materials into organic molecules, such as [[Adenosine triphosphate|ATP]], whose bonds can be broken to release energy.<ref></ref> A few [[ecosystems]], however, depend entirely on energy extracted by [[chemotroph]]s from [[methane]], [[sulfides]], or other non-[[Solar energy|luminal]] energy sources.<ref>Edwards, Katrina. ''Microbiology of a Sediment Pond and the Underlying Young, Cold,
+Hydrologically Active Ridge Flank''. Woods Hole Oceanographic Institution.</ref>
+
+Some of the captured energy is used to produce [[biomass]] to sustain [[life]] and provide energy for growth and development. The majority of the rest of this energy is lost as heat and waste molecules. The most important processes for converting the energy trapped in chemical substances into energy useful to sustain life are [[metabolism]]<ref></ref> and [[cellular respiration]].<ref name="Colvard, 2009">Bartsch, John and Colvard, Mary P. (2009) ''The Living Environment''. New York State Prentice Hall. ISBN 0133612023.</ref>
+
+==Study and research==
+
+===Structural===
+
+[[File:biological cell.svg|thumb|300px|Schematic of typical animal [[cell (biology)|cell]] depicting the various [[organelle]]s and structures.]]
+
+[[Molecular biology]] is the study of biology at a molecular level.<ref></ref> This field overlaps with other areas of biology, particularly with [[genetics]] and [[biochemistry]]. Molecular biology chiefly concerns itself with understanding the interactions between the various systems of a cell, including the interrelationship of DNA, RNA, and protein synthesis and learning how these interactions are regulated.
+
+[[Cell biology]] studies the structural and [[physiology|physiological]] properties of [[cell (biology)|cells]], including their [[behavior]]s, interactions, and [[natural environment|environment]]. This is done on both the [[microscope|microscopic]] and [[molecule|molecular]] levels, for unicellular organisms such as [[bacterium|bacteria]], as well as the specialized cells in multicellular organisms such as [[human]]s. Understanding the structure and function of cells is fundamental to all of the biological sciences. The similarities and differences between cell types are particularly relevant to molecular biology.
+
+[[Anatomy]] considers the forms of macroscopic structures such as [[organ (biology)|organs]] and organ systems.<ref>Gray, Henry (1918) [http://www.bartleby.com/107/1.html "Anatomy of the Human Body".] 20th edition.</ref>
+
+[[Genetics]] is the science of [[gene]]s, [[heredity]], and the variation of [[organism]]s.<ref name=griffiths2000sect60></ref><ref name=Hartl_and_Jones>
+</ref> Genes encode the information necessary for synthesizing proteins, which in turn play a central role in influencing the final [[phenotype]] of the organism. In modern research, genetics provides important tools in the investigation of the function of a particular gene, or the analysis of [[genetic interaction]]s. Within organisms, genetic information generally is carried in [[chromosome]]s, where it is represented in the [[DNA sequence|chemical structure]] of particular [[DNA]] [[molecule]]s.
+
+[[Developmental biology]] studies the process by which organisms grow and develop. Originating in [[embryology]], modern developmental biology studies the genetic control of [[cell growth]], [[cellular differentiation|differentiation]], and "[[morphogenesis]]," which is the process that progressively gives rise to [[biological tissue|tissues]], [[organ (anatomy)|organs]], and [[anatomy]].
+[[Model organism]]s for developmental biology include the round worm ''[[Caenorhabditis elegans]],''<ref></ref> the fruit fly ''[[Drosophila melanogaster]],''<ref name="Encyclopedia of genetics"></ref> the zebrafish ''[[Danio rerio]],''<ref></ref> the mouse ''[[Mus musculus]]'',<ref></ref> and the weed ''[[Arabidopsis thaliana]]''.<ref></ref><ref></ref> (A model organism is a [[species]] that is extensively studied to understand particular biological [[phenomena]], with the expectation that discoveries made in that organism provide insight into the workings of other organisms.)<ref></ref>
+
+===Physiological===
+
+
+Physiology studies the mechanical, physical, and biochemical processes of living organisms by attempting to understand how all of the structures function as a whole. The theme of "structure to function" is central to biology. Physiological studies have traditionally been divided into [[plant physiology]] and [[animal physiology]], but some principles of physiology are universal, no matter what particular [[organism]] is being studied. For example, what is learned about the physiology of [[yeast]] cells can also apply to human cells. The field of animal physiology extends the tools and methods of [[human physiology]] to non-human species. Plant physiology borrows techniques from both research fields.
+
+Physiology studies how for example [[nervous system|nervous]], [[immune system|immune]], [[endocrine system|endocrine]], [[respiratory system|respiratory]], and [[circulatory system|circulatory]] systems, function and interact. The study of these systems is shared with [[medicine|medically]] oriented disciplines such as [[neurology]] and [[immunology]].
+
+===Evolutionary===
+[[Current research in evolutionary biology|Evolutionary research]] is concerned with the origin and descent of [[species]], as well as their change over time, and includes scientists from many taxonomically oriented disciplines. For example, it generally involves scientists who have special training in particular [[organism]]s such as [[mammalogy]], [[ornithology]], [[botany]], or [[herpetology]], but use those organisms as systems to answer general questions about evolution.
+
+Evolutionary biology is partly based on [[paleontology]], which uses the [[fossil]] record to answer questions about the mode and tempo of evolution,<ref name=Jablonski></ref> and partly on the developments in areas such as [[population genetics]].<ref>[[John H. Gillespie|Gillespie, John H.]] (1998) ''Population Genetics: A Concise Guide'', Johns Hopkins Press. ISBN 0-8018-5755-4.</ref> In the 1980s, [[developmental biology]] re-entered evolutionary biology from its initial exclusion from the [[modern synthesis]] through the study of [[evolutionary developmental biology]].<ref>Vassiliki Betta Smocovitis (1996) ''Unifiying Biology: the evolutionary synthesis and evolutionary biology''. Princeton University Press. ISBN 0-691-03343-9.</ref> Related fields often considered part of evolutionary biology are [[phylogenetics]], [[systematics]], and [[alpha taxonomy|taxonomy]].
+
+===Systematic===
+
+[[File:Biological classification L Pengo.svg|thumb|left|The hierarchy of [[biological classification]]'s eight major taxonomic ranks. Intermediate minor
+rankings are not shown. This diagram uses a 3 [[Domain (biology)|Domain]]s / 6 [[Kingdom (biology)|Kingdom]]s format]]
+
+Multiple [[speciation]] events create a tree structured system of relationships between species. The role of [[systematics]] is to study these relationships and thus the differences and similarities between species and groups of species.<ref></ref>
+However, systematics was an active field of research long before evolutionary thinking was common.<ref></ref>
+
+Traditionally, living things have been divided into five kingdoms: [[Monera]]; [[Protist]]a; [[Fungus|Fungi]]; [[Plant]]ae; [[Animal]]ia.<ref></ref> However, many scientists now consider this five-kingdom system outdated. Modern alternative classification systems generally begin with the [[three-domain system]]: [[Archaea]] (originally Archaebacteria); [[Bacterium|Bacteria]] (originally Eubacteria) and [[Eukaryote|Eukaryota]] (including [[protist]]s, [[fungi]], [[plants]], and [[animal]]s)<ref name="domain"></ref> These domains reflect whether the cells have nuclei or not, as well as differences in the chemical composition of key biomolecules such as [[ribosome]]s.<ref name="domain"/>
+
+Further, each kingdom is broken down recursively until each species is separately classified. The order is:
+[[Domain (biology)|Domain]]; [[Kingdom (biology)|Kingdom]]; [[Phylum]]; [[Class (biology)|Class]]; [[Order (biology)|Order]]; [[Family (biology)|Family]]; [[Genus]]; [[Species]].
+
+Outside of these categories, there are obligate intracellular [[parasite]]s that are "on the edge of life"<ref></ref> in terms of [[metabolism|metabolic]] activity, meaning that many scientists do not actually classify these structures as alive, due to their lack of at least one or more of the fundamental functions or characteristics that define life. They are classified as [[virus (biology)|viruses]], [[viroid]]s, [[prion]]s, or [[Satellite (biology)|satellites]].
+
+The scientific name of an organism is generated from its genus and species. For example, humans are listed as ''[[Homo sapiens]]''. ''Homo'' is the genus, and ''sapiens'' the species. When writing the scientific name of an organism, it is proper to capitalize the first letter in the genus and put all of the species in lowercase.<ref> Recommendation 60F</ref> Additionally, the entire term may be italicized or underlined.<ref></ref>
+
+The dominant classification system is called the [[Linnaean taxonomy]]. It includes ranks and [[binomial nomenclature]]. How organisms are named is governed by international agreements such as the [[International Code of Nomenclature for algae, fungi, and plants]] (ICN), the [[International Code of Zoological Nomenclature]] (ICZN), and the [[International Code of Nomenclature of Bacteria]] (ICNB). The classification of [[viruses]], [[viroids]], [[prions]], and all other sub-viral agents that demonstrate biological characteristics is conducted by the [[International Committee on Taxonomy of Viruses]] (ICTV) and is known as the International Code of Viral Classification and Nomenclature (ICVCN).<ref></ref><ref name=ictvdbpopsi><!--citation specified in source-->''[https://web.archive.org/web/20090813214826/http://www.ncbi.nlm.nih.gov/ICTVdb/Ictv/fs_pospi.htm Index of Viruses \u2013 Pospiviroidae]'' (2006). In: ICTVdB \u2013 The Universal Virus Database, version 4. B\u00fcchen-Osmond, C (Ed), Columbia University, New York, USA. 
+Version 4 is based on [https://web.archive.org/web/20090813214826/http://www.ncbi.nlm.nih.gov/ICTVdb/report8.htm Virus Taxonomy], Classification and Nomenclature of Viruses, 8th ICTV Report of the International Committee on Taxonomy of Viruses. Fauquet, CM, Mayo, MA, Maniloff, J, Desselberger, U, and Ball, LA (EDS) (2005) Elsevier/Academic Press, pp. 1259.</ref><ref name=ictvdbprions></ref><ref name=ictvdbsatel></ref> However, several other viral classification systems do exist.
+
+A merging draft, [[BioCode]], was published in 1997 in an attempt to standardize nomenclature in these three areas, but has yet to be formally adopted.<ref></ref> The BioCode draft has received little attention since 1997; its originally planned implementation date of January 1, 2000, has passed unnoticed. A revised BioCode that, instead of replacing the existing codes, would provide a unified context for them, was proposed in 2011.<ref></ref><ref></ref><ref></ref> However, the [[International Botanical Congress]] of 2011 declined to consider the BioCode proposal. The [[International Committee on Taxonomy of Viruses|ICVCN]] remains outside the BioCode, which does not include viral classification.
+
+===Ecological and environmental===
+[[File:Common clownfish.jpg|thumb|250px|right|Mutual [[symbiosis]] between [[clownfish]] of the genus [[Amphiprion]] that dwell among the tentacles of tropical [[sea anemone]]s. The territorial fish protects the anemone from anemone-eating fish, and in turn the stinging tentacles of the anemone protects the clown fish from its predators.]]
+
+
+[[Ecology]] studies the distribution and abundance of [[life|living organisms]], and the interactions between organisms and their [[natural environment|environment]].<ref></ref> The [[habitat]] of an organism can be described as the local [[abiotic factors]] such as [[climate]] and [[ecology]], in addition to the other organisms and [[biotic factors]] that share its environment.<ref name="habitats_of_the_world"></ref> One reason that biological systems can be difficult to study is that so many different interactions with other organisms and the environment are possible, even on small scales. A microscopic [[bacterium]] in a local sugar gradient is responding to its environment as much as a lion searching for food in the African [[savanna]]. For any species, [[behavior]]s can be [[co-operation|co-operative]], [[Competition (biology)|competitive]], [[parasite|parasitic]], or [[symbiosis|symbiotic]]. Matters become more complex when two or more species interact in an [[ecosystem]].
+
+Ecological systems are studied at several different levels, from individuals and [[population]]s to [[ecosystem]]s and the [[biosphere]]. The term [[population biology]] is often used interchangeably with [[population ecology]], although ''population biology'' is more frequently used when studying [[diseases]], [[viruses]], and [[microbes]], while population ecology is more commonly used when studying plants and animals. Ecology draws on many subdisciplines.
+
+[[Ethology]] studies animal [[behavior]] (particularly that of social animals such as [[primate]]s and [[canidae|canids]]), and is sometimes considered a branch of zoology. Ethologists have been particularly concerned with the [[evolution]] of behavior and the understanding of behavior in terms of the theory of [[natural selection]]. In one sense, the first modern ethologist was [[Charles Darwin]], whose book, ''[[The Expression of the Emotions in Man and Animals]],'' influenced many ethologists to come.<ref name="black"></ref>
+
+[[Biogeography]] studies the spatial distribution of organisms on the [[Earth]], focusing on topics like [[plate tectonics]], [[climate change]], [[Biological dispersal|dispersal]] and [[Animal migration|migration]], and [[cladistics]].
+
+==Basic unresolved problems in biology==
+
+Despite the profound advances made over recent decades in our understanding of life's fundamental processes, some basic problems have remained unresolved. For example, one of the major unresolved problems in biology is the primary adaptive function of sex, and particularly its key processes in eukaryotes, meiosis and homologous recombination. One view is that sex evolved primarily as an adaptation for increasing genetic diversity (see references e.g.<ref></ref><ref></ref>). An alternative view is that sex is an adaptation for promoting accurate DNA repair in germ-line DNA, and that increased genetic diversity is primarily a byproduct that may be useful in the long run.<ref>Bernstein, Harris; Bernstein, Carol and Michod, Richard E.  (2011). [http://www.intechopen.com/books/dna-repair/meiosis-as-an-evolutionary-adaptation-for-dna-repair "Meiosis as an Evolutionary Adaptation for DNA Repair"]. Chapter 19 in ''DNA Repair''. Inna Kruman editor. InTech Open Publisher. </ref><ref>H\u00f6randl, Elvira  (2013). [http://www.intechopen.com/books/meiosis/meiosis-and-the-paradox-of-sex-in-nature Meiosis and the Paradox of Sex in Nature], Meiosis, Dr. Carol Bernstein (Ed.), ISBN 978-953-51-1197-9, InTech, .</ref> (See also [[Evolution of sexual reproduction]]).
+
+Another basic unresolved problem in biology is the biologic basis of aging. At present, there is no consensus view on the underlying cause of aging. Various competing theories are outlined in [[Ageing#Theories]].
+
+==Branches==
+These are the main branches of biology:<ref></ref><ref></ref>
+* [[Aerobiology]] \u2013 the study of airborne organic particles
+* [[Agriculture]] \u2013 the study of producing crops and raising livestock, with an emphasis on practical applications
+* [[Anatomy]] \u2013 the study of form and function, in plants, animals, and other organisms, or specifically in humans
+** [[Histology]] \u2013 the study of cells and tissues, a microscopic branch of anatomy
+* [[Astrobiology]] (also known as exobiology, exopaleontology, and bioastronomy) \u2013 the study of evolution, distribution, and future of life in the universe
+* [[Biochemistry]] \u2013 the study of the chemical reactions required for life to exist and function, usually a focus on the cellular level
+* [[Bioengineering]] \u2013 the study of biology through the means of engineering with an emphasis on applied knowledge and especially related to biotechnology
+* [[Biogeography]] \u2013 the study of the distribution of species spatially and temporally
+* [[Bioinformatics]] \u2013 the use of information technology for the study, collection, and storage of genomic and other biological data
+* [[Biomathematics]] (or Mathematical biology) \u2013 the quantitative or mathematical study of biological processes, with an emphasis on modeling
+* [[Biomechanics]] \u2013 often considered a branch of medicine, the study of the mechanics of living beings, with an emphasis on applied use through [[prosthetics]] or [[orthotics]]
+* [[Biomedical research]] \u2013 the study of health and disease
+** [[Pharmacology]] \u2013 the study and practical application of preparation, use, and effects of drugs and synthetic medicines
+* [[Biomusicology]] \u2013 the study of music from a biological point of view.
+* [[Biophysics]] \u2013 the study of biological processes through physics, by applying the theories and methods traditionally used in the physical sciences
+* [[Biotechnology]] \u2013 the study of the manipulation of living matter, including genetic modification and [[synthetic biology]]
+** [[Synthetic Biology]] \u2013 research integrating biology and engineering; construction of biological functions not found in nature
+* [[Building biology]] \u2013 the study of the indoor living environment
+* [[Botany]] \u2013 the study of plants
+* [[Cell biology]] \u2013 the study of the cell as a complete unit, and the molecular and chemical interactions that occur within a living cell
+* [[Cognitive biology]] \u2013 the study of [[cognition]] as a biological function
+* [[Conservation biology]] \u2013 the study of the preservation, protection, or restoration of the natural environment, natural ecosystems, vegetation, and wildlife
+* [[Cryobiology]] \u2013 the study of the effects of lower than normally preferred temperatures on living beings
+* [[Developmental biology]] \u2013 the study of the processes through which an organism forms, from zygote to full structure
+** [[Embryology]] \u2013 the study of the development of embryo (from fecundation to birth)
+* [[Ecology]] \u2013 the study of the interactions of living organisms with one another and with the non-living elements of their environment
+* [[Environmental biology]] \u2013 the study of the natural world, as a whole or in a particular area, especially as affected by human activity
+* [[Epidemiology]] \u2013 a major component of public health research, studying factors affecting the health of populations
+* [[Evolutionary biology]] \u2013 the study of the origin and descent of species over time
+* [[Genetics]] \u2013 the study of genes and heredity. 
+**[[Epigenetics]] \u2013 the study of heritable changes in gene expression or cellular phenotype caused by mechanisms other than changes in the underlying DNA sequence
+* [[Hematology]] (also known as Haematology) \u2013 the study of blood and blood-forming organs.
+* [[Integrative biology]] \u2013 the study of whole organisms
+* [[Limnology]] \u2013 the study of inland waters
+* [[Marine biology]] (or Biological oceanography) \u2013 the study of ocean ecosystems, plants, animals, and other living beings
+* [[Microbiology]] \u2013 the study of microscopic organisms (microorganisms) and their interactions with other living things
+** [[Parasitology]] \u2013 the study of parasites and parasitism
+** [[Virology]] \u2013 the study of viruses and some other virus-like agents
+* [[Molecular biology]] \u2013 the study of biology and biological functions at the molecular level, some cross over with biochemistry
+* [[Mycology]] \u2013 the study of fungi
+* [[Neurobiology]] \u2013 the study of the nervous system, including anatomy, physiology and pathology
+* [[Population biology]] \u2013 the study of groups of conspecific organisms, including
+** [[Population ecology]] \u2013 the study of how population dynamics and extinction
+** [[Population genetics]] \u2013 the study of changes in gene frequencies in populations of organisms
+* [[Paleontology]] \u2013 the study of fossils and sometimes geographic evidence of prehistoric life
+* [[Pathology|Pathobiology or pathology]] \u2013 the study of diseases, and the causes, processes, nature, and development of disease
+* [[Physiology]] \u2013 the study of the functioning of living organisms and the organs and parts of living organisms
+* [[Phytopathology]] \u2013 the study of plant diseases (also called Plant Pathology)
+* [[Psychobiology]] \u2013 the study of the biological bases of [[psychology]]
+* [[Sociobiology]] \u2013 the study of the biological bases of [[sociology]]
+* [[Structural biology]] \u2013 a branch of [[molecular biology]], [[biochemistry]], and [[biophysics]] concerned with the molecular structure of biological macromolecules
+* [[Zoology]] \u2013 the study of animals, including classification, physiology, development, and behavior. Subbranches include: [[Ethology]](animal behavior), [[Entomology]](insects), [[Herpetology]](reptiles and amphibians), [[Ichthyology]](fish), [[Mammalogy]](mammals), and [[Ornithology]](birds)
+
+==See also==
+
+
+* [[Glossary of biology]]
+* [[List of biological websites]]
+* [[List of biologists]]
+* [[List of biology topics]]
+* [[List of omics topics in biology]]
+* [[List of biology journals]]
+* [[Outline of biology]]
+* [[Reproduction]]
+* Periodic Table of Life Sciences in [[Tinbergen's four questions]]
+
+==References==
+
+
+==Further reading==
+
+
+* 
+* 
+* 
+* 
+*
+* 
+* 
+* 
+* 
+
+
+==External links==
+
+
+
+
+* 
+* [http://www.ohio.edu/phylocode/index.html OSU's Phylocode]
+* [http://www.biology-online.org/dictionary/Main_Page Biology Online \u2013 Wiki Dictionary]
+* [http://ocw.mit.edu/courses/biology/7-012-introduction-to-biology-fall-2004/ MIT video lecture series on biology]
+* [http://www.bioeticaunbosque.edu.co/english/ Biology and Bioethics].
+* [https://inlportal.inl.gov/portal/server.pt?open=514&objID=2622&parentname=CommunityPage&parentid=7&mode=2&in_hi_userid=200&cached=true Biological Systems] \u2013 Idaho National Laboratory
+* [http://tolweb.org/tree/phylogeny.html ''The Tree of Life'']: A multi-authored, distributed Internet project containing information about phylogeny and biodiversity.
+* [http://logic-law.com/index.php?title=The_Study_of_Biology The Study of Biology]
+* [http://www.library.illinois.edu/bix/biologicalliterature/ Using the Biological Literature Web Resources]
+
+;Journal links
+* [http://biology.plosjournals.org/perlserv/?request=index-html&issn=1545-7885 PLos Biology] A peer-reviewed, open-access journal published by the [[Public Library of Science]]
+* [http://www.cell.com/current-biology/ Current Biology] General journal publishing [[original research]] from all areas of biology
+* [http://rsbl.royalsocietypublishing.org/ Biology Letters] A [[Impact factor|high-impact]] [[Royal Society]] journal publishing [[peer-review]]ed Biology papers of general interest
+* [http://www.sciencemag.org/collections/subject/ Science Magazine] Internationally Renowned [[American Association for the Advancement of Science|AAAS]] Science Publication \u2013 See Sections of the Life Sciences
+* [http://www.biolsci.org/ International Journal of Biological Sciences] A biological journal publishing significant peer-reviewed scientific papers
+* [http://www.press.jhu.edu/journals/perspectives_in_biology_and_medicine/index.html Perspectives in Biology and Medicine] An [[interdisciplinarity|interdisciplinary]] [[scholarly method|scholarly]] journal publishing [[essay]]s of broad relevance
+* [http://www.lifesciencelog.com/ Life Science Log]
+
+
+
+
+
+
+
+<!---->
+
+[[Category:Biology| ]]
