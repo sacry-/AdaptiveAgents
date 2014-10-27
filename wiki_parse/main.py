@@ -1,36 +1,33 @@
-from io_utils import load_json, save_json, flatten_hash
+from io_utils import load_json, save_json, flatten_hash, create_file_name
 from wiki_api import categories_by_depth, fetch_articles_by_titles
-from category_knowledge import basic_categories, saved_titles
-from elasticsearch import Elasticsearch
-import elastic
+from category_knowledge import USED_CATEGORIES, saved_titles
+from elastic import Elastic
 
 
-def download_wikipedia_titles(depth):
+def download_wikipedia_titles(categories, depth):
   persisted_titles = persisted_titles = saved_titles(depth)
-  for field in basic_categories():
-    file_name = ("%s_titles_%s" % (field, depth)).lower()
+  for category in categories:
+    file_name = create_file_name(category, depth)
 
     if file_name in persisted_titles:
+      print "%s was already downloaded" % file_name
       continue
 
-    print "Fetching Categorie Titles for: %s" % field
+    print "Fetching Categorie Titles for: %s" % category
+    titles = categories_by_depth(category_string="Category:%s" % category, limit=depth)
+    save_json({"name": category, "titles" : titles}, "categories/%s" % file_name)
 
-    if True:
-      titles = categories_by_depth(category_string="Category:%s" % field, limit=depth)
-      save_json({"name": field, "titles" : titles}, "categories/%s" % file_name)
-
-def download_article_and_add_to_elastic_search(titles=[]):
-  es = Elasticsearch()
-  if not titles:
+def download_article_and_add_to_elastic_search(categories, depth):
+  elastic = Elastic("localhost", 9200)
+  for category in categories:
+    file_name = create_file_name(category, depth)
     titles = list(flatten_hash(load_json("categories/%s" % file_name)))
-  elastic.fetch_articles_and_add_to_elastic_search(es, titles, _index=field.lower(), _doc_type="title")
+    print "Fetched %s titles for %s..." % (len(titles), file_name)
+    elastic.fetch_articles_and_add_to_elastic_search(titles, _index=category.lower(), _doc_type="title")
 
 
-# download_wikipedia_titles(depth=2)
-download_article_and_add_to_elastic_search(["biology"])
-
-
-
+# download_wikipedia_titles(categories=USED_CATEGORIES, depth=2)
+download_article_and_add_to_elastic_search(categories=USED_CATEGORIES, depth=2)
 
 
 

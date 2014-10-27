@@ -1,6 +1,7 @@
 import urllib2
 import ast
 import re
+from clean_and_parse import clean_parse
 
 # Mhhhh... https://wikipedia.readthedocs.org/en/latest/code.html#api
 # https://pypi.python.org/pypi/wikipedia/1.3.1 ... :-(
@@ -86,14 +87,14 @@ def good_title(title):
 def fetch_body_from_article_response(nested_response_hash):
   response_hash = nested_response_hash["query"]["pages"]
   page_id, body = response_hash.items()[0]
-  scrape_content = ""
+  content = ""
   if body.has_key("revisions"):
-    scrape_content = body["revisions"][0]["*"]
+    content = body["revisions"][0]["*"]
   print "Fetched Title: %s" % good_title(body["title"])
   return { 
     "page_id" : page_id, 
     "title" : good_title(body["title"]), 
-    "content" : scrape_content
+    "content" : clean_parse(content)
     }
 
 # List[String] -> List[Json]

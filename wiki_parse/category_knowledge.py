@@ -2,7 +2,9 @@ from os import listdir, name
 from os.path import isfile, join, realpath
 
 
-BASIC_FIELDS = {
+USED_CATEGORIES = ["Biology", "Physics", "Chemistry"]
+
+BASIC_CATEGORIES = {
   "Biology" : ["Ecology", "Health sciences", "Neuroscience"],
   "Earth sciences" : ["Atmospheric sciences", "Geography", "Geology", "Geophysics", "Oceanography"],
   "Nature" : ["Animals", "Environment", "Humans", "Life", "Natural resources", "Plants", "Pollution"],
@@ -11,7 +13,7 @@ BASIC_FIELDS = {
   "Scientific method" : []
 }
 
-SPECIFIC_FIELDS = {
+SPECIFIC_CATEGORIES = {
   "Health science" : ["Clinical research", "Diseases", "Epidemiology", 
     "Midwifery", "Nursing", "Nutrition", "Optometry", "Pharmacy", "Public health"],
   "Medicine" : ["Human medicine", "Alternative medicine", "Cardiology", "Endocrinology", 
@@ -31,11 +33,14 @@ SPECIFIC_FIELDS = {
   "Scientific method" : ["Scientists"]
 }
 
+def used_categories():
+  return USED_CATEGORIES
+
 def basic_categories():
-  return flatten_categories(BASIC_FIELDS)
+  return flatten_categories(BASIC_CATEGORIES)
 
 def specific_categories():
-  return flatten_categories(SPECIFIC_FIELDS)
+  return flatten_categories(SPECIFIC_CATEGORIES)
 
 def flatten_categories(h):
   result = []
@@ -49,7 +54,7 @@ def saved_titles(depth):
   p = category_path()
   result = []
   for f in listdir(p):
-    if isfile(join(p, f)):
+    if f.endswith(".json"):
       name = f.split(".")
       if name[0][-1] == str(depth):
         result.append(name[0])

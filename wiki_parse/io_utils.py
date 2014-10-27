@@ -19,6 +19,9 @@ def relative_path():
     return "C:\\Users\\Swaneet\\github\\AdaptiveAgents\\wiki_parse"  # TODO: fixen how in windows.
   return "%s" % os.path.realpath('') 
 
+def create_file_name(field, depth):
+  return ("%s_titles_%s" % (field, depth)).lower()
+
 def json_path(fname):
   if os.name == 'nt':
     return "%s\\%s.%s" % (relative_path(), fname, "json")
