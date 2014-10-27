@@ -13,7 +13,7 @@ def download_wikipedia_titles(categories, depth):
       print "%s was already downloaded" % file_name
       continue
 
-    print "Fetching Categorie Titles for: %s" % category
+    print "fetching category titles for: %s" % category
     titles = categories_by_depth(category_string="Category:%s" % category, limit=depth)
     save_json({"name": category, "titles" : titles}, "categories/%s" % file_name)
 
@@ -22,7 +22,7 @@ def download_article_and_add_to_elastic_search(categories, depth):
   for category in categories:
     file_name = create_file_name(category, depth)
     titles = list(flatten_hash(load_json("categories/%s" % file_name)))
-    print "Fetched %s titles for %s..." % (len(titles), file_name)
+    print "fetched %s titles from %s..." % (len(titles), file_name)
     elastic.fetch_articles_and_add_to_elastic_search(titles, _index=category.lower(), _doc_type="title")
 
 
