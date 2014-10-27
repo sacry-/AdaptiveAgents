@@ -2,6 +2,17 @@ import os
 import json 
 import ast
 
+
+def save(text, content):
+  with open(text, 'w+') as f:
+    f.write(content)
+
+def read(text):
+  t = ""
+  with open(text, 'r') as f:
+    t = f.read()
+  return t
+
 # String
 def relative_path():
   if os.name == 'nt':
@@ -15,16 +26,12 @@ def json_path(fname):
 
 # String -> Dictionary 
 def load_json(fname):
-  data = ""
-  with open(json_path(fname), "r") as myfile:
-    data = myfile.read()
-  return ast.literal_eval(data)
+  return ast.literal_eval(read(json_path(fname)))
 
 # Dictionary -> String -> Unit 
 def save_json(h, fname):
   json_data = json.dumps(h, indent=2, sort_keys=True).encode('utf8')
-  with open(json_path(fname), 'w+') as json_file:
-    json_file.write(json_data)
+  save(json_path(fname), json_data)
 
 # JsonHash -> List[String] 
 # JsonHash ~>

@@ -1,7 +1,6 @@
 import urllib2
 import ast
 import re
-from dewiki.parser import Parser # https://github.com/daddyd/dewiki.git
 
 # Mhhhh... https://wikipedia.readthedocs.org/en/latest/code.html#api
 # https://pypi.python.org/pypi/wikipedia/1.3.1 ... :-(
@@ -89,7 +88,7 @@ def fetch_body_from_article_response(nested_response_hash):
   page_id, body = response_hash.items()[0]
   scrape_content = ""
   if body.has_key("revisions"):
-    scrape_content = remove_markup(body["revisions"][0]["*"])
+    scrape_content = body["revisions"][0]["*"]
   print "Fetched Title: %s" % good_title(body["title"])
   return { 
     "page_id" : page_id, 
@@ -97,11 +96,7 @@ def fetch_body_from_article_response(nested_response_hash):
     "content" : scrape_content
     }
 
-# String -> String
-def remove_markup(s):
-  return Parser().parse_string(s)
-
-# List[String] -> Unit
+# List[String] -> List[Json]
 def fetch_articles_by_titles(title_list, limit):
   collected_articles = []
   for title in title_list:
