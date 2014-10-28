@@ -16,8 +16,8 @@ def read(text):
 # String
 def relative_path():
   if os.name == 'nt':
-    return "C:\\Users\\Swaneet\\github\\AdaptiveAgents\\wiki_parse"  # TODO: fixen how in windows.
-  return "%s" % os.path.realpath('') 
+    return "C:\\Users\\Swaneet\\github\\AdaptiveAgents\\wiki_parse"
+  return "/Users/sacry/dev/uni/s5/la/AdaptiveAgents/wiki_parse/categories/"
 
 def create_file_name(field, depth):
   return ("%s_titles_%s" % (field, depth)).lower()

@@ -16,6 +16,6 @@ def saved_titles(depth):
 
 def category_path():
   if name == 'nt':
-    return "C:\\Users\\Swaneet\\github\\AdaptiveAgents\\wiki_parse\\categories\\"  # TODO: fixen how in windows.
-  return "%s/categories/" % realpath('') 
+    return "C:\\Users\\Swaneet\\github\\AdaptiveAgents\\wiki_parse\\categories\\"
+  return "/Users/sacry/dev/uni/s5/la/AdaptiveAgents/wiki_parse/categories/"
 

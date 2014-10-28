@@ -45,9 +45,6 @@ class Elastic():
     return result
 
   def fetch_articles_and_add_to_elastic_search(self, titles, _index, _doc_type):
-    self.dummy(_index)
-    titles = self.all_unpersisted_titles(_index, _doc_type, titles)
-    print "articles to go: %s" % len(titles)
     group_factor, done = 10, 0
     grouped_titles = [titles[i:i+group_factor] for i in range(0, len(titles), group_factor)]
     last, acc = 0, 0
@@ -59,7 +56,6 @@ class Elastic():
       acc += end
       done += group_factor
       self.print_download_status(len(titles), done, acc)
-    print "done downloading for index=%s and doc_type=%s" % (_index, _doc_type)
 
   def print_download_status(self, titles_size, done, acc):
     articles_to_go = titles_size - done
