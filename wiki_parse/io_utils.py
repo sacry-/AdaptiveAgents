@@ -1,7 +1,7 @@
 import os
 import json 
 import ast
-
+from category_knowledge import category_path
 
 def save(text, content):
   with open(text, 'w+') as f:
@@ -13,19 +13,13 @@ def read(text):
     t = f.read()
   return t
 
-# String
-def relative_path():
-  if os.name == 'nt':
-    return "C:\\Users\\Swaneet\\github\\AdaptiveAgents\\wiki_parse"
-  return "/Users/sacry/dev/uni/s5/la/AdaptiveAgents/wiki_parse/categories/"
-
 def create_file_name(field, depth):
   return ("%s_titles_%s" % (field, depth)).lower()
 
 def json_path(fname):
   if os.name == 'nt':
-    return "%s\\%s.%s" % (relative_path(), fname, "json")
-  return "%s/%s.%s" % (relative_path(), fname, "json")
+    return "%s\\%s.%s" % (category_path(), fname, "json")
+  return "%s/%s.%s" % (category_path(), fname, "json")
 
 # String -> Dictionary 
 def load_json(fname):

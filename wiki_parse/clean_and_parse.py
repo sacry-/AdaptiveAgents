@@ -5,6 +5,7 @@ from io_utils import read, save
 import re
 import time
 
+
 def remove_curly_braces(s):
   buf = []
   c = 0
