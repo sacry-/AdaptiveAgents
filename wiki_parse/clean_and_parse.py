@@ -1,9 +1,9 @@
 from nltk import clean_html
 
 from dewiki.parser import Parser # https://github.com/daddyd/dewiki.git
-from io_utils import read, save
 import re
 import time
+from bs4 import BeautifulSoup
 
 
 def remove_curly_braces(s):
@@ -24,7 +24,9 @@ def remove_markup(s):
   return Parser().parse_string(s)
 
 def remove_html(s):
-  return clean_html(s)
+  soup = BeautifulSoup(s)
+  return soup.get_text()
 
 def clean_parse(s):
   return remove_html(remove_markup(remove_curly_braces(s)))
+
