@@ -4,6 +4,7 @@ __pycache__/
 
 # Gedit Text Editor Temp Files
 *~
+.ipynb_checkpoints
 
 # C extensions
 *.so
