@@ -1,4 +1,4 @@
-from os import listdir, name
+from os import listdir, name, getenv
 from os.path import isfile, join, realpath
 from socket import gethostname
 
@@ -19,6 +19,6 @@ def category_path():
   if name == 'nt':
     return "C:\\Users\\Swaneet\\github\\AdaptiveAgents\\wiki_parse\\categories\\"
   if gethostname() == "swaneetXu-VPCEH2Q1E":
-    return "/media/swaneet/88C899ADC89999D0/Users/Swaneet/github/AdaptiveAgents/wiki_parse/categories/"
+    return getenv('WIN',"/dual/Users/Swaneet")+"/github/AdaptiveAgents/wiki_parse/categories/"
   return "/Users/sacry/dev/uni/s5/la/AdaptiveAgents/wiki_parse/categories/"
 

@@ -4,8 +4,8 @@
 # ipython: "http://localhost:8888/"
 
 if [ -z "$1" ]; then
-    bash /media/swaneet/88C899ADC89999D0/xubuntu/elasticsearch-1.3.4/bin/elasticsearch > /dev/null &
-    ipython notebook --matplotlib='inline' --notebook-dir='/media/swaneet/88C899ADC89999D0/Users/Swaneet/github/AdaptiveAgents' --no-browser > /dev/null &
+    bash $WINR/xubuntu/elasticsearch-1.3.4/bin/elasticsearch -Des.path.data=$WINR/xubuntu/elasticsearch-1.3.4/data > /dev/null &
+    ipython notebook --matplotlib='inline' --notebook-dir=$WIN/github/AdaptiveAgents --no-browser > /dev/null &
     exit 0
 fi
 
