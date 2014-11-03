@@ -37,17 +37,18 @@ def article(title="Biological dark matter"):
 
 # String -> Dictionary
 def fire_query(query):
+  str_resp = "{}"
   try:
     str_resp = urllib2.urlopen(query).read()
-    dict_resp = ast.literal_eval(str_resp)
-    if dict_resp.has_key("error"):
-      raise "Error Firing query to wikipedia! %s" % query
-      sys.exit()
-    else:
-      return dict_resp
   except:    
     print "retrying to connect to wikipedia.."
     return fire_query(query)
+  dict_resp = ast.literal_eval(str_resp)
+  if dict_resp.has_key("error"):
+    raise "Error Firing query to wikipedia! %s" % query
+    sys.exit()
+  else:
+    return dict_resp
 
 # Dictionary -> String
 def query_by_data(data):
