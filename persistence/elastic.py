@@ -10,6 +10,7 @@ class Elastic():
 
   def __init__(self, host='localhost', port=9200):
     self.es = Elasticsearch([{'host': host, 'port' : port}])
+    print "connection established to %s:%s" % (host, port)
 
   def dummy(self, _index):
     self.es.index(index=_index, doc_type="dummy", id="dummy", body={"dummy" : "dummy"})
@@ -26,7 +27,7 @@ class Elastic():
 
   def get_multiple_articles(self, _index, _doc_type, ids):
     for _id in ids:
-      yield self.get_single_article(_index, _doc_type, _id)
+      yield self.get_single_article(_index, _doc_type, _id)["content"]
 
   def add_multiple_articles(self, _index, _doc_type, all_articles):
     for article in all_articles:

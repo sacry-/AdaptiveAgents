@@ -3,6 +3,7 @@ import json
 import ast
 from category_knowledge import category_path
 
+
 def save(text, content):
   with open(text, 'w+') as f:
     f.write(content)
