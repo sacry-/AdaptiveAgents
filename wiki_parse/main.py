@@ -3,7 +3,6 @@ from wiki_api import categories_by_depth, fetch_articles_by_titles
 from category_knowledge import USED_CATEGORIES, saved_titles
 from elastic import Elastic
 
-
 def download_wikipedia_titles(categories, depth):
   persisted_titles = persisted_titles = saved_titles(depth)
   for category in categories:
@@ -32,10 +31,12 @@ def download_article_and_add_to_elastic_search(categories, depth):
   print "all done!"
 
 
-download_wikipedia_titles(categories=USED_CATEGORIES, depth=2)
-download_article_and_add_to_elastic_search(categories=USED_CATEGORIES, depth=2)
+#download_wikipedia_titles(categories=USED_CATEGORIES, depth=2)
+#download_article_and_add_to_elastic_search(categories=USED_CATEGORIES, depth=2)
 
-
-
-
+es = Elastic()
+l = 0
+for bulk in es.generator_scroll("biology", "title"):
+  l += len(bulk)
+print l
 

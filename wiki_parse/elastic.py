@@ -19,10 +19,14 @@ class Elastic():
         "term" : {"_id" : title}
       }}
     r = self.es.count(index=_index, doc_type=_doc_type, body=le_search)
-    return r["count"]
+    return r["count"] > 0
 
   def get_single_article(self, _index, _doc_type, _id):
     return self.es.get(index=_index, doc_type=_doc_type, id=_id)["_source"]
+
+  def get_multiple_articles(self, _index, _doc_type, ids):
+    for _id in ids:
+      yield self.get_single_article(_index, _doc_type, _id)
 
   def add_multiple_articles(self, _index, _doc_type, all_articles):
     for article in all_articles:
@@ -66,5 +70,25 @@ class Elastic():
     le_search = {"fields" : ["title"], "query" : { "match_all" : {}}}
     r = self.es.search(index=_index, doc_type=_doc_type, size=25000, body=le_search)
     return map(lambda x: x["_id"], r['hits']["hits"])
+
+  def retrieve_scroll_id(self, _index, _doc_type, _size=100):
+    query = {"query" : {"match_all" : {}}}
+    first_response = self.es.search(index=_index, doc_type=_doc_type, body=query, search_type="scan", scroll="1m", size=_size)  
+    return first_response['_scroll_id']
+
+  def scroll_by_id(self, _index, _doc_type, _scroll_id):
+    return self.es.scroll(scroll_id=_scroll_id, scroll= "1m")
+
+  def generator_scroll(self, _index, _doc_type, func=lambda x: x):
+    _id = self.retrieve_scroll_id(_index, _doc_type, 100)
+    content = [""]
+    while _id and content:
+      data = self.scroll_by_id(_index, _doc_type, _id)
+      content = [func(e) for e in data["hits"]["hits"]]
+      yield content
+      _id = data['_scroll_id']
+
+
+
 
 
