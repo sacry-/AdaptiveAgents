@@ -1,6 +1,6 @@
 from elasticsearch import Elasticsearch
-from wiki_api import good_title, fetch_articles_by_titles
-import time
+from utils import good_title
+
 
 # localhost:9200/biology/title/[:article_title]
 # i.e. localhost:9200/biology/title/biologist
@@ -47,24 +47,6 @@ class Elastic():
       if not self.title_exists(_index, _doc_type, good_title(title)):
         result.append(title)
     return result
-
-  def fetch_articles_and_add_to_elastic_search(self, titles, _index, _doc_type):
-    group_factor, done = 10, 0
-    grouped_titles = [titles[i:i+group_factor] for i in range(0, len(titles), group_factor)]
-    last, acc = 0, 0
-    for sub_titles in grouped_titles:
-      before = time.time()
-      all_articles = fetch_articles_by_titles(title_list=sub_titles, limit=len(sub_titles))
-      self.add_multiple_articles(_index, _doc_type, all_articles)
-      end = time.time() - before
-      acc += end
-      done += group_factor
-      self.print_download_status(len(titles), done, acc)
-
-  def print_download_status(self, titles_size, done, acc):
-    articles_to_go = titles_size - done
-    needed = ((acc / done) * articles_to_go) / 60
-    print "%s articles and %s mins to go" % (articles_to_go, needed)
       
   def all_titles(self, _index, _doc_type):
     le_search = {"fields" : ["title"], "query" : { "match_all" : {}}}

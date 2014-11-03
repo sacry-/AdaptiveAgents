@@ -86,11 +86,6 @@ def categories_of_next_depth(titles, limit):
       result.append(sub_category)
   return result
 
-def good_title(title):
-  title = re.sub("\s+", '_', title)
-  title = re.sub("_+", '_', title)
-  return title.lower()
-
 # JsonHash -> Dictionary[ String -> { Int, String } ]
 def fetch_body_from_article_response(nested_response_hash):
   response_hash = nested_response_hash["query"]["pages"]
@@ -98,10 +93,11 @@ def fetch_body_from_article_response(nested_response_hash):
   content = ""
   if body.has_key("revisions"):
     content = body["revisions"][0]["*"]
-  print "Fetched Title: %s" % good_title(body["title"])
+  title = good_title(body["title"])
+  print "Fetched Title: %s" % title
   return { 
     "page_id" : page_id, 
-    "title" : good_title(body["title"]), 
+    "title" : title, 
     "content" : clean_parse(content)
     }
 

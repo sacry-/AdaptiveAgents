@@ -16,9 +16,6 @@ def saved_titles(depth):
   return result
 
 def category_path():
-  if name == 'nt':
-    return "C:\\Users\\Swaneet\\github\\AdaptiveAgents\\wiki_parse\\categories\\"
   if gethostname() == "swaneetXu-VPCEH2Q1E":
-    return getenv('WIN',"/dual/Users/Swaneet")+"/github/AdaptiveAgents/wiki_parse/categories/"
-  return "/Users/sacry/dev/uni/s5/la/AdaptiveAgents/wiki_parse/categories/"
-
+    return getenv('WIN',"/dual/Users/Swaneet")+"/github/AdaptiveAgents/persistence/categories/"
+  return "/Users/sacry/dev/uni/s5/la/AdaptiveAgents/persistence/categories/"

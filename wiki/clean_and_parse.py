@@ -1,9 +1,8 @@
 from nltk import clean_html
-
+from bs4 import BeautifulSoup
 from dewiki.parser import Parser # https://github.com/daddyd/dewiki.git
 import re
 import time
-from bs4 import BeautifulSoup
 
 
 def remove_curly_braces(s):
