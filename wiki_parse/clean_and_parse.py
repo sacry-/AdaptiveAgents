@@ -24,8 +24,7 @@ def remove_markup(s):
   return Parser().parse_string(s)
 
 def remove_html(s):
-  soup = BeautifulSoup(s)
-  return soup.get_text()
+  return BeautifulSoup(s).get_text()
 
 def clean_parse(s):
   return remove_html(remove_markup(remove_curly_braces(s)))
