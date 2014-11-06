@@ -1,35 +1,32 @@
 import os
 import json 
 import ast
-from category_knowledge import category_path
+from utils import persistence_path
 
+def json_category_path(fname):
+  return "%s/categories/%s.%s" % (persistence_path(), fname, "json")
 
-def save(text, content):
-  with open(text, 'w+') as f:
+def save(apath, content):
+  with open(apath, 'w+') as f:
     f.write(content)
 
-def read(text):
+def read(apath):
   t = ""
-  with open(text, 'r') as f:
+  with open(apath, 'r') as f:
     t = f.read()
   return t
 
 def create_file_name(field, depth):
   return ("%s_titles_%s" % (field, depth)).lower()
 
-def json_path(fname):
-  if os.name == 'nt':
-    return "%s\\%s.%s" % (category_path(), fname, "json")
-  return "%s/%s.%s" % (category_path(), fname, "json")
-
 # String -> Dictionary 
 def load_json(fname):
-  return ast.literal_eval(read(json_path(fname)))
+  return ast.literal_eval(read(json_category_path(fname)))
 
 # Dictionary -> String -> Unit 
 def save_json(h, fname):
   json_data = json.dumps(h, indent=2, sort_keys=True).encode('utf8')
-  save(json_path(fname), json_data)
+  save(json_category_path(fname), json_data)
 
 # JsonHash -> List[String] 
 # JsonHash ~>

@@ -16,6 +16,4 @@ def saved_titles(depth):
   return result
 
 def category_path():
-  if gethostname() == "swaneetXu-VPCEH2Q1E":
-    return getenv('WIN',"/dual/Users/Swaneet")+"/github/AdaptiveAgents/persistence/categories/"
-  return "/Users/sacry/dev/uni/s5/la/AdaptiveAgents/persistence/categories/"
+  return "%s/categories" % persistence_path()

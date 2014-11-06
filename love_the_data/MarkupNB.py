@@ -1,6 +1,4 @@
-
-# coding: utf-8
-
+'''
 from elastic import Elastic
 from nltk import word_tokenize, FreqDist
 import itertools
@@ -47,7 +45,4 @@ for bulk in es.generator_scroll("biology","title"):
         i += 1
         if i % 100 == 0:
             print i / float(16672)
-
-
-
-
+'''
