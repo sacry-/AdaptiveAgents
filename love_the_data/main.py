@@ -22,14 +22,13 @@ t1 = time.clock()
 c = 0
 lexi = 0
 
+# time needed: 46.898816 for articles: 1000
 for articles in es.generator_scroll("biology", "title"):
   for content in map(lambda a: a["_source"]["content"], articles):
     h = statistic_hash(content)
     lexi += h["lex_div"]
     c += 1
     print lexi / c
-  if c >= 1000:
-    break
 
 print "time needed: %s for articles: %s" % (time.clock() - t1, c)
 
