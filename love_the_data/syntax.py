@@ -4,9 +4,7 @@ p = "%s/../persistence" % os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, p)
 
 import re
-# brew install enchant
-# sudo pip install pyenchant
-import enchant
+import enchant # pip install pyenchant
 from nltk import word_tokenize
 from nltk import data
 from nltk import PorterStemmer
@@ -14,7 +12,7 @@ from nltk import WordNetLemmatizer
 from nltk.corpus import stopwords
 
 from utils import persistence_path
-from io_utils import save, read
+from io_utils import read
 from ast import literal_eval
 
 
