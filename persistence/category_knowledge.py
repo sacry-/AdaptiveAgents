@@ -1,3 +1,4 @@
+# coding: utf-8
 from os import listdir, name, getenv
 from os.path import isfile, join, realpath
 from socket import gethostname

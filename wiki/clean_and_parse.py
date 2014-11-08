@@ -1,3 +1,4 @@
+# coding: utf-8
 from nltk import clean_html
 from bs4 import BeautifulSoup
 from dewiki.parser import Parser # https://github.com/daddyd/dewiki.git

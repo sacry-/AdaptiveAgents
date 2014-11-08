@@ -1,3 +1,0 @@
-
-# Stemming (Porter Stemmer)
-# Lemmatisation
