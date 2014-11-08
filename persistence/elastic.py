@@ -63,12 +63,12 @@ class Elastic():
   def scroll_by_id(self, _index, _doc_type, _scroll_id):
     return self.es.scroll(scroll_id=_scroll_id, scroll= "1m")
 
-  def generator_scroll(self, _index, _doc_type, func=lambda x: x):
+  def generator_scroll(self, _index, _doc_type):
     _id = self.retrieve_scroll_id(_index, _doc_type, 100)
     content = [""]
     while _id and content:
       data = self.scroll_by_id(_index, _doc_type, _id)
-      content = [func(e) for e in data["hits"]["hits"]]
+      content = data["hits"]["hits"]
       yield content
       _id = data['_scroll_id']
 

@@ -27,16 +27,24 @@ def lemmas_hash(lemmas):
 
 def lexicon(lemmas):
   freqs = freq_dict(frequency([word.lower() for word in lemmas]))
-  keys = freqs.keys()
-  keys_size = len(keys)
+  words = freqs.keys()
   return { 
     "freq_dist" : freqs,
-    "size" : keys_size,
-    "avg_word_size" : reduce(lambda a,x: a + len(x), keys, 0) / keys_size
+    "size" : len(words),
+    "avg_word_size" : average_word_size(words)
   }
 
+def average_word_size(words):
+  try:
+    return reduce(lambda a,x: a + len(x), words, 0) / len(words)
+  except:
+    return 0
+
 def lexical_diversity(tokens):
-  return len(set(tokens)) / len(tokens)
+  try:
+    return len(set(tokens)) / len(tokens)
+  except:
+    return 0
 
 def frequency(tokens):
   return FreqDist(tokens)
