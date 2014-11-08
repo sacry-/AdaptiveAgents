@@ -29,12 +29,12 @@ def is_num(s):
     return False
 
 def remove_noise(tokens):
-  return [rm_special(token) for token in tokens if token_is_crappy(token)]
+  return [rm_special(token) for token in tokens if is_not_crap(token)]
 
 def rm_special(token):
   return re.sub("[\.\\\/\|,;\:\-\_\*\+\&\%\$\!\?\#]", "", token)
 
-def token_is_crappy(x):
+def is_not_crap(x):
   return (
     # should not be empty
     x and
@@ -49,14 +49,8 @@ def token_is_crappy(x):
     len(x) > 1
   )
 
-def remove_special_characters(tokens):
-  return [rm_special(s) for s in tokens]
-
 def remove_stop_words(tokens):
-  return filter(token_is_crappy, tokens)
-
-def tokenize(s):
-  return word_tokenize(s)
+  return filter(is_not_crap, tokens)
 
 def superior_tokenize(s):
   sent_detector = data.load('tokenizers/punkt/english.pickle')
@@ -75,7 +69,7 @@ def word_is_valid(word):
     # word should be valid in a english dictionary
     (EN_US_DICT.check(word) and EN_GB_DICT.check(word)) or
     # average word length for biology assuming that the english word_list
-    # does not contain specialized bology words
+    # does not contain specialized biology words
     (len(word) > 7 and
     # weird words containing large sequences of numbers are also included through
     # the lengths argument...

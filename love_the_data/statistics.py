@@ -7,18 +7,23 @@ from syntax import remove_noise
 from syntax import stem, lemmatize
 
 
-def statistic_hash(text):
-  h = {}
-
+def statistic_hash(text, h={}):
+  # Before clean up
   tokens = superior_tokenize(text)
   h["lex_div"] = lexical_diversity(tokens)
+  # After clean up
   tokens_rn = remove_noise(tokens)
-
   lemmas = list(lemmatize(tokens_rn))
-  h["lemmas"] = { "lemmas" : lemmas, "size" : len(lemmas), "lex_div" : lexical_diversity(lemmas) }
+  h["lemmas"] = lemmas_hash(lemmas)
   h["lexicon"] = lexicon(lemmas)
-
   return h
+
+def lemmas_hash(lemmas):
+  return { 
+    "lemmas" : lemmas, 
+    "size" : len(lemmas), 
+    "lex_div" : lexical_diversity(lemmas) 
+  }
 
 def lexicon(lemmas):
   freqs = freq_dict(frequency([word.lower() for word in lemmas]))
