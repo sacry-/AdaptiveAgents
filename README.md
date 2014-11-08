@@ -23,6 +23,10 @@ pip install scipy
 git clone https://github.com/daddyd/dewiki.git
 cd dewiki/
 python setup.py install
+pip install beautifulsoup4
+# English dictionary
+brew install enchant
+pip install pyenchant
 ```
 
 Infrastructure
