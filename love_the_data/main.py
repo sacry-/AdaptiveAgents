@@ -18,7 +18,7 @@ titles = ["biology", "biologist", "biological_ornament", "birth", "cell_populati
           "brian_dale", "dependence_receptor", "despeciation", "biologist", "biology"]
 articles = list(es.get_multiple_articles("biology", "title", titles))
 h = statistic_hash(articles[0])
-save_json(h, "sample_statistics")
+save_json("love_the_data", "sample_statistics", h)
 '''
 
 t1 = time.clock()
@@ -41,7 +41,8 @@ try:
 except:
   pass
 
-save_json({"avg_word_size" : biology_average_word_size / c, "sample_biology_words" : list(biology_words)}, "biology_words")
+h = {"avg_word_size" : biology_average_word_size / c, "biology_words" : list(biology_words)}
+save_json("love_the_data", "biology_words", h)
 print "time needed: %s for articles: %s" % (time.clock() - t1, c)
 
 

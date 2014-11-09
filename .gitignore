@@ -66,4 +66,5 @@ ipython/
 
 # Statistics not be checked in
 *sample_*
+wiki_parse/
 

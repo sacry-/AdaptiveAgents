@@ -4,8 +4,8 @@ import json
 import ast
 from utils import persistence_path
 
-def json_category_path(fname):
-  return "%s/categories/%s.%s" % (persistence_path(), fname, "json")
+def json_path(folders, fname):
+  return "%s/%s/%s.json" % (persistence_path(), folders, fname)
 
 def save(apath, content):
   with open(apath, 'w+') as f:
@@ -21,13 +21,13 @@ def create_file_name(field, depth):
   return ("%s_titles_%s" % (field, depth)).lower()
 
 # String -> Dictionary 
-def load_json(fname):
-  return ast.literal_eval(read(json_category_path(fname)))
+def load_json(folders, fname):
+  return ast.literal_eval(read(json_path(folders, fname)))
 
 # Dictionary -> String -> Unit 
-def save_json(h, fname):
+def save_json(folders, fname, h):
   json_data = json.dumps(h, indent=2, sort_keys=True).encode('utf8')
-  save(json_category_path(fname), json_data)
+  save(json_path(folders, fname), json_data)
 
 # JsonHash -> List[String] 
 # JsonHash ~>
