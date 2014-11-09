@@ -37,7 +37,7 @@ try:
       s3 = biology_words.union(new_words)
       biology_words = s3
       c += 1
-    print "%s articles processed, leixcon has %s words" % (c, len(biology_words))
+    print "%s articles processed, lexicon has %s words" % (c, len(biology_words))
 except:
   pass
 
