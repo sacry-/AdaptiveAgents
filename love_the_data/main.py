@@ -19,14 +19,13 @@ def single_test(es):
   save_json("love_the_data", "sample_statistics", h)
 
 
+# time needed: 46.898816 for articles: 1000 forall ~> 2hours (95k)
 def multiple_test(es):
-  t1 = time.clock()
-  c = 0
-
+  n = 0
   biology_words = set([])
   biology_average_word_size = 0
 
-  # time needed: 46.898816 for articles: 1000 forall ~> 2hours
+  t1 = time.clock()
   try:
     for articles in es.generator_scroll("biology", "title", 25):
       for source in map(lambda a: a["_source"], articles):
@@ -35,14 +34,19 @@ def multiple_test(es):
         biology_average_word_size += h["avg_word_size"]
         s3 = biology_words.union(new_words)
         biology_words = s3
-        c += 1
-      print "%s articles processed, lexicon has %s words" % (c, len(biology_words))
+        n += 1
+      print "%s articles processed, lexicon has %s words" % (n, len(biology_words))
   except:
     pass
-
-  h = {"avg_word_size" : biology_average_word_size / c, "biology_words" : list(biology_words)}
+  t = time.clock() - t1
+  print "time needed: %s for articles: %s" % (t, n)
+  
+  h = {
+    "time" : t, 
+    "avg_word_size" : biology_average_word_size / n, 
+    "biology_words" : list(biology_words)
+  }
   # save_json("love_the_data", "biology_words", h)
-  print "time needed: %s for articles: %s" % (time.clock() - t1, c)
 
 
 es = Elastic()
