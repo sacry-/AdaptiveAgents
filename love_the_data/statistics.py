@@ -1,19 +1,21 @@
 # coding: utf-8
 from __future__ import division
 
-from nltk import FreqDist
-from syntax import superior_tokenize
+from nltk import FreqDist, pos_tag
+from syntax import wiki_tokenize
 from syntax import remove_noise
-from syntax import stem, lemmatize
+from syntax import lemmatize, stemmatize
 
 
 def statistic_hash(text, h={}):
   # Before clean up
-  tokens = superior_tokenize(text)
+  tokens = wiki_tokenize(text)
+  # h["pos_tag"] = pos_tag(tokens) # COSTS A LOT OF TIME ;( roughly 5-6x times slower..
   h["lex_div"] = lexical_diversity(tokens)
   # After clean up
   tokens_rn = remove_noise(tokens)
-  lemmas = list(lemmatize(tokens_rn))
+  h["avg_word_size"] = average_word_size(tokens_rn)
+  lemmas = list(stemmatize(tokens_rn))
   h["lemmas"] = lemmas_hash(lemmas)
   h["lexicon"] = lexicon(lemmas)
   return h
@@ -51,6 +53,4 @@ def frequency(tokens):
 
 def freq_dict(fdist):
   return dict((k, v) for k, v in fdist.iteritems())
-
-
 

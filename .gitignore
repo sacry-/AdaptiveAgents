@@ -63,3 +63,7 @@ target/
 # ipython
 ipython/
 *.ipynb
+
+# Statistics not be checked in
+*sample_*
+
