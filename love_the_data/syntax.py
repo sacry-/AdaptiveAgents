@@ -12,15 +12,15 @@ from nltk import WordNetLemmatizer
 from nltk.corpus import stopwords
 
 from utils import persistence_path
-from io_utils import read
+from io_utils import read, load_json
 from ast import literal_eval
 
 
 STOPS = literal_eval(read(persistence_path() + "/love_the_data/stop_words.txt"))
 SPECIAL = literal_eval(read(persistence_path() + "/love_the_data/special_characters.txt"))
+LETTER_FREQ = dict(load_json("love_the_data","english-letter-frequencies")["letters"])
 EN_US_DICT = enchant.Dict("en_US")
-EN_GB_DICT = enchant.Dict("en_GB") 
-
+EN_GB_DICT = enchant.Dict("en_GB")
 
 def is_num(s):
   try:
@@ -92,12 +92,20 @@ def stem(tokens):
     if word_is_valid(token):
       yield porter.stem(token).lower()
 
+# See word_complexity_demo.py. not official or scientific. I just invented something which works ok.
+def word_complexity(w):
+    l = len(w)
+    if l == 0:
+        return 0
+    pre = word_complexity(w[0:l-1])
+    weight = (1 - LETTER_FREQ.get(w[l-1].lower(), 1))
+    return pre + (1 - pre)*pow(weight, 40)
+
 # Artifacts
 def remove_stop_words(tokens):
   return filter(lambda x: not x in STOPS, tokens)
 
 def train_stops(s):
   return re.match(r'^https?:\/\/.*[\r\n]*', s, flags=re.MULTILINE) or re.match('(^\W+|\W+$)', s)
-
 
 
