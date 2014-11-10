@@ -28,7 +28,8 @@ pip install beautifulsoup4
 brew install enchant
 pip install pyenchant
 # Pos Tagging Speed up
-pip install -U textblob-aptagger
+# normally: pip install -U textblob-aptagger
+pip install -U git+https://github.com/sloria/textblob-aptagger.git@dev
 ```
 
 Infrastructure
