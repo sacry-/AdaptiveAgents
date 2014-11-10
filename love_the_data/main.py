@@ -8,7 +8,7 @@ sys.path.insert(0, p)
 import time
 from elastic import Elastic
 from io_utils import save_json
-from statistics import statistic_hash
+from statistics import statistic_hash, new_statistic_hash
 
 
 def update_single_document(es):
@@ -17,38 +17,25 @@ def update_single_document(es):
   articles = list(es.get_multiple_articles("biology", "title", titles))
   h = statistic_hash(articles[0])
   print h
-  es.update_article("biology", "title", "biology", h)
-  # save_json("love_the_data", "sample_statistics", h)
+  # es.update_article("biology", "title", "biology", h)
+  save_json("love_the_data", "sample_statistics", h)
 
 
 # time needed: 46.898816 for articles: 1000 forall ~> 2hours (95k)
-def biology_statistics(es):
+def time_statistics(es):
   n = 0
-  biology_words = set([])
-  biology_average_word_size = 0
-
   t1 = time.clock()
   try:
-    for articles in es.generator_scroll("biology", "title", 25):
+    for articles in es.generator_scroll("biology", "title", 5):
       for source in map(lambda a: a["_source"], articles):
         h = statistic_hash(source["content"])
-        new_words = set(h["lexicon"]["freq_dist"].keys())
-        biology_average_word_size += h["avg_word_size"]
-        s3 = biology_words.union(new_words)
-        biology_words = s3
         n += 1
-      print "%s articles processed, lexicon has %s words" % (n, len(biology_words))
+      t = time.clock() - t1
+      print "%s articles processed, time needed: %s" % (n, t)
   except:
     pass
   t = time.clock() - t1
   print "time needed: %s for articles: %s" % (t, n)
-  
-  h = {
-    "time" : t, 
-    "avg_word_size" : biology_average_word_size / n, 
-    "biology_words" : list(biology_words)
-  }
-  # save_json("love_the_data", "biology_words", h)
 
 def update_biology_with_stats(es):
   c = 0
@@ -65,6 +52,7 @@ es = Elastic()
 # print es.count("biology", "title")
 # print es.stats_of("biology", "title", "biology")
 # print es.freq_dist_of("biology", "title", "biology")
+update_single_document(es)
 
 
 

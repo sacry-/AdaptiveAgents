@@ -7,18 +7,26 @@ from syntax import wiki_tokenize
 from syntax import remove_noise
 from syntax import lemmatize, stemmatize
 from syntax import word_complexity
-
+from syntax import pos_tag, lemmatize_by_pos_tags
 
 def statistic_hash(text, h={}):
   # Before clean up
   tokens = wiki_tokenize(text)
-  # h["pos_tag"] = pos_tag(tokens) # COSTS A LOT OF TIME ;( roughly 5-6x times slower..
   h["lex_div"] = lexical_diversity(tokens)
   # After clean up
   tokens_rn = remove_noise(tokens)
   h["avg_word_size"] = average_word_size(tokens_rn)
   lemmas = list(stemmatize(tokens_rn))
   h["lemmas"] = lemmas_hash(lemmas)
+  return { "stats" : h }
+
+def new_statistic_hash(text, h={}):
+  tokens = wiki_tokenize(text)
+  h["pos_tag"] = pos_tags = pos_tag(" ".join(tokens))
+  h["lex_div"] = lexical_diversity(tokens)
+  tokens_rn = remove_noise(tokens)
+  h["avg_word_size"] = average_word_size(tokens_rn)
+  h["lemmas"] = list(lemmatize_by_pos_tags(pos_tags))
   return { "stats" : h }
 
 def lemmas_hash(lemmas):

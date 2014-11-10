@@ -15,12 +15,21 @@ from utils import persistence_path
 from io_utils import read, load_json
 from ast import literal_eval
 
+# Pos Tagging
+from textblob import TextBlob
+from textblob_aptagger import PerceptronTagger
+from textblob import Word
+
 
 STOPS = literal_eval(read(persistence_path() + "/love_the_data/stop_words.txt"))
 SPECIAL = literal_eval(read(persistence_path() + "/love_the_data/special_characters.txt"))
 LETTER_FREQ = dict(load_json("love_the_data","english-letter-frequencies")["letters"])
 EN_US_DICT = enchant.Dict("en_US")
 EN_GB_DICT = enchant.Dict("en_GB")
+TAGGER = PerceptronTagger()
+PORTER = PorterStemmer()
+WN_LEMMATIZER = WordNetLemmatizer()
+SENTENCE_DETECTOR = data.load('tokenizers/punkt/english.pickle')
 
 def is_num(s):
   try:
@@ -64,9 +73,8 @@ def remove_special(token):
   return re.sub("[\.\\\/\|,;\:\-\_\*\+\&\%\$\!\?\#]", "", token)
 
 def wiki_tokenize(s):
-  sent_detector = data.load('tokenizers/punkt/english.pickle')
   sentences = []
-  for sentence in sent_detector.tokenize(s.strip()):
+  for sentence in SENTENCE_DETECTOR.tokenize(s.strip()):
     if "See also" in sentence:
       return sentences
     if not any(delim in sentence for delim in ["http", "www", "://", "ISBN"]):
@@ -74,32 +82,36 @@ def wiki_tokenize(s):
   return sentences
 
 def stemmatize(tokens): # work heavy!
-  wordnet_lemmatizer = WordNetLemmatizer()
-  porter = PorterStemmer()
   for token in tokens:
     if word_is_valid(token):
-      yield porter.stem(wordnet_lemmatizer.lemmatize(token)).lower()
+      yield PORTER.stem(WN_LEMMATIZER.lemmatize(token)).lower()
 
 def lemmatize(tokens):
-  wordnet_lemmatizer = WordNetLemmatizer()
   for token in tokens:
     if word_is_valid(token):
-      yield wordnet_lemmatizer.lemmatize(token)
+      yield WN_LEMMATIZER.lemmatize(token)
 
 def stem(tokens):
-  porter = PorterStemmer()
   for token in tokens:
     if word_is_valid(token):
-      yield porter.stem(token).lower()
+      yield PORTER.stem(token).lower()
+
+def lemmatize_by_pos_tags(tagged_words):
+  for (word, tag) in tagged_words:
+    yield Word(word).lemmatize(tag.lower())
+
+def pos_tag(text):
+  blob = TextBlob(text, pos_tagger=TAGGER)
+  return blob.tags
 
 # See word_complexity_demo.py. not official or scientific. I just invented something which works ok.
 def word_complexity(w):
-    l = len(w)
-    if l == 0:
-        return 0
-    pre = word_complexity(w[0:l-1])
-    weight = (1 - LETTER_FREQ.get(w[l-1].lower(), 1))
-    return pre + (1 - pre)*pow(weight, 40)
+  l = len(w)
+  if l == 0:
+    return 0
+  pre = word_complexity(w[0:l-1])
+  weight = (1 - LETTER_FREQ.get(w[l-1].lower(), 1))
+  return pre + (1 - pre)*pow(weight, 40)
 
 
 # Artifacts
