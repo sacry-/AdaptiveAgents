@@ -27,6 +27,8 @@ pip install beautifulsoup4
 # English dictionary
 brew install enchant
 pip install pyenchant
+# Pos Tagging Speed up
+pip install -U textblob-aptagger
 ```
 
 Infrastructure
