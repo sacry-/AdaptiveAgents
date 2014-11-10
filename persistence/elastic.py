@@ -89,13 +89,16 @@ class Elastic():
     return self.stats_of(_index, _doc_type, title)['lemmas']["freq_dist"]
 
   def term_freq(self, _index, _doc_type, title, word):
+    le_search = { "query" : { "" : "" } }
+    self.count(_index, _doc_type, title, body=le_search)
     try:
-      count, _ = self.freq_dist_of("biology", "title", title).get(word)
+      count, _ = self.freq_dist_of(_index, _doc_type, title).get(word)
       return count
     except:
       return 0
 
   def inverse_doc_freq(self, t):
+    # with es.count possible
     n = 0
     for d in titles:
       if t in self.freq_dist_of("biology", "title", title):
