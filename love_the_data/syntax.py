@@ -101,6 +101,7 @@ def word_complexity(w):
     weight = (1 - LETTER_FREQ.get(w[l-1].lower(), 1))
     return pre + (1 - pre)*pow(weight, 40)
 
+
 # Artifacts
 def remove_stop_words(tokens):
   return filter(lambda x: not x in STOPS, tokens)

@@ -1,7 +1,7 @@
 # coding: utf-8
 from elasticsearch import Elasticsearch
 from utils import good_title
-
+import math
 
 # localhost:9200/biology/title/[:article_title]
 # i.e. localhost:9200/biology/title/biologist
@@ -22,6 +22,9 @@ class Elastic():
       }}
     r = self.es.count(index=_index, doc_type=_doc_type, body=le_search)
     return r["count"] > 0
+
+  def count(self, _index, _doc_type, le_search={"query" : {"match_all" : {}}}):
+    return self.es.count(index=_index, doc_type=_doc_type, body=le_search)["count"]
 
   def get_single_article(self, _index, _doc_type, _id):
     return self.es.get(index=_index, doc_type=_doc_type, id=_id)["_source"]
@@ -49,7 +52,14 @@ class Elastic():
       if not self.title_exists(_index, _doc_type, good_title(title)):
         result.append(title)
     return result
-      
+  
+  def update_articles(self, _index, _doc_type, titles):
+    for (title, stats) in titles:
+      self.update_article(_index, _doc_type, title, {"doc" : stats})
+
+  def update_article(self, _index, _doc_type, title, information_as_hash):
+    self.es.update(_index, _doc_type, title, {"doc" : information_as_hash})
+
   def all_titles(self, _index, _doc_type):
     le_search = {"fields" : ["title"], "query" : { "match_all" : {}}}
     r = self.es.search(index=_index, doc_type=_doc_type, size=25000, body=le_search)
@@ -72,6 +82,28 @@ class Elastic():
       yield content
       _id = data['_scroll_id']
 
+  def stats_of(self, _index, _doc_type, title):
+    return self.get_single_article(_index, _doc_type, title)["stats"]
+
+  def freq_dist_of(self, _index, _doc_type, title):
+    return self.stats_of(_index, _doc_type, title)['lemmas']["freq_dist"]
+
+  def term_freq(self, _index, _doc_type, title, word):
+    try:
+      count, _ = self.freq_dist_of("biology", "title", title).get(word)
+      return count
+    except:
+      return 0
+
+  def inverse_doc_freq(self, t):
+    n = 0
+    for d in titles:
+      if t in self.freq_dist_of("biology", "title", title):
+        n += 1
+    if n == 0:
+      print "Term %s doesn't occur in any documents!" % t
+      n = 1 # beware of division by zero.
+    return log(abs_D / n )
 
 
 
