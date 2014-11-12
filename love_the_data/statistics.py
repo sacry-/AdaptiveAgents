@@ -11,7 +11,8 @@ from syntax import pos_tag, lemmatize_by_pos_tags
 from math import sqrt
 import random
 
-def statistic_hash(text, h={}):
+def statistic_hash(text):
+  h = {}
   # Before clean up
   tokens = wiki_tokenize(text)
   # After clean up
@@ -20,7 +21,8 @@ def statistic_hash(text, h={}):
   h["lemmas"] = lemmas_hash(lemmas)
   return { "stats" : h }
 
-def new_statistic_hash(text, h={}):
+def new_statistic_hash(text):
+  h = {}
   tokens = wiki_tokenize(text)
   h["pos_tag"] = pos_tags = pos_tag(" ".join(tokens))
   h["lex_div"] = lexical_diversity(tokens)
