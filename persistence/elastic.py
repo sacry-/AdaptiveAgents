@@ -6,6 +6,8 @@ import math
 # localhost:9200/biology/title/[:article_title]
 # i.e. localhost:9200/biology/title/biologist
 # i.e. localhost:9200/biology/title/bioactive_plant_food_compounds
+  
+titles_cache = {}
 
 class Elastic():
 
@@ -67,11 +69,11 @@ class Elastic():
 
   def retrieve_scroll_id(self, _index, _doc_type, _size=100):
     query = {"query" : {"match_all" : {}}}
-    first_response = self.es.search(index=_index, doc_type=_doc_type, body=query, search_type="scan", scroll="1m", size=_size)  
+    first_response = self.es.search(index=_index, doc_type=_doc_type, body=query, search_type="scan", scroll="59m", size=_size)  
     return first_response['_scroll_id']
 
   def scroll_by_id(self, _index, _doc_type, _scroll_id):
-    return self.es.scroll(scroll_id=_scroll_id, scroll= "1m")
+    return self.es.scroll(scroll_id=_scroll_id, scroll= "59m")
 
   def generator_scroll(self, _index, _doc_type, _size=100):
     _id = self.retrieve_scroll_id(_index, _doc_type, _size)
@@ -89,24 +91,30 @@ class Elastic():
     return self.stats_of(_index, _doc_type, title)['lemmas']["freq_dist"]
 
   def term_freq(self, _index, _doc_type, title, word):
-    le_search = { "query" : { "" : "" } }
-    self.count(_index, _doc_type, title, body=le_search)
     try:
       count, _ = self.freq_dist_of(_index, _doc_type, title).get(word)
       return count
     except:
       return 0
-
-  def inverse_doc_freq(self, t):
-    # with es.count possible
+  
+  def inverse_doc_freq(es, index, doc_type, t):
     n = 0
-    for d in titles:
-      if t in self.freq_dist_of("biology", "title", title):
+    for d in es.get_titles(index, doc_type):
+      if t in es.freq_dist_of(index, doc_type, title):
         n += 1
     if n == 0:
       print "Term %s doesn't occur in any documents!" % t
       n = 1 # beware of division by zero.
     return log(abs_D / n )
+  
+  def preload_titles(self, index, doc_type):
+    if not titles_cache.has_key(index):
+        titles_cache[index]=self.all_titles(index, doc_type)
+
+  def get_titles(self, index, doc_type):
+    if not titles_cache.has_key(index):
+        self.preload_titles(index, doc_type)
+    return titles_cache[index]
 
 
 
