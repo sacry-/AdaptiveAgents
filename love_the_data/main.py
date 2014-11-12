@@ -37,11 +37,12 @@ def time_statistics(es):
   t = time.clock() - t1
   print "time needed: %s for articles: %s" % (t, n)
 
-def update_biology_with_stats(es):
+def update_biology_with_stats(es, overrideOld=False):
   c = 0
   for articles in es.generator_scroll("biology", "title", 25):
     for source in map(lambda a: a["_source"], articles):
-      es.update_article("biology", "title", source["title"], statistic_hash(source["content"]))
+      if not source.has_key("stats") or overrideOld:
+          es.update_article("biology", "title", source["title"], statistic_hash(source["content"]))
       c += 1
     print "%s articles processed" % c
 
@@ -52,7 +53,5 @@ es = Elastic()
 # print es.count("biology", "title")
 # print es.stats_of("biology", "title", "biology")
 # print es.freq_dist_of("biology", "title", "biology")
-update_single_document(es)
-
-
+update_biology_with_stats(es, overrideOld=True)
 
