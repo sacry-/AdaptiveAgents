@@ -73,7 +73,7 @@ class Elastic():
     return first_response['_scroll_id']
 
   def scroll_by_id(self, _index, _doc_type, _scroll_id):
-    return self.es.scroll(scroll_id=_scroll_id, scroll= "59m")
+    return self.es.scroll(scroll_id=_scroll_id, scroll= "5m")
 
   def generator_scroll(self, _index, _doc_type, _size=100):
     _id = self.retrieve_scroll_id(_index, _doc_type, _size)
