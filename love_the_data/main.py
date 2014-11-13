@@ -48,11 +48,5 @@ def update_biology_with_stats(es, override):
     print "%s articles processed" % c
 
 es = Elastic()
-# multiple_test(es)
-# update_single_document(es)
-# print es.count("biology", "title")
-# print es.stats_of("biology", "title", "biology")
-# print es.freq_dist_of("biology", "title", "biology")
-# update_biology_with_stats(es, True)
-update_single_document(es)
+time_statistics(es)
 

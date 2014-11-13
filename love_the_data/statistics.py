@@ -16,17 +16,20 @@ class Statistics():
 
   def __init__(self, text):
     self.tokens = wiki_tokenize(text)
-    # self.pos_tag = pos_tag(" ".join(tokens))
+    self.pos_tag = pos_tag(" ".join(self.tokens))
     self.tokens_without_noise = remove_noise(self.tokens)
     self.lemmas = Lemmas(self.tokens_without_noise)
 
   def as_dict(self):
     return {
-      "stats" : self.lemmas.to_hash()
+      "stats" : {
+        "pos_tags" : self.pos_tag,
+        "lemmas" : self.lemmas.as_dict()
+      }
     }
 
   def __repr__(self):
-    return str(self.to_hash())
+    return str(self.as_dict())
 
 
 class Lemmas():
@@ -43,15 +46,13 @@ class Lemmas():
 
   def as_dict(self):
     return {
-      "lemmas" : {
-        "freq_dist" : self.frequency_distribution,
-        "lex_div" : self.lexical_diversity,
-        "size" : self.size,
-        "avg_lemma_complexity": self.average_lemma_complexity,
-        "dev_lemma_complexity": self.stddev_lemma_complexity,
-        "avg_word_size" : self.avgerage_word_size,
-        "dev_word_size" : self.stddev_word_size
-      }
+      "freq_dist" : self.frequency_distribution,
+      "lex_div" : self.lexical_diversity,
+      "size" : self.size,
+      "avg_lemma_complexity": self.average_lemma_complexity,
+      "dev_lemma_complexity": self.stddev_lemma_complexity,
+      "avg_word_size" : self.avgerage_word_size,
+      "dev_word_size" : self.stddev_word_size
     }
 
   def average_and_stddev(self, words):
