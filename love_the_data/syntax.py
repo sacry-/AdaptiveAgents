@@ -18,7 +18,6 @@ from ast import literal_eval
 # Pos Tagging
 from textblob import TextBlob
 from textblob_aptagger import PerceptronTagger
-from textblob import Word
 
 
 STOPS = literal_eval(read(persistence_path() + "/love_the_data/stop_words.txt"))
@@ -96,22 +95,9 @@ def stem(tokens):
     if word_is_valid(token):
       yield PORTER.stem(token).lower()
 
-def lemmatize_by_pos_tags(tagged_words):
-  for (word, tag) in tagged_words:
-    yield Word(word).lemmatize(tag.lower())
-
 def pos_tag(text):
   blob = TextBlob(text, pos_tagger=TAGGER)
   return blob.tags
-
-# See word_complexity_demo.py. not official or scientific. I just invented something which works ok.
-def word_complexity(w):
-  l = len(w)
-  if l == 0:
-    return 0
-  pre = word_complexity(w[0:l-1])
-  weight = (1 - LETTER_FREQ.get(w[l-1].lower(), 1))
-  return pre + (1 - pre)*pow(weight, 40)
 
 
 # Artifacts

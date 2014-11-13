@@ -7,7 +7,7 @@
 
 from persistence.elastic import Elastic
 from persistence.io_utils import save_json
-from love_the_data.statistics import statistic_hash
+from love_the_data.statistics import Statistics
 es = Elastic()
 
 
@@ -16,7 +16,7 @@ es = Elastic()
 titles = ["biology", "biologist", "biological_ornament", "birth", "cell_population_data",
             "brian_dale", "dependence_receptor", "despeciation"]
 articles = list(es.get_multiple_articles("biology", "title", titles))
-stats = map(statistic_hash, articles)
+stats = map(lambda a: Statistics(a).as_dict(), articles)
 
 
 # In[13]:
