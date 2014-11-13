@@ -13,34 +13,11 @@ from math import sqrt
 import random
 
 
-class Statistics():
-
-  def __init__(self, text):
-    self.tokens = wiki_tokenize(text)
-    self.lex_div = lexical_diversity(self.tokens)
-    self.tokens_without_noise = remove_noise(self.tokens)
-    self.pos_tags = pos_tag(" ".join(self.tokens_without_noise))
-    self.lexicon = Lexicon(self.pos_tags)
-
-  def as_dict(self):
-    return {
-      "stats" : {
-        "lex_div" : self.lex_div,
-        "lexicon" : self.lexicon.as_dict()
-      }
-    }
-
-  def __repr__(self):
-    return str(self.as_dict())
-
-
 class Lexicon():
 
   def __init__(self, pos_tags):
     self.pos_tags = stem_with_pos_tags(pos_tags)
     frequencies = Frequencies(self.pos_tags)
-    for k, v in frequencies.freq_dict.iteritems():
-      print "%s = %s" % (k, v)
     self.frequency_distribution = frequencies.freq_dict
     self.lexical_diversity = frequencies.lexical_diversity
     self.size = frequencies.size()

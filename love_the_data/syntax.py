@@ -70,6 +70,18 @@ SENTENCE_DETECTOR = data.load('tokenizers/punkt/english.pickle')
   WRB Wh­adverb
 '''
 
+class Words():
+
+  def __init__(self, text):
+    self.tokens = wiki_tokenize(text)
+    self.tokens_without_noise = remove_noise(self.tokens)
+    self.pos_tags = pos_tag(" ".join(self.tokens_without_noise))
+    self.lexicon = stem_with_pos_tags(self.pos_tags)
+
+  def tags(self):
+    return self.lexicon
+
+
 def is_num(s):
   try:
     float(s)
@@ -77,20 +89,22 @@ def is_num(s):
   except ValueError:
     return False
 
-def is_not_noisy(x):
-  return (
-    # should not be empty
-    x and
-    # not be in stopwords
-    (not x in STOPS) and 
-    # not be in specials
-    ((not re.match('(^\W+|\W+$)', x)) or 
-    (not x in SPECIAL)) and
-    # should not be a num
-    (not is_num(x)) and 
-    # should be larger than 1 i.e. not "a" etc.
-    len(x) > 1
-  )
+def is_noisy(x):
+  if x:
+    x = x.strip().lower()
+    return (
+      # not be in stopwords
+      x in STOPS or 
+      # not be in specials
+      re.match('(^\W+|\W+$)', x) or 
+      x in SPECIAL or
+      # should not be a num
+      is_num(x) or 
+      # should be larger than 1 i.e. not "a" etc.
+      len(x) <= 1
+    )
+  else:
+    return False
 
 def word_is_valid(word):
   return (
@@ -107,7 +121,7 @@ def word_is_valid(word):
   )
 
 def remove_noise(tokens):
-  return [remove_special(token) for token in tokens if is_not_noisy(token)]
+  return [remove_special(token) for token in tokens if not is_noisy(token)]
 
 def remove_special(token):
   return re.sub("[\.\\\/\|,;\:\-\_\*\+\&\%\$\!\?\#]", "", token)
