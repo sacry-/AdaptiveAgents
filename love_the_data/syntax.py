@@ -30,6 +30,46 @@ PORTER = PorterStemmer()
 WN_LEMMATIZER = WordNetLemmatizer()
 SENTENCE_DETECTOR = data.load('tokenizers/punkt/english.pickle')
 
+
+'''
+  CC Coordinating conjunction
+  CD Cardinal number
+  DT Determiner
+  EX Existential there
+  FW Foreign word
+  IN Preposition or subordinating conjunction
+  JJ Adjective
+  JJR Adjective, comparative
+  JJS Adjective, superlative
+  LS List item marker
+  MD Modal
+  NN Noun, singular or mass
+  NNS Noun, plural
+  NNP Proper noun, singular
+  NNPS Proper noun, plural
+  PDT Predeterminer
+  POS Possessive ending
+  PRP Personal pronoun
+  PRP$ Possessive pronoun
+  RB Adverb
+  RBR Adverb, comparative
+  RBS Adverb, superlative
+  RP Particle
+  SYM Symbol
+  TO to
+  UH Interjection
+  VB Verb, base form
+  VBD Verb, past tense
+  VBG Verb, gerund or present participle
+  VBN Verb, past participle
+  VBP Verb, non­3rd person singular present
+  VBZ Verb, 3rd person singular present
+  WDT Wh­determiner
+  WP Wh­pronoun
+  WP$ Possessive wh­pronoun
+  WRB Wh­adverb
+'''
+
 def is_num(s):
   try:
     float(s)
@@ -42,11 +82,12 @@ def is_not_noisy(x):
     # should not be empty
     x and
     # not be in stopwords
-    not (x in STOPS or 
+    (not x in STOPS) and 
     # not be in specials
-    re.match('(^\W+|\W+$)', x) or x in SPECIAL or
+    ((not re.match('(^\W+|\W+$)', x)) or 
+    (not x in SPECIAL)) and
     # should not be a num
-    is_num(x)) and 
+    (not is_num(x)) and 
     # should be larger than 1 i.e. not "a" etc.
     len(x) > 1
   )
@@ -94,6 +135,20 @@ def stem(tokens):
   for token in tokens:
     if word_is_valid(token):
       yield PORTER.stem(token).lower()
+
+def stem_with_pos_tags(tagged_words):
+  d = {}
+  for (word, tag) in tagged_words:
+    if word_is_valid(word):
+      stemmed = PORTER.stem(word).lower()
+      if d.has_key(stemmed):
+        if d[stemmed].has_key(tag):
+          d[stemmed][tag] = d[stemmed][tag] + 1
+        else:
+          d[stemmed][tag] = 1
+      else:
+        d[stemmed] = {tag : 1}
+  return d
 
 def pos_tag(text):
   blob = TextBlob(text, pos_tagger=TAGGER)
