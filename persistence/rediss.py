@@ -11,6 +11,14 @@ from utils import persistence_path
 
 LEVAL = ast.literal_eval
 
+
+'''
+Redis has as its default 16 local different db tables (0-15).
+0 is the default connection. To make use of "two" redis instances
+for performance we connect to db0 (rs_raw) for the text and
+db1 (rs_pos) for the tagged form of the text. Internally whenever we call
+for articles the raw db and for tags the pos db. Simple...
+'''
 class Rediss():
 
   def __init__(self, host="localhost", port=6379):
@@ -91,6 +99,7 @@ class Rediss():
       return
     print "db%s is empty now!" % response
 
+
 def test():
   titles = ["fluorenylmethyloxycarbonyl_chloride", "biology", 
   "biologist", "biological_ornament", "birth", "cell_population_data",
@@ -100,10 +109,14 @@ def test():
     print elem
 
 # test()
-rss = Rediss()
+# rss = Rediss()
 
 
-''' Examples fro nosql
+
+
+
+
+''' Examples from nosql
 def string_to_hash(json_string):
   return ast.literal_eval(json_string)
 

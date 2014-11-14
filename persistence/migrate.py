@@ -1,13 +1,15 @@
 import time
 import sys
-from elastic import Elastic
+from elastic_old import Elastic
 from rediss import Rediss
 from category_knowledge import USED_CATEGORIES
+
 
 # brew/apt-get? install redis
 # sudo pip install redis-py
 # sudo pip install redisdl
 # DONE! :-)
+
 
 es = Elastic()
 rss = Rediss()
@@ -29,4 +31,3 @@ except:
   pass
 t1 = time.clock() - t
 print "time needed: %s for articles: %s" % (t1, n)
-
