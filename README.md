@@ -41,6 +41,13 @@ brew install logstash
 # plenty of documentation available
 # ES Kopf Plugin
 git clone https://github.com/lmenezes/elasticsearch-kopf.git
+# Install Redis
+brew install redis
+pip install redis-py
+pip install redisdl
+# Start server and then client
+# redis-server
+# redis-cli
 ```
 
 Visualization
