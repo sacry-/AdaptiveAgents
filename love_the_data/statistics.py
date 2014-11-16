@@ -7,7 +7,7 @@ from nltk import FreqDist, pos_tag
 from syntax import wiki_tokenize
 from syntax import remove_noise
 from syntax import lemmatize, stemmatize
-from syntax import pos_tag, stem_with_pos_tags
+from syntax import pos_tag, stem_with_pos_tags, stem_with_pos_tags_neu
 from syntax import LETTER_FREQ
 from math import sqrt
 import random
@@ -15,8 +15,11 @@ import random
 
 class Lexicon():
 
-  def __init__(self, pos_tags):
-    self.pos_tags = stem_with_pos_tags(pos_tags)
+  def __init__(self, pos_tags, useNeu=False):
+    if useNeu:
+        self.pos_tags = stem_with_pos_tags_neu(pos_tags)
+    else:
+        self.pos_tags = stem_with_pos_tags(pos_tags)
     frequencies = Frequencies(self.pos_tags)
     self.frequency_distribution = frequencies.freq_dict
     self.lexical_diversity = frequencies.lexical_diversity

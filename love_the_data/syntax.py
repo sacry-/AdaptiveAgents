@@ -167,6 +167,19 @@ def stem_with_pos_tags(tagged_words):
       else:
         d[stemmed] = {tag : 1}
   return d
+  
+# tagged_words are in the form of:
+#  {
+#   u'month': {u'NN': 1},
+#   u'nail': {u'NN': 1, u'VBZ': 1}
+# }
+def stem_with_pos_tags_neu(tagged_words):
+  d = {}
+  for (word, tags) in tagged_words.iteritems():
+    if word_is_valid(word):
+      stemmed = PORTER.stem(word).lower()
+      d[stemmed] = tags
+  return d
 
 def pos_tag(text):
   blob = TextBlob(text, pos_tagger=TAGGER)
