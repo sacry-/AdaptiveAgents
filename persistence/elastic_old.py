@@ -35,6 +35,10 @@ class Elastic():
     for _id in ids:
       yield self.get_single_article(_index, _doc_type, _id)["content"]
 
+  def get_multiple_sources(self, _index, _doc_type, ids):
+    for _id in ids:
+      yield self.get_single_article(_index, _doc_type, _id)
+
   def add_multiple_articles(self, _index, _doc_type, all_articles):
     for article in all_articles:
       title = article["title"]
@@ -62,14 +66,17 @@ class Elastic():
   def update_article(self, _index, _doc_type, title, information_as_hash):
     self.es.update(_index, _doc_type, title, {"doc" : information_as_hash})
 
+  def add_statistics(self, _index, title, information_as_hash):
+    self.es.index(index=_index + "_stats", doc_type="stats", id=title, body=information_as_hash)
+
   def all_titles(self, _index, _doc_type):
     le_search = {"fields" : ["title"], "query" : { "match_all" : {}}}
     r = self.es.search(index=_index, doc_type=_doc_type, size=25000, body=le_search)
     return map(lambda x: x["_id"], r['hits']["hits"])
 
   def retrieve_scroll_id(self, _index, _doc_type, _size=100):
-    query = {"query" : {"match_all" : {}}}
-    first_response = self.es.search(index=_index, doc_type=_doc_type, body=query, search_type="scan", scroll="59m", size=_size)  
+    _body = {"query" : {"match_all" : {}}}
+    first_response = self.es.search(index=_index, doc_type=_doc_type, body=_body, search_type="scan", scroll="59m", size=_size)  
     return first_response['_scroll_id']
 
   def scroll_by_id(self, _index, _doc_type, _scroll_id):

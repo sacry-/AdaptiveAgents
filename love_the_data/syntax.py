@@ -30,6 +30,58 @@ PORTER = PorterStemmer()
 WN_LEMMATIZER = WordNetLemmatizer()
 SENTENCE_DETECTOR = data.load('tokenizers/punkt/english.pickle')
 
+
+'''
+  CC Coordinating conjunction
+  CD Cardinal number
+  DT Determiner
+  EX Existential there
+  FW Foreign word
+  IN Preposition or subordinating conjunction
+  JJ Adjective
+  JJR Adjective, comparative
+  JJS Adjective, superlative
+  LS List item marker
+  MD Modal
+  NN Noun, singular or mass
+  NNS Noun, plural
+  NNP Proper noun, singular
+  NNPS Proper noun, plural
+  PDT Predeterminer
+  POS Possessive ending
+  PRP Personal pronoun
+  PRP$ Possessive pronoun
+  RB Adverb
+  RBR Adverb, comparative
+  RBS Adverb, superlative
+  RP Particle
+  SYM Symbol
+  TO to
+  UH Interjection
+  VB Verb, base form
+  VBD Verb, past tense
+  VBG Verb, gerund or present participle
+  VBN Verb, past participle
+  VBP Verb, non­3rd person singular present
+  VBZ Verb, 3rd person singular present
+  WDT Wh­determiner
+  WP Wh­pronoun
+  WP$ Possessive wh­pronoun
+  WRB Wh­adverb
+'''
+
+class Words():
+
+  def __init__(self, text):
+    self.tokens = wiki_tokenize(text)
+    self.tokens_without_noise = remove_noise(self.tokens)
+    self.pos_tags = pos_tag(" ".join(self.tokens_without_noise))
+    self.lexicon = stem_with_pos_tags(self.pos_tags)
+
+  def tags(self):
+    return self.lexicon
+
+
 def is_num(s):
   try:
     float(s)
@@ -37,19 +89,22 @@ def is_num(s):
   except ValueError:
     return False
 
-def is_not_noisy(x):
-  return (
-    # should not be empty
-    x and
-    # not be in stopwords
-    not (x in STOPS or 
-    # not be in specials
-    re.match('(^\W+|\W+$)', x) or x in SPECIAL or
-    # should not be a num
-    is_num(x)) and 
-    # should be larger than 1 i.e. not "a" etc.
-    len(x) > 1
-  )
+def is_noisy(x):
+  if x:
+    x = x.strip().lower()
+    return (
+      # not be in stopwords
+      x in STOPS or 
+      # not be in specials
+      re.match('(^\W+|\W+$)', x) or 
+      x in SPECIAL or
+      # should not be a num
+      is_num(x) or 
+      # should be larger than 1 i.e. not "a" etc.
+      len(x) <= 1
+    )
+  else:
+    return False
 
 def word_is_valid(word):
   return (
@@ -66,7 +121,7 @@ def word_is_valid(word):
   )
 
 def remove_noise(tokens):
-  return [remove_special(token) for token in tokens if is_not_noisy(token)]
+  return [remove_special(token) for token in tokens if not is_noisy(token)]
 
 def remove_special(token):
   return re.sub("[\.\\\/\|,;\:\-\_\*\+\&\%\$\!\?\#]", "", token)
@@ -94,6 +149,20 @@ def stem(tokens):
   for token in tokens:
     if word_is_valid(token):
       yield PORTER.stem(token).lower()
+
+def stem_with_pos_tags(tagged_words):
+  d = {}
+  for (word, tag) in tagged_words:
+    if word_is_valid(word):
+      stemmed = PORTER.stem(word).lower()
+      if d.has_key(stemmed):
+        if d[stemmed].has_key(tag):
+          d[stemmed][tag] = d[stemmed][tag] + 1
+        else:
+          d[stemmed][tag] = 1
+      else:
+        d[stemmed] = {tag : 1}
+  return d
 
 def pos_tag(text):
   blob = TextBlob(text, pos_tagger=TAGGER)

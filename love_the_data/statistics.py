@@ -2,43 +2,24 @@
 
 from __future__ import division
 
+import nltk
 from nltk import FreqDist, pos_tag
 from syntax import wiki_tokenize
 from syntax import remove_noise
 from syntax import lemmatize, stemmatize
-from syntax import pos_tag
+from syntax import pos_tag, stem_with_pos_tags
 from syntax import LETTER_FREQ
 from math import sqrt
 import random
 
 
-class Statistics():
+class Lexicon():
 
-  def __init__(self, text):
-    self.tokens = wiki_tokenize(text)
-    self.pos_tag = pos_tag(" ".join(self.tokens))
-    self.tokens_without_noise = remove_noise(self.tokens)
-    self.lemmas = Lemmas(self.tokens_without_noise)
-
-  def as_dict(self):
-    return {
-      "stats" : {
-        "pos_tags" : self.pos_tag,
-        "lemmas" : self.lemmas.as_dict()
-      }
-    }
-
-  def __repr__(self):
-    return str(self.as_dict())
-
-
-class Lemmas():
-
-  def __init__(self, tokens):
-    self.lemmas = list(stemmatize(tokens))
-    frequencies = Frequencies(self.lemmas).create()
+  def __init__(self, pos_tags):
+    self.pos_tags = stem_with_pos_tags(pos_tags)
+    frequencies = Frequencies(self.pos_tags)
     self.frequency_distribution = frequencies.freq_dict
-    self.lexical_diversity = lexical_diversity(self.lemmas)
+    self.lexical_diversity = frequencies.lexical_diversity
     self.size = frequencies.size()
     self.average_lemma_complexity = frequencies.average_lc
     self.stddev_lemma_complexity = frequencies.stddev_lc
@@ -63,23 +44,26 @@ class Lemmas():
 
 class Frequencies():
 
-  def __init__(self, lemmas):
-    self.lemmas = lemmas
-    self.fdist = FreqDist(self.lemmas)
+  def __init__(self, pos_tags):
+    self.pos_tags = pos_tags # {"words" : {"tags" : counts}}
+    self.fdist = FreqDist(self.pos_tags.keys())
+    self.lexical_diversity = lexical_diversity(self.pos_tags.keys())
     self.average_lc = 0
     self.stddev_lc = 0
     self.freq_dict = {}
+    self.__create__()
 
-  def create(self):
+  def __create__(self):
     self.freq_dict = {}
     acc_word_complexity = 0
-    for lemma, count in self.fdist.iteritems():
-      self.freq_dict[lemma] = (count, word_complexity(lemma))
-    self.average_and_stddev(self.freq_dict.values())
+    for word, count in self.fdist.iteritems():
+      if self.pos_tags.has_key(word):
+        self.freq_dict[word] = { "wcount" : count, "wcomplexity" : word_complexity(word), "pos_tag" : self.pos_tags[word]}
+    self.__average_and_stddev__(self.freq_dict.values())
     return self
 
-  def average_and_stddev(self, d):
-    a, b = avg_and_stddev_by(lambda x:x[1], d, 0)
+  def __average_and_stddev__(self, d):
+    a, b = avg_and_stddev_by(lambda x:x["wcount"], d, 0)
     self.average_lc = a
     self.stddev_lc = b
 

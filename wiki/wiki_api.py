@@ -96,11 +96,9 @@ def fetch_body_from_article_response(nested_response_hash):
     content = body["revisions"][0]["*"]
   title = good_title(body["title"])
   print "Fetched Title: %s" % title
-  return { 
-    "page_id" : page_id, 
-    "title" : title, 
-    "content" : clean_parse(content)
-    }
+  return (
+    title, clean_parse(content)
+  )
 
 # List[String] -> List[Json]
 def fetch_articles_by_titles(title_list, limit):
@@ -110,8 +108,8 @@ def fetch_articles_by_titles(title_list, limit):
       return collected_articles
     query = query_by_data(article(title))
     response = fire_query(query)
-    article_hash = fetch_body_from_article_response(response)
-    collected_articles.append(article_hash)
+    article = fetch_body_from_article_response(response)
+    collected_articles.append(article)
     limit -= 1
   return collected_articles
 
