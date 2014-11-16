@@ -1,7 +1,9 @@
 # coding: utf-8
+
 import os, sys
 p = "%s/../persistence" % os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, p)
+
 
 import re
 import enchant # pip install pyenchant
@@ -113,7 +115,7 @@ def word_is_valid(word):
     # word should not be none
     word and 
     # word should be valid in a english dictionary
-    (EN_US_DICT.check(word) and EN_GB_DICT.check(word)) or
+    (EN_US_DICT.check(unicode(word)) and EN_GB_DICT.check(unicode(word))) or
     # average word length for biology assuming that the english word_list
     # does not contain specialized biology words
     (len(word) > 6 and
