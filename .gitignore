@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 
+# Redis Dumps
+dump*.rdb
+
 # Gedit Text Editor Temp Files
 *~
 .ipynb_checkpoints
