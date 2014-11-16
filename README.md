@@ -34,13 +34,6 @@ pip install -U git+https://github.com/sloria/textblob-aptagger.git@dev
 
 Infrastructure
 ```python
-# Install ElasticSearch
-brew install elasticsearch
-brew install logstash
-# Download Kibana from official source and put it to your WebServer System, 
-# plenty of documentation available
-# ES Kopf Plugin
-git clone https://github.com/lmenezes/elasticsearch-kopf.git
 # Install Redis
 brew install redis
 pip install redis-py
@@ -55,6 +48,17 @@ Visualization
 ```python
 # TODO Graph Visualization with graph-tool ~> http://graph-tool.skewed.de/ (python)
 pip install pygraphviz
+```
+
+Deprecation
+```python
+# Install ElasticSearch
+brew install elasticsearch
+brew install logstash
+# Download Kibana from official source and put it to your WebServer System, 
+# plenty of documentation available
+# ES Kopf Plugin
+git clone https://github.com/lmenezes/elasticsearch-kopf.git
 ```
 
 # Plan #
