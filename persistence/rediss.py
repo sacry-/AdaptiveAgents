@@ -17,6 +17,9 @@ class Rediss(object):
     self.host = host
     self.port = port
 
+  def __repr__(self):
+    return "{ host='%s' port='%s' }" % (self.host, self.port)
+
   def keys(self, pattern="*"):
     for key in self.rs.keys(pattern): 
       yield key
@@ -73,6 +76,10 @@ class RContent(Rediss):
   def key_name(self, category, title):
     return "%s-content:%s" % (category, title)
 
+  def __repr__(self):
+    return "RContent %s with db%s" % (super(RContent, self).__repr__(), self.db)
+
+
 class RPos(Rediss):
 
   def __init__(self, host="localhost", port=6379):
@@ -86,6 +93,8 @@ class RPos(Rediss):
   def put(self, category, title, content):
     super(RPos, self).put(category, title, Words(content).tags())
 
+  def __repr__(self):
+    return "RPos %s with db%s" % (super(RPos, self).__repr__(), self.db)
 
 # print map(str, RPos().values_by_pattern("biology-*"))
 # print map(str, RContent().all_keys("biology-*"))
@@ -95,10 +104,11 @@ def test():
   "biologist", "biological_ornament", "birth", "cell_population_data",
   "brian_dale", "dependence_receptor", "despeciation"]
   r_pos = RPos()
+  print r_pos
   for elem in r_pos.values_by_titles("biology", titles):
-    print elem
+    print len(elem)
 
-# test()
+test()
 
 
 
