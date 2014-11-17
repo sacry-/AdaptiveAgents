@@ -33,6 +33,9 @@ class Rediss():
   def pos_tag_key(self, prefix, title):
     return "%s-pos:%s" % (prefix, title)
 
+  def real_title(self, redis_title):
+    return redis_title.split(":", 1)[1]
+
   def add_article(self, category, title, content):
     self.rs_raw.set(self.article_key(category, title), content)
 
@@ -64,8 +67,7 @@ class Rediss():
     return {}
 
   def get_pos_tags(self, category, titles):
-    keys = map(lambda t: self.pos_tag_key(category, t), titles)
-    for tags in self.rs_pos.mget(keys):
+    for tags in self.rs_pos.mget(map(lambda title: self.pos_tag_key(category, title), titles)):
       if tags:
         yield LEVAL(tags)
 
