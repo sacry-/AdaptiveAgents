@@ -80,10 +80,10 @@ class Words():
     self.tokens = wiki_tokenize(text)
     self.tokens_without_noise = remove_noise(self.tokens)
     self.pos_tags = pos_tag(" ".join(self.tokens_without_noise))
-    self.lexicon = stem_with_pos_tags(self.pos_tags)
+    self.pos_tags = stem_with_pos_tags(self.pos_tags)
 
   def tags(self):
-    return self.lexicon
+    return self.pos_tags
 
 
 def is_num(s):
