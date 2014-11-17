@@ -58,7 +58,10 @@ class Rediss():
     return self.rs_raw.mget(map(lambda t: self.article_key(category, t), titles))
 
   def get_pos_tag(self, category, title):
-    return LEVAL(self.rs_pos.get(self.pos_tag_key(category, title)))
+    s = self.rs_pos.get(self.pos_tag_key(category, title))
+    if s:
+      return LEVAL(s)
+    return {}
 
   def get_pos_tags(self, category, titles):
     keys = map(lambda t: self.pos_tag_key(category, t), titles)

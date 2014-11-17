@@ -70,6 +70,8 @@ SENTENCE_DETECTOR = data.load('tokenizers/punkt/english.pickle')
   WRB Wh­adverb
 '''
 
+# [(word, lemma, tag),..]
+
 class Words():
 
   def __init__(self, text):
@@ -143,7 +145,7 @@ def stemmatize(tokens): # work heavy!
 def lemmatize(tokens):
   for token in tokens:
     if word_is_valid(token):
-      yield WN_LEMMATIZER.lemmatize(token)
+      yield WN_LEMMATIZER.lemmatize(token).lower()
 
 def stem(tokens):
   for token in tokens:
