@@ -17,25 +17,33 @@ class Frequencies():
 
   def __init__(self, rss, category):
     self.titles = map(lambda x: rss.real_title(x), rss.all_pos_keys("%s*" % category))
-    self.freqs = map(Frequency, rss.get_pos_tags(category, self.titles))
-    self.cache = {}
+    # freqs = {"biologist": Frequency(...), "despiciation": Frequency(...), ...}
+    self.freqs = dict((title, Frequency(ptags)) for title, ptags in zip(self.titles, rss.get_pos_tags(category, self.titles)))
+    self.num_of_docs = len(self.titles)
+    self.cache = {} # saches calls of idf(t)
 
   def idf(self, t):
     if self.cache.has_key(t):
       return cache[t]
-    n = reduce(lambda acc, freq: acc + freq.idf(t), self.freqs, 0)
+    n = reduce(lambda acc, freq: acc + freq.idf(t), self.freqs.values(), 0)
     try:
-      result = math.log(len(self.titles) / n)
+      result = math.log(self.num_of_docs / n)
       self.cache[t] = result
       return result
     except:
       return 0
+  
+  # term frequency of term t in document d. if document d doesn't exist, it returns 0
+  def tf(self, t, title):
+    if not self.freqs.has_key(title):
+        return 0
+    b = self.freqs[title]
+    return b.tf(t)
 
 class Frequency():
 
   def __init__(self, pos_tags):
     self.pos_tags = pos_tags # {"words" : {"tags" : counts}}
-    self.fdist = None
 
   def tf(self, t):
     return sum(self.pos_tags.get(t, {}).values())
@@ -46,13 +54,8 @@ class Frequency():
     else:
       return 0
 
-  def fdist(self):
-    if not self.fdist:
-      self.fdist = FreqDist(self.pos_tags.keys())
-    return self.fdist
-
   def words(self):
-    return self.fdist().keys()
+    return self.pos_tags.keys()
 
   def size(self):
     return len(self.words())
