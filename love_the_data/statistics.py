@@ -15,16 +15,16 @@ import random
 
 class Frequencies():
 
-  def __init__(self, rss, category):
-    self.titles = map(lambda x: rss.real_title(x), rss.all_pos_keys("%s*" % category))
+  def __init__(self, rpos, category):
+    self.titles = map(lambda x: rpos.real_title(x), rpos.keys("%s*" % category))
     # freqs = {"biologist": Frequency(...), "despiciation": Frequency(...), ...}
-    self.freqs = dict((title, Frequency(ptags)) for title, ptags in zip(self.titles, rss.get_pos_tags(category, self.titles)))
+    self.freqs = dict((title, Frequency(ptags)) for title, ptags in zip(self.titles, rpos.values_by_titles(category, self.titles)))
     self.num_of_docs = len(self.titles)
     self.cache = {} # saches calls of idf(t)
 
   def idf(self, t):
     if self.cache.has_key(t):
-      return cache[t]
+      return self.cache[t]
     n = reduce(lambda acc, freq: acc + freq.idf(t), self.freqs.values(), 0)
     try:
       result = math.log(self.num_of_docs / n)
