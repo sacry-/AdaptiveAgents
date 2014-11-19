@@ -15,9 +15,9 @@ from statistics import Frequencies
 # [2]: python migrate_par.py -cat "chemistry"
 # [3]: python migrate_par.py -cat "biology"
 # each process will occupy a core. close other memory hungy applications, if you don't have more than 4 cores...
-# Biology finished after ca. 1 hour. The timer was at -1400 when it finished. (after overflowing once at ~2000)
+# Biology finished after ca. 1 hour. The timer was at -1400 on finishing. (after overflowing once at +2000)
 # physics after 45 mins. timer was at -1700
-# chemistry after XXX mins. timer was at YYY
+# chemistry after 1hour and 30mins. timer was at -30
 
 rpos = RPos()
 rfeature = RFeature()
