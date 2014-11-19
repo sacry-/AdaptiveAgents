@@ -9,6 +9,9 @@ from io_utils import load_json, save_json, flatten_hash, create_file_name
 from category_knowledge import saved_titles
 from rediss import Rediss
 
+print "this module is old. it still uses elasticsearch!"
+exit(1)
+
 def download_wikipedia_titles(categories, depth):
   persisted_titles = persisted_titles = saved_titles(depth)
   for category in categories:
