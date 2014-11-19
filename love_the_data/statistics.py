@@ -27,7 +27,7 @@ class Frequencies():
       return self.cache[t]
     n = reduce(lambda acc, freq: acc + freq.idf(t), self.freqs.values(), 0)
     try:
-      result = math.log(self.num_of_docs / n)
+      result = math.log(self.num_of_docs / float(n))
       self.cache[t] = result
       return result
     except:
