@@ -15,6 +15,7 @@ from statistics import Frequencies
 # [2]: python migrate_par.py -cat "chemistry"
 # [3]: python migrate_par.py -cat "biology"
 # each process will occupy a core. close other memory hungy applications, if you don't have more than 4 cores...
+# Biology finished after ca. 1 hour.
 
 rpos = RPos()
 rfeature = RFeature()
@@ -51,7 +52,7 @@ def do_category(category):
             _idf = frequencies.idf(t)
             key = rfeature.key_name(category, t)
             pipe.set(key, _idf)
-    print "[2] %s %s - Finished all %s terms in %s" % (diff(), category, len(list(rfeature.keys(category + "*"))))
+    print "[2] %s %s - Finished all %s terms in %s" % (diff(), category, len(list(rfeature.keys(category + "*"))), category)
     return "fin"
 
 import argparse
@@ -66,4 +67,4 @@ print "[0] %s - Started migrate script for inverse document frequencies" % diff(
 
 do_category(args.cat)
 
-print "[0] Finished migration: %s terms over %s categories" % (diff(), n)
+print "[0] %s - Finished migration: %s terms over all categories." % (diff(), len(list(rfeature.keys(category + "*"))))
