@@ -70,4 +70,4 @@ print "[0] %s - Started migrate script for inverse document frequencies" % diff(
 
 do_category(args.cat)
 
-print "[0] %s - Finished migration: %s terms over all categories." % (diff(), len(list(rfeature.keys(category + "*"))))
+print "[0] %s - Finished migration: %s terms over all categories." % (diff(), len(list(rfeature.keys("*"))))
