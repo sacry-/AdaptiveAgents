@@ -28,9 +28,16 @@ class Rediss(object):
     return redis_title.split(":", 1)[1]
 
   def values_by_pattern(self, pattern):
-    for key in self.rs.mget(self.keys(pattern)):
-      if key:
-        yield LEVAL(key)
+    for value in self.rs.mget(self.keys(pattern)):
+      if value:
+        yield LEVAL(value)
+
+  def key_value_by_pattern(self, pattern):
+    pattern_keys = list(self.keys(pattern))
+    all_values = self.rs.mget(pattern_keys)
+    for (key, value) in zip(pattern_keys, all_values):
+      if key and value:
+        yield (key, LEVAL(value))
 
   def values_by_titles(self, category, titles):
     keys = map(lambda title: self.key_name(category, title), titles)
@@ -50,6 +57,19 @@ class Rediss(object):
   def puts(self, category, collection):
     for (title, content) in collection:
       self.put(category, title, content)
+
+  def size(self):
+    return self.rs.dbsize()
+
+  def delete(self, keys):
+    self.rs.delete(keys)
+    return self.exists(keys[0])
+
+  def exists(self, key_name):
+    return self.rs.exists(key_name)
+
+  def ping(self):
+    print "ping: %s from: %s" % (self.rs.ping(), self)
 
   def flushdb(self):
     if raw_input("type 'flush' to kill data for db%s" % self.db) == "flush":

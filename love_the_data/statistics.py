@@ -15,7 +15,7 @@ import time
 
 # if this is set to true, then call Frequencies(..., rfeature) with rfeature as an extra argument.
 # this makes calls to tf and idf much faster and there is no overhead in loading at the beginning.
-REDIS_HAS_IDFS = True
+REDIS_HAS_IDFS = False
 
 class Frequencies():
 
