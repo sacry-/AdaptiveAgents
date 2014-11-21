@@ -4,6 +4,7 @@ __pycache__/
 
 # Redis Dumps
 dump*.rdb
+baks
 
 # Gedit Text Editor Temp Files
 *~
