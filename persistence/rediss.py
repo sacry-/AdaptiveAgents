@@ -39,8 +39,15 @@ class Rediss(object):
       if key and value:
         yield (key, LEVAL(value))
 
-  def values_by_titles(self, category, titles):
+  def values_by_titles(self, category, titles, ordered=False):
     keys = map(lambda title: self.key_name(category, title), titles)
+    # ordered returns as many elemts as the input list was
+    if ordered:
+        for key in self.rs.mget(keys):
+            if not key:
+                yield {}
+            else:
+                yield LEVAL(key)
     for key in self.rs.mget(keys):
       if key:
         yield LEVAL(key)
