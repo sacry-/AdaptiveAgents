@@ -15,7 +15,8 @@ import time
 
 # if this is set to true, then call Frequencies(..., rfeature) with rfeature as an extra argument.
 # this makes calls to tf and idf much faster and there is no overhead in loading at the beginning.
-REDIS_HAS_IDFS = False
+REDIS_HAS_IDFS = True
+print "REDIS_HAS_IDFS = %s" % REDIS_HAS_IDFS
 
 class Frequencies():
 
@@ -64,7 +65,7 @@ class Frequencies():
   def feature_vector(self, d, maxLen=25):
     self.tf("dummy",d) # force self.freqs[d] to be loaded
     words = self.freqs[d].words()
-    print "[2] %s len: %s" % (diff(), self.freqs[d].size())
+    # print "[2] %s len: %s" % (diff(), self.freqs[d].size())
     
     weighted_vector = map(lambda t: (t, self.w(t,d)) , words)
     # this is the bottle neck. this is why, calculating the feature vector takes so long.
