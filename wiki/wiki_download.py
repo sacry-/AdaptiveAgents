@@ -9,8 +9,6 @@ from io_utils import load_json, save_json, flatten_hash, create_file_name
 from category_knowledge import saved_titles
 from rediss import Rediss
 
-print "this module is old. it still uses elasticsearch!"
-exit(1)
 
 def download_wikipedia_titles(categories, depth):
   persisted_titles = persisted_titles = saved_titles(depth)
@@ -29,7 +27,7 @@ def print_download_status(titles_size, done, acc):
   needed = ((acc / done) * articles_to_go) / 60
   print "%s articles and %s mins to go" % (articles_to_go, needed)
 
-def fetch_articles_and_add_to_elastic_search(rss, titles, category, group_factor=100):
+def fetch_articles_and_add_to_redis(rss, titles, category, group_factor=100):
   group_factor, done = _group_factor, 0
   grouped_titles = [titles[i:i+group_factor] for i in range(0, len(titles), group_factor)]
   last, acc = 0, 0
@@ -42,13 +40,13 @@ def fetch_articles_and_add_to_elastic_search(rss, titles, category, group_factor
     done += group_factor
     print_download_status(len(titles), done, acc)
 
-def download_article_and_add_to_elastic_search(categories, depth):
+def download_article_and_add_to_redis(categories, depth):
   rss = Rediss()
   for category in categories:
     file_name = create_file_name(category, depth)
     titles = list(flatten_hash(load_json("categories", file_name)))
     print "fetched %s titles from %s..." % (len(titles), file_name)
-    fetch_articles_and_add_to_elastic_search(rss, titles, category.lower())
+    fetch_articles_and_add_to_redis(rss, titles, category.lower())
     print "done downloading for index=%s and doc_type=%s" % (index, doc_type)
   print "all done!"
 
