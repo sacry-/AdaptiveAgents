@@ -38,6 +38,7 @@ class Frequency():
 freqs = {}
 maxLen = 25
 
+
 # FREQUENCIES
 
 # Term -> [ Title ] -> ()
@@ -99,8 +100,14 @@ if REDIS_HAS_IDFS == False:
     print "Do you have the IDFs in Redis? Check the REDIS_HAS_IDFS flag.\nNothing done."
     exit(1)
 
-tf_multi_d_load("dummy", ds) # force self.freqs[d] for d in ds to be loaded
 
+t__ = time.clock()
+def diff():
+    return "%s" % ((time.clock() - t__)) 
+
+print "[1] %s %s - loading freqs..." % (diff(), cat)
+
+tf_multi_d_load("dummy", ds) # force self.freqs[d] for d in ds to be loaded
 
 # Title -> [ (Term, Float) ]
 def get_words_frequencies(tpl):
@@ -112,20 +119,26 @@ def sort_and_chomp(v):
 
 pool = Pool(cpu_count() - 1) # create cpu_pool, leave one cpu untoched for gui
 
+
+print "[2] %s %s - loading words..." % (diff(), cat)
 # wordss :: [ [Word] ]
 wordss = map( get_words , ds)
 
+print "[3] %s %s - loading word frequecies..." % (diff(), cat)
 # [ [(Term, Float)] ]
 vectors = map( get_words_frequencies , zip(ds, wordss))
 
+print "[4] %s %s - calculating feature vectors..." % (diff(), cat)
 # [ [(Term, Float)] ]
 fvectors = map( sort_and_chomp , vectors)
 
 # term frequency, inverse document frequency, weight, feature vector
 
-# calculating this was almost instant!!!
-for (d, fvec) in zip(ds, fvectors):
-    print "%s has %s..." % (d, fvec[0:2])
+print "[4] %s %s - saving into %s" % (diff(), cat, rfeature)
+mapping = dict(zip(ds, fvectors))
+rfeature.puts(cat, mapping)
+print "[5] %s %s - Finished %s!" % (diff(), cat, rfeature)
+
 
 
 # In[ ]:
