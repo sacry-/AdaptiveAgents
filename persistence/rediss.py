@@ -37,7 +37,7 @@ class Rediss(object):
     all_values = self.rs.mget(pattern_keys)
     for (key, value) in zip(pattern_keys, all_values):
       if key and value:
-        yield (key, LEVAL(value))
+        yield (self.real_title(key), LEVAL(value))
 
   def values_by_titles(self, category, titles, ordered=False):
     keys = map(lambda title: self.key_name(category, title), titles)
