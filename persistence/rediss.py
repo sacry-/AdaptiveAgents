@@ -106,6 +106,29 @@ class RContent(Rediss):
   def __repr__(self):
     return "RContent %s with db%s" % (super(RContent, self).__repr__(), self.db)
 
+  def values_by_pattern(self, pattern):
+    for value in self.rs.mget(self.keys(pattern)):
+      if value:
+        yield value
+
+  def key_value_by_pattern(self, pattern):
+    pattern_keys = list(self.keys(pattern))
+    all_values = self.rs.mget(pattern_keys)
+    for (key, value) in zip(pattern_keys, all_values):
+      if key and value:
+        yield (key, value)
+
+  def values_by_titles(self, category, titles):
+    keys = map(lambda title: self.key_name(category, title), titles)
+    for key in self.rs.mget(keys):
+      if key:
+        yield key
+
+  def value_by_title(self, category, title):
+    val = self.rs.get(self.key_name(category, title))
+    if val:
+      return val
+    return {}
 
 class RPos(Rediss):
 

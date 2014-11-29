@@ -1,23 +1,24 @@
+# coding: utf-8
+from __future__ import division
+
 import os, sys
 p = "%s/../persistence" % os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, p)
 
 from rediss import RFeature
+from rediss import RContent
 
-rf = RFeature()
+rc = RContent()
 
-def take_while(f, collection):
-  for elem in collection:
-    if not f(elem):
-      return
-    yield elem
+abs_all, size_all = 0, 0
+for category in ["biology", "chemistry", "physics"]:
+  size = len(list(rc.keys("%s-*" % category)))
+  size_all += size
+  print "size of %s: %s" % (category, size)
 
-h = sorted(rf.key_value_by_pattern("biology-idf:*"), key=lambda t: -t[1])
-over_nine = list(filter(lambda x: x[1] < 3, h))
+  abs_size_of_docs = map(lambda article: len(article.split(" ")), rc.values_by_pattern("%s-*" % category))
+  category_abs = sum(abs_size_of_docs)
+  abs_all += category_abs
+  print "average size of doc: %s" % (category_abs / size)
 
-# 9.72142596194803
-print over_nine
-print "%s-%s=%s" % (len(h), len(over_nine), len(h) - len(over_nine))
-
-#for elem in take_while2(lambda x: x[1] > 9.5, over_nine):
-#  print elem
+print "average size of all: %s" % (abs_all / size_all)
