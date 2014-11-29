@@ -2,7 +2,7 @@
 from persistence.rediss import RPos, RIdf, RFeature
 from multiprocessing import Pool, cpu_count
 
-import argparse
+import argparse, time
 parser = argparse.ArgumentParser(description="Migrate a category")
 parser.add_argument('-cat', action='store', metavar="CATEGORY", help="Specify the name of the category to process.")
 args = parser.parse_args()
