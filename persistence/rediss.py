@@ -56,11 +56,15 @@ class Rediss(object):
     return {}
 
   def put(self, category, title, content):
+    r = redis
     self.rs.set(self.key_name(category, title), content)
 
-  def puts(self, category, collection):
-    for (title, content) in collection:
-      self.put(category, title, content)
+  def puts(self, category, mapping):
+    self.rs.mset(
+      dict(
+        (self.key_name(category, title), str(value)) for title, value in mapping.iteritems()
+      )
+    )
 
   def size(self):
     return self.rs.dbsize()
