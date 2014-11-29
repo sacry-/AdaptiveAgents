@@ -144,10 +144,10 @@ class RPos(Rediss):
     return "RPos %s with db%s" % (super(RPos, self).__repr__(), self.db)
 
 
-class RFeature(Rediss):
+class RIdf(Rediss):
 
   def __init__(self, host="localhost", port=6379):
-    super(RFeature, self).__init__(host, port)
+    super(RIdf, self).__init__(host, port)
     self.db = 2
     self.rs = redis.Redis(host=self.host, port=self.port, db=self.db)
 
@@ -155,10 +155,28 @@ class RFeature(Rediss):
     return "%s-idf:%s" % (category, title)
 
   def put(self, category, title, content):
+    super(RIdf, self).put(category, title, content)
+
+  def __repr__(self):
+    return "RIdf %s with db%s" % (super(RIdf, self).__repr__(), self.db)
+
+
+class RFeature(Rediss):
+
+  def __init__(self, host="localhost", port=6379):
+    super(RFeature, self).__init__(host, port)
+    self.db = 3
+    self.rs = redis.Redis(host=self.host, port=self.port, db=self.db)
+
+  def key_name(self, category, title):
+    return "%s-feature:%s" % (category, title)
+
+  def put(self, category, title, content):
     super(RFeature, self).put(category, title, content)
 
   def __repr__(self):
     return "RFeatures %s with db%s" % (super(RFeature, self).__repr__(), self.db)
+
 
 # print map(str, RPos().values_by_pattern("biology-*"))
 # print map(str, RContent().all_keys("biology-*"))

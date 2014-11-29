@@ -1,18 +1,23 @@
 
-from persistence.rediss import RPos, RFeature
+from persistence.rediss import RPos, RIdf, RFeature
 from multiprocessing import Pool, cpu_count
 
-print "TODO: category"
-cat = "biology"
+import argparse
+parser = argparse.ArgumentParser(description="Migrate a category")
+parser.add_argument('-cat', action='store', metavar="CATEGORY", help="Specify the name of the category to process.")
+args = parser.parse_args()
 
-rfeature = RFeature()
+if not args.cat:
+    print "Please specify category. eg. \"biology\""
+    exit(1)
+
+cat = args.cat
+
+ridf = RIdf()
 rpos = RPos()
+rfeature = RFeature()
 
 titles = map(lambda t:rpos.real_title(t), rpos.keys(pattern="%s*" % cat))
-print len(titles)
-exit(0)
-# DS = ['category:cycad_stubs', 'pyrenocine', 'ericoid_mycorrhiza', 'islander_(database)', 'list_of_metropolitan_areas_in_the_united_kingdom', 'juha_hernesniemi', 'book:biology', 'ngsmethdb', 'estrogen_and_neurodegenerative_diseases', 'molecular_genetics_and_metabolism', 'antibiotic_resistance', 'functional_ecology', 'mesenchymal_stem_cell', "on_nature's_trail", 'history_of_eugenics', 'mt-tq', 'underwater_camouflage', 'sublingual_caruncle', 'ventral_reticular_nucleus', 'list_of_arecaceae_genera', 'hypomyces', 'p1-derived_artificial_chromosome', 'iodine_in_biology', 'arca-net', 'list_of_troglobites', 'luolishaniidae', 'outline_of_life_extension', 'peripatopsidae', 'list_of_geneticists', 'genetic_ablation', 'mucor', 'thomas_hunt_morgan_medal', '3-hydroxypropionate_pathway', 'aerobiology', 'disease_resistance_in_fruit_and_vegetables', 'evolution_of_photosynthesis', 'retroposon', 'law_of_specific_nerve_energies', 'iteron', 'tentaculites_oswegoensis', 'karenia_(dinoflagellate)', 'philippine_native_plants_conservation_society', 'southwestern_blot', 'rete_ovarii', 'follicular_lumen', 'dna_sequencing_theory', 'parenchymella', 'gard_model', 'aortopulmonary_window', 'azoospermia_factor', "estonian_naturalists'_society", 'eos_(protein)', 'schistosoma_mekongi', 'fusidic_acid', 'beauvericin', 'ephedra_fragilis', 'biomolecular_complex', 'epsilometer_test', 'gunneraceae', 'available_name', 'neuroepidemiology', 'data_sharing', 'fluroxypyr', 'blue_zone', 'cursorial_hunting', "doctor's_visit", 'actinorhodin', 'list_of_sequenced_protist_genomes', 'cryptochrome', 'mir-544_microrna_precursor_family', 'barbara_a._schaal', 'fedomia', 'teleomorph,_anamorph_and_holomorph', 'falling_cat_problem', 'electrophoretic_mobility_shift_assay', 'information_hyperlinked_over_proteins', 'lumi_(software)', "tollmann's_hypothetical_bolide", 'huffia', 'rafflesia_pricei', 'preformationism', 'nuclear_lamina', 'list_of_countries_and_territories_with_fewer_than_100,000_people', 'herring_bodies', 'v\\u00e1clav_hampl', 'animalcule', 'iditol', 'catenochytridium', 'silverquant', 'lyso-', 'pgreen', 'ceragenin', 'isagenix_international']
-
 
 # term frequency and inverse document frequencies are already implemented in statistics
 
@@ -53,7 +58,7 @@ def safe(x):
 
 # [Term] -> [Float]
 def idf_multi(ts):
-    return map(safe, rfeature.values_by_titles(cat, ts, ordered=True))
+    return map(safe, ridf.values_by_titles(cat, ts, ordered=True))
 
 
 # [Term] -> Title -> [ Int ]
@@ -88,8 +93,6 @@ def get_words(d):
 # [Title] ( -> Int) -> [ [(Term,Float)] ]
 # def feature_vector_multi(ds, maxLen=25):
 
-# print "fvecs N: %s" % feature_vector_multi(["biology", "biologist", "rnase_h"])
-ds = ["biology", "biologist", "rnase_h"]
 ds = titles
 
 if REDIS_HAS_IDFS == False:
