@@ -154,6 +154,7 @@ def stem(tokens):
     if word_is_valid(token):
       yield PORTER.stem(token).lower()
 
+# [(word, tag)..]
 def stem_with_pos_tags(tagged_words):
   d = {}
   for (word, tag) in tagged_words:
@@ -173,7 +174,7 @@ def stem_with_pos_tags(tagged_words):
 #   u'month': {u'NN': 1},
 #   u'nail': {u'NN': 1, u'VBZ': 1}
 # }
-def stem_with_pos_tags_neu(tagged_words):
+def stem_tagged_words(tagged_words):
   d = {}
   for (word, tags) in tagged_words.iteritems():
     if word_is_valid(word):

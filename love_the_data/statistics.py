@@ -22,14 +22,14 @@ class Frequencies():
 
   def __init__(self, rpos, category, rfeature=None):
     if rfeature:
-        self.rfeature = rfeature
+      self.rfeature = rfeature
     self.titles = map(lambda x: rpos.real_title(x), rpos.keys("%s*" % category))
     self.rpos = rpos
     # freqs = {"biologist": Frequency(...), "despiciation": Frequency(...), ...}
     if not REDIS_HAS_IDFS:
-        self.freqs = dict((title, Frequency(ptags)) for title, ptags in zip(self.titles, rpos.values_by_titles(category, self.titles)))
+      self.freqs = dict((title, Frequency(ptags)) for title, ptags in zip(self.titles, rpos.values_by_titles(category, self.titles)))
     else:
-        self.freqs = {}
+      self.freqs = {}
     self.num_of_docs = len(self.titles)
     self.cache = {} # saches calls of idf(t)
     self.cat = category
@@ -37,7 +37,7 @@ class Frequencies():
   # Term -> Float
   def idf(self, t):
     if REDIS_HAS_IDFS:
-        return self.rfeature.value_by_title(self.cat, t) or 0
+      return self.rfeature.value_by_title(self.cat, t) or 0
     if self.cache.has_key(t):
       return self.cache[t]
     n = reduce(lambda acc, freq: acc + freq.idf(t), self.freqs.values(), 0)
@@ -52,9 +52,9 @@ class Frequencies():
   # Term -> Title -> Int
   def tf(self, t, title):
     if REDIS_HAS_IDFS:
-        self.freqs[title] = Frequency(self.rpos.value_by_title(self.cat, title))
+      self.freqs[title] = Frequency(self.rpos.value_by_title(self.cat, title))
     if not self.freqs.has_key(title):
-        return 0
+      return 0
     return self.freqs[title].tf(t)
     
   # Term -> Title -> Float
