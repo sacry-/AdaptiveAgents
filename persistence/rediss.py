@@ -66,6 +66,9 @@ class Rediss(object):
       )
     )
 
+  def pipeline(self, _transaction=False):
+    return self.rs.pipeline(transaction=_transaction)
+
   def size(self):
     return self.rs.dbsize()
 
