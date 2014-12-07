@@ -16,7 +16,7 @@ Parsing and Text Processing
 # Numpy + Scipy 
 pip install numpy
 pip install scipy
-pio install treelib
+pip install treelib
 # Remove Markup from Strings
 git clone https://github.com/daddyd/dewiki.git
 cd dewiki/
