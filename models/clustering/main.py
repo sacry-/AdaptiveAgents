@@ -24,7 +24,6 @@ rfeature = RFeature()
 '''
 vectors = dict(rfeature.key_value_by_pattern("%s*" % category))
 clusters = deepcopy(vectors)
-tree = 
 
 while len(clusters.values()) > 1:
   c1, c2 = closest_distance(clusters)
