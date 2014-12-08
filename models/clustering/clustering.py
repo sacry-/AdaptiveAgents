@@ -32,9 +32,9 @@ def calculate_distance(v1, v2):
   except ZeroDivisionError:
     return (INF, set([]))
 
-# distance :: Tree -> Tree -> Dict(Title, Vector) -> Double
+# distance :: Tree -> Tree -> Dict(Title, Vector) -> Diff -> Double
 memo = {}
-def distance(c1, c2, vectors):
+def distance(c1, c2, vectors, diff):
   global memo
   key = calculate_key(c1, c2)
   v1 = get_words(c1, vectors)
@@ -57,23 +57,29 @@ def get_words(c1, vectors):
             words.add(tpl[0])
     return words
 
-# clostest_distance :: [Tree] -> Dict(Title, Vector) -> (Tree, Tree, Double)
-def closest_distance(cluster_trees, vectors):
+# clostest_distance :: [Tree] -> Dict(Title, Vector) -> Diff -> (Tree, Tree, Double)
+def closest_distance(cluster_trees, vectors, diff):
   pairs = []
   m = INF
   min_pair = (None, None, None)
+  count = 0
+  count2 = 0
+  # each iteration is fast, but the number of iterations is the problem
   for c1 in cluster_trees:
     for c2 in cluster_trees:
       if c1 != c2:
-        dist, rset = distance(c1, c2, vectors)
+        dist, rset = distance(c1, c2, vectors, diff)
+        count += 1
         if dist <= m:
-          m = dist 
+          count2 += 1
+          m = dist
           min_pair = (c1, c2, rset, m)
+  print "[3] [%s] distances; %s iterations, %s updates" % (diff(), count, count2) # <- bottleneck!
   return min_pair
 
-# reduce_clusters :: [Tree] -> Tree -> Tree -> Set(Word) -> Double -> [Tree]
+# reduce_clusters :: [Tree] -> Tree -> Tree -> Set(Word) -> Double -> Vectors -> Diff -> [Tree]
 tick = 1 # start from 1 to avoid collision in ids
-def reduce_clusters(cluster_trees, c1, c2, intersect_words, dist, vectors):
+def reduce_clusters(cluster_trees, c1, c2, intersect_words, dist, vectors, diff):
   global tick
   cluster_trees.remove(c1)
   cluster_trees.remove(c2)
@@ -81,7 +87,7 @@ def reduce_clusters(cluster_trees, c1, c2, intersect_words, dist, vectors):
   cluster_trees.append(newtree)
   c1_name = c1.get_node(c1.root).tag
   c2_name = c2.get_node(c2.root).tag
-  print "cluster-size: %s - [%s, %1.3f] %s <- %s + %s" % (len(cluster_trees),len(intersect_words), dist, name, c1_name, c2_name)
+  print "[3] [%s] cluster-size: %s - [%s, %1.3f] %s <- %s + %s" % (diff(), len(cluster_trees),len(intersect_words), dist, name, c1_name, c2_name)
   tick = tick + 1
   return cluster_trees
 
