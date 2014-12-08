@@ -36,7 +36,7 @@ cluster_trees = clustered_trees(indexed_titles) # [Tree]
 print "[2] [%s] start clustering.." % diff()
 while len(cluster_trees) > 1:
   c1, c2, merged_set, distance = closest_distance(cluster_trees, vectors, diff)
-  clusters = reduce_clusters(cluster_trees, c1, c2, merged_set, distance, vectors, diff)
+  cluster_trees = reduce_clusters(cluster_trees, c1, c2, merged_set, distance, vectors, diff)
 print "[4] [%s] finished clustering..." % diff()
 
 t = cluster_trees[0]
