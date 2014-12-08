@@ -76,6 +76,14 @@ class Rediss(object):
     self.rs.delete(keys)
     return self.exists(keys[0])
 
+  def take_by_pattern(self, pattern, n):
+    for key, value in self.key_value_by_pattern(pattern):
+      if n > 1:
+        yield (key, value)
+      else:
+        break
+      n -= 1
+
   def exists(self, key_name):
     return self.rs.exists(key_name)
 
