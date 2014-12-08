@@ -16,9 +16,12 @@ def titles_to_indexed_dict(titles):
 
 def calculate_distance(v1, v2):
   try:
-    return 1 / len(set(zip(*v1)[0]).intersection(set(zip(*v2)[0])))
+    s1 = set(zip(*v1)[0])
+    s2 = set(zip(*v2)[0])
+    rset = s1.intersection(s2)
+    return (1 / len(rset), rset)
   except:
-    return 0
+    return (0, set([]))
 
 memo = {}
 def distance(c1, c2):
@@ -37,18 +40,11 @@ def closest_distance(cluster_hash):
   for c1 in cluster_hash.iteritems():
     for c2 in cluster_hash.iteritems():
       if c1 != c2:
-        dist = distance(c1, c2)
+        dist, rset = distance(c1, c2)
         if dist < m:
           m = dist 
-          min_pair = (c1, c2)
+          min_pair = (c1, c2, rset)
   return min_pair
-
-def merge_cluster(c1, c2):
-  c = []
-  for k, v in list(c1[1]) + list(c2[1]):
-    if not k in c:
-      c.append((k, v))
-  return c
 
 tick = 0
 def reduce_clusters(clusters, c1, c2, merged_cluster):
