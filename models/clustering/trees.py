@@ -3,13 +3,14 @@ from treelib import Tree, Node
 # Documentation: http://hsiamin.com/treelib/pyapi.html
 from ast import literal_eval
 
-
-def merge_trees(t1, t2):
+def merge_trees(t1, t2, tick):
   t = Tree()
-
-  # TODO
-  
-  return t
+  identifier = -tick # using negative numbers as identifiers, positive numbers are ids for the leaf nodes
+  name = "new_cluster_%s" % tick
+  t.create_node(name, identifier)
+  t.paste(identifier, t1)
+  t.paste(identifier, t2)
+  return t, name
 
 def create_tree(indexed_titles, root, children=None):
   t = Tree()
@@ -21,10 +22,10 @@ def create_tree(indexed_titles, root, children=None):
   return t
 
 def clustered_trees(indexed_titles):
-  cluster_tree = []
+  cluster_trees = []
   for title in indexed_titles.keys():
-    cluster_tree.append(create_tree(indexed_titles, title))
-  return cluster_tree
+    cluster_trees.append(create_tree(indexed_titles, title))
+  return cluster_trees
 
 def from_json(json_str, titles):
   try:
