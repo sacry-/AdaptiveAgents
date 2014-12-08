@@ -15,34 +15,31 @@ Vector = [(lemma, weight)]
 '''
 
 category = "biology"
-pattern = "%s*" % category
+filter_ = "biolog"
+pattern = "%s*%s*" % (category, filter_) # using only docs with biolog in title
 rfeature = RFeature()
 
 print "[1] fetch data.."
-vectors = filter_dummies_dict(dict(rfeature.take_by_pattern(pattern, 500))) # {title : Vector}
-
+vectors = filter_dummies_dict(dict(rfeature.take_by_pattern(pattern, 130))) # {title : Vector}
 # clusters = vector_to_cluster(vectors) # no dummies, ..
 
 indexed_titles = titles_to_indexed_dict(vectors.keys()) # { title : unique_id }
 cluster_trees = clustered_trees(indexed_titles) # [Tree]
 
-#for x in cluster_trees:
-#    x.show()
-
-
 print "[2] start clustering.."
 while len(cluster_trees) > 1:
-  c1, c2, merged_set = closest_distance(cluster_trees, vectors)
-  clusters = reduce_clusters(cluster_trees, c1, c2, merged_set)
-  # cluster_trees = merge_trees(cluster_trees, merged_set)
+  c1, c2, merged_set, distance = closest_distance(cluster_trees, vectors)
+  clusters = reduce_clusters(cluster_trees, c1, c2, merged_set, distance, vectors)
 print "[3] finished clustering..."
 
 t = cluster_trees[0]
-t.show()
+# t.show() # uncomment to show tree
 jsonstr = t.to_json()
-with open("tree.josn", "w+") as f:
+fname = "tree"
+t.save2file(fname+".txt")
+with open(fname+".json", "w+") as f:
     f.write(jsonstr)
     f.close()
-
+print "[4] Saved tree into %s.txt and %s.json. Read it with from_jsom(...)" % (fname,fname)
 
 
