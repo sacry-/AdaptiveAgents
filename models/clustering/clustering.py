@@ -1,13 +1,14 @@
 # coding: utf-8
 from __future__ import division
 
+INF = float("inf")
 
 def vector_to_cluster(vectors):
 
   def filter_dummies(vector):
     return filter(lambda t: t[0] != "dummy", vector)
 
-  clusters = dict([(title, filter_dummies(vector)) for title, vector in vectors])
+  clusters = dict((title, filter_dummies(vector)) for title, vector in vectors)
   return clusters
 
 
@@ -21,7 +22,7 @@ def calculate_distance(v1, v2):
     rset = s1.intersection(s2)
     return (1 / len(rset), rset)
   except:
-    return (0, set([]))
+    return (INF, set([]))
 
 memo = {}
 def distance(c1, c2):
@@ -35,13 +36,13 @@ def distance(c1, c2):
 
 def closest_distance(cluster_hash):
   pairs = []
-  m = 10
-  min_pair = (None, None)
+  m = INF
+  min_pair = (None, None, None)
   for c1 in cluster_hash.iteritems():
     for c2 in cluster_hash.iteritems():
       if c1 != c2:
         dist, rset = distance(c1, c2)
-        if dist < m:
+        if dist <= m:
           m = dist 
           min_pair = (c1, c2, rset)
   return min_pair
