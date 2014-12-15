@@ -1,16 +1,27 @@
 
+from persistence.io_utils import load_json
 from persistence.rediss import RPos, RIdf, RFeature
 from multiprocessing import Pool, cpu_count
+import time
 
 ridf = RIdf()
 rpos = RPos()
 rfeature = RFeature()
 
-titles = map(lambda t:rpos.real_title(t), rpos.keys(pattern="%s*" % ""))
 
-cat_of = {} # TODO:
-print "TODO:"
+cat_titles = load_json("categories", "all_cats_3000")
 
+titles = sum(cat_titles.values(), [])
+
+cat_of = {}
+for cat_, ts in cat_titles.iteritems():
+    for t in ts:
+        cat_of[t] = cat_
+
+#my_ts = titles[:2] + titles[-2:]
+#print my_ts
+#print map(lambda x:cat_of[x], my_ts)
+#exit(0)
 # term frequency and inverse document frequencies are already implemented in statistics
 
 # In[3]:
@@ -51,7 +62,7 @@ def safe(x):
 
 # [Term] -> [Float]
 def idf_multi(ts):
-    return map(safe, ridf.values_by_titles(cat, ts, ordered=True))
+    return map(safe, ridf.values_by_titles("all", ts, ordered=True))
 
 
 # [Term] -> Title -> [ Int ]
@@ -97,7 +108,7 @@ t__ = time.clock()
 def diff():
     return "%s" % ((time.clock() - t__)) 
 
-print "[1] %s %s - loading freqs..." % (diff(), cat)
+print "[1] %s %s - loading freqs..." % (diff(), "all")
 
 tf_multi_d_load("dummy", ds) # force self.freqs[d] for d in ds to be loaded
 
@@ -112,24 +123,24 @@ def sort_and_chomp(v):
 pool = Pool(cpu_count() - 1) # create cpu_pool, leave one cpu untoched for gui
 
 
-print "[2] %s %s - loading words..." % (diff(), cat)
+print "[2] %s %s - loading words..." % (diff(), "all")
 # wordss :: [ [Word] ]
 wordss = map( get_words , ds)
 
-print "[3] %s %s - loading word frequecies..." % (diff(), cat)
+print "[3] %s %s - loading word frequecies..." % (diff(), "all")
 # [ [(Term, Float)] ]
 vectors = map( get_words_frequencies , zip(ds, wordss))
 
-print "[4] %s %s - calculating feature vectors..." % (diff(), cat)
+print "[4] %s %s - calculating feature vectors..." % (diff(), "all")
 # [ [(Term, Float)] ]
 fvectors = map( sort_and_chomp , vectors)
 
 # term frequency, inverse document frequency, weight, feature vector
 
-print "[4] %s %s - saving into %s" % (diff(), cat, rfeature)
+print "[4] %s %s - saving into %s" % (diff(), "all", rfeature)
 mapping = dict(zip(ds, fvectors))
-rfeature.puts(cat, mapping)
-print "[5] %s %s - Finished %s!" % (diff(), cat, rfeature)
+rfeature.puts("all", mapping)
+print "[5] %s %s - Finished %s!" % (diff(), "all", rfeature)
 
 
 
