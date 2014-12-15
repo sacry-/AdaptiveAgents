@@ -2,22 +2,14 @@
 from persistence.rediss import RPos, RIdf, RFeature
 from multiprocessing import Pool, cpu_count
 
-import argparse, time
-parser = argparse.ArgumentParser(description="Migrate a category")
-parser.add_argument('-cat', action='store', metavar="CATEGORY", help="Specify the name of the category to process.")
-args = parser.parse_args()
-
-if not args.cat:
-    print "Please specify category. eg. \"biology\""
-    exit(1)
-
-cat = args.cat
-
 ridf = RIdf()
 rpos = RPos()
 rfeature = RFeature()
 
-titles = map(lambda t:rpos.real_title(t), rpos.keys(pattern="%s*" % cat))
+titles = map(lambda t:rpos.real_title(t), rpos.keys(pattern="%s*" % ""))
+
+cat_of = {} # TODO:
+print "TODO:"
 
 # term frequency and inverse document frequencies are already implemented in statistics
 
@@ -47,7 +39,7 @@ def tf_multi_d_load(t, ds):
     freqs = dict(
         (d, Frequency(ptags))
         for d, ptags in
-        zip(ds, rpos.values_by_titles(cat, ds, ordered=True))
+        zip(ds, list(rpos.value_by_title(cat_of[d], d) for d in ds))
     )
     return 0
 

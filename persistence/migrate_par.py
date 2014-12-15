@@ -1,26 +1,10 @@
 import time
-from rediss import RPos, RFeature
-from multiprocessing import Pool
-
-import os, sys
-p = "%s/../love_the_data" % os.path.dirname(os.path.realpath(__file__))
-sys.path.insert(0, p)
-
-from statistics import Frequencies
-
-
-# USAGE:
-# Open three terminals
-# [1]: python migrate_par.py -cat "physics"
-# [2]: python migrate_par.py -cat "chemistry"
-# [3]: python migrate_par.py -cat "biology"
-# each process will occupy a core. close other memory hungy applications, if you don't have more than 4 cores...
-# Biology finished after ca. 1 hour. The timer was at -1400 on finishing. (after overflowing once at +2000)
-# physics after 45 mins. timer was at -1700
-# chemistry after 1hour and 30mins. timer was at -30
+import math
+from rediss import RPos, RIdf
+from io_utils import load_json
 
 rpos = RPos()
-rfeature = RFeature()
+ridf = RIdf()
 
 n = 0
 t__ = time.clock()
@@ -28,45 +12,51 @@ def diff():
   return "%s" % ((time.clock() - t__)) 
 
 
-def do_category(category):
-  print "[1] %s %s - Calculating idfs for category %s" % (diff(), category, category)
+def count_occurrences(w, cat_titles_pos):
+  def f(trpl):
+    if trpl[2].has_key(w):
+      return 1
+    return 0
+  return sum(map(f, cat_titles_pos))
+
+def do_category():
+
+  print "[1] %s - loading titles" % (diff())
+
+  cat_titles = load_json("categories", "all_cats_3000")
+
+  n_docs = sum(len(v) for k,v in cat_titles.iteritems())
+
+  print "[2] %s - loading pos tags, n_docs = %s" % (diff(), n_docs)
+
+  cat_titles_pos = list( (cat, t, rpos.value_by_title(cat,t)) for cat, ts in cat_titles.iteritems() for t in ts)
+
+  print "[3] %s - extractings words" % diff()
+
+  def calc_idf(w):
+    n = count_occurrences(w, cat_titles_pos)
+    try:
+      return (w, math.log(n_docs / float(n)))
+    except ZeroDivisionError:
+      return (w, 0)
   
-  frequencies = Frequencies(rpos, category)
-  numArticles = len(frequencies.titles)
-  print "[1] %s %s - idfs for %s articles calculated" % (diff(), category, numArticles)
-  print "[1] %s %s - Inserting idfs into %s" % (diff(), category, rfeature)
-  
-  curr = pre = len(list(rfeature.keys(category + "*")))
-  i, j = 1, 0
-  pipe = rfeature.pipeline()
-  for f in frequencies.freqs.values():
-    j += 1
-    for t in f.words():
-      i += 1
-      if i % 5000 == 0:
-        pipe.execute() # Section Pipeline: https://pypi.python.org/pypi/redis/
-        pipe = rfeature.pipeline()
-        curr = len(list(rfeature.keys(category + "*")))
-        print "[2] %s %s - processed %s/%s articles, i = %s" % (diff(), category, j, numArticles, i)
-        print "[2] %s %s - added %s terms into RFeature, %s total" % (diff(), category, curr - pre, curr)
-        pre = curr
-    _idf = frequencies.idf(t)
-    key = rfeature.key_name(category, t)
-    pipe.set(key, _idf)
-  print "[2] %s %s - Finished all %s terms in %s" % (diff(), category, len(list(rfeature.keys(category + "*"))), category)
-  return "fin"
+  words = []
+  for c_t_p in cat_titles_pos:
+    words += c_t_p[2].keys()
+  words = set(words)
 
-import argparse
-parser = argparse.ArgumentParser(description="Migrate a category")
-parser.add_argument('-cat', action='store', metavar="CATEGORY", help="Specify the name of the category to process.")
-args = parser.parse_args()
+  print "[4] %s - calculating idfs, n_words = %s" % (diff(), len(words))
 
-if not args.cat:
-  print "Please specify category. eg. \"biology\""
-  exit(1)
+  words_idfs = dict(map(calc_idf, words))
 
-print "[0] %s - Started migrate script for inverse document frequencies" % diff()
+  print "[5] %s - saving idfs" % diff()
 
-do_category(args.cat)
+  ridf.puts("all", words_idfs)
 
-print "[0] %s - Finished migration: %s terms over all categories." % (diff(), len(list(rfeature.keys("*"))))
+  print "[6] %s - method finisheed" % (diff())
+
+
+do_category()
+
+
+

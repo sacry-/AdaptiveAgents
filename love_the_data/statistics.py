@@ -13,17 +13,17 @@ from math import sqrt
 import random
 import time
 
-# if this is set to true, then call Frequencies(..., rfeature) with rfeature as an extra argument.
+# if this is set to true, then call Frequencies(..., ridf) with ridf as an extra argument.
 # this makes calls to tf and idf much faster and there is no overhead in loading at the beginning.
 REDIS_HAS_IDFS = True
 print "REDIS_HAS_IDFS = %s" % REDIS_HAS_IDFS
 
 class Frequencies():
 
-  def __init__(self, rpos, category, rfeature=None):
-    if rfeature:
-      self.rfeature = rfeature
-    self.titles = map(lambda x: rpos.real_title(x), rpos.keys("%s*" % category))
+  def __init__(self, rpos, category, titles, ridf=None):
+    if ridf:
+      self.ridf = ridf
+    self.titles = titles
     self.rpos = rpos
     # freqs = {"biologist": Frequency(...), "despiciation": Frequency(...), ...}
     if not REDIS_HAS_IDFS:
@@ -37,7 +37,7 @@ class Frequencies():
   # Term -> Float
   def idf(self, t):
     if REDIS_HAS_IDFS:
-      return self.rfeature.value_by_title(self.cat, t) or 0
+      return self.ridf.value_by_title(self.cat, t) or 0
     if self.cache.has_key(t):
       return self.cache[t]
     n = reduce(lambda acc, freq: acc + freq.idf(t), self.freqs.values(), 0)

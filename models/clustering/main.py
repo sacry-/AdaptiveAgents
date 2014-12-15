@@ -27,7 +27,7 @@ pattern = "%s*%s*" % (category, filter_) # using only docs with biolog in title
 rfeature = RFeature()
 
 print "[1] [%s] fetch data.." % diff()
-vectors = filter_dummies_dict(dict(rfeature.take_by_pattern(pattern, 300))) # {title : Vector}
+vectors = filter_dummies_dict(dict(rfeature.take_by_pattern(pattern, 500))) # {title : Vector}
 # clusters = vector_to_cluster(vectors) # no dummies, ..
 
 indexed_titles = titles_to_indexed_dict(vectors.keys()) # { title : unique_id }

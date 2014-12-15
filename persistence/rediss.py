@@ -49,6 +49,13 @@ class Rediss(object):
         if ordered:
           yield {}
 
+  def key_value_by_titles(self, category, titles):
+    keys = map(lambda title: self.key_name(category, title), titles)
+    all_values = self.rs.mget(keys)
+    for (key, value) in zip(keys, all_values):
+      if key and value:
+        yield (self.real_title(key), LEVAL(value))
+
   def value_by_title(self, category, title):
     val = self.rs.get(self.key_name(category, title))
     if val:

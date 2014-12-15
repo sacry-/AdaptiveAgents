@@ -75,9 +75,16 @@ def closest_distance(cluster_trees, vectors, diff):
 
 def par_distance(tpl):
   c1, c2, vectors = tpl
+
+  key = calculate_key(c1, c2)
+  if key in memo:
+    dist, rset = memo[key]
+    return c1, c2, dist, rset
+  
   v1 = get_words(c1, vectors)
   v2 = get_words(c2, vectors)
   dist, rset = calculate_distance(v1, v2)
+  memo[key] = (dist, rset)
   return c1, c2, dist, rset
 
 from multiprocessing import Pool, cpu_count # import has to be done AFTER the par_mapped function par_distance
