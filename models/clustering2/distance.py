@@ -1,15 +1,29 @@
+from preparation import Cluster
+from cluster_utils import *
 
+INF = float("inf")
 
-class Cluster():
+# [Vector] -> {title : Vector} -> [Clusters]
+def assign_nodes_to_centroids(centroids, master):
+  clusters = dict((vector_to_key(c), Cluster({})) for c in centroids)
+  for title, vector in master.iteritems():
+    centroid = find_closest(vector, centroids)
+    centroid_key = vector_to_key(centroid)
+    clusters[centroid_key] = clusters[centroid_key].add_elem( (title, vector) )
+    # print "%s += %s" % (centroid_key, title)
+  return clusters.values()
 
-  def __init__(self, elems):
-    self.elems = elems
+def vector_to_word_set(vec):
+  return set(map(fst,vec))
 
-  def vectors(self):
-    return self.elems.values()
+# Vector -> Double
+def vector_to_key(vector):
+  return sum(map(snd,vector))
 
-  def key(self):
-    raise "Cluster.key not implemented"
+def find_closest(vector, centroids):
+  v_words = vector_to_word_set(vector)
+  f = lambda cent: calculate_distance(v_words, vector_to_word_set(cent))
+  return min(centroids, key=f)
 
 # Set(Word) -> Set(Word) -> (Double, Set(Word))
 def calculate_distance(v1, v2):
@@ -19,27 +33,6 @@ def calculate_distance(v1, v2):
     return (1 / len(rset), rset)
   except ZeroDivisionError:
     return (INF, set([]))
-
-# distance :: Cluster -> Cluster -> Dict(Title, Vector) -> Diff -> Double
-memo = {}
-def distance(c1, c2, vectors, diff):
-  global memo
-  raise "key calculation missing!"
-  key = calculate_key(c1, c2)
-  if not key in memo:
-    v1 = get_words(c1, vectors)
-    v2 = get_words(c2, vectors)
-    memo[key] = calculate_distance(v1, v2)
-  return memo[key]
-
-def get_words(cluster):
-  for v in cluster:
-    for word, _ in v.values():
-      yield word
-
-# Cluster -> Cluster -> String
-def calculate_key(c1, c2):
-  return "%s#%s" % (c1, c2)
 
 
 
