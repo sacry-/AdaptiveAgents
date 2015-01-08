@@ -10,24 +10,12 @@ from math import sqrt
 from math import log
 from math import fsum
 from distance import Cluster
+from cluster_utils import *
 
 VLEN = 25
 MIN_SUM_OF_WEIGHTS = 500
 LIMIT_LOG = MIN_SUM_OF_WEIGHTS*log(MIN_SUM_OF_WEIGHTS)
 LIMIT_SQRT = MIN_SUM_OF_WEIGHTS*sqrt(MIN_SUM_OF_WEIGHTS)
-
-def concatMap(f, ls):
-    return sum(map(f,ls),[])
-
-def prints(ls):
-  for x in ls:
-    print x
-
-def fst(tpl):
-  return tpl[0]
-
-def snd(tpl):
-  return tpl[1]
 
 # given a Vector of arbitrary length, truncate or extends it to 25 elements
 def fix_length(ls):

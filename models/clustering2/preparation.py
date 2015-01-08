@@ -13,6 +13,9 @@ class Cluster():
   def vectors(self):
     return self.elems.values()
 
+  def name(self):
+    return self.elems.keys()[0]
+
 # filter_dummies_dict :: Dict(Title, Vector) -> Dict(Title, Vector)
 def filter_dummies_dict(d):
   return dict((t, filter_dummies(v)) for t,v in d.iteritems() if filter_dummies(v))

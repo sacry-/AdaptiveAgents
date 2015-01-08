@@ -34,5 +34,17 @@ def calculate_distance(v1, v2):
   except ZeroDivisionError:
     return (INF, set([]))
 
+def words(cluster):
+  words_ = set([])
+  for wv in vector_to_word_set(cluster.vectors()):
+    for w in wv:
+      words_.add(w)
+  return words_
+
+def cluster_distance(c1, c2):
+  ws1 = words(c1)
+  ws2 = words(c2)
+  dist, inters = calculate_distance(ws1,ws2)
+  return dist
 
 

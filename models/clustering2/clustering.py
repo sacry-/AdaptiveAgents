@@ -8,29 +8,31 @@ import pprint
 import preparation
 import distance
 import centroidation
-from visualization import *
-
+from cluster_utils import *
 
 '''
-type Cluster = {title: Vector}
+type Cluster( {title: Vector} )
 '''
 
-rfeature = RFeature()
+def clustering_algorithm(n=50, iter_count=10, iter_print=False):
+  rfeature = RFeature()
+  # {title : Vector}
+  feature_3000 = dict(rfeature.key_value_by_pattern("*"))
+  master = preparation.filter_dummies_dict(feature_3000)
+  # clusters :: [Cluster]
+  clusters = preparation.initial_clusters(master, n)
 
-# {title : Vector}
-feature_3000 = dict(rfeature.key_value_by_pattern("*"))
-master = preparation.filter_dummies_dict(feature_3000)
+  for i in range(0, iter_count):
+    if iter_print:
+      # print "Cluster sizes: %s" % cluster_sizes(clusters)
+      print "%s th iteration:" % (i + 1)
+    centroids = map(centroidation.cluster_centroid_vector, clusters)
+    clusters = distance.assign_nodes_to_centroids(centroids, master)
 
-n = 50
-# clusters :: [Cluster]
-clusters = preparation.initial_clusters(master, n)
-
-for i in range(0, 10):
   print "Cluster sizes: %s" % cluster_sizes(clusters)
-  print "%s th iteration:" % (i + 1)
-  centroids = map(centroidation.cluster_centroid_vector, clusters)
-  clusters = distance.assign_nodes_to_centroids(centroids, master)
+  return clusters
 
-print "Cluster sizes: %s" % cluster_sizes(clusters)
-pp = pprint.PrettyPrinter(indent=2, depth=5)
-# pp.pprint(clusters[0])
+
+
+
+
