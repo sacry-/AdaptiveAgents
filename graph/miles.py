@@ -44,8 +44,8 @@ def styled_graph():
   G.node_attr['fixedsize']='true'
   G.node_attr['fontsize']='8'
   G.node_attr['style']='filled'
-  G.graph_attr['outputorder']='edgesfirst'
-  G.graph_attr['size'] = '50!'
+  # G.graph_attr['outputorder']='edgesfirst'
+  G.graph_attr['size'] = '25!'
   G.graph_attr['label']="miles_dat"
   G.graph_attr['ratio']='1.0'
   G.edge_attr['style']='setlinewidth(0.5)'
@@ -64,7 +64,7 @@ def miles_graph():
     if numfind.match(line):
       dist=line.split()
       for d in dist:
-        if float(d) > 2000 and float(d) < 3000:
+        if float(d) < 500:
           create_edge(G, city, cities[i], float(d))
         i=i+1
     else:
@@ -93,8 +93,8 @@ if __name__ == '__main__':
 
   G = new_graph()
   G.write("miles.dot")
-  # prog=[’neato’|’dot’|’twopi’|’circo’|’fdp’|’nop’] w
-  G.draw("miles.png",prog='dot')
+  # prog=[’neato’|’dot’|’twopi’|’circo’|’fdp’|’nop’]
+  G.draw("miles.png",prog='circo')
   print("Finished!")
 
 

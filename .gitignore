@@ -73,3 +73,7 @@ ipython/
 *sample_*
 wiki_parse/
 
+# Graph visualization
+*.dot
+*.png
+
