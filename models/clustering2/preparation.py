@@ -1,6 +1,7 @@
 from Levenshtein import ratio
 from cluster_utils import *
 
+
 class Cluster():
   # Cluster({title, Vector})
   def __init__(self, elems):
@@ -34,20 +35,29 @@ def find_closest(vector, lexicon):
       best_lex = lex
   return best_lex
 
-def get_lexicon(n):
-  import os, sys, json
-  p = "%s/../../persistence" % os.path.dirname(os.path.realpath(__file__))
-  sys.path.insert(0, p)
 
-  from rediss import RIdf
-  rif = RIdf()
-  heuristic = lambda x: x[1] > 2
-  non_junk_words = filter(heuristic, list(rif.key_value_by_pattern("*")))
-  return map(fst, sorted(non_junk_words, key=snd)[:n])
+def get_non_junk_words(data, bounds=2):
+  non_junk_words = filter(lambda x: snd(x) > bounds, list(data))
+  return non_junk_words
 
-def initial_clusters(master, n):
+def lexicon_with_min_and_max_bound(non_junk_words, decr_bound, incr_bound):
+  average_word = sum(map(snd, non_junk_words)) / len(non_junk_words)
+  min_bound, max_bound = average_word + decr_bound, average_word + incr_bound
+  filtered = filter(lambda x: min_bound < snd(x) < max_bound, non_junk_words)
+  print "average word size: %s, mind_bound: %s, max_bound: %s" % (average_word, min_bound, max_bound)
+  print "lexicon with min and max bound size: %s" % len(filtered)
+  return filtered
+
+def get_lexicon(n, data):
+  non_junk_words = get_non_junk_words(data)
+  filtered = lexicon_with_min_and_max_bound(non_junk_words, -2.5, -1.5)
+  lexicon = map(fst, sorted(filtered, key=snd, reverse=True)[:n])
+  print "%s" % ", ".join(lexicon)
+  return lexicon
+
+def initial_clusters(master, n, data):
   from itertools import repeat
-  lexicon = get_lexicon(n)
+  lexicon = get_lexicon(n, data)
   clusters = dict((lex, Cluster({})) for lex in lexicon)
   for title, vector in master.iteritems():
     word = find_closest(vector, lexicon)
@@ -58,6 +68,11 @@ def initial_clusters(master, n):
 
 
 if __name__ == "__main__":
-  initial_clusters({}, 50)
+  import os, sys, json
+  p = "%s/../../persistence" % os.path.dirname(os.path.realpath(__file__))
+  sys.path.insert(0, p)
+  from rediss import RIdf
+  data = RIdf().key_value_by_pattern("*")
+  initial_clusters({}, 50, data)
 
 

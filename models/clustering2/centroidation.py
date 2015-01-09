@@ -61,10 +61,6 @@ def compare_all(v,  debug=False):
     ps = [(a,b) for a in v for b in v] # len(ps) ~= 22.500
     
     relevances = map(lambda x:relevance(x,debug=False), ps)
-    #print "First:"
-    #prints(v1[:5])
-    #print "Second:"
-    #prints(v2[:5])
     distance_vector = collapse(relevances, debug=False)
     return distance_vector
 
