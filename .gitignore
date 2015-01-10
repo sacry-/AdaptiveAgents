@@ -76,7 +76,4 @@ wiki_parse/
 # Graph visualization
 *.dot
 *.png
-models/clustering2/graphs/wikigraph.png.10.01.15-12*
-models/clustering2/graphs/wikigraph.png.10.01.15-13*
-models/clustering2/graphs/wikigraph.png.10.01.15-14*
-models/clustering2/graphs/wikigraph.png.10.01.15-15*
+models/clustering2/graphs/*png*
