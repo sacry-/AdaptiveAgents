@@ -37,48 +37,17 @@ def calculate_distance(v1, v2):
     return (INF, set([]))
 
 
-# [Weight] -> Weight
-def collapse_weights(wts):
-    return fold(lambda x,y:x*y,wts,1)
-
-# Dict(Word, Weight) -> Dict(Word, Weight) -> (Double, Set(Word))
-def calculate_weighted_distance(v1, v2):
-  try:
-    keys = set(v1.keys())
-    keys = keys.intersection(set(v2.keys()))
-    zip_dict = {}
-    for k in keys:
-      zip_dict[k] = collapse_weights([d[k] for d in [v1,v2]])
-    weight = float(fsum(zip_dict.values()))
-    # print "%s %s %s" % (len(v1), len(v2), len(rset))
-    return (float(1) / weight, keys)
-  except ZeroDivisionError:
-    return (INF, set([]))
-
-def get_weighted_words(cluster):
-  words_ = dict()
-  for v in cluster.vectors():
-    for w,wt in v:
-      if words_.has_key(w):
-        words_[w] += wt
-      else:
-        words_[w] = wt
-  return words_
-
-# used in visualization
 def cluster_distance(c1, c2):
-  ww1 = get_weighted_words(c1)
-  ww2 = get_weighted_words(c2)
-  dist, inters = calculate_weighted_distance(ww1,ww2)
-  # print len(inters)
+  ws1 = words(c1)
+  ws2 = words(c2)
+  dist, inters = calculate_distance(ws1,ws2)
   return dist
-  
-def fold(f, l, a):
-  """
-  f: the function to apply
-  l: the list to fold
-  a: the accumulator, who is also the 'zero' on the first call
-  """ 
-  return a if(len(l) == 0) else fold(f, l[1:], f(a, l[0]))
+
+def words(cluster):
+  words_ = set([])
+  for wv in vector_to_word_set(cluster.vectors()):
+    for w in wv:
+      words_.add(w)
+  return words_
 
 
