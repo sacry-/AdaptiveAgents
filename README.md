@@ -13,9 +13,6 @@ Parsing and Text Processing
 ```python
 # Python 2.7.x used
 # Python NLTK 3.0 http://www.nltk.org/install.html
-# Numpy + Scipy 
-pip install numpy
-pip install scipy
 pip install treelib
 # Remove Markup from Strings
 git clone https://github.com/daddyd/dewiki.git
@@ -45,6 +42,10 @@ Visualization
 
 ```python
 # TODO Graph Visualization with graph-tool ~> http://graph-tool.skewed.de/ (python)
+# Download graphviz for your platform from http://graphviz.org 
+# On Ubuntu
+sudo apt-get install graphviz libgraphviz-dev pkg-config
+# And then
 pip install pygraphviz
 ```
 
@@ -52,11 +53,6 @@ Artifacts
 ```python
 # Install ElasticSearch
 brew install elasticsearch
-brew install logstash
-# Download Kibana from official source and put it to your WebServer System, 
-# plenty of documentation available
-# ES Kopf Plugin
-git clone https://github.com/lmenezes/elasticsearch-kopf.git
 ```
 
 # Our plan #
