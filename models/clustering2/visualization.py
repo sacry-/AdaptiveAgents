@@ -17,20 +17,22 @@ def base_graph(_name,n,iterations):
   G=pgv.AGraph(name=_name)
   
   # http://www.graphviz.org/doc/info/attrs.html
+  # http://www.graphviz.org/content/faq
   
   G.graph_attr['label']="%s - n=%s, it=%s" % (_name, n, iterations)
   G.graph_attr['size'] = "%s!" % (n*3)
   G.graph_attr['ratio']='1.0'
+  G.node_attr['fontsize']='74'
   G.graph_attr['splines'] = "curved" # don't draw edges
   
-  G.node_attr['shape']='rounded'
+  G.node_attr['shape']='ellipse'
   # G.node_attr['fixedsize']='true'
   # G.node_attr['font']='Arial'
-  # G.node_attr['fontsize']='74'
+  G.node_attr['fontsize']='74'
   G.node_attr['style']='filled'
   
   G.edge_attr['style']='setlinewidth(0.5)'
-  G.edge_attr['fontsize']='40'
+  G.edge_attr['fontsize']='74'
   G.edge_attr['font']='Arial'
 #   G.edge_attr['weight'] = 1 # for fdp
   
@@ -77,9 +79,9 @@ if __name__ == '__main__':
       dist = distance.cluster_distance(c1, c2)
       G.add_edge(title1, title2, weight=-dist) # weight is negated distance
       G.get_edge(title1, title2).attr['label'] = dist_to_string(dist)
-      distances.append( (dist, title1, title2) ) 
+      distances.append( (dist, title1, title2) )
 
-  if False:
+  if True:
     print ("few sample distances")
     import random
     random.shuffle(distances)
