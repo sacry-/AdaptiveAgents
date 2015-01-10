@@ -1,5 +1,5 @@
 from cluster_utils import *
-
+from math import fsum
 
 class Cluster():
   # Cluster({title, Vector})
@@ -13,22 +13,24 @@ class Cluster():
   def vectors(self):
     return self.elems.values()
 
-  
   def name(self):
     n = 4
-    relevant_lemmas = self.relevant_lemmas(n)
-    articles = self.some_articles(n)
-    return "%s\n\n%s" % (articles, relevant_lemmas)
+    lemmas = self.relevant_lemmas(n)
+    articles = self.relevant_articles(n)
+    return "%s\n\n%s" % (articles, lemmas)
   
-  def some_articles(self,n):
-    xs = self.elems.keys()
+  def relevant_articles(self,n):
+    def f(tpl):
+        title, vector = tpl
+        return fsum(map(snd,vector))
+    xs = map(fst,sorted(self.elems.items(), key=f, reverse=True))
     return '\n'.join(xs[:n]) if len(xs) > n else "DuMMy"
   
   def relevant_lemmas(self, n):
     def toString(tpl):
       word, weight = tpl
       return "%s(%s)" % (word, weight)
-    xs = map(toString,sorted(sum(self.vectors(), []), key=snd))
+    xs = map(toString,sorted(sum(self.vectors(), []), key=snd, reverse=True))
     return '\n'.join(xs[:n]) if len(xs) > n else "(none)"
     
 
