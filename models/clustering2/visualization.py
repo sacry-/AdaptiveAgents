@@ -20,8 +20,9 @@ def base_graph(_name,n,iterations):
   # http://www.graphviz.org/content/faq
 
   G.graph_attr['label']="%s - n=%s, it=%s" % (_name, n, iterations)
-  # G.graph_attr['splines'] = "none"
-  G.graph_attr['outputorder']='nodesfirst'
+  G.graph_attr['size'] = str(n*3)
+  G.graph_attr['splines'] = "none"
+  # G.graph_attr['outputorder']='nodesfirst'
 
   G.node_attr['shape']='ellipse'
   G.node_attr['style']='filled'
@@ -36,7 +37,7 @@ def to_disc(G):
   filename = "%s.png" % G.name
   G.write(graphname)
   # prog=[’neato’|’dot’|’twopi’|’circo’|’fdp’|’nop’]
-  G.draw(filename,prog='circo')
+  G.draw(filename,prog='fdp')
   os.system("./bak.sh")
   print("Finished. Output in %s and %s." % (graphname, filename))
 
@@ -59,8 +60,8 @@ if __name__ == '__main__':
   name = "wikigraph"
   # drawing complexity seems to increase quadratic/cubic with N
   # ~1min for n = 32
-  n=20
-  iterations=15
+  n=35
+  iterations=25
   G = base_graph(name,n,iterations)
   clusters = clustering_algorithm(n=n, iterations=iterations, verbose=True)
   ds = prepare_visualization(clusters)
@@ -76,6 +77,9 @@ if __name__ == '__main__':
         if dist < 0.1:
           G.get_edge(title1, title2).attr['label'] = d
         distances.append( (dist, title1, title2) )
+        
+  for node in G.nodes():
+    assign_color_by_category(node,G)
 
   if True:
     print ("few sample distances")
@@ -87,7 +91,8 @@ if __name__ == '__main__':
   to_disc(G)
   
 
-
+def assign_color_by_category(node, G):
+  
 
 
 

@@ -1,0 +1,4208 @@
+strict graph wikigraph {
+	graph [label="wikigraph - n=25, it=15",
+		size=75,
+		splines=none
+	];
+	node [shape=ellipse,
+		style=filled
+	];
+	edge [font=Arial,
+		style="setlinewidth(0.2)"
+	];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)"	 [label=0,
+		weight=-0.00423728813559];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)"	 [weight=-0.333333333333];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)"	 [weight=-0.166666666667];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)"	 [weight=-0.125];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)"	 [weight=-0.142857142857];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)"	 [weight=-0.25];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)"	 [label=5,
+		weight=-0.0588235294118];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)"	 [weight=-0.142857142857];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)"	 [weight=-0.25];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)"	 [label=7,
+		weight=-0.0714285714286];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)"	 [weight=-0.142857142857];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "nuclear_fission
+cold_fusion
+nuclear_binding_energy
+nuclear_fuel
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)"	 [weight=-0.333333333333];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "moment_of_inertia
+mechanics_of_planar_particle_motion
+history_of_special_relativity
+force
+
+friction(567.85931469)
+inertia(516.418878138)
+\
+torqu(351.14646807)
+fictiti(330.98272462)"	 [weight=-0.166666666667];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)"	 [weight=-0.111111111111];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)"	 [weight=-0.125];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.142857142857];
+	"hilbert_space
+oscillator_representation
+fourier_transform
+spherical_wave_transformation
+
+fourier(650.46212019)
+vector(540.476956904)
+\
+hilbert(491.152398558)
+walk(462.4646659)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [weight=-0.125];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)"	 [label=0,
+		weight=-0.00478468899522];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)"	 [label=9,
+		weight=-0.0909090909091];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)"	 [weight=-0.125];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)"	 [weight=-0.333333333333];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)"	 [weight=-0.25];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)"	 [label=8,
+		weight=-0.0833333333333];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)"	 [label=5,
+		weight=-0.0555555555556];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)"	 [weight=-0.25];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "moment_of_inertia
+mechanics_of_planar_particle_motion
+history_of_special_relativity
+force
+
+friction(567.85931469)
+inertia(516.418878138)
+\
+torqu(351.14646807)
+fictiti(330.98272462)"	 [weight=-0.142857142857];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)"	 [weight=-0.2];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)"	 [weight=-0.111111111111];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.142857142857];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "dark_matter
+big_bang
+redshift
+anthropic_principle
+
+dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+matter(346.27809602)"	 [weight=-0.25];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "heat_capacity
+thermodynamics
+refrigeration
+first_law_of_thermodynamics
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(\
+557.942891816)
+capac(425.512532324)"	 [weight=-0.25];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)"	 [weight=-0.25];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)"	 [weight=-0.25];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "joseph_priestley
+welding
+oxy-fuel_welding_and_cutting
+history_of_manufactured_gas
+
+weld(1300.10795223)
+priestley(1120.40828439)
+\
+ozon(922.727100881)
+microplasma(699.462803905)"	 [weight=-0.2];
+	"teleportation_in_fiction
+aurora
+2012_phenomenon
+astrophysical_x-ray_source
+
+teleport(1395.8116097)
+aurora(563.995434698)
+equipartit(\
+531.988575771)
+hysteresi(523.863725897)" -- "fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)"	 [weight=-0.111111111111];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)"	 [label=0,
+		weight=-0.00245098039216];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)"	 [label=9,
+		weight=-0.0909090909091];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)"	 [label=7,
+		weight=-0.0769230769231];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)"	 [label=9,
+		weight=-0.0909090909091];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)"	 [label=4,
+		weight=-0.047619047619];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)"	 [weight=-0.111111111111];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)"	 [label=6,
+		weight=-0.0625];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)"	 [label=2,
+		weight=-0.0263157894737];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)"	 [label=9,
+		weight=-0.0909090909091];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "nuclear_fission
+cold_fusion
+nuclear_binding_energy
+nuclear_fuel
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)"	 [weight=-0.25];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "moment_of_inertia
+mechanics_of_planar_particle_motion
+history_of_special_relativity
+force
+
+friction(567.85931469)
+inertia(516.418878138)
+\
+torqu(351.14646807)
+fictiti(330.98272462)"	 [weight=-0.2];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)"	 [weight=-0.125];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)"	 [label=6,
+		weight=-0.0666666666667];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [label=8,
+		weight=-0.0833333333333];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [weight=-0.125];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "dark_matter
+big_bang
+redshift
+anthropic_principle
+
+dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+matter(346.27809602)"	 [weight=-0.2];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "heat_capacity
+thermodynamics
+refrigeration
+first_law_of_thermodynamics
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(\
+557.942891816)
+capac(425.512532324)"	 [label=6,
+		weight=-0.0666666666667];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)"	 [label=7,
+		weight=-0.0714285714286];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)"	 [weight=-0.2];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "joseph_priestley
+welding
+oxy-fuel_welding_and_cutting
+history_of_manufactured_gas
+
+weld(1300.10795223)
+priestley(1120.40828439)
+\
+ozon(922.727100881)
+microplasma(699.462803905)"	 [weight=-0.142857142857];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)"	 [label=9,
+		weight=-0.0909090909091];
+	"lift_(force)
+elastic_recoil_detection
+polywell
+newton's_theorem_of_revolving_orbits
+
+airfoil(794.350084235)
+lift(580.734478935)
+\
+scintil(506.860815406)
+corona(363.463582582)" -- "gender
+jameson_cell
+isasmelt
+isakidd_refining_technology
+
+gender(1508.17695098)
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+caffein(\
+864.119202259)"	 [weight=-0.166666666667];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)"	 [label=0,
+		weight=-0.00471698113208];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)"	 [label=8,
+		weight=-0.0833333333333];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)"	 [weight=-0.125];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)"	 [weight=-0.111111111111];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)"	 [weight=-0.25];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)"	 [weight=-0.333333333333];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)"	 [label=5,
+		weight=-0.0555555555556];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)"	 [weight=-0.25];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "nuclear_fission
+cold_fusion
+nuclear_binding_energy
+nuclear_fuel
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)"	 [weight=-0.333333333333];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)"	 [weight=-0.25];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)"	 [weight=-0.25];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.166666666667];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [weight=-0.333333333333];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)"	 [weight=-0.333333333333];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)"	 [weight=-0.25];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)"	 [weight=-0.125];
+	"field_electron_emission
+atomic_orbital
+chemical_bond
+molecular_orbital_diagram
+
+emitt(356.726455924)
+radic(343.79961091)
+bond(339.798093316)
+\
+orbit(330.360158401)" -- "gender
+jameson_cell
+isasmelt
+isakidd_refining_technology
+
+gender(1508.17695098)
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+caffein(\
+864.119202259)"	 [weight=-0.333333333333];
+	"flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)" -- "flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)"	 [label=0,
+		weight=-0.0054347826087];
+	"flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)" -- "kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)"	 [weight=-0.125];
+	"flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)" -- "feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)"	 [label=9,
+		weight=-0.0909090909091];
+	"flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)" -- "casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)"	 [weight=-0.166666666667];
+	"flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)" -- "bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)"	 [weight=-0.25];
+	"flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)" -- "fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)"	 [label=6,
+		weight=-0.0666666666667];
+	"flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)" -- "index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)"	 [weight=-0.25];
+	"flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)" -- "nuclear_fission
+cold_fusion
+nuclear_binding_energy
+nuclear_fuel
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)"	 [weight=-0.25];
+	"flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)" -- "objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)"	 [weight=-0.25];
+	"flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)" -- "magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)"	 [weight=-0.25];
+	"flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.142857142857];
+	"flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [weight=-0.2];
+	"flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)" -- "virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)"	 [weight=-0.25];
+	"flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)" -- "fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)"	 [weight=-0.333333333333];
+	"flux_(metallurgy)
+surface_diffusion
+iupac_nomenclature_of_inorganic_chemistry_2005
+properties_of_water
+
+solder(356.748562396)
+electroneg(\
+349.89388412)
+spiroatom(297.472686718)
+flux(292.522022743)" -- "fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)"	 [weight=-0.333333333333];
+	"kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)" -- "kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)"	 [label=0,
+		weight=-0.00485436893204];
+	"kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)" -- "feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)"	 [weight=-0.142857142857];
+	"kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)" -- "casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)"	 [weight=-0.1];
+	"kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)" -- "bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)"	 [weight=-0.111111111111];
+	"kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)" -- "fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)"	 [label=4,
+		weight=-0.04];
+	"kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)" -- "index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)"	 [weight=-0.125];
+	"kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)" -- "nuclear_fission
+cold_fusion
+nuclear_binding_energy
+nuclear_fuel
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)"	 [weight=-0.333333333333];
+	"kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)" -- "moment_of_inertia
+mechanics_of_planar_particle_motion
+history_of_special_relativity
+force
+
+friction(567.85931469)
+inertia(516.418878138)
+\
+torqu(351.14646807)
+fictiti(330.98272462)"	 [weight=-0.333333333333];
+	"kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.142857142857];
+	"kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [weight=-0.166666666667];
+	"kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)" -- "heat_capacity
+thermodynamics
+refrigeration
+first_law_of_thermodynamics
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(\
+557.942891816)
+capac(425.512532324)"	 [weight=-0.333333333333];
+	"kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)" -- "virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)"	 [weight=-0.25];
+	"kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)" -- "fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)"	 [weight=-0.142857142857];
+	"kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)" -- "joseph_priestley
+welding
+oxy-fuel_welding_and_cutting
+history_of_manufactured_gas
+
+weld(1300.10795223)
+priestley(1120.40828439)
+\
+ozon(922.727100881)
+microplasma(699.462803905)"	 [weight=-0.125];
+	"kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)" -- "fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)"	 [weight=-0.166666666667];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)"	 [label=0,
+		weight=-0.00232018561485];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)"	 [weight=-0.166666666667];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)"	 [weight=-0.166666666667];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)"	 [label=3,
+		weight=-0.03125];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)"	 [weight=-0.125];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "nuclear_fission
+cold_fusion
+nuclear_binding_energy
+nuclear_fuel
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)"	 [weight=-0.125];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "moment_of_inertia
+mechanics_of_planar_particle_motion
+history_of_special_relativity
+force
+
+friction(567.85931469)
+inertia(516.418878138)
+\
+torqu(351.14646807)
+fictiti(330.98272462)"	 [label=8,
+		weight=-0.0833333333333];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)"	 [label=4,
+		weight=-0.0434782608696];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)"	 [weight=-0.111111111111];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.125];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [weight=-0.25];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "heat_capacity
+thermodynamics
+refrigeration
+first_law_of_thermodynamics
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(\
+557.942891816)
+capac(425.512532324)"	 [weight=-0.142857142857];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)"	 [weight=-0.142857142857];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)"	 [weight=-0.25];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "joseph_priestley
+welding
+oxy-fuel_welding_and_cutting
+history_of_manufactured_gas
+
+weld(1300.10795223)
+priestley(1120.40828439)
+\
+ozon(922.727100881)
+microplasma(699.462803905)"	 [weight=-0.111111111111];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)"	 [weight=-0.25];
+	"feynman_diagram
+string_theory
+bell's_theorem
+woodward_effect
+
+quark(621.191324781)
+string(543.456386826)
+entangl(461.169177019)
+\
+woodward(458.977380059)" -- "gender
+jameson_cell
+isasmelt
+isakidd_refining_technology
+
+gender(1508.17695098)
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+caffein(\
+864.119202259)"	 [weight=-0.25];
+	"casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)" -- "casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)"	 [label=0,
+		weight=-0.00609756097561];
+	"casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)" -- "bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)"	 [weight=-0.333333333333];
+	"casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)" -- "fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)"	 [label=7,
+		weight=-0.0714285714286];
+	"casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)" -- "index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)"	 [weight=-0.333333333333];
+	"casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)" -- "objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)"	 [weight=-0.25];
+	"casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.166666666667];
+	"casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [weight=-0.2];
+	"casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)" -- "heat_capacity
+thermodynamics
+refrigeration
+first_law_of_thermodynamics
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(\
+557.942891816)
+capac(425.512532324)"	 [weight=-0.333333333333];
+	"casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)" -- "virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)"	 [weight=-0.25];
+	"casting_(metalworking)
+mohr's_circle
+truss
+viscoelasticity
+
+truss(643.718966622)
+cast(567.182774795)
+stress(467.697093064)
+viscos(\
+411.535707787)" -- "fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)"	 [weight=-0.333333333333];
+	"bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)" -- "bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)"	 [label=0,
+		weight=-0.00436681222707];
+	"bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)" -- "fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)"	 [label=4,
+		weight=-0.0434782608696];
+	"bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)" -- "index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)"	 [weight=-0.142857142857];
+	"bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)" -- "moment_of_inertia
+mechanics_of_planar_particle_motion
+history_of_special_relativity
+force
+
+friction(567.85931469)
+inertia(516.418878138)
+\
+torqu(351.14646807)
+fictiti(330.98272462)"	 [weight=-0.2];
+	"bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)" -- "objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)"	 [weight=-0.2];
+	"bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)" -- "magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)"	 [weight=-0.333333333333];
+	"bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.142857142857];
+	"bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [weight=-0.2];
+	"bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)" -- "virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)"	 [weight=-0.111111111111];
+	"bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)" -- "fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)"	 [weight=-0.142857142857];
+	"bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)" -- "joseph_priestley
+welding
+oxy-fuel_welding_and_cutting
+history_of_manufactured_gas
+
+weld(1300.10795223)
+priestley(1120.40828439)
+\
+ozon(922.727100881)
+microplasma(699.462803905)"	 [weight=-0.25];
+	"bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)" -- "fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)"	 [weight=-0.166666666667];
+	"bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)" -- "gender
+jameson_cell
+isasmelt
+isakidd_refining_technology
+
+gender(1508.17695098)
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+caffein(\
+864.119202259)"	 [weight=-0.333333333333];
+	"fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)" -- "fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)"	 [label=0,
+		weight=-0.0014409221902];
+	"fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)" -- "index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)"	 [label=6,
+		weight=-0.0625];
+	"fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)" -- "nuclear_fission
+cold_fusion
+nuclear_binding_energy
+nuclear_fuel
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)"	 [weight=-0.111111111111];
+	"fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)" -- "moment_of_inertia
+mechanics_of_planar_particle_motion
+history_of_special_relativity
+force
+
+friction(567.85931469)
+inertia(516.418878138)
+\
+torqu(351.14646807)
+fictiti(330.98272462)"	 [label=7,
+		weight=-0.0769230769231];
+	"fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)" -- "objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)"	 [label=5,
+		weight=-0.0555555555556];
+	"fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)" -- "magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)"	 [label=6,
+		weight=-0.0666666666667];
+	"fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [label=6,
+		weight=-0.0666666666667];
+	"fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [label=6,
+		weight=-0.0625];
+	"fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)" -- "virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)"	 [label=5,
+		weight=-0.0555555555556];
+	"fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)" -- "fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)"	 [weight=-0.1];
+	"fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)" -- "joseph_priestley
+welding
+oxy-fuel_welding_and_cutting
+history_of_manufactured_gas
+
+weld(1300.10795223)
+priestley(1120.40828439)
+\
+ozon(922.727100881)
+microplasma(699.462803905)"	 [label=6,
+		weight=-0.0666666666667];
+	"fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)" -- "fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)"	 [label=4,
+		weight=-0.0434782608696];
+	"fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)" -- "gender
+jameson_cell
+isasmelt
+isakidd_refining_technology
+
+gender(1508.17695098)
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+caffein(\
+864.119202259)"	 [label=8,
+		weight=-0.0833333333333];
+	"index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)" -- "index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)"	 [label=0,
+		weight=-0.00507614213198];
+	"index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)" -- "moment_of_inertia
+mechanics_of_planar_particle_motion
+history_of_special_relativity
+force
+
+friction(567.85931469)
+inertia(516.418878138)
+\
+torqu(351.14646807)
+fictiti(330.98272462)"	 [weight=-0.333333333333];
+	"index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)" -- "objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)"	 [weight=-0.142857142857];
+	"index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.142857142857];
+	"index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [weight=-0.142857142857];
+	"index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)" -- "fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)"	 [weight=-0.2];
+	"nuclear_fission
+cold_fusion
+nuclear_binding_energy
+nuclear_fuel
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)" -- "nuclear_fission
+cold_fusion
+nuclear_binding_energy
+nuclear_fuel
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)"	 [label=0,
+		weight=-0.00884955752212];
+	"nuclear_fission
+cold_fusion
+nuclear_binding_energy
+nuclear_fuel
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)" -- "objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)"	 [weight=-0.333333333333];
+	"moment_of_inertia
+mechanics_of_planar_particle_motion
+history_of_special_relativity
+force
+
+friction(567.85931469)
+inertia(516.418878138)
+\
+torqu(351.14646807)
+fictiti(330.98272462)" -- "moment_of_inertia
+mechanics_of_planar_particle_motion
+history_of_special_relativity
+force
+
+friction(567.85931469)
+inertia(516.418878138)
+\
+torqu(351.14646807)
+fictiti(330.98272462)"	 [label=0,
+		weight=-0.00564971751412];
+	"moment_of_inertia
+mechanics_of_planar_particle_motion
+history_of_special_relativity
+force
+
+friction(567.85931469)
+inertia(516.418878138)
+\
+torqu(351.14646807)
+fictiti(330.98272462)" -- "objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)"	 [weight=-0.111111111111];
+	"moment_of_inertia
+mechanics_of_planar_particle_motion
+history_of_special_relativity
+force
+
+friction(567.85931469)
+inertia(516.418878138)
+\
+torqu(351.14646807)
+fictiti(330.98272462)" -- "magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)"	 [weight=-0.25];
+	"moment_of_inertia
+mechanics_of_planar_particle_motion
+history_of_special_relativity
+force
+
+friction(567.85931469)
+inertia(516.418878138)
+\
+torqu(351.14646807)
+fictiti(330.98272462)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [weight=-0.2];
+	"objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)" -- "objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)"	 [label=0,
+		weight=-0.00512820512821];
+	"objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)" -- "magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)"	 [weight=-0.2];
+	"objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.333333333333];
+	"objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [weight=-0.2];
+	"magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)" -- "magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)"	 [label=0,
+		weight=-0.00526315789474];
+	"magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.333333333333];
+	"magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [weight=-0.333333333333];
+	"composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [label=0,
+		weight=-0.00347222222222];
+	"cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [label=0,
+		weight=-0.00735294117647];
+	"dark_matter
+big_bang
+redshift
+anthropic_principle
+
+dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+matter(346.27809602)" -- "kinetic_resolution
+ammonia
+chlorine
+kinetic_isotope_effect
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+isotop(483.481632402)
+chlorin(\
+457.681671695)"	 [weight=-0.333333333333];
+	"dark_matter
+big_bang
+redshift
+anthropic_principle
+
+dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+matter(346.27809602)" -- "fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)"	 [weight=-0.111111111111];
+	"dark_matter
+big_bang
+redshift
+anthropic_principle
+
+dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+matter(346.27809602)" -- "dark_matter
+big_bang
+redshift
+anthropic_principle
+
+dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+matter(346.27809602)"	 [label=0,
+		weight=-0.00980392156863];
+	"heat_capacity
+thermodynamics
+refrigeration
+first_law_of_thermodynamics
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(\
+557.942891816)
+capac(425.512532324)" -- "bicycle_and_motorcycle_dynamics
+landrace
+rolling_resistance
+territory_(animal)
+
+bike(1417.1972003)
+landrac(884.378257811)
+steer(\
+713.901346584)
+wheel(584.429172739)"	 [weight=-0.2];
+	"heat_capacity
+thermodynamics
+refrigeration
+first_law_of_thermodynamics
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(\
+557.942891816)
+capac(425.512532324)" -- "fluorescent_lamp
+the_big_bang_theory
+marine_wildlife_of_baa_atoll
+thomas_henry_huxley
+
+lamp(1173.02149667)
+huxley(1093.38368993)
+\
+bogdanov(646.50565436)
+murmur(619.064780468)"	 [label=9,
+		weight=-0.0909090909091];
+	"heat_capacity
+thermodynamics
+refrigeration
+first_law_of_thermodynamics
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(\
+557.942891816)
+capac(425.512532324)" -- "magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)"	 [weight=-0.333333333333];
+	"heat_capacity
+thermodynamics
+refrigeration
+first_law_of_thermodynamics
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(\
+557.942891816)
+capac(425.512532324)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.166666666667];
+	"heat_capacity
+thermodynamics
+refrigeration
+first_law_of_thermodynamics
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(\
+557.942891816)
+capac(425.512532324)" -- "heat_capacity
+thermodynamics
+refrigeration
+first_law_of_thermodynamics
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(\
+557.942891816)
+capac(425.512532324)"	 [label=0,
+		weight=-0.00609756097561];
+	"heat_capacity
+thermodynamics
+refrigeration
+first_law_of_thermodynamics
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(\
+557.942891816)
+capac(425.512532324)" -- "virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)"	 [weight=-0.25];
+	"heat_capacity
+thermodynamics
+refrigeration
+first_law_of_thermodynamics
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(\
+557.942891816)
+capac(425.512532324)" -- "fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)"	 [weight=-0.25];
+	"heat_capacity
+thermodynamics
+refrigeration
+first_law_of_thermodynamics
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(\
+557.942891816)
+capac(425.512532324)" -- "joseph_priestley
+welding
+oxy-fuel_welding_and_cutting
+history_of_manufactured_gas
+
+weld(1300.10795223)
+priestley(1120.40828439)
+\
+ozon(922.727100881)
+microplasma(699.462803905)"	 [weight=-0.25];
+	"heat_capacity
+thermodynamics
+refrigeration
+first_law_of_thermodynamics
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(\
+557.942891816)
+capac(425.512532324)" -- "fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)"	 [weight=-0.2];
+	"virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)" -- "index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)"	 [label=8,
+		weight=-0.0833333333333];
+	"virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)" -- "moment_of_inertia
+mechanics_of_planar_particle_motion
+history_of_special_relativity
+force
+
+friction(567.85931469)
+inertia(516.418878138)
+\
+torqu(351.14646807)
+fictiti(330.98272462)"	 [weight=-0.333333333333];
+	"virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)" -- "objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)"	 [weight=-0.142857142857];
+	"virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)" -- "magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)"	 [weight=-0.333333333333];
+	"virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.142857142857];
+	"virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [weight=-0.166666666667];
+	"virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)" -- "virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)"	 [label=0,
+		weight=-0.00497512437811];
+	"virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)" -- "fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)"	 [weight=-0.25];
+	"virus
+evolution
+dawkins_vs._gould
+snp_genotyping
+
+virus(763.132499824)
+gould(499.362936948)
+viru(490.947089069)
+sequenc(409.035546955)" -- "fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)"	 [weight=-0.1];
+	"fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)" -- "index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)"	 [weight=-0.333333333333];
+	"fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)" -- "objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)"	 [weight=-0.333333333333];
+	"fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.166666666667];
+	"fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)" -- "fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)"	 [label=0,
+		weight=-0.00699300699301];
+	"fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)" -- "fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)"	 [weight=-0.333333333333];
+	"joseph_priestley
+welding
+oxy-fuel_welding_and_cutting
+history_of_manufactured_gas
+
+weld(1300.10795223)
+priestley(1120.40828439)
+\
+ozon(922.727100881)
+microplasma(699.462803905)" -- "moment_of_inertia
+mechanics_of_planar_particle_motion
+history_of_special_relativity
+force
+
+friction(567.85931469)
+inertia(516.418878138)
+\
+torqu(351.14646807)
+fictiti(330.98272462)"	 [weight=-0.333333333333];
+	"joseph_priestley
+welding
+oxy-fuel_welding_and_cutting
+history_of_manufactured_gas
+
+weld(1300.10795223)
+priestley(1120.40828439)
+\
+ozon(922.727100881)
+microplasma(699.462803905)" -- "magnetic_field
+history_of_electromagnetic_theory
+magnetic_monopole
+mechanical_filter
+
+magnet(748.938550194)
+monopol(477.010236039)
+\
+insul(393.781736293)
+electr(356.674777574)"	 [weight=-0.25];
+	"joseph_priestley
+welding
+oxy-fuel_welding_and_cutting
+history_of_manufactured_gas
+
+weld(1300.10795223)
+priestley(1120.40828439)
+\
+ozon(922.727100881)
+microplasma(699.462803905)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.2];
+	"joseph_priestley
+welding
+oxy-fuel_welding_and_cutting
+history_of_manufactured_gas
+
+weld(1300.10795223)
+priestley(1120.40828439)
+\
+ozon(922.727100881)
+microplasma(699.462803905)" -- "joseph_priestley
+welding
+oxy-fuel_welding_and_cutting
+history_of_manufactured_gas
+
+weld(1300.10795223)
+priestley(1120.40828439)
+\
+ozon(922.727100881)
+microplasma(699.462803905)"	 [label=0,
+		weight=-0.00584795321637];
+	"joseph_priestley
+welding
+oxy-fuel_welding_and_cutting
+history_of_manufactured_gas
+
+weld(1300.10795223)
+priestley(1120.40828439)
+\
+ozon(922.727100881)
+microplasma(699.462803905)" -- "fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)"	 [weight=-0.333333333333];
+	"fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)" -- "moment_of_inertia
+mechanics_of_planar_particle_motion
+history_of_special_relativity
+force
+
+friction(567.85931469)
+inertia(516.418878138)
+\
+torqu(351.14646807)
+fictiti(330.98272462)"	 [weight=-0.333333333333];
+	"fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)" -- "objections_to_evolution
+le_sage's_theory_of_gravitation
+technicolor_(physics)
+lunar_theory
+
+evolut(464.625730249)
+sage(452.973242972)
+\
+technicolor(379.249955009)
+gaug(376.960337886)"	 [weight=-0.333333333333];
+	"fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.166666666667];
+	"fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [weight=-0.1];
+	"fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)" -- "fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)"	 [label=0,
+		weight=-0.00425531914894];
+	"gender
+jameson_cell
+isasmelt
+isakidd_refining_technology
+
+gender(1508.17695098)
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+caffein(\
+864.119202259)" -- "index_of_anatomy_articles
+stem_cell
+isothermal_microcalorimetry
+biochemical_cascade
+
+stem(560.628192113)
+haeckel(514.146843443)
+\
+mycoplasma(455.721065779)
+cell(434.624290191)"	 [weight=-0.25];
+	"gender
+jameson_cell
+isasmelt
+isakidd_refining_technology
+
+gender(1508.17695098)
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+caffein(\
+864.119202259)" -- "composition_of_mars
+radon
+azeotrope
+distillation
+
+radon(1059.33748203)
+azeotrop(744.731733364)
+distil(639.412251345)
+herbicid(585.48050444)"	 [weight=-0.333333333333];
+	"gender
+jameson_cell
+isasmelt
+isakidd_refining_technology
+
+gender(1508.17695098)
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+caffein(\
+864.119202259)" -- "cocaine
+conditioned_place_preference
+placebo
+camouflage
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+camouflag(\
+793.909517076)"	 [weight=-0.333333333333];
+	"gender
+jameson_cell
+isasmelt
+isakidd_refining_technology
+
+gender(1508.17695098)
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+caffein(\
+864.119202259)" -- "fine_chemical
+liquefied_natural_gas
+destruction_of_syria's_chemical_weapons
+chemical_weapons_in_world_war_i
+
+lng(916.557789502)
+\
+methan(488.93337651)
+syria(458.530684266)
+gunpowd(385.610132582)"	 [weight=-0.333333333333];
+	"gender
+jameson_cell
+isasmelt
+isakidd_refining_technology
+
+gender(1508.17695098)
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+caffein(\
+864.119202259)" -- "fluorescent_glucose_biosensor
+sr_protein
+chemical_biology
+development_of_analogs_of_thalidomide
+
+sr(610.510826523)
+inhibitor(485.700231598)
+\
+silk(449.944681321)
+biosensor(447.713157827)"	 [weight=-0.333333333333];
+	"gender
+jameson_cell
+isasmelt
+isakidd_refining_technology
+
+gender(1508.17695098)
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+caffein(\
+864.119202259)" -- "gender
+jameson_cell
+isasmelt
+isakidd_refining_technology
+
+gender(1508.17695098)
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+caffein(\
+864.119202259)"	 [label=1,
+		weight=-0.0106382978723];
+}
