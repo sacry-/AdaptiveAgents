@@ -13,9 +13,24 @@ class Cluster():
   def vectors(self):
     return self.elems.values()
 
+  
   def name(self):
+    n = 4
+    relevant_lemmas = self.relevant_lemmas(n)
+    articles = self.some_articles(n)
+    return "%s\n\n%s" % (articles, relevant_lemmas)
+  
+  def some_articles(self,n):
     xs = self.elems.keys()
-    return '\n'.join(xs[:2]) if len(xs) > 2 else "DuMMy"
+    return '\n'.join(xs[:n]) if len(xs) > n else "DuMMy"
+  
+  def relevant_lemmas(self, n):
+    def toString(tpl):
+      word, weight = tpl
+      return "%s(%s)" % (word, weight)
+    xs = map(toString,sorted(sum(self.vectors(), []), key=snd))
+    return '\n'.join(xs[:n]) if len(xs) > n else "(none)"
+    
 
 # filter_dummies_dict :: Dict(Title, Vector) -> Dict(Title, Vector)
 def filter_dummies_dict(d):

@@ -57,7 +57,7 @@ def collapse(ls, debug=False):
 
 def compare_all(v,  debug=False):
     # build pairs to compare each word from v1 with every word from v2
-    ps = [(a,b) for a in v for b in v] # len(ps) ~= 22.500
+    ps = [(a,b) for a in v for b in v if a != b] # len(ps) ~= 22.500
     
     relevances = map(lambda x:relevance(x,debug=False), ps)
     distance_vector = collapse(relevances, debug=False)
