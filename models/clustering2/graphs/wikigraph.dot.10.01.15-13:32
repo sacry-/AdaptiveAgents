@@ -1,0 +1,457 @@
+strict graph wikigraph {
+	graph [label="wikigraph - n=12, it=10",
+		ratio=1.0,
+		size="35!"
+	];
+	node [font=Arial,
+		fontsize=8,
+		shape=ellipse,
+		style=filled
+	];
+	edge [font=Arial,
+		fontsize=8,
+		style="setlinewidth(0.1)"
+	];
+	DuMMy -- DuMMy	 [label=∞,
+		weight="-inf"];
+	DuMMy -- "ring_strain
+conjugate_variables_(thermodynamics)
+clear-air_turbulence"	 [label=∞,
+		weight="-inf"];
+	DuMMy -- "biochip
+gua_operon
+evolutionary_biology"	 [label=∞,
+		weight="-inf"];
+	DuMMy -- "immunogold_labelling
+hologenome_theory_of_evolution
+lattice_boltzmann_methods"	 [label=∞,
+		weight="-inf"];
+	DuMMy -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)"	 [label=∞,
+		weight="-inf"];
+	DuMMy -- "carbide_lamp
+equivalent_carbon_content
+fission_products_(by_element)"	 [label=∞,
+		weight="-inf"];
+	DuMMy -- "quantum_nonlocality
+asymptotic_safety_in_quantum_gravity
+citric_acid_cycle"	 [label=∞,
+		weight="-inf"];
+	DuMMy -- "magnetic_resonance_therapy
+exchange_bias
+valence_electron"	 [label=∞,
+		weight="-inf"];
+	DuMMy -- "pharming_(genetics)
+acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography"	 [label=∞,
+		weight="-inf"];
+	DuMMy -- "cosmological_principle
+zone_axis
+vorticity"	 [label=∞,
+		weight="-inf"];
+	DuMMy -- "chemical_engineering
+food_chemistry
+azeotrope"	 [label=∞,
+		weight="-inf"];
+	DuMMy -- "cell_death
+human_stem_cells_institute
+cell_theory"	 [label=∞,
+		weight="-inf"];
+	"ring_strain
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "ring_strain
+conjugate_variables_(thermodynamics)
+clear-air_turbulence"	 [label=0,
+		weight=-0.004329004329];
+	"ring_strain
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "biochip
+gua_operon
+evolutionary_biology"	 [label=20,
+		weight=-0.2];
+	"ring_strain
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "immunogold_labelling
+hologenome_theory_of_evolution
+lattice_boltzmann_methods"	 [label=2,
+		weight=-0.0208333333333];
+	"ring_strain
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)"	 [label=25,
+		weight=-0.25];
+	"ring_strain
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "carbide_lamp
+equivalent_carbon_content
+fission_products_(by_element)"	 [label=33,
+		weight=-0.333333333333];
+	"ring_strain
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "quantum_nonlocality
+asymptotic_safety_in_quantum_gravity
+citric_acid_cycle"	 [label=5,
+		weight=-0.05];
+	"ring_strain
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "magnetic_resonance_therapy
+exchange_bias
+valence_electron"	 [label=7,
+		weight=-0.0769230769231];
+	"ring_strain
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "pharming_(genetics)
+acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography"	 [label=11,
+		weight=-0.111111111111];
+	"ring_strain
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "cosmological_principle
+zone_axis
+vorticity"	 [label=12,
+		weight=-0.125];
+	"ring_strain
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "chemical_engineering
+food_chemistry
+azeotrope"	 [label=16,
+		weight=-0.166666666667];
+	"ring_strain
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "cell_death
+human_stem_cells_institute
+cell_theory"	 [label=14,
+		weight=-0.142857142857];
+	"biochip
+gua_operon
+evolutionary_biology" -- "biochip
+gua_operon
+evolutionary_biology"	 [label=0,
+		weight=-0.00478468899522];
+	"biochip
+gua_operon
+evolutionary_biology" -- "immunogold_labelling
+hologenome_theory_of_evolution
+lattice_boltzmann_methods"	 [label=2,
+		weight=-0.027027027027];
+	"biochip
+gua_operon
+evolutionary_biology" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)"	 [label=20,
+		weight=-0.2];
+	"biochip
+gua_operon
+evolutionary_biology" -- "carbide_lamp
+equivalent_carbon_content
+fission_products_(by_element)"	 [label=50,
+		weight=-0.5];
+	"biochip
+gua_operon
+evolutionary_biology" -- "quantum_nonlocality
+asymptotic_safety_in_quantum_gravity
+citric_acid_cycle"	 [label=11,
+		weight=-0.111111111111];
+	"biochip
+gua_operon
+evolutionary_biology" -- "magnetic_resonance_therapy
+exchange_bias
+valence_electron"	 [label=25,
+		weight=-0.25];
+	"biochip
+gua_operon
+evolutionary_biology" -- "pharming_(genetics)
+acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography"	 [label=9,
+		weight=-0.0909090909091];
+	"biochip
+gua_operon
+evolutionary_biology" -- "cosmological_principle
+zone_axis
+vorticity"	 [label=100,
+		weight=-1.0];
+	"biochip
+gua_operon
+evolutionary_biology" -- "chemical_engineering
+food_chemistry
+azeotrope"	 [label=12,
+		weight=-0.125];
+	"biochip
+gua_operon
+evolutionary_biology" -- "cell_death
+human_stem_cells_institute
+cell_theory"	 [label=8,
+		weight=-0.0833333333333];
+	"immunogold_labelling
+hologenome_theory_of_evolution
+lattice_boltzmann_methods" -- "immunogold_labelling
+hologenome_theory_of_evolution
+lattice_boltzmann_methods"	 [label=0,
+		weight=-0.00043956043956];
+	"immunogold_labelling
+hologenome_theory_of_evolution
+lattice_boltzmann_methods" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)"	 [label=2,
+		weight=-0.0227272727273];
+	"immunogold_labelling
+hologenome_theory_of_evolution
+lattice_boltzmann_methods" -- "carbide_lamp
+equivalent_carbon_content
+fission_products_(by_element)"	 [label=2,
+		weight=-0.0232558139535];
+	"immunogold_labelling
+hologenome_theory_of_evolution
+lattice_boltzmann_methods" -- "quantum_nonlocality
+asymptotic_safety_in_quantum_gravity
+citric_acid_cycle"	 [label=0,
+		weight=-0.00751879699248];
+	"immunogold_labelling
+hologenome_theory_of_evolution
+lattice_boltzmann_methods" -- "magnetic_resonance_therapy
+exchange_bias
+valence_electron"	 [label=1,
+		weight=-0.0108695652174];
+	"immunogold_labelling
+hologenome_theory_of_evolution
+lattice_boltzmann_methods" -- "pharming_(genetics)
+acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography"	 [label=2,
+		weight=-0.0232558139535];
+	"immunogold_labelling
+hologenome_theory_of_evolution
+lattice_boltzmann_methods" -- "cosmological_principle
+zone_axis
+vorticity"	 [label=3,
+		weight=-0.030303030303];
+	"immunogold_labelling
+hologenome_theory_of_evolution
+lattice_boltzmann_methods" -- "chemical_engineering
+food_chemistry
+azeotrope"	 [label=1,
+		weight=-0.0188679245283];
+	"immunogold_labelling
+hologenome_theory_of_evolution
+lattice_boltzmann_methods" -- "cell_death
+human_stem_cells_institute
+cell_theory"	 [label=2,
+		weight=-0.0227272727273];
+	"partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)"	 [label=0,
+		weight=-0.00416666666667];
+	"partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)" -- "carbide_lamp
+equivalent_carbon_content
+fission_products_(by_element)"	 [label=16,
+		weight=-0.166666666667];
+	"partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)" -- "quantum_nonlocality
+asymptotic_safety_in_quantum_gravity
+citric_acid_cycle"	 [label=5,
+		weight=-0.0588235294118];
+	"partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)" -- "magnetic_resonance_therapy
+exchange_bias
+valence_electron"	 [label=6,
+		weight=-0.0625];
+	"partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)" -- "pharming_(genetics)
+acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography"	 [label=33,
+		weight=-0.333333333333];
+	"partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)" -- "cosmological_principle
+zone_axis
+vorticity"	 [label=25,
+		weight=-0.25];
+	"partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)" -- "chemical_engineering
+food_chemistry
+azeotrope"	 [label=11,
+		weight=-0.111111111111];
+	"partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)" -- "cell_death
+human_stem_cells_institute
+cell_theory"	 [label=20,
+		weight=-0.2];
+	"carbide_lamp
+equivalent_carbon_content
+fission_products_(by_element)" -- "carbide_lamp
+equivalent_carbon_content
+fission_products_(by_element)"	 [label=0,
+		weight=-0.00446428571429];
+	"carbide_lamp
+equivalent_carbon_content
+fission_products_(by_element)" -- "quantum_nonlocality
+asymptotic_safety_in_quantum_gravity
+citric_acid_cycle"	 [label=8,
+		weight=-0.0833333333333];
+	"carbide_lamp
+equivalent_carbon_content
+fission_products_(by_element)" -- "magnetic_resonance_therapy
+exchange_bias
+valence_electron"	 [label=10,
+		weight=-0.1];
+	"carbide_lamp
+equivalent_carbon_content
+fission_products_(by_element)" -- "pharming_(genetics)
+acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography"	 [label=16,
+		weight=-0.166666666667];
+	"carbide_lamp
+equivalent_carbon_content
+fission_products_(by_element)" -- "cosmological_principle
+zone_axis
+vorticity"	 [label=100,
+		weight=-1.0];
+	"carbide_lamp
+equivalent_carbon_content
+fission_products_(by_element)" -- "chemical_engineering
+food_chemistry
+azeotrope"	 [label=20,
+		weight=-0.2];
+	"carbide_lamp
+equivalent_carbon_content
+fission_products_(by_element)" -- "cell_death
+human_stem_cells_institute
+cell_theory"	 [label=25,
+		weight=-0.25];
+	"quantum_nonlocality
+asymptotic_safety_in_quantum_gravity
+citric_acid_cycle" -- "quantum_nonlocality
+asymptotic_safety_in_quantum_gravity
+citric_acid_cycle"	 [label=0,
+		weight=-0.00174520069808];
+	"quantum_nonlocality
+asymptotic_safety_in_quantum_gravity
+citric_acid_cycle" -- "magnetic_resonance_therapy
+exchange_bias
+valence_electron"	 [label=3,
+		weight=-0.037037037037];
+	"quantum_nonlocality
+asymptotic_safety_in_quantum_gravity
+citric_acid_cycle" -- "pharming_(genetics)
+acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography"	 [label=8,
+		weight=-0.0833333333333];
+	"quantum_nonlocality
+asymptotic_safety_in_quantum_gravity
+citric_acid_cycle" -- "cosmological_principle
+zone_axis
+vorticity"	 [label=11,
+		weight=-0.111111111111];
+	"quantum_nonlocality
+asymptotic_safety_in_quantum_gravity
+citric_acid_cycle" -- "chemical_engineering
+food_chemistry
+azeotrope"	 [label=5,
+		weight=-0.05];
+	"quantum_nonlocality
+asymptotic_safety_in_quantum_gravity
+citric_acid_cycle" -- "cell_death
+human_stem_cells_institute
+cell_theory"	 [label=4,
+		weight=-0.047619047619];
+	"magnetic_resonance_therapy
+exchange_bias
+valence_electron" -- "magnetic_resonance_therapy
+exchange_bias
+valence_electron"	 [label=0,
+		weight=-0.00214132762313];
+	"magnetic_resonance_therapy
+exchange_bias
+valence_electron" -- "pharming_(genetics)
+acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography"	 [label=8,
+		weight=-0.0833333333333];
+	"magnetic_resonance_therapy
+exchange_bias
+valence_electron" -- "cosmological_principle
+zone_axis
+vorticity"	 [label=12,
+		weight=-0.125];
+	"magnetic_resonance_therapy
+exchange_bias
+valence_electron" -- "chemical_engineering
+food_chemistry
+azeotrope"	 [label=12,
+		weight=-0.125];
+	"magnetic_resonance_therapy
+exchange_bias
+valence_electron" -- "cell_death
+human_stem_cells_institute
+cell_theory"	 [label=10,
+		weight=-0.1];
+	"pharming_(genetics)
+acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography" -- "pharming_(genetics)
+acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography"	 [label=0,
+		weight=-0.00425531914894];
+	"pharming_(genetics)
+acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography" -- "cosmological_principle
+zone_axis
+vorticity"	 [label=33,
+		weight=-0.333333333333];
+	"pharming_(genetics)
+acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography" -- "chemical_engineering
+food_chemistry
+azeotrope"	 [label=12,
+		weight=-0.125];
+	"pharming_(genetics)
+acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography" -- "cell_death
+human_stem_cells_institute
+cell_theory"	 [label=6,
+		weight=-0.0625];
+	"cosmological_principle
+zone_axis
+vorticity" -- "cosmological_principle
+zone_axis
+vorticity"	 [label=0,
+		weight=-0.00520833333333];
+	"cosmological_principle
+zone_axis
+vorticity" -- "chemical_engineering
+food_chemistry
+azeotrope"	 [label=20,
+		weight=-0.2];
+	"cosmological_principle
+zone_axis
+vorticity" -- "cell_death
+human_stem_cells_institute
+cell_theory"	 [label=33,
+		weight=-0.333333333333];
+	"chemical_engineering
+food_chemistry
+azeotrope" -- "chemical_engineering
+food_chemistry
+azeotrope"	 [label=0,
+		weight=-0.00384615384615];
+	"chemical_engineering
+food_chemistry
+azeotrope" -- "cell_death
+human_stem_cells_institute
+cell_theory"	 [label=14,
+		weight=-0.142857142857];
+	"cell_death
+human_stem_cells_institute
+cell_theory" -- "cell_death
+human_stem_cells_institute
+cell_theory"	 [label=0,
+		weight=-0.00409836065574];
+}

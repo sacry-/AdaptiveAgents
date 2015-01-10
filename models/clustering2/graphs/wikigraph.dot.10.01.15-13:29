@@ -1,0 +1,283 @@
+strict graph wikigraph {
+	graph [label="wikigraph - n=10, it=6",
+		ratio=1.0,
+		size="35!"
+	];
+	node [fontsize=6,
+		shape=ellipse,
+		style=filled
+	];
+	edge [fontsize=8,
+		style="setlinewidth(0.1)"
+	];
+	"ring_strain
+stereoisomerism
+nucleophilic_addition" -- "ring_strain
+stereoisomerism
+nucleophilic_addition"	 [label=0,
+		weight=-0.00442477876106];
+	"ring_strain
+stereoisomerism
+nucleophilic_addition" -- "partial_molar_property
+conjugate_variables_(thermodynamics)
+clear-air_turbulence"	 [label=14,
+		weight=-0.142857142857];
+	"ring_strain
+stereoisomerism
+nucleophilic_addition" -- "biochip
+gua_operon
+evolutionary_biology"	 [label=14,
+		weight=-0.142857142857];
+	"ring_strain
+stereoisomerism
+nucleophilic_addition" -- "cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations"	 [label=100,
+		weight=-1.0];
+	"ring_strain
+stereoisomerism
+nucleophilic_addition" -- "quantum_nonlocality
+standard_model
+classical_central-force_problem"	 [label=10,
+		weight=-0.1];
+	"ring_strain
+stereoisomerism
+nucleophilic_addition" -- "cell_death
+pharming_(genetics)
+immunogold_labelling"	 [label=8,
+		weight=-0.0833333333333];
+	"ring_strain
+stereoisomerism
+nucleophilic_addition" -- "hologenome_theory_of_evolution
+algebra_of_physical_space
+vitalism"	 [label=2,
+		weight=-0.0208333333333];
+	"ring_strain
+stereoisomerism
+nucleophilic_addition" -- "exchange_bias
+timeline_of_electromagnetic_theory
+spheromak"	 [label=100,
+		weight=-1.0];
+	"ring_strain
+stereoisomerism
+nucleophilic_addition" -- "power_(physics)
+kelvin_probe_force_microscope
+friction"	 [label=33,
+		weight=-0.333333333333];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "partial_molar_property
+conjugate_variables_(thermodynamics)
+clear-air_turbulence"	 [label=0,
+		weight=-0.00275482093664];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "biochip
+gua_operon
+evolutionary_biology"	 [label=33,
+		weight=-0.333333333333];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations"	 [label=25,
+		weight=-0.25];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "quantum_nonlocality
+standard_model
+classical_central-force_problem"	 [label=4,
+		weight=-0.0416666666667];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "cell_death
+pharming_(genetics)
+immunogold_labelling"	 [label=12,
+		weight=-0.125];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "hologenome_theory_of_evolution
+algebra_of_physical_space
+vitalism"	 [label=1,
+		weight=-0.012987012987];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "exchange_bias
+timeline_of_electromagnetic_theory
+spheromak"	 [label=11,
+		weight=-0.111111111111];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)
+clear-air_turbulence" -- "power_(physics)
+kelvin_probe_force_microscope
+friction"	 [label=20,
+		weight=-0.2];
+	"biochip
+gua_operon
+evolutionary_biology" -- "biochip
+gua_operon
+evolutionary_biology"	 [label=0,
+		weight=-0.0037037037037];
+	"biochip
+gua_operon
+evolutionary_biology" -- "cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations"	 [label=25,
+		weight=-0.25];
+	"biochip
+gua_operon
+evolutionary_biology" -- "quantum_nonlocality
+standard_model
+classical_central-force_problem"	 [label=11,
+		weight=-0.111111111111];
+	"biochip
+gua_operon
+evolutionary_biology" -- "cell_death
+pharming_(genetics)
+immunogold_labelling"	 [label=6,
+		weight=-0.0625];
+	"biochip
+gua_operon
+evolutionary_biology" -- "hologenome_theory_of_evolution
+algebra_of_physical_space
+vitalism"	 [label=1,
+		weight=-0.015625];
+	"biochip
+gua_operon
+evolutionary_biology" -- "exchange_bias
+timeline_of_electromagnetic_theory
+spheromak"	 [label=50,
+		weight=-0.5];
+	"biochip
+gua_operon
+evolutionary_biology" -- "power_(physics)
+kelvin_probe_force_microscope
+friction"	 [label=∞,
+		weight="-inf"];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations"	 [label=0,
+		weight=-0.00694444444444];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "quantum_nonlocality
+standard_model
+classical_central-force_problem"	 [label=11,
+		weight=-0.111111111111];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "cell_death
+pharming_(genetics)
+immunogold_labelling"	 [label=25,
+		weight=-0.25];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "hologenome_theory_of_evolution
+algebra_of_physical_space
+vitalism"	 [label=4,
+		weight=-0.0416666666667];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "exchange_bias
+timeline_of_electromagnetic_theory
+spheromak"	 [label=33,
+		weight=-0.333333333333];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "power_(physics)
+kelvin_probe_force_microscope
+friction"	 [label=100,
+		weight=-1.0];
+	"quantum_nonlocality
+standard_model
+classical_central-force_problem" -- "quantum_nonlocality
+standard_model
+classical_central-force_problem"	 [label=0,
+		weight=-0.00162074554295];
+	"quantum_nonlocality
+standard_model
+classical_central-force_problem" -- "cell_death
+pharming_(genetics)
+immunogold_labelling"	 [label=7,
+		weight=-0.0769230769231];
+	"quantum_nonlocality
+standard_model
+classical_central-force_problem" -- "hologenome_theory_of_evolution
+algebra_of_physical_space
+vitalism"	 [label=0,
+		weight=-0.00757575757576];
+	"quantum_nonlocality
+standard_model
+classical_central-force_problem" -- "exchange_bias
+timeline_of_electromagnetic_theory
+spheromak"	 [label=5,
+		weight=-0.0555555555556];
+	"quantum_nonlocality
+standard_model
+classical_central-force_problem" -- "power_(physics)
+kelvin_probe_force_microscope
+friction"	 [label=3,
+		weight=-0.0357142857143];
+	"cell_death
+pharming_(genetics)
+immunogold_labelling" -- "cell_death
+pharming_(genetics)
+immunogold_labelling"	 [label=0,
+		weight=-0.0030303030303];
+	"cell_death
+pharming_(genetics)
+immunogold_labelling" -- "hologenome_theory_of_evolution
+algebra_of_physical_space
+vitalism"	 [label=1,
+		weight=-0.0142857142857];
+	"cell_death
+pharming_(genetics)
+immunogold_labelling" -- "exchange_bias
+timeline_of_electromagnetic_theory
+spheromak"	 [label=14,
+		weight=-0.142857142857];
+	"cell_death
+pharming_(genetics)
+immunogold_labelling" -- "power_(physics)
+kelvin_probe_force_microscope
+friction"	 [label=33,
+		weight=-0.333333333333];
+	"hologenome_theory_of_evolution
+algebra_of_physical_space
+vitalism" -- "hologenome_theory_of_evolution
+algebra_of_physical_space
+vitalism"	 [label=0,
+		weight=-0.000374391613628];
+	"hologenome_theory_of_evolution
+algebra_of_physical_space
+vitalism" -- "exchange_bias
+timeline_of_electromagnetic_theory
+spheromak"	 [label=1,
+		weight=-0.0185185185185];
+	"hologenome_theory_of_evolution
+algebra_of_physical_space
+vitalism" -- "power_(physics)
+kelvin_probe_force_microscope
+friction"	 [label=2,
+		weight=-0.0222222222222];
+	"exchange_bias
+timeline_of_electromagnetic_theory
+spheromak" -- "exchange_bias
+timeline_of_electromagnetic_theory
+spheromak"	 [label=0,
+		weight=-0.00456621004566];
+	"exchange_bias
+timeline_of_electromagnetic_theory
+spheromak" -- "power_(physics)
+kelvin_probe_force_microscope
+friction"	 [label=16,
+		weight=-0.166666666667];
+	"power_(physics)
+kelvin_probe_force_microscope
+friction" -- "power_(physics)
+kelvin_probe_force_microscope
+friction"	 [label=0,
+		weight=-0.00526315789474];
+}

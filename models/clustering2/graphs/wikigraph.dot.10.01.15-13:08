@@ -1,0 +1,1382 @@
+strict graph wikigraph {
+	graph [label="wikigraph - n=20, it=20",
+		ratio=1.0,
+		size="45!",
+		splines=none
+	];
+	node [fontsize=6,
+		shape=ellipse,
+		style=filled
+	];
+	edge [fontsize=7,
+		style="setlinewidth(0.1)"
+	];
+	"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" [key=0.00502512562814,
+	label=0];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" [key=inf,
+label=∞];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" [key=0.5,
+label=50];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" [key=0.25,
+label=25];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" [key=0.2,
+label=20];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" [key=1.0,
+label=100];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "decaffeination
+saltmod
+composition_of_mars
+cooling_bath" [key=0.333333333333,
+label=33];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" [key=0.166666666667,
+label=16];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" [key=0.142857142857,
+label=14];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" [key=0.142857142857,
+label=14];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" [key=0.0294117647059,
+label=2];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" [key=0.25,
+label=25];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" [key=0.2,
+label=20];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" [key=0.1,
+label=10];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" [key=1.0,
+label=100];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" [key=0.166666666667,
+label=16];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.333333333333,
+label=33];
+"ring_strain
+conjugate_variables_(thermodynamics)
+yield_surface
+superalloy" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=0.25,
+label=25];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" [key=0.00649350649351,
+label=0];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" [key=0.25,
+label=25];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" [key=0.2,
+label=20];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" [key=0.333333333333,
+label=33];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" [key=0.5,
+label=50];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "decaffeination
+saltmod
+composition_of_mars
+cooling_bath" [key=0.5,
+label=50];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" [key=0.5,
+label=50];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" [key=0.142857142857,
+label=14];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" [key=0.2,
+label=20];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" [key=0.0416666666667,
+label=4];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" [key=1.0,
+label=100];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" [key=0.25,
+label=25];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" [key=0.2,
+label=20];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" [key=0.2,
+label=20];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" [key=0.125,
+label=12];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.2,
+label=20];
+"vacuum_swing_adsorption
+solar_air_conditioning
+molecular_orbital_diagram
+bleaching_of_wood_pulp" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=inf,
+label=∞];
+"creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" -- "creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" [key=0.00714285714286,
+label=0];
+"creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" -- "carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" [key=0.142857142857,
+label=14];
+"creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" [key=0.0588235294118,
+label=5];
+"creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" -- "cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" [key=inf,
+label=∞];
+"creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" -- "decaffeination
+saltmod
+composition_of_mars
+cooling_bath" [key=0.5,
+label=50];
+"creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" -- "hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" [key=1.0,
+label=100];
+"creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" -- "power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" [key=0.166666666667,
+label=16];
+"creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" -- "ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" [key=0.111111111111,
+label=11];
+"creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" -- "international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" [key=0.1,
+label=10];
+"creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" -- "oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" [key=0.5,
+label=50];
+"creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" -- "cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" [key=0.111111111111,
+label=11];
+"creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" -- "cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" [key=1.0,
+label=100];
+"creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" -- "nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" [key=0.333333333333,
+label=33];
+"creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" -- "health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" [key=1.0,
+label=100];
+"creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.166666666667,
+label=16];
+"creaming_(chemistry)
+gibbs_paradox
+mechanics
+quantum_superposition" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=inf,
+label=∞];
+"carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" -- "carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" [key=0.0045871559633,
+label=0];
+"carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" [key=0.0833333333333,
+label=8];
+"carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" -- "cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" [key=0.333333333333,
+label=33];
+"carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" -- "decaffeination
+saltmod
+composition_of_mars
+cooling_bath" [key=0.5,
+label=50];
+"carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" -- "hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" [key=0.166666666667,
+label=16];
+"carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" -- "power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" [key=0.142857142857,
+label=14];
+"carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" -- "ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" [key=0.111111111111,
+label=11];
+"carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" -- "international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" [key=0.0384615384615,
+label=3];
+"carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" -- "oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" [key=0.2,
+label=20];
+"carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" -- "cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" [key=0.142857142857,
+label=14];
+"carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" -- "cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" [key=0.0666666666667,
+label=6];
+"carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" -- "nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" [key=1.0,
+label=100];
+"carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" -- "health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" [key=0.142857142857,
+label=14];
+"carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.2,
+label=20];
+"carbide_lamp
+optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=1.0,
+label=100];
+"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" [key=0.00212314225053,
+label=0];
+"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" -- "cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" [key=0.333333333333,
+label=33];
+"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" -- "decaffeination
+saltmod
+composition_of_mars
+cooling_bath" [key=0.111111111111,
+label=11];
+"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" -- "hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" [key=0.0769230769231,
+label=7];
+"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" -- "power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" [key=0.0526315789474,
+label=5];
+"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" -- "ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" [key=0.0526315789474,
+label=5];
+"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" -- "international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" [key=0.015873015873,
+label=1];
+"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" -- "oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" [key=0.25,
+label=25];
+"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" -- "cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" [key=0.0769230769231,
+label=7];
+"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" -- "cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" [key=0.0588235294118,
+label=5];
+"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" -- "nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" [key=0.25,
+label=25];
+"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" -- "health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" [key=0.111111111111,
+label=11];
+"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.2,
+label=20];
+"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+patina" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=0.142857142857,
+label=14];
+"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" -- "cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" [key=0.00840336134454,
+label=0];
+"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" -- "decaffeination
+saltmod
+composition_of_mars
+cooling_bath" [key=1.0,
+label=100];
+"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" -- "hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" [key=1.0,
+label=100];
+"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" -- "power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" [key=0.25,
+label=25];
+"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" -- "ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" [key=0.333333333333,
+label=33];
+"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" -- "international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" [key=0.0769230769231,
+label=7];
+"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" -- "oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" [key=inf,
+label=∞];
+"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" -- "cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" [key=0.5,
+label=50];
+"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" -- "cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" [key=0.333333333333,
+label=33];
+"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" -- "nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" [key=inf,
+label=∞];
+"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" -- "health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" [key=0.5,
+label=50];
+"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.5,
+label=50];
+"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=inf,
+label=∞];
+"decaffeination
+saltmod
+composition_of_mars
+cooling_bath" -- "decaffeination
+saltmod
+composition_of_mars
+cooling_bath" [key=0.00653594771242,
+label=0];
+"decaffeination
+saltmod
+composition_of_mars
+cooling_bath" -- "hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" [key=0.5,
+label=50];
+"decaffeination
+saltmod
+composition_of_mars
+cooling_bath" -- "power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" [key=0.25,
+label=25];
+"decaffeination
+saltmod
+composition_of_mars
+cooling_bath" -- "ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" [key=0.333333333333,
+label=33];
+"decaffeination
+saltmod
+composition_of_mars
+cooling_bath" -- "international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" [key=0.0344827586207,
+label=3];
+"decaffeination
+saltmod
+composition_of_mars
+cooling_bath" -- "oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" [key=0.333333333333,
+label=33];
+"decaffeination
+saltmod
+composition_of_mars
+cooling_bath" -- "cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" [key=inf,
+label=∞];
+"decaffeination
+saltmod
+composition_of_mars
+cooling_bath" -- "cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" [key=0.142857142857,
+label=14];
+"decaffeination
+saltmod
+composition_of_mars
+cooling_bath" -- "nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" [key=0.5,
+label=50];
+"decaffeination
+saltmod
+composition_of_mars
+cooling_bath" -- "health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" [key=0.25,
+label=25];
+"decaffeination
+saltmod
+composition_of_mars
+cooling_bath" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.2,
+label=20];
+"decaffeination
+saltmod
+composition_of_mars
+cooling_bath" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=0.166666666667,
+label=16];
+"hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" -- "hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" [key=0.0045871559633,
+label=0];
+"hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" -- "power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" [key=0.333333333333,
+label=33];
+"hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" -- "ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" [key=0.111111111111,
+label=11];
+"hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" -- "international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" [key=0.0333333333333,
+label=3];
+"hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" -- "oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" [key=0.125,
+label=12];
+"hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" -- "cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" [key=0.2,
+label=20];
+"hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" -- "cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" [key=0.05,
+label=5];
+"hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" -- "nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" [key=1.0,
+label=100];
+"hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" -- "health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" [key=0.111111111111,
+label=11];
+"hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.25,
+label=25];
+"hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+fick's_laws_of_diffusion" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=0.5,
+label=50];
+"power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" -- "power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" [key=0.0036231884058,
+label=0];
+"power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" -- "ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" [key=0.05,
+label=5];
+"power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" -- "international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" [key=0.0285714285714,
+label=2];
+"power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" -- "oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" [key=1.0,
+label=100];
+"power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" -- "cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" [key=0.166666666667,
+label=16];
+"power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" -- "cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" [key=0.125,
+label=12];
+"power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" -- "nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" [key=1.0,
+label=100];
+"power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" -- "health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" [key=0.142857142857,
+label=14];
+"power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.333333333333,
+label=33];
+"power_(physics)
+kelvin_probe_force_microscope
+classical_central-force_problem
+tidal_force" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=1.0,
+label=100];
+"ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" -- "ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" [key=0.0030303030303,
+label=0];
+"ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" -- "international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" [key=0.0222222222222,
+label=2];
+"ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" -- "oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" [key=0.333333333333,
+label=33];
+"ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" -- "cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" [key=0.1,
+label=10];
+"ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" -- "cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" [key=0.142857142857,
+label=14];
+"ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" -- "nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" [key=0.5,
+label=50];
+"ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" -- "health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" [key=0.142857142857,
+label=14];
+"ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.0833333333333,
+label=8];
+"ionic_bonding
+exchange_bias
+valence_electron
+timeline_of_electromagnetic_theory" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=0.333333333333,
+label=33];
+"international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" -- "international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" [key=0.000653594771242,
+label=0];
+"international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" -- "oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" [key=0.047619047619,
+label=4];
+"international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" -- "cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" [key=0.0357142857143,
+label=3];
+"international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" -- "cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" [key=0.0151515151515,
+label=1];
+"international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" -- "nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" [key=0.0714285714286,
+label=7];
+"international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" -- "health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" [key=0.0285714285714,
+label=2];
+"international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.0333333333333,
+label=3];
+"international_physicists'_tournament
+x-ray_astronomy_detector
+jemmis_mno_rules
+nobel_prize_in_chemistry" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=0.0666666666667,
+label=6];
+"oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" -- "oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" [key=0.008,
+label=0];
+"oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" -- "cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" [key=0.5,
+label=50];
+"oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" -- "cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" [key=0.0526315789474,
+label=5];
+"oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" -- "nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" [key=inf,
+label=∞];
+"oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" -- "health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" [key=0.25,
+label=25];
+"oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.333333333333,
+label=33];
+"oncolytic_herpes_virus
+2_base_encoding
+biological_network
+immunoglobulin_class_switching" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=inf,
+label=∞];
+"cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" -- "cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" [key=0.00518134715026,
+label=0];
+"cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" -- "cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" [key=0.333333333333,
+label=33];
+"cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" -- "nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" [key=1.0,
+label=100];
+"cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" -- "health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" [key=0.5,
+label=50];
+"cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.142857142857,
+label=14];
+"cp_violation
+baryogenesis
+fission_products_(by_element)
+glueball" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=0.5,
+label=50];
+"cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" -- "cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" [key=0.00211416490486,
+label=0];
+"cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" -- "nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" [key=0.166666666667,
+label=16];
+"cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" -- "health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" [key=0.0526315789474,
+label=5];
+"cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.125,
+label=12];
+"cell_death
+one_gene-one_enzyme_hypothesis
+pharming_(genetics)
+immunogold_labelling" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=0.166666666667,
+label=16];
+"nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" -- "nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" [key=0.00917431192661,
+label=0];
+"nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" -- "health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" [key=1.0,
+label=100];
+"nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.2,
+label=20];
+"nitrogen_trifluoride
+acetylene
+pole_figure
+coal_gas" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=inf,
+label=∞];
+"health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" -- "health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" [key=0.00387596899225,
+label=0];
+"health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.2,
+label=20];
+"health_effects_of_caffeine
+chemical_warfare
+chemical_engineering
+operation_steel_box" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=0.333333333333,
+label=33];
+"partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" -- "partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" [key=0.0045871559633,
+label=0];
+"partial_molar_property
+thermodynamic_potential
+volume_(thermodynamics)
+evaporation" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=0.333333333333,
+label=33];
+"18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" -- "18-electron_rule
+stereoisomerism
+ligand_field_theory
+octet_rule" [key=0.0114942528736,
+label=1];
+}

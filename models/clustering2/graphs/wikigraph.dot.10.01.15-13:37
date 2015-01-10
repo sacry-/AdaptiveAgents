@@ -1,0 +1,562 @@
+strict graph wikigraph {
+	graph [label="wikigraph - n=15, it=15",
+		ratio=1.0,
+		size="45!",
+		splines=curved
+	];
+	node [font=Arial,
+		fontsize=8,
+		shape=ellipse,
+		style=filled
+	];
+	edge [font=Arial,
+		fontsize=8,
+		style="setlinewidth(0.1)"
+	];
+	"2_base_encoding
+uruz_project
+biochip" -- "2_base_encoding
+uruz_project
+biochip"	 [label=1,
+		weight=-0.0140845070423];
+	"2_base_encoding
+uruz_project
+biochip" -- "cell_death
+laminin_111
+human_stem_cells_institute"	 [label=12,
+		weight=-0.125];
+	"2_base_encoding
+uruz_project
+biochip" -- "quantum_nonlocality
+vorticity
+x-ray_astronomy_detector"	 [label=6,
+		weight=-0.0666666666667];
+	"2_base_encoding
+uruz_project
+biochip" -- "cosmic_dust
+cosmogenic_nuclide
+tom_van_flandern"	 [label=50,
+		weight=-0.5];
+	"2_base_encoding
+uruz_project
+biochip" -- "international_noble_gas_experiment
+purex
+fission_products_(by_element)"	 [label=100,
+		weight=-1.0];
+	"2_base_encoding
+uruz_project
+biochip" -- "cross_section_(physics)
+citric_acid_cycle
+azomethine_ylide"	 [label=20,
+		weight=-0.2];
+	"2_base_encoding
+uruz_project
+biochip" -- "cosmological_principle
+cosmological_perturbation_theory
+chronology_of_the_universe"	 [label=∞,
+		weight="-inf"];
+	"2_base_encoding
+uruz_project
+biochip" -- "cp_violation
+trihydrogen_cation
+baryogenesis"	 [label=50,
+		weight=-0.5];
+	"2_base_encoding
+uruz_project
+biochip" -- "food_chemistry
+azeotrope
+2005_jilin_chemical_plant_explosions"	 [label=20,
+		weight=-0.2];
+	"2_base_encoding
+uruz_project
+biochip" -- "carbide_lamp
+equivalent_carbon_content
+chemical_engineering"	 [label=50,
+		weight=-0.5];
+	"2_base_encoding
+uruz_project
+biochip" -- "bent's_rule
+immunogold_labelling
+valence_electron"	 [label=33,
+		weight=-0.333333333333];
+	"2_base_encoding
+uruz_project
+biochip" -- "acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography
+fixation_(histology)"	 [label=14,
+		weight=-0.142857142857];
+	"2_base_encoding
+uruz_project
+biochip" -- "diathermal_wall
+solar_air_conditioning
+collision_cascade"	 [label=∞,
+		weight="-inf"];
+	"cell_death
+laminin_111
+human_stem_cells_institute" -- "cell_death
+laminin_111
+human_stem_cells_institute"	 [label=0,
+		weight=-0.00353356890459];
+	"cell_death
+laminin_111
+human_stem_cells_institute" -- "quantum_nonlocality
+vorticity
+x-ray_astronomy_detector"	 [label=1,
+		weight=-0.0192307692308];
+	"cell_death
+laminin_111
+human_stem_cells_institute" -- "cosmic_dust
+cosmogenic_nuclide
+tom_van_flandern"	 [label=16,
+		weight=-0.166666666667];
+	"cell_death
+laminin_111
+human_stem_cells_institute" -- "international_noble_gas_experiment
+purex
+fission_products_(by_element)"	 [label=20,
+		weight=-0.2];
+	"cell_death
+laminin_111
+human_stem_cells_institute" -- "cross_section_(physics)
+citric_acid_cycle
+azomethine_ylide"	 [label=7,
+		weight=-0.0769230769231];
+	"cell_death
+laminin_111
+human_stem_cells_institute" -- "cosmological_principle
+cosmological_perturbation_theory
+chronology_of_the_universe"	 [label=20,
+		weight=-0.2];
+	"cell_death
+laminin_111
+human_stem_cells_institute" -- "cp_violation
+trihydrogen_cation
+baryogenesis"	 [label=12,
+		weight=-0.125];
+	"cell_death
+laminin_111
+human_stem_cells_institute" -- "food_chemistry
+azeotrope
+2005_jilin_chemical_plant_explosions"	 [label=20,
+		weight=-0.2];
+	"cell_death
+laminin_111
+human_stem_cells_institute" -- "carbide_lamp
+equivalent_carbon_content
+chemical_engineering"	 [label=7,
+		weight=-0.0714285714286];
+	"cell_death
+laminin_111
+human_stem_cells_institute" -- "bent's_rule
+immunogold_labelling
+valence_electron"	 [label=9,
+		weight=-0.0909090909091];
+	"cell_death
+laminin_111
+human_stem_cells_institute" -- "acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography
+fixation_(histology)"	 [label=5,
+		weight=-0.0555555555556];
+	"cell_death
+laminin_111
+human_stem_cells_institute" -- "diathermal_wall
+solar_air_conditioning
+collision_cascade"	 [label=50,
+		weight=-0.5];
+	"quantum_nonlocality
+vorticity
+x-ray_astronomy_detector" -- "quantum_nonlocality
+vorticity
+x-ray_astronomy_detector"	 [label=0,
+		weight=-0.000445037828215];
+	"quantum_nonlocality
+vorticity
+x-ray_astronomy_detector" -- "cosmic_dust
+cosmogenic_nuclide
+tom_van_flandern"	 [label=2,
+		weight=-0.0243902439024];
+	"quantum_nonlocality
+vorticity
+x-ray_astronomy_detector" -- "international_noble_gas_experiment
+purex
+fission_products_(by_element)"	 [label=4,
+		weight=-0.04];
+	"quantum_nonlocality
+vorticity
+x-ray_astronomy_detector" -- "cross_section_(physics)
+citric_acid_cycle
+azomethine_ylide"	 [label=1,
+		weight=-0.0151515151515];
+	"quantum_nonlocality
+vorticity
+x-ray_astronomy_detector" -- "cosmological_principle
+cosmological_perturbation_theory
+chronology_of_the_universe"	 [label=5,
+		weight=-0.0588235294118];
+	"quantum_nonlocality
+vorticity
+x-ray_astronomy_detector" -- "cp_violation
+trihydrogen_cation
+baryogenesis"	 [label=1,
+		weight=-0.0133333333333];
+	"quantum_nonlocality
+vorticity
+x-ray_astronomy_detector" -- "food_chemistry
+azeotrope
+2005_jilin_chemical_plant_explosions"	 [label=2,
+		weight=-0.0204081632653];
+	"quantum_nonlocality
+vorticity
+x-ray_astronomy_detector" -- "carbide_lamp
+equivalent_carbon_content
+chemical_engineering"	 [label=1,
+		weight=-0.0133333333333];
+	"quantum_nonlocality
+vorticity
+x-ray_astronomy_detector" -- "bent's_rule
+immunogold_labelling
+valence_electron"	 [label=1,
+		weight=-0.0161290322581];
+	"quantum_nonlocality
+vorticity
+x-ray_astronomy_detector" -- "acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography
+fixation_(histology)"	 [label=2,
+		weight=-0.027027027027];
+	"quantum_nonlocality
+vorticity
+x-ray_astronomy_detector" -- "diathermal_wall
+solar_air_conditioning
+collision_cascade"	 [label=4,
+		weight=-0.0454545454545];
+	"cosmic_dust
+cosmogenic_nuclide
+tom_van_flandern" -- "cosmic_dust
+cosmogenic_nuclide
+tom_van_flandern"	 [label=0,
+		weight=-0.0046511627907];
+	"cosmic_dust
+cosmogenic_nuclide
+tom_van_flandern" -- "international_noble_gas_experiment
+purex
+fission_products_(by_element)"	 [label=25,
+		weight=-0.25];
+	"cosmic_dust
+cosmogenic_nuclide
+tom_van_flandern" -- "cross_section_(physics)
+citric_acid_cycle
+azomethine_ylide"	 [label=16,
+		weight=-0.166666666667];
+	"cosmic_dust
+cosmogenic_nuclide
+tom_van_flandern" -- "cosmological_principle
+cosmological_perturbation_theory
+chronology_of_the_universe"	 [label=12,
+		weight=-0.125];
+	"cosmic_dust
+cosmogenic_nuclide
+tom_van_flandern" -- "cp_violation
+trihydrogen_cation
+baryogenesis"	 [label=9,
+		weight=-0.0909090909091];
+	"cosmic_dust
+cosmogenic_nuclide
+tom_van_flandern" -- "food_chemistry
+azeotrope
+2005_jilin_chemical_plant_explosions"	 [label=20,
+		weight=-0.2];
+	"cosmic_dust
+cosmogenic_nuclide
+tom_van_flandern" -- "carbide_lamp
+equivalent_carbon_content
+chemical_engineering"	 [label=14,
+		weight=-0.142857142857];
+	"cosmic_dust
+cosmogenic_nuclide
+tom_van_flandern" -- "bent's_rule
+immunogold_labelling
+valence_electron"	 [label=14,
+		weight=-0.142857142857];
+	"cosmic_dust
+cosmogenic_nuclide
+tom_van_flandern" -- "acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography
+fixation_(histology)"	 [label=50,
+		weight=-0.5];
+	"cosmic_dust
+cosmogenic_nuclide
+tom_van_flandern" -- "diathermal_wall
+solar_air_conditioning
+collision_cascade"	 [label=33,
+		weight=-0.333333333333];
+	"international_noble_gas_experiment
+purex
+fission_products_(by_element)" -- "international_noble_gas_experiment
+purex
+fission_products_(by_element)"	 [label=0,
+		weight=-0.00833333333333];
+	"international_noble_gas_experiment
+purex
+fission_products_(by_element)" -- "cross_section_(physics)
+citric_acid_cycle
+azomethine_ylide"	 [label=12,
+		weight=-0.125];
+	"international_noble_gas_experiment
+purex
+fission_products_(by_element)" -- "cosmological_principle
+cosmological_perturbation_theory
+chronology_of_the_universe"	 [label=∞,
+		weight="-inf"];
+	"international_noble_gas_experiment
+purex
+fission_products_(by_element)" -- "cp_violation
+trihydrogen_cation
+baryogenesis"	 [label=14,
+		weight=-0.142857142857];
+	"international_noble_gas_experiment
+purex
+fission_products_(by_element)" -- "food_chemistry
+azeotrope
+2005_jilin_chemical_plant_explosions"	 [label=50,
+		weight=-0.5];
+	"international_noble_gas_experiment
+purex
+fission_products_(by_element)" -- "carbide_lamp
+equivalent_carbon_content
+chemical_engineering"	 [label=20,
+		weight=-0.2];
+	"international_noble_gas_experiment
+purex
+fission_products_(by_element)" -- "bent's_rule
+immunogold_labelling
+valence_electron"	 [label=12,
+		weight=-0.125];
+	"international_noble_gas_experiment
+purex
+fission_products_(by_element)" -- "acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography
+fixation_(histology)"	 [label=100,
+		weight=-1.0];
+	"international_noble_gas_experiment
+purex
+fission_products_(by_element)" -- "diathermal_wall
+solar_air_conditioning
+collision_cascade"	 [label=50,
+		weight=-0.5];
+	"cross_section_(physics)
+citric_acid_cycle
+azomethine_ylide" -- "cross_section_(physics)
+citric_acid_cycle
+azomethine_ylide"	 [label=0,
+		weight=-0.00261780104712];
+	"cross_section_(physics)
+citric_acid_cycle
+azomethine_ylide" -- "cosmological_principle
+cosmological_perturbation_theory
+chronology_of_the_universe"	 [label=25,
+		weight=-0.25];
+	"cross_section_(physics)
+citric_acid_cycle
+azomethine_ylide" -- "cp_violation
+trihydrogen_cation
+baryogenesis"	 [label=11,
+		weight=-0.111111111111];
+	"cross_section_(physics)
+citric_acid_cycle
+azomethine_ylide" -- "food_chemistry
+azeotrope
+2005_jilin_chemical_plant_explosions"	 [label=9,
+		weight=-0.0909090909091];
+	"cross_section_(physics)
+citric_acid_cycle
+azomethine_ylide" -- "carbide_lamp
+equivalent_carbon_content
+chemical_engineering"	 [label=5,
+		weight=-0.0526315789474];
+	"cross_section_(physics)
+citric_acid_cycle
+azomethine_ylide" -- "bent's_rule
+immunogold_labelling
+valence_electron"	 [label=6,
+		weight=-0.0666666666667];
+	"cross_section_(physics)
+citric_acid_cycle
+azomethine_ylide" -- "acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography
+fixation_(histology)"	 [label=6,
+		weight=-0.0666666666667];
+	"cross_section_(physics)
+citric_acid_cycle
+azomethine_ylide" -- "diathermal_wall
+solar_air_conditioning
+collision_cascade"	 [label=8,
+		weight=-0.0833333333333];
+	"cosmological_principle
+cosmological_perturbation_theory
+chronology_of_the_universe" -- "cosmological_principle
+cosmological_perturbation_theory
+chronology_of_the_universe"	 [label=0,
+		weight=-0.00714285714286];
+	"cosmological_principle
+cosmological_perturbation_theory
+chronology_of_the_universe" -- "cp_violation
+trihydrogen_cation
+baryogenesis"	 [label=33,
+		weight=-0.333333333333];
+	"cosmological_principle
+cosmological_perturbation_theory
+chronology_of_the_universe" -- "food_chemistry
+azeotrope
+2005_jilin_chemical_plant_explosions"	 [label=50,
+		weight=-0.5];
+	"cosmological_principle
+cosmological_perturbation_theory
+chronology_of_the_universe" -- "carbide_lamp
+equivalent_carbon_content
+chemical_engineering"	 [label=20,
+		weight=-0.2];
+	"cosmological_principle
+cosmological_perturbation_theory
+chronology_of_the_universe" -- "bent's_rule
+immunogold_labelling
+valence_electron"	 [label=50,
+		weight=-0.5];
+	"cosmological_principle
+cosmological_perturbation_theory
+chronology_of_the_universe" -- "acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography
+fixation_(histology)"	 [label=∞,
+		weight="-inf"];
+	"cosmological_principle
+cosmological_perturbation_theory
+chronology_of_the_universe" -- "diathermal_wall
+solar_air_conditioning
+collision_cascade"	 [label=25,
+		weight=-0.25];
+	"cp_violation
+trihydrogen_cation
+baryogenesis" -- "cp_violation
+trihydrogen_cation
+baryogenesis"	 [label=0,
+		weight=-0.00292397660819];
+	"cp_violation
+trihydrogen_cation
+baryogenesis" -- "food_chemistry
+azeotrope
+2005_jilin_chemical_plant_explosions"	 [label=12,
+		weight=-0.125];
+	"cp_violation
+trihydrogen_cation
+baryogenesis" -- "carbide_lamp
+equivalent_carbon_content
+chemical_engineering"	 [label=11,
+		weight=-0.111111111111];
+	"cp_violation
+trihydrogen_cation
+baryogenesis" -- "bent's_rule
+immunogold_labelling
+valence_electron"	 [label=7,
+		weight=-0.0769230769231];
+	"cp_violation
+trihydrogen_cation
+baryogenesis" -- "acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography
+fixation_(histology)"	 [label=20,
+		weight=-0.2];
+	"cp_violation
+trihydrogen_cation
+baryogenesis" -- "diathermal_wall
+solar_air_conditioning
+collision_cascade"	 [label=16,
+		weight=-0.166666666667];
+	"food_chemistry
+azeotrope
+2005_jilin_chemical_plant_explosions" -- "food_chemistry
+azeotrope
+2005_jilin_chemical_plant_explosions"	 [label=0,
+		weight=-0.00392156862745];
+	"food_chemistry
+azeotrope
+2005_jilin_chemical_plant_explosions" -- "carbide_lamp
+equivalent_carbon_content
+chemical_engineering"	 [label=5,
+		weight=-0.0588235294118];
+	"food_chemistry
+azeotrope
+2005_jilin_chemical_plant_explosions" -- "bent's_rule
+immunogold_labelling
+valence_electron"	 [label=14,
+		weight=-0.142857142857];
+	"food_chemistry
+azeotrope
+2005_jilin_chemical_plant_explosions" -- "acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography
+fixation_(histology)"	 [label=8,
+		weight=-0.0833333333333];
+	"food_chemistry
+azeotrope
+2005_jilin_chemical_plant_explosions" -- "diathermal_wall
+solar_air_conditioning
+collision_cascade"	 [label=25,
+		weight=-0.25];
+	"carbide_lamp
+equivalent_carbon_content
+chemical_engineering" -- "carbide_lamp
+equivalent_carbon_content
+chemical_engineering"	 [label=0,
+		weight=-0.00244498777506];
+	"carbide_lamp
+equivalent_carbon_content
+chemical_engineering" -- "bent's_rule
+immunogold_labelling
+valence_electron"	 [label=11,
+		weight=-0.111111111111];
+	"carbide_lamp
+equivalent_carbon_content
+chemical_engineering" -- "acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography
+fixation_(histology)"	 [label=12,
+		weight=-0.125];
+	"carbide_lamp
+equivalent_carbon_content
+chemical_engineering" -- "diathermal_wall
+solar_air_conditioning
+collision_cascade"	 [label=6,
+		weight=-0.0666666666667];
+	"bent's_rule
+immunogold_labelling
+valence_electron" -- "bent's_rule
+immunogold_labelling
+valence_electron"	 [label=0,
+		weight=-0.00320512820513];
+	"bent's_rule
+immunogold_labelling
+valence_electron" -- "acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography
+fixation_(histology)"	 [label=11,
+		weight=-0.111111111111];
+	"bent's_rule
+immunogold_labelling
+valence_electron" -- "diathermal_wall
+solar_air_conditioning
+collision_cascade"	 [label=16,
+		weight=-0.166666666667];
+	"acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography
+fixation_(histology)" -- "acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography
+fixation_(histology)"	 [label=0,
+		weight=-0.00413223140496];
+	"acid-hydrolyzed_vegetable_protein
+size-exclusion_chromatography
+fixation_(histology)" -- "diathermal_wall
+solar_air_conditioning
+collision_cascade"	 [label=∞,
+		weight="-inf"];
+	"diathermal_wall
+solar_air_conditioning
+collision_cascade" -- "diathermal_wall
+solar_air_conditioning
+collision_cascade"	 [label=0,
+		weight=-0.00735294117647];
+}

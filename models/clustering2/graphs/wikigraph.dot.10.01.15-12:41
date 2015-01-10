@@ -1,0 +1,232 @@
+strict graph wikigraph {
+	graph [ratio=1.0,
+		size="25!"
+	];
+	node [fontsize=6,
+		shape=ellipse,
+		style=filled
+	];
+	edge [fontsize=5,
+		style="setlinewidth(0.5)"
+	];
+	"immunogold_labelling
+effective_atomic_number" -- "immunogold_labelling
+effective_atomic_number" [key=0.00331125827815,
+	label=0];
+"immunogold_labelling
+effective_atomic_number" -- "food_chemistry
+azeotrope" [key=0.0714285714286,
+label=7];
+"immunogold_labelling
+effective_atomic_number" -- "biochip
+gua_operon" [key=0.166666666667,
+label=16];
+"immunogold_labelling
+effective_atomic_number" -- "timeline_of_electromagnetic_theory
+hologenome_theory_of_evolution" [key=0.0172413793103,
+label=1];
+"immunogold_labelling
+effective_atomic_number" -- "health_effects_of_caffeine
+cross_section_(physics)" [key=0.0769230769231,
+label=7];
+"immunogold_labelling
+effective_atomic_number" -- "carbide_lamp
+equivalent_carbon_content" [key=0.0833333333333,
+label=8];
+"immunogold_labelling
+effective_atomic_number" -- "cosmological_principle
+physical_cosmology" [key=inf,
+label=∞];
+"immunogold_labelling
+effective_atomic_number" -- "kelvin_probe_force_microscope
+classical_central-force_problem" [key=0.111111111111,
+label=11];
+"immunogold_labelling
+effective_atomic_number" -- "cell_death
+pharming_(genetics)" [key=0.142857142857,
+label=14];
+"immunogold_labelling
+effective_atomic_number" -- "quantum_nonlocality
+particle_physics_and_representation_theory" [key=0.0555555555556,
+label=5];
+"food_chemistry
+azeotrope" -- "food_chemistry
+azeotrope" [key=0.00233644859813,
+label=0];
+"food_chemistry
+azeotrope" -- "biochip
+gua_operon" [key=0.142857142857,
+label=14];
+"food_chemistry
+azeotrope" -- "timeline_of_electromagnetic_theory
+hologenome_theory_of_evolution" [key=0.0123456790123,
+label=1];
+"food_chemistry
+azeotrope" -- "health_effects_of_caffeine
+cross_section_(physics)" [key=0.0588235294118,
+label=5];
+"food_chemistry
+azeotrope" -- "carbide_lamp
+equivalent_carbon_content" [key=0.04,
+label=4];
+"food_chemistry
+azeotrope" -- "cosmological_principle
+physical_cosmology" [key=0.2,
+label=20];
+"food_chemistry
+azeotrope" -- "kelvin_probe_force_microscope
+classical_central-force_problem" [key=0.166666666667,
+label=16];
+"food_chemistry
+azeotrope" -- "cell_death
+pharming_(genetics)" [key=0.0909090909091,
+label=9];
+"food_chemistry
+azeotrope" -- "quantum_nonlocality
+particle_physics_and_representation_theory" [key=0.0909090909091,
+label=9];
+"biochip
+gua_operon" -- "biochip
+gua_operon" [key=0.00625,
+label=0];
+"biochip
+gua_operon" -- "timeline_of_electromagnetic_theory
+hologenome_theory_of_evolution" [key=0.0285714285714,
+label=2];
+"biochip
+gua_operon" -- "health_effects_of_caffeine
+cross_section_(physics)" [key=0.333333333333,
+label=33];
+"biochip
+gua_operon" -- "carbide_lamp
+equivalent_carbon_content" [key=0.2,
+label=20];
+"biochip
+gua_operon" -- "cosmological_principle
+physical_cosmology" [key=0.5,
+label=50];
+"biochip
+gua_operon" -- "kelvin_probe_force_microscope
+classical_central-force_problem" [key=1.0,
+label=100];
+"biochip
+gua_operon" -- "cell_death
+pharming_(genetics)" [key=0.0666666666667,
+label=6];
+"biochip
+gua_operon" -- "quantum_nonlocality
+particle_physics_and_representation_theory" [key=0.333333333333,
+label=33];
+"timeline_of_electromagnetic_theory
+hologenome_theory_of_evolution" -- "timeline_of_electromagnetic_theory
+hologenome_theory_of_evolution" [key=0.000428265524625,
+label=0];
+"timeline_of_electromagnetic_theory
+hologenome_theory_of_evolution" -- "health_effects_of_caffeine
+cross_section_(physics)" [key=0.0192307692308,
+label=1];
+"timeline_of_electromagnetic_theory
+hologenome_theory_of_evolution" -- "carbide_lamp
+equivalent_carbon_content" [key=0.0111111111111,
+label=1];
+"timeline_of_electromagnetic_theory
+hologenome_theory_of_evolution" -- "cosmological_principle
+physical_cosmology" [key=0.0588235294118,
+label=5];
+"timeline_of_electromagnetic_theory
+hologenome_theory_of_evolution" -- "kelvin_probe_force_microscope
+classical_central-force_problem" [key=0.0169491525424,
+label=1];
+"timeline_of_electromagnetic_theory
+hologenome_theory_of_evolution" -- "cell_death
+pharming_(genetics)" [key=0.0149253731343,
+label=1];
+"timeline_of_electromagnetic_theory
+hologenome_theory_of_evolution" -- "quantum_nonlocality
+particle_physics_and_representation_theory" [key=0.0172413793103,
+label=1];
+"health_effects_of_caffeine
+cross_section_(physics)" -- "health_effects_of_caffeine
+cross_section_(physics)" [key=0.004,
+label=0];
+"health_effects_of_caffeine
+cross_section_(physics)" -- "carbide_lamp
+equivalent_carbon_content" [key=0.0769230769231,
+label=7];
+"health_effects_of_caffeine
+cross_section_(physics)" -- "cosmological_principle
+physical_cosmology" [key=0.25,
+label=25];
+"health_effects_of_caffeine
+cross_section_(physics)" -- "kelvin_probe_force_microscope
+classical_central-force_problem" [key=0.125,
+label=12];
+"health_effects_of_caffeine
+cross_section_(physics)" -- "cell_death
+pharming_(genetics)" [key=0.0625,
+label=6];
+"health_effects_of_caffeine
+cross_section_(physics)" -- "quantum_nonlocality
+particle_physics_and_representation_theory" [key=0.142857142857,
+label=14];
+"carbide_lamp
+equivalent_carbon_content" -- "carbide_lamp
+equivalent_carbon_content" [key=0.00202839756592,
+label=0];
+"carbide_lamp
+equivalent_carbon_content" -- "cosmological_principle
+physical_cosmology" [key=0.2,
+label=20];
+"carbide_lamp
+equivalent_carbon_content" -- "kelvin_probe_force_microscope
+classical_central-force_problem" [key=0.047619047619,
+label=4];
+"carbide_lamp
+equivalent_carbon_content" -- "cell_death
+pharming_(genetics)" [key=0.0666666666667,
+label=6];
+"carbide_lamp
+equivalent_carbon_content" -- "quantum_nonlocality
+particle_physics_and_representation_theory" [key=0.0555555555556,
+label=5];
+"cosmological_principle
+physical_cosmology" -- "cosmological_principle
+physical_cosmology" [key=0.00751879699248,
+label=0];
+"cosmological_principle
+physical_cosmology" -- "kelvin_probe_force_microscope
+classical_central-force_problem" [key=0.2,
+label=20];
+"cosmological_principle
+physical_cosmology" -- "cell_death
+pharming_(genetics)" [key=0.333333333333,
+label=33];
+"cosmological_principle
+physical_cosmology" -- "quantum_nonlocality
+particle_physics_and_representation_theory" [key=1.0,
+label=100];
+"kelvin_probe_force_microscope
+classical_central-force_problem" -- "kelvin_probe_force_microscope
+classical_central-force_problem" [key=0.00323624595469,
+label=0];
+"kelvin_probe_force_microscope
+classical_central-force_problem" -- "cell_death
+pharming_(genetics)" [key=0.111111111111,
+label=11];
+"kelvin_probe_force_microscope
+classical_central-force_problem" -- "quantum_nonlocality
+particle_physics_and_representation_theory" [key=0.0555555555556,
+label=5];
+"cell_death
+pharming_(genetics)" -- "cell_death
+pharming_(genetics)" [key=0.0025641025641,
+label=0];
+"cell_death
+pharming_(genetics)" -- "quantum_nonlocality
+particle_physics_and_representation_theory" [key=0.142857142857,
+label=14];
+"quantum_nonlocality
+particle_physics_and_representation_theory" -- "quantum_nonlocality
+particle_physics_and_representation_theory" [key=0.00331125827815,
+label=0];
+}

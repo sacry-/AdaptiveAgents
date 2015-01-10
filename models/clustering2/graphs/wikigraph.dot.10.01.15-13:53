@@ -1,0 +1,3303 @@
+strict graph wikigraph {
+	graph [label="wikigraph - n=21, it=15",
+		ratio=1.0,
+		size="55!",
+		splines=curved
+	];
+	node [font=Arial,
+		fontsize=8,
+		shape=ellipse,
+		style=filled
+	];
+	edge [font=Arial,
+		fontsize=8,
+		style="setlinewidth(0.1)"
+	];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)"	 [label=0,
+		weight=-0.00561797752809];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)"	 [label=33,
+		weight=-0.333333333333];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)"	 [label=7,
+		weight=-0.0714285714286];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)"	 [label=14,
+		weight=-0.142857142857];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "DuMMy
+
+(none)"	 [label=∞,
+		weight="-inf"];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)"	 [label=12,
+		weight=-0.125];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)"	 [label=∞,
+		weight="-inf"];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)"	 [label=4,
+		weight=-0.0416666666667];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)"	 [label=14,
+		weight=-0.142857142857];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)"	 [label=∞,
+		weight="-inf"];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)"	 [label=16,
+		weight=-0.166666666667];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)"	 [label=25,
+		weight=-0.25];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)"	 [label=100,
+		weight=-1.0];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)"	 [label=9,
+		weight=-0.0909090909091];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)"	 [label=20,
+		weight=-0.2];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)"	 [label=20,
+		weight=-0.2];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=25,
+		weight=-0.25];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+ewald_summation
+
+border(4.25561270982)
+juliu(4.99527990601)
+burn(5.1434844052)
+\
+polyhedra(5.33175214263)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=50,
+		weight=-0.5];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)"	 [label=0,
+		weight=-0.00436681222707];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)"	 [label=14,
+		weight=-0.142857142857];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)"	 [label=8,
+		weight=-0.0833333333333];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "DuMMy
+
+(none)"	 [label=∞,
+		weight="-inf"];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)"	 [label=16,
+		weight=-0.166666666667];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)"	 [label=33,
+		weight=-0.333333333333];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)"	 [label=3,
+		weight=-0.037037037037];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)"	 [label=7,
+		weight=-0.0769230769231];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)"	 [label=20,
+		weight=-0.2];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)"	 [label=33,
+		weight=-0.333333333333];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)"	 [label=8,
+		weight=-0.0833333333333];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)"	 [label=33,
+		weight=-0.333333333333];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)"	 [label=12,
+		weight=-0.125];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)"	 [label=14,
+		weight=-0.142857142857];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)"	 [label=25,
+		weight=-0.25];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=20,
+		weight=-0.2];
+	"conjugate_variables_(thermodynamics)
+yield_surface
+superalloy
+stress_resultants
+
+harden(3.97935933319)
+counterclockwis(4.40221618401)
+\
+twofold(4.54329478227)
+fa(4.63860496207)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=14,
+		weight=-0.142857142857];
+	"bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)" -- "bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)"	 [label=0,
+		weight=-0.00216919739696];
+	"bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)" -- "food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)"	 [label=5,
+		weight=-0.0526315789474];
+	"bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)" -- "DuMMy
+
+(none)"	 [label=∞,
+		weight="-inf"];
+	"bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)" -- "chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)"	 [label=7,
+		weight=-0.0769230769231];
+	"bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)" -- "cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)"	 [label=50,
+		weight=-0.5];
+	"bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)" -- "pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)"	 [label=1,
+		weight=-0.0181818181818];
+	"bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)" -- "health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)"	 [label=7,
+		weight=-0.0714285714286];
+	"bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)" -- "diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)"	 [label=25,
+		weight=-0.25];
+	"bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)"	 [label=12,
+		weight=-0.125];
+	"bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)" -- "ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)"	 [label=3,
+		weight=-0.03125];
+	"bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)" -- "water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)"	 [label=11,
+		weight=-0.111111111111];
+	"bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)" -- "international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)"	 [label=6,
+		weight=-0.0625];
+	"bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)"	 [label=4,
+		weight=-0.0416666666667];
+	"bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)" -- "carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)"	 [label=11,
+		weight=-0.111111111111];
+	"bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=11,
+		weight=-0.111111111111];
+	"bent's_rule
+immunogold_labelling
+valence_electron
+patina
+
+beam(4.52430004102)
+ion(4.53553327833)
+twobodi(4.63860496207)
+interrel(\
+4.67250651375)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=4,
+		weight=-0.0434782608696];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)" -- "food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)"	 [label=0,
+		weight=-0.00289855072464];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)" -- "DuMMy
+
+(none)"	 [label=∞,
+		weight="-inf"];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)" -- "chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)"	 [label=12,
+		weight=-0.125];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)" -- "cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)"	 [label=33,
+		weight=-0.333333333333];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)" -- "pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)"	 [label=1,
+		weight=-0.0196078431373];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)" -- "health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)"	 [label=5,
+		weight=-0.0555555555556];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)" -- "diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)"	 [label=16,
+		weight=-0.166666666667];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)"	 [label=33,
+		weight=-0.333333333333];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)" -- "ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)"	 [label=6,
+		weight=-0.0666666666667];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)" -- "water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)"	 [label=33,
+		weight=-0.333333333333];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)" -- "international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)"	 [label=7,
+		weight=-0.0714285714286];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)"	 [label=8,
+		weight=-0.0833333333333];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)" -- "carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)"	 [label=4,
+		weight=-0.0454545454545];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=33,
+		weight=-0.333333333333];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+2005_jilin_chemical_plant_explosions
+
+soil(5.62811134004)
+reciproc(5.81980725762)
+flow(\
+5.88128369328)
+meteoroid(5.96036080206)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=9,
+		weight=-0.0909090909091];
+	"DuMMy
+
+(none)" -- "DuMMy
+
+(none)"	 [label=∞,
+		weight="-inf"];
+	"DuMMy
+
+(none)" -- "chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)"	 [label=∞,
+		weight="-inf"];
+	"DuMMy
+
+(none)" -- "cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)"	 [label=∞,
+		weight="-inf"];
+	"DuMMy
+
+(none)" -- "pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)"	 [label=∞,
+		weight="-inf"];
+	"DuMMy
+
+(none)" -- "health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)"	 [label=∞,
+		weight="-inf"];
+	"DuMMy
+
+(none)" -- "diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)"	 [label=∞,
+		weight="-inf"];
+	"DuMMy
+
+(none)" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)"	 [label=∞,
+		weight="-inf"];
+	"DuMMy
+
+(none)" -- "ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)"	 [label=∞,
+		weight="-inf"];
+	"DuMMy
+
+(none)" -- "water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)"	 [label=∞,
+		weight="-inf"];
+	"DuMMy
+
+(none)" -- "international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)"	 [label=∞,
+		weight="-inf"];
+	"DuMMy
+
+(none)" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)"	 [label=∞,
+		weight="-inf"];
+	"DuMMy
+
+(none)" -- "carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)"	 [label=∞,
+		weight="-inf"];
+	"DuMMy
+
+(none)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=∞,
+		weight="-inf"];
+	"DuMMy
+
+(none)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=∞,
+		weight="-inf"];
+	"chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)" -- "chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)"	 [label=0,
+		weight=-0.0046511627907];
+	"chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)" -- "cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)"	 [label=33,
+		weight=-0.333333333333];
+	"chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)" -- "pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)"	 [label=3,
+		weight=-0.0357142857143];
+	"chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)" -- "health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)"	 [label=10,
+		weight=-0.1];
+	"chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)" -- "diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)"	 [label=33,
+		weight=-0.333333333333];
+	"chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)"	 [label=33,
+		weight=-0.333333333333];
+	"chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)" -- "ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)"	 [label=9,
+		weight=-0.0909090909091];
+	"chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)" -- "water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)"	 [label=50,
+		weight=-0.5];
+	"chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)" -- "international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)"	 [label=10,
+		weight=-0.1];
+	"chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)"	 [label=25,
+		weight=-0.25];
+	"chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)" -- "carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)"	 [label=14,
+		weight=-0.142857142857];
+	"chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=14,
+		weight=-0.142857142857];
+	"chemical_warfare
+history_of_gunpowder
+operation_steel_box
+docking_(molecular)
+
+ratio(4.63814551164)
+consum(4.63898113426)
+quantiti(\
+5.0714671516)
+requir(5.07506736932)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=20,
+		weight=-0.2];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)" -- "cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)"	 [label=0,
+		weight=-0.00917431192661];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)" -- "pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)"	 [label=14,
+		weight=-0.142857142857];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)" -- "health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)"	 [label=50,
+		weight=-0.5];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)" -- "diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)"	 [label=∞,
+		weight="-inf"];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)"	 [label=100,
+		weight=-1.0];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)" -- "ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)"	 [label=50,
+		weight=-0.5];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)" -- "water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)"	 [label=100,
+		weight=-1.0];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)" -- "international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)"	 [label=100,
+		weight=-1.0];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)"	 [label=50,
+		weight=-0.5];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)" -- "carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)"	 [label=50,
+		weight=-0.5];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=33,
+		weight=-0.333333333333];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+sinc(0.545928456953)
+base(0.612658210328)
+\
+year(1.05231209674)
+p(1.27822957493)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=14,
+		weight=-0.142857142857];
+	"pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)" -- "pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)"	 [label=0,
+		weight=-0.000876424189308];
+	"pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)" -- "health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)"	 [label=2,
+		weight=-0.0277777777778];
+	"pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)" -- "diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)"	 [label=8,
+		weight=-0.0833333333333];
+	"pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)"	 [label=4,
+		weight=-0.0454545454545];
+	"pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)" -- "ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)"	 [label=2,
+		weight=-0.0238095238095];
+	"pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)" -- "water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)"	 [label=10,
+		weight=-0.1];
+	"pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)" -- "international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)"	 [label=2,
+		weight=-0.0204081632653];
+	"pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)"	 [label=2,
+		weight=-0.02];
+	"pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)" -- "carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)"	 [label=3,
+		weight=-0.0322580645161];
+	"pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=3,
+		weight=-0.0357142857143];
+	"pharming_(genetics)
+x-ray_astronomy_detector
+nobel_prize_in_chemistry
+rotaxane
+
+theori(0.843865117261)
+ni(3.97935933319)
+spatial(\
+4.00864182242)
+total(4.3216153264)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=3,
+		weight=-0.030303030303];
+	"health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)" -- "health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)"	 [label=0,
+		weight=-0.00411522633745];
+	"health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)" -- "diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)"	 [label=14,
+		weight=-0.142857142857];
+	"health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)"	 [label=50,
+		weight=-0.5];
+	"health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)" -- "ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)"	 [label=6,
+		weight=-0.0666666666667];
+	"health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)" -- "water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)"	 [label=33,
+		weight=-0.333333333333];
+	"health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)" -- "international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)"	 [label=10,
+		weight=-0.1];
+	"health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)"	 [label=12,
+		weight=-0.125];
+	"health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)" -- "carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)"	 [label=14,
+		weight=-0.142857142857];
+	"health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=33,
+		weight=-0.333333333333];
+	"health_effects_of_caffeine
+acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+
+collid(5.57505783138)
+energi(\
+5.65965421338)
+domin(6.12259734537)
+ratio(6.18419401552)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=12,
+		weight=-0.125];
+	"diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)" -- "diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)"	 [label=0,
+		weight=-0.00751879699248];
+	"diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)"	 [label=50,
+		weight=-0.5];
+	"diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)" -- "ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)"	 [label=16,
+		weight=-0.166666666667];
+	"diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)" -- "water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)"	 [label=50,
+		weight=-0.5];
+	"diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)" -- "international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)"	 [label=16,
+		weight=-0.166666666667];
+	"diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)"	 [label=33,
+		weight=-0.333333333333];
+	"diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)" -- "carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)"	 [label=14,
+		weight=-0.142857142857];
+	"diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=100,
+		weight=-1.0];
+	"diathermal_wall
+joule_expansion
+partial_molar_property
+thermal_energy
+
+poor(5.4238523499)
+selfinteract(5.64190707094)
+thermodynam(\
+5.69329481445)
+temperatur(5.7284282987)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=25,
+		weight=-0.25];
+	"optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)"	 [label=0,
+		weight=-0.00549450549451];
+	"optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)" -- "ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)"	 [label=12,
+		weight=-0.125];
+	"optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)" -- "water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)"	 [label=33,
+		weight=-0.333333333333];
+	"optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)" -- "international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)"	 [label=12,
+		weight=-0.125];
+	"optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)"	 [label=7,
+		weight=-0.0714285714286];
+	"optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)" -- "carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)"	 [label=20,
+		weight=-0.2];
+	"optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=16,
+		weight=-0.166666666667];
+	"optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+general_relativity
+annus_mirabilis_papers
+
+enzymecatalyz(\
+5.33175214263)
+mirror(5.904412017)
+nitrobenzen(5.96036080206)
+cylind(6.05833409928)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=10,
+		weight=-0.1];
+	"ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)" -- "ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)"	 [label=0,
+		weight=-0.0030487804878];
+	"ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)" -- "water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)"	 [label=12,
+		weight=-0.125];
+	"ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)" -- "international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)"	 [label=6,
+		weight=-0.0666666666667];
+	"ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)"	 [label=6,
+		weight=-0.0666666666667];
+	"ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)" -- "carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)"	 [label=12,
+		weight=-0.125];
+	"ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=11,
+		weight=-0.111111111111];
+	"ring_strain
+relative_atomic_mass
+stereoisomerism
+cross_section_(physics)
+
+six(4.42760447272)
+acetylen(4.51344181912)
+pictur(4.78871089218)
+\
+propens(4.82092651887)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=10,
+		weight=-0.1];
+	"water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)" -- "water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)"	 [label=0,
+		weight=-0.00806451612903];
+	"water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)" -- "international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)"	 [label=11,
+		weight=-0.111111111111];
+	"water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)"	 [label=20,
+		weight=-0.2];
+	"water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)" -- "carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)"	 [label=100,
+		weight=-1.0];
+	"water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=33,
+		weight=-0.333333333333];
+	"water_splitting
+merox
+fission_products_(by_element)
+tritium
+
+intract(5.04407007018)
+rev(5.41416710094)
+hybrid(5.56461394342)
+femtomet(\
+5.8425777664)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=25,
+		weight=-0.25];
+	"international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)" -- "international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)"	 [label=0,
+		weight=-0.00289855072464];
+	"international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)"	 [label=7,
+		weight=-0.0769230769231];
+	"international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)" -- "carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)"	 [label=12,
+		weight=-0.125];
+	"international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=20,
+		weight=-0.2];
+	"international_physicists'_tournament
+hologenome_theory_of_evolution
+invasion_biology_terminology
+evolutionary_biology
+
+azeotrop(\
+5.64190707094)
+drawn(5.6936909857)
+julio(5.8425777664)
+properti(5.9525381679)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=12,
+		weight=-0.125];
+	"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)" -- "quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)"	 [label=0,
+		weight=-0.00227790432802];
+	"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)" -- "carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)"	 [label=7,
+		weight=-0.0714285714286];
+	"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=4,
+		weight=-0.0454545454545];
+	"quantum_nonlocality
+vorticity
+asymptotic_safety_in_quantum_gravity
+classical_central-force_problem
+
+antibond(4.57406644094)
+shorthand(\
+4.60581513925)
+offdiagon(4.86174851339)
+vector(5.03549959848)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=8,
+		weight=-0.0833333333333];
+	"carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)" -- "carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)"	 [label=0,
+		weight=-0.00346020761246];
+	"carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=12,
+		weight=-0.125];
+	"carbide_lamp
+equivalent_carbon_content
+criteria_air_contaminants
+azeotrope
+
+impel(5.55489569395)
+gase(5.85227240487)
+absolut(5.91413026647)
+\
+control(5.9536803055)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=9,
+		weight=-0.0909090909091];
+	"power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)" -- "power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)"	 [label=0,
+		weight=-0.00454545454545];
+	"power_(physics)
+kelvin_probe_force_microscope
+holeum
+tidal_force
+
+slid(6.24804287451)
+assum(6.34506459915)
+diamondlik(6.4303644313)
+\
+orthoped(6.4303644313)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=9,
+		weight=-0.0909090909091];
+	"exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)" -- "exchange_bias
+timeline_of_electromagnetic_theory
+plasma-enhanced_chemical_vapor_deposition
+hubble_deep_field
+
+effici(6.13607313444)
+\
+emit(6.23639101233)
+faraway(6.24804287451)
+flicker(6.4303644313)"	 [label=0,
+		weight=-0.00280898876404];
+}

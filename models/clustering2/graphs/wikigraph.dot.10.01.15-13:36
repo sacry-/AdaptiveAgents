@@ -1,0 +1,1815 @@
+strict graph wikigraph {
+	graph [label="wikigraph - n=25, it=22",
+		ratio=1.0,
+		size="35!"
+	];
+	node [font=Arial,
+		fontsize=8,
+		shape=ellipse,
+		style=filled
+	];
+	edge [font=Arial,
+		fontsize=8,
+		style="setlinewidth(0.1)"
+	];
+	"2_base_encoding
+biochip
+biomolecule" -- "2_base_encoding
+biochip
+biomolecule"	 [label=1,
+		weight=-0.010101010101];
+	"2_base_encoding
+biochip
+biomolecule" -- "cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations"	 [label=∞,
+		weight="-inf"];
+	"2_base_encoding
+biochip
+biomolecule" -- "cp_violation
+particle_physics_and_representation_theory
+master_equation"	 [label=50,
+		weight=-0.5];
+	"2_base_encoding
+biochip
+biomolecule" -- "afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality"	 [label=100,
+		weight=-1.0];
+	"2_base_encoding
+biochip
+biomolecule" -- "gradsect
+x-ray_astronomy_detector
+pole_figure"	 [label=25,
+		weight=-0.25];
+	"2_base_encoding
+biochip
+biomolecule" -- "purex
+merox
+fission_products_(by_element)"	 [label=∞,
+		weight="-inf"];
+	"2_base_encoding
+biochip
+biomolecule" -- "power_(physics)
+classical_central-force_problem
+history_of_special_relativity"	 [label=100,
+		weight=-1.0];
+	"2_base_encoding
+biochip
+biomolecule" -- "cell_culture
+insect_euthanasia
+sex"	 [label=50,
+		weight=-0.5];
+	"2_base_encoding
+biochip
+biomolecule" -- "ring_strain
+international_physicists'_tournament
+compounds_of_carbon"	 [label=25,
+		weight=-0.25];
+	"2_base_encoding
+biochip
+biomolecule" -- "pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry"	 [label=9,
+		weight=-0.0909090909091];
+	"2_base_encoding
+biochip
+biomolecule" -- "extractive_metallurgy
+flash_smelting
+mineral_exploration"	 [label=∞,
+		weight="-inf"];
+	"2_base_encoding
+biochip
+biomolecule" -- "vorticity
+yield_surface
+ames_test"	 [label=100,
+		weight=-1.0];
+	"2_base_encoding
+biochip
+biomolecule" -- "azomethine_ylide
+propynylidyne
+hydrogen_chloride"	 [label=100,
+		weight=-1.0];
+	"2_base_encoding
+biochip
+biomolecule" -- "cell_death
+polyclonal_antibodies
+immunogold_labelling"	 [label=10,
+		weight=-0.1];
+	"2_base_encoding
+biochip
+biomolecule" -- "chemical_engineering
+operation_steel_box
+gas_cylinder"	 [label=33,
+		weight=-0.333333333333];
+	"2_base_encoding
+biochip
+biomolecule" -- "coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem"	 [label=∞,
+		weight="-inf"];
+	"2_base_encoding
+biochip
+biomolecule" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=20,
+		weight=-0.2];
+	"2_base_encoding
+biochip
+biomolecule" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=50,
+		weight=-0.5];
+	"2_base_encoding
+biochip
+biomolecule" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=11,
+		weight=-0.111111111111];
+	"2_base_encoding
+biochip
+biomolecule" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=100,
+		weight=-1.0];
+	"2_base_encoding
+biochip
+biomolecule" -- "acetylene
+air_compressor
+crown_ether"	 [label=∞,
+		weight="-inf"];
+	"2_base_encoding
+biochip
+biomolecule" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=20,
+		weight=-0.2];
+	"2_base_encoding
+biochip
+biomolecule" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=33,
+		weight=-0.333333333333];
+	"2_base_encoding
+biochip
+biomolecule" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=33,
+		weight=-0.333333333333];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations"	 [label=0,
+		weight=-0.00961538461538];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "cp_violation
+particle_physics_and_representation_theory
+master_equation"	 [label=100,
+		weight=-1.0];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality"	 [label=50,
+		weight=-0.5];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "gradsect
+x-ray_astronomy_detector
+pole_figure"	 [label=100,
+		weight=-1.0];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "purex
+merox
+fission_products_(by_element)"	 [label=50,
+		weight=-0.5];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "power_(physics)
+classical_central-force_problem
+history_of_special_relativity"	 [label=33,
+		weight=-0.333333333333];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "cell_culture
+insect_euthanasia
+sex"	 [label=∞,
+		weight="-inf"];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "ring_strain
+international_physicists'_tournament
+compounds_of_carbon"	 [label=100,
+		weight=-1.0];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry"	 [label=16,
+		weight=-0.166666666667];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "extractive_metallurgy
+flash_smelting
+mineral_exploration"	 [label=∞,
+		weight="-inf"];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "vorticity
+yield_surface
+ames_test"	 [label=100,
+		weight=-1.0];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "azomethine_ylide
+propynylidyne
+hydrogen_chloride"	 [label=33,
+		weight=-0.333333333333];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "cell_death
+polyclonal_antibodies
+immunogold_labelling"	 [label=100,
+		weight=-1.0];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "chemical_engineering
+operation_steel_box
+gas_cylinder"	 [label=100,
+		weight=-1.0];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem"	 [label=25,
+		weight=-0.25];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=100,
+		weight=-1.0];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=100,
+		weight=-1.0];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=14,
+		weight=-0.142857142857];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=100,
+		weight=-1.0];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "acetylene
+air_compressor
+crown_ether"	 [label=100,
+		weight=-1.0];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=50,
+		weight=-0.5];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=100,
+		weight=-1.0];
+	"cosmological_principle
+physical_cosmology
+baryon_acoustic_oscillations" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=50,
+		weight=-0.5];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "cp_violation
+particle_physics_and_representation_theory
+master_equation"	 [label=0,
+		weight=-0.00348432055749];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality"	 [label=10,
+		weight=-0.1];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "gradsect
+x-ray_astronomy_detector
+pole_figure"	 [label=14,
+		weight=-0.142857142857];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "purex
+merox
+fission_products_(by_element)"	 [label=20,
+		weight=-0.2];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "power_(physics)
+classical_central-force_problem
+history_of_special_relativity"	 [label=7,
+		weight=-0.0714285714286];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "cell_culture
+insect_euthanasia
+sex"	 [label=33,
+		weight=-0.333333333333];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "ring_strain
+international_physicists'_tournament
+compounds_of_carbon"	 [label=16,
+		weight=-0.166666666667];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry"	 [label=4,
+		weight=-0.047619047619];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "extractive_metallurgy
+flash_smelting
+mineral_exploration"	 [label=20,
+		weight=-0.2];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "vorticity
+yield_surface
+ames_test"	 [label=9,
+		weight=-0.0909090909091];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "azomethine_ylide
+propynylidyne
+hydrogen_chloride"	 [label=25,
+		weight=-0.25];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "cell_death
+polyclonal_antibodies
+immunogold_labelling"	 [label=8,
+		weight=-0.0833333333333];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "chemical_engineering
+operation_steel_box
+gas_cylinder"	 [label=33,
+		weight=-0.333333333333];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem"	 [label=50,
+		weight=-0.5];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=6,
+		weight=-0.0666666666667];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=16,
+		weight=-0.166666666667];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=6,
+		weight=-0.0666666666667];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=7,
+		weight=-0.0769230769231];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "acetylene
+air_compressor
+crown_ether"	 [label=∞,
+		weight="-inf"];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=12,
+		weight=-0.125];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=25,
+		weight=-0.25];
+	"cp_violation
+particle_physics_and_representation_theory
+master_equation" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=10,
+		weight=-0.1];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality"	 [label=0,
+		weight=-0.00675675675676];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "gradsect
+x-ray_astronomy_detector
+pole_figure"	 [label=20,
+		weight=-0.2];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "purex
+merox
+fission_products_(by_element)"	 [label=50,
+		weight=-0.5];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "power_(physics)
+classical_central-force_problem
+history_of_special_relativity"	 [label=14,
+		weight=-0.142857142857];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "cell_culture
+insect_euthanasia
+sex"	 [label=50,
+		weight=-0.5];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "ring_strain
+international_physicists'_tournament
+compounds_of_carbon"	 [label=16,
+		weight=-0.166666666667];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry"	 [label=6,
+		weight=-0.0666666666667];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "extractive_metallurgy
+flash_smelting
+mineral_exploration"	 [label=∞,
+		weight="-inf"];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "vorticity
+yield_surface
+ames_test"	 [label=50,
+		weight=-0.5];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "azomethine_ylide
+propynylidyne
+hydrogen_chloride"	 [label=100,
+		weight=-1.0];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "cell_death
+polyclonal_antibodies
+immunogold_labelling"	 [label=16,
+		weight=-0.166666666667];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "chemical_engineering
+operation_steel_box
+gas_cylinder"	 [label=33,
+		weight=-0.333333333333];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem"	 [label=∞,
+		weight="-inf"];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=6,
+		weight=-0.0666666666667];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=∞,
+		weight="-inf"];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=7,
+		weight=-0.0714285714286];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=25,
+		weight=-0.25];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "acetylene
+air_compressor
+crown_ether"	 [label=33,
+		weight=-0.333333333333];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=100,
+		weight=-1.0];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=∞,
+		weight="-inf"];
+	"afshar_experiment
+quantum_vacuum_plasma_thruster
+quantum_nonlocality" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=14,
+		weight=-0.142857142857];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "gradsect
+x-ray_astronomy_detector
+pole_figure"	 [label=0,
+		weight=-0.00613496932515];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "purex
+merox
+fission_products_(by_element)"	 [label=33,
+		weight=-0.333333333333];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "power_(physics)
+classical_central-force_problem
+history_of_special_relativity"	 [label=50,
+		weight=-0.5];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "cell_culture
+insect_euthanasia
+sex"	 [label=50,
+		weight=-0.5];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "ring_strain
+international_physicists'_tournament
+compounds_of_carbon"	 [label=7,
+		weight=-0.0769230769231];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry"	 [label=4,
+		weight=-0.0454545454545];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "extractive_metallurgy
+flash_smelting
+mineral_exploration"	 [label=33,
+		weight=-0.333333333333];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "vorticity
+yield_surface
+ames_test"	 [label=16,
+		weight=-0.166666666667];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "azomethine_ylide
+propynylidyne
+hydrogen_chloride"	 [label=14,
+		weight=-0.142857142857];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "cell_death
+polyclonal_antibodies
+immunogold_labelling"	 [label=5,
+		weight=-0.0588235294118];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "chemical_engineering
+operation_steel_box
+gas_cylinder"	 [label=100,
+		weight=-1.0];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem"	 [label=∞,
+		weight="-inf"];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=7,
+		weight=-0.0714285714286];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=25,
+		weight=-0.25];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=6,
+		weight=-0.0666666666667];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=100,
+		weight=-1.0];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "acetylene
+air_compressor
+crown_ether"	 [label=25,
+		weight=-0.25];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=12,
+		weight=-0.125];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=50,
+		weight=-0.5];
+	"gradsect
+x-ray_astronomy_detector
+pole_figure" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=25,
+		weight=-0.25];
+	"purex
+merox
+fission_products_(by_element)" -- "purex
+merox
+fission_products_(by_element)"	 [label=0,
+		weight=-0.00694444444444];
+	"purex
+merox
+fission_products_(by_element)" -- "power_(physics)
+classical_central-force_problem
+history_of_special_relativity"	 [label=33,
+		weight=-0.333333333333];
+	"purex
+merox
+fission_products_(by_element)" -- "cell_culture
+insect_euthanasia
+sex"	 [label=50,
+		weight=-0.5];
+	"purex
+merox
+fission_products_(by_element)" -- "ring_strain
+international_physicists'_tournament
+compounds_of_carbon"	 [label=20,
+		weight=-0.2];
+	"purex
+merox
+fission_products_(by_element)" -- "pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry"	 [label=6,
+		weight=-0.0666666666667];
+	"purex
+merox
+fission_products_(by_element)" -- "extractive_metallurgy
+flash_smelting
+mineral_exploration"	 [label=100,
+		weight=-1.0];
+	"purex
+merox
+fission_products_(by_element)" -- "vorticity
+yield_surface
+ames_test"	 [label=33,
+		weight=-0.333333333333];
+	"purex
+merox
+fission_products_(by_element)" -- "azomethine_ylide
+propynylidyne
+hydrogen_chloride"	 [label=50,
+		weight=-0.5];
+	"purex
+merox
+fission_products_(by_element)" -- "cell_death
+polyclonal_antibodies
+immunogold_labelling"	 [label=25,
+		weight=-0.25];
+	"purex
+merox
+fission_products_(by_element)" -- "chemical_engineering
+operation_steel_box
+gas_cylinder"	 [label=20,
+		weight=-0.2];
+	"purex
+merox
+fission_products_(by_element)" -- "coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem"	 [label=∞,
+		weight="-inf"];
+	"purex
+merox
+fission_products_(by_element)" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=5,
+		weight=-0.0588235294118];
+	"purex
+merox
+fission_products_(by_element)" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=100,
+		weight=-1.0];
+	"purex
+merox
+fission_products_(by_element)" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=12,
+		weight=-0.125];
+	"purex
+merox
+fission_products_(by_element)" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=100,
+		weight=-1.0];
+	"purex
+merox
+fission_products_(by_element)" -- "acetylene
+air_compressor
+crown_ether"	 [label=∞,
+		weight="-inf"];
+	"purex
+merox
+fission_products_(by_element)" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=33,
+		weight=-0.333333333333];
+	"purex
+merox
+fission_products_(by_element)" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=100,
+		weight=-1.0];
+	"purex
+merox
+fission_products_(by_element)" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=20,
+		weight=-0.2];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "power_(physics)
+classical_central-force_problem
+history_of_special_relativity"	 [label=0,
+		weight=-0.00446428571429];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "cell_culture
+insect_euthanasia
+sex"	 [label=50,
+		weight=-0.5];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "ring_strain
+international_physicists'_tournament
+compounds_of_carbon"	 [label=14,
+		weight=-0.142857142857];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry"	 [label=5,
+		weight=-0.0555555555556];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "extractive_metallurgy
+flash_smelting
+mineral_exploration"	 [label=50,
+		weight=-0.5];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "vorticity
+yield_surface
+ames_test"	 [label=50,
+		weight=-0.5];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "azomethine_ylide
+propynylidyne
+hydrogen_chloride"	 [label=33,
+		weight=-0.333333333333];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "cell_death
+polyclonal_antibodies
+immunogold_labelling"	 [label=10,
+		weight=-0.1];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "chemical_engineering
+operation_steel_box
+gas_cylinder"	 [label=16,
+		weight=-0.166666666667];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem"	 [label=33,
+		weight=-0.333333333333];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=9,
+		weight=-0.0909090909091];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=25,
+		weight=-0.25];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=12,
+		weight=-0.125];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=14,
+		weight=-0.142857142857];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "acetylene
+air_compressor
+crown_ether"	 [label=50,
+		weight=-0.5];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=25,
+		weight=-0.25];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=33,
+		weight=-0.333333333333];
+	"power_(physics)
+classical_central-force_problem
+history_of_special_relativity" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=11,
+		weight=-0.111111111111];
+	"cell_culture
+insect_euthanasia
+sex" -- "cell_culture
+insect_euthanasia
+sex"	 [label=1,
+		weight=-0.0117647058824];
+	"cell_culture
+insect_euthanasia
+sex" -- "ring_strain
+international_physicists'_tournament
+compounds_of_carbon"	 [label=33,
+		weight=-0.333333333333];
+	"cell_culture
+insect_euthanasia
+sex" -- "pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry"	 [label=14,
+		weight=-0.142857142857];
+	"cell_culture
+insect_euthanasia
+sex" -- "extractive_metallurgy
+flash_smelting
+mineral_exploration"	 [label=∞,
+		weight="-inf"];
+	"cell_culture
+insect_euthanasia
+sex" -- "vorticity
+yield_surface
+ames_test"	 [label=100,
+		weight=-1.0];
+	"cell_culture
+insect_euthanasia
+sex" -- "azomethine_ylide
+propynylidyne
+hydrogen_chloride"	 [label=∞,
+		weight="-inf"];
+	"cell_culture
+insect_euthanasia
+sex" -- "cell_death
+polyclonal_antibodies
+immunogold_labelling"	 [label=25,
+		weight=-0.25];
+	"cell_culture
+insect_euthanasia
+sex" -- "chemical_engineering
+operation_steel_box
+gas_cylinder"	 [label=100,
+		weight=-1.0];
+	"cell_culture
+insect_euthanasia
+sex" -- "coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem"	 [label=∞,
+		weight="-inf"];
+	"cell_culture
+insect_euthanasia
+sex" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=50,
+		weight=-0.5];
+	"cell_culture
+insect_euthanasia
+sex" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=100,
+		weight=-1.0];
+	"cell_culture
+insect_euthanasia
+sex" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=25,
+		weight=-0.25];
+	"cell_culture
+insect_euthanasia
+sex" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=∞,
+		weight="-inf"];
+	"cell_culture
+insect_euthanasia
+sex" -- "acetylene
+air_compressor
+crown_ether"	 [label=∞,
+		weight="-inf"];
+	"cell_culture
+insect_euthanasia
+sex" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=100,
+		weight=-1.0];
+	"cell_culture
+insect_euthanasia
+sex" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=100,
+		weight=-1.0];
+	"cell_culture
+insect_euthanasia
+sex" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=33,
+		weight=-0.333333333333];
+	"ring_strain
+international_physicists'_tournament
+compounds_of_carbon" -- "ring_strain
+international_physicists'_tournament
+compounds_of_carbon"	 [label=0,
+		weight=-0.00287356321839];
+	"ring_strain
+international_physicists'_tournament
+compounds_of_carbon" -- "pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry"	 [label=3,
+		weight=-0.030303030303];
+	"ring_strain
+international_physicists'_tournament
+compounds_of_carbon" -- "extractive_metallurgy
+flash_smelting
+mineral_exploration"	 [label=33,
+		weight=-0.333333333333];
+	"ring_strain
+international_physicists'_tournament
+compounds_of_carbon" -- "vorticity
+yield_surface
+ames_test"	 [label=25,
+		weight=-0.25];
+	"ring_strain
+international_physicists'_tournament
+compounds_of_carbon" -- "azomethine_ylide
+propynylidyne
+hydrogen_chloride"	 [label=14,
+		weight=-0.142857142857];
+	"ring_strain
+international_physicists'_tournament
+compounds_of_carbon" -- "cell_death
+polyclonal_antibodies
+immunogold_labelling"	 [label=5,
+		weight=-0.0588235294118];
+	"ring_strain
+international_physicists'_tournament
+compounds_of_carbon" -- "chemical_engineering
+operation_steel_box
+gas_cylinder"	 [label=12,
+		weight=-0.125];
+	"ring_strain
+international_physicists'_tournament
+compounds_of_carbon" -- "coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem"	 [label=50,
+		weight=-0.5];
+	"ring_strain
+international_physicists'_tournament
+compounds_of_carbon" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=5,
+		weight=-0.0555555555556];
+	"ring_strain
+international_physicists'_tournament
+compounds_of_carbon" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=16,
+		weight=-0.166666666667];
+	"ring_strain
+international_physicists'_tournament
+compounds_of_carbon" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=6,
+		weight=-0.0625];
+	"ring_strain
+international_physicists'_tournament
+compounds_of_carbon" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=33,
+		weight=-0.333333333333];
+	"ring_strain
+international_physicists'_tournament
+compounds_of_carbon" -- "acetylene
+air_compressor
+crown_ether"	 [label=100,
+		weight=-1.0];
+	"ring_strain
+international_physicists'_tournament
+compounds_of_carbon" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=8,
+		weight=-0.0833333333333];
+	"ring_strain
+international_physicists'_tournament
+compounds_of_carbon" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=20,
+		weight=-0.2];
+	"ring_strain
+international_physicists'_tournament
+compounds_of_carbon" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=16,
+		weight=-0.166666666667];
+	"pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry" -- "pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry"	 [label=0,
+		weight=-0.00141843971631];
+	"pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry" -- "extractive_metallurgy
+flash_smelting
+mineral_exploration"	 [label=14,
+		weight=-0.142857142857];
+	"pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry" -- "vorticity
+yield_surface
+ames_test"	 [label=7,
+		weight=-0.0714285714286];
+	"pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry" -- "azomethine_ylide
+propynylidyne
+hydrogen_chloride"	 [label=4,
+		weight=-0.047619047619];
+	"pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry" -- "cell_death
+polyclonal_antibodies
+immunogold_labelling"	 [label=3,
+		weight=-0.03125];
+	"pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry" -- "chemical_engineering
+operation_steel_box
+gas_cylinder"	 [label=7,
+		weight=-0.0714285714286];
+	"pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry" -- "coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem"	 [label=12,
+		weight=-0.125];
+	"pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=2,
+		weight=-0.0232558139535];
+	"pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=12,
+		weight=-0.125];
+	"pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=3,
+		weight=-0.037037037037];
+	"pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=50,
+		weight=-0.5];
+	"pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry" -- "acetylene
+air_compressor
+crown_ether"	 [label=12,
+		weight=-0.125];
+	"pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=5,
+		weight=-0.0526315789474];
+	"pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=10,
+		weight=-0.1];
+	"pharming_(genetics)
+sensor-pesticides
+nobel_prize_in_chemistry" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=6,
+		weight=-0.0625];
+	"extractive_metallurgy
+flash_smelting
+mineral_exploration" -- "extractive_metallurgy
+flash_smelting
+mineral_exploration"	 [label=1,
+		weight=-0.0140845070423];
+	"extractive_metallurgy
+flash_smelting
+mineral_exploration" -- "vorticity
+yield_surface
+ames_test"	 [label=50,
+		weight=-0.5];
+	"extractive_metallurgy
+flash_smelting
+mineral_exploration" -- "azomethine_ylide
+propynylidyne
+hydrogen_chloride"	 [label=∞,
+		weight="-inf"];
+	"extractive_metallurgy
+flash_smelting
+mineral_exploration" -- "cell_death
+polyclonal_antibodies
+immunogold_labelling"	 [label=16,
+		weight=-0.166666666667];
+	"extractive_metallurgy
+flash_smelting
+mineral_exploration" -- "chemical_engineering
+operation_steel_box
+gas_cylinder"	 [label=33,
+		weight=-0.333333333333];
+	"extractive_metallurgy
+flash_smelting
+mineral_exploration" -- "coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem"	 [label=∞,
+		weight="-inf"];
+	"extractive_metallurgy
+flash_smelting
+mineral_exploration" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=16,
+		weight=-0.166666666667];
+	"extractive_metallurgy
+flash_smelting
+mineral_exploration" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=25,
+		weight=-0.25];
+	"extractive_metallurgy
+flash_smelting
+mineral_exploration" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=100,
+		weight=-1.0];
+	"extractive_metallurgy
+flash_smelting
+mineral_exploration" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=100,
+		weight=-1.0];
+	"extractive_metallurgy
+flash_smelting
+mineral_exploration" -- "acetylene
+air_compressor
+crown_ether"	 [label=∞,
+		weight="-inf"];
+	"extractive_metallurgy
+flash_smelting
+mineral_exploration" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=∞,
+		weight="-inf"];
+	"extractive_metallurgy
+flash_smelting
+mineral_exploration" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=50,
+		weight=-0.5];
+	"extractive_metallurgy
+flash_smelting
+mineral_exploration" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=33,
+		weight=-0.333333333333];
+	"vorticity
+yield_surface
+ames_test" -- "vorticity
+yield_surface
+ames_test"	 [label=0,
+		weight=-0.00653594771242];
+	"vorticity
+yield_surface
+ames_test" -- "azomethine_ylide
+propynylidyne
+hydrogen_chloride"	 [label=14,
+		weight=-0.142857142857];
+	"vorticity
+yield_surface
+ames_test" -- "cell_death
+polyclonal_antibodies
+immunogold_labelling"	 [label=11,
+		weight=-0.111111111111];
+	"vorticity
+yield_surface
+ames_test" -- "chemical_engineering
+operation_steel_box
+gas_cylinder"	 [label=25,
+		weight=-0.25];
+	"vorticity
+yield_surface
+ames_test" -- "coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem"	 [label=∞,
+		weight="-inf"];
+	"vorticity
+yield_surface
+ames_test" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=9,
+		weight=-0.0909090909091];
+	"vorticity
+yield_surface
+ames_test" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=25,
+		weight=-0.25];
+	"vorticity
+yield_surface
+ames_test" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=12,
+		weight=-0.125];
+	"vorticity
+yield_surface
+ames_test" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=25,
+		weight=-0.25];
+	"vorticity
+yield_surface
+ames_test" -- "acetylene
+air_compressor
+crown_ether"	 [label=∞,
+		weight="-inf"];
+	"vorticity
+yield_surface
+ames_test" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=33,
+		weight=-0.333333333333];
+	"vorticity
+yield_surface
+ames_test" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=25,
+		weight=-0.25];
+	"vorticity
+yield_surface
+ames_test" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=50,
+		weight=-0.5];
+	"azomethine_ylide
+propynylidyne
+hydrogen_chloride" -- "azomethine_ylide
+propynylidyne
+hydrogen_chloride"	 [label=0,
+		weight=-0.00515463917526];
+	"azomethine_ylide
+propynylidyne
+hydrogen_chloride" -- "cell_death
+polyclonal_antibodies
+immunogold_labelling"	 [label=6,
+		weight=-0.0666666666667];
+	"azomethine_ylide
+propynylidyne
+hydrogen_chloride" -- "chemical_engineering
+operation_steel_box
+gas_cylinder"	 [label=12,
+		weight=-0.125];
+	"azomethine_ylide
+propynylidyne
+hydrogen_chloride" -- "coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem"	 [label=50,
+		weight=-0.5];
+	"azomethine_ylide
+propynylidyne
+hydrogen_chloride" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=12,
+		weight=-0.125];
+	"azomethine_ylide
+propynylidyne
+hydrogen_chloride" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=50,
+		weight=-0.5];
+	"azomethine_ylide
+propynylidyne
+hydrogen_chloride" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=11,
+		weight=-0.111111111111];
+	"azomethine_ylide
+propynylidyne
+hydrogen_chloride" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=∞,
+		weight="-inf"];
+	"azomethine_ylide
+propynylidyne
+hydrogen_chloride" -- "acetylene
+air_compressor
+crown_ether"	 [label=100,
+		weight=-1.0];
+	"azomethine_ylide
+propynylidyne
+hydrogen_chloride" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=11,
+		weight=-0.111111111111];
+	"azomethine_ylide
+propynylidyne
+hydrogen_chloride" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=20,
+		weight=-0.2];
+	"azomethine_ylide
+propynylidyne
+hydrogen_chloride" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=33,
+		weight=-0.333333333333];
+	"cell_death
+polyclonal_antibodies
+immunogold_labelling" -- "cell_death
+polyclonal_antibodies
+immunogold_labelling"	 [label=0,
+		weight=-0.00234192037471];
+	"cell_death
+polyclonal_antibodies
+immunogold_labelling" -- "chemical_engineering
+operation_steel_box
+gas_cylinder"	 [label=14,
+		weight=-0.142857142857];
+	"cell_death
+polyclonal_antibodies
+immunogold_labelling" -- "coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem"	 [label=50,
+		weight=-0.5];
+	"cell_death
+polyclonal_antibodies
+immunogold_labelling" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=4,
+		weight=-0.0454545454545];
+	"cell_death
+polyclonal_antibodies
+immunogold_labelling" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=8,
+		weight=-0.0833333333333];
+	"cell_death
+polyclonal_antibodies
+immunogold_labelling" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=5,
+		weight=-0.0555555555556];
+	"cell_death
+polyclonal_antibodies
+immunogold_labelling" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=20,
+		weight=-0.2];
+	"cell_death
+polyclonal_antibodies
+immunogold_labelling" -- "acetylene
+air_compressor
+crown_ether"	 [label=50,
+		weight=-0.5];
+	"cell_death
+polyclonal_antibodies
+immunogold_labelling" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=10,
+		weight=-0.1];
+	"cell_death
+polyclonal_antibodies
+immunogold_labelling" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=14,
+		weight=-0.142857142857];
+	"cell_death
+polyclonal_antibodies
+immunogold_labelling" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=14,
+		weight=-0.142857142857];
+	"chemical_engineering
+operation_steel_box
+gas_cylinder" -- "chemical_engineering
+operation_steel_box
+gas_cylinder"	 [label=0,
+		weight=-0.00438596491228];
+	"chemical_engineering
+operation_steel_box
+gas_cylinder" -- "coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem"	 [label=∞,
+		weight="-inf"];
+	"chemical_engineering
+operation_steel_box
+gas_cylinder" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=5,
+		weight=-0.0588235294118];
+	"chemical_engineering
+operation_steel_box
+gas_cylinder" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=50,
+		weight=-0.5];
+	"chemical_engineering
+operation_steel_box
+gas_cylinder" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=16,
+		weight=-0.166666666667];
+	"chemical_engineering
+operation_steel_box
+gas_cylinder" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=100,
+		weight=-1.0];
+	"chemical_engineering
+operation_steel_box
+gas_cylinder" -- "acetylene
+air_compressor
+crown_ether"	 [label=33,
+		weight=-0.333333333333];
+	"chemical_engineering
+operation_steel_box
+gas_cylinder" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=20,
+		weight=-0.2];
+	"chemical_engineering
+operation_steel_box
+gas_cylinder" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=20,
+		weight=-0.2];
+	"chemical_engineering
+operation_steel_box
+gas_cylinder" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=50,
+		weight=-0.5];
+	"coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem" -- "coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem"	 [label=1,
+		weight=-0.010752688172];
+	"coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=16,
+		weight=-0.166666666667];
+	"coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=∞,
+		weight="-inf"];
+	"coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=16,
+		weight=-0.166666666667];
+	"coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=50,
+		weight=-0.5];
+	"coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem" -- "acetylene
+air_compressor
+crown_ether"	 [label=∞,
+		weight="-inf"];
+	"coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=20,
+		weight=-0.2];
+	"coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=50,
+		weight=-0.5];
+	"coronal_radiative_losses
+cosmic_dust
+gravitational_two-body_problem" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=100,
+		weight=-1.0];
+	"kelvin_probe_force_microscope
+baryogenesis
+topological_index" -- "kelvin_probe_force_microscope
+baryogenesis
+topological_index"	 [label=0,
+		weight=-0.00174825174825];
+	"kelvin_probe_force_microscope
+baryogenesis
+topological_index" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=20,
+		weight=-0.2];
+	"kelvin_probe_force_microscope
+baryogenesis
+topological_index" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=3,
+		weight=-0.0333333333333];
+	"kelvin_probe_force_microscope
+baryogenesis
+topological_index" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=7,
+		weight=-0.0769230769231];
+	"kelvin_probe_force_microscope
+baryogenesis
+topological_index" -- "acetylene
+air_compressor
+crown_ether"	 [label=33,
+		weight=-0.333333333333];
+	"kelvin_probe_force_microscope
+baryogenesis
+topological_index" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=7,
+		weight=-0.0769230769231];
+	"kelvin_probe_force_microscope
+baryogenesis
+topological_index" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=7,
+		weight=-0.0769230769231];
+	"kelvin_probe_force_microscope
+baryogenesis
+topological_index" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=7,
+		weight=-0.0714285714286];
+	"health_effects_of_caffeine
+preformationism
+cambrian_explosion" -- "health_effects_of_caffeine
+preformationism
+cambrian_explosion"	 [label=1,
+		weight=-0.0106382978723];
+	"health_effects_of_caffeine
+preformationism
+cambrian_explosion" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=25,
+		weight=-0.25];
+	"health_effects_of_caffeine
+preformationism
+cambrian_explosion" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=20,
+		weight=-0.2];
+	"health_effects_of_caffeine
+preformationism
+cambrian_explosion" -- "acetylene
+air_compressor
+crown_ether"	 [label=100,
+		weight=-1.0];
+	"health_effects_of_caffeine
+preformationism
+cambrian_explosion" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=33,
+		weight=-0.333333333333];
+	"health_effects_of_caffeine
+preformationism
+cambrian_explosion" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=33,
+		weight=-0.333333333333];
+	"health_effects_of_caffeine
+preformationism
+cambrian_explosion" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=20,
+		weight=-0.2];
+	"induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)" -- "induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=0,
+		weight=-0.00231481481481];
+	"induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=8,
+		weight=-0.0833333333333];
+	"induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)" -- "acetylene
+air_compressor
+crown_ether"	 [label=33,
+		weight=-0.333333333333];
+	"induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=11,
+		weight=-0.111111111111];
+	"induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=33,
+		weight=-0.333333333333];
+	"induction_plasma_technology
+partial_molar_property
+conjugate_variables_(thermodynamics)" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=9,
+		weight=-0.0909090909091];
+	"timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment" -- "timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment"	 [label=0,
+		weight=-0.00636942675159];
+	"timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment" -- "acetylene
+air_compressor
+crown_ether"	 [label=∞,
+		weight="-inf"];
+	"timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=50,
+		weight=-0.5];
+	"timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=50,
+		weight=-0.5];
+	"timeline_of_electromagnetic_theory
+ewald_summation
+electron_magnetic_dipole_moment" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=14,
+		weight=-0.142857142857];
+	"acetylene
+air_compressor
+crown_ether" -- "acetylene
+air_compressor
+crown_ether"	 [label=1,
+		weight=-0.01];
+	"acetylene
+air_compressor
+crown_ether" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=33,
+		weight=-0.333333333333];
+	"acetylene
+air_compressor
+crown_ether" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=∞,
+		weight="-inf"];
+	"acetylene
+air_compressor
+crown_ether" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=50,
+		weight=-0.5];
+	"food_chemistry
+aeration
+cosmogenic_nuclide" -- "food_chemistry
+aeration
+cosmogenic_nuclide"	 [label=0,
+		weight=-0.00396825396825];
+	"food_chemistry
+aeration
+cosmogenic_nuclide" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=16,
+		weight=-0.166666666667];
+	"food_chemistry
+aeration
+cosmogenic_nuclide" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=100,
+		weight=-1.0];
+	"18-electron_rule
+stereoisomerism
+electron_counting" -- "18-electron_rule
+stereoisomerism
+electron_counting"	 [label=0,
+		weight=-0.00925925925926];
+	"18-electron_rule
+stereoisomerism
+electron_counting" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=25,
+		weight=-0.25];
+	"optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity" -- "optical_modulators_using_semiconductor_nano-structures
+coherence_(physics)
+contributors_to_general_relativity"	 [label=0,
+		weight=-0.00520833333333];
+}

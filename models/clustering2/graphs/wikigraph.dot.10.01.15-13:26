@@ -1,0 +1,194 @@
+strict graph wikigraph {
+	graph [label="wikigraph - n=10, it=6",
+		ratio=1.0,
+		size="45!"
+	];
+	node [fixedsize=true,
+		fontsize=6,
+		shape=ellipse,
+		style=filled
+	];
+	edge [fontsize=7,
+		style="setlinewidth(0.1)"
+	];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "partial_molar_property
+conjugate_variables_(thermodynamics)"	 [label=0,
+		weight=0.00275482093664];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "biochip
+gua_operon"	 [label=33,
+		weight=0.333333333333];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "hologenome_theory_of_evolution
+algebra_of_physical_space"	 [label=1,
+		weight=0.012987012987];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "exchange_bias
+timeline_of_electromagnetic_theory"	 [label=11,
+		weight=0.111111111111];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "quantum_nonlocality
+standard_model"	 [label=4,
+		weight=0.0416666666667];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "ring_strain
+stereoisomerism"	 [label=14,
+		weight=0.142857142857];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "power_(physics)
+kelvin_probe_force_microscope"	 [label=20,
+		weight=0.2];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "cosmological_principle
+physical_cosmology"	 [label=25,
+		weight=0.25];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "cell_death
+pharming_(genetics)"	 [label=12,
+		weight=0.125];
+	"biochip
+gua_operon" -- "biochip
+gua_operon"	 [label=0,
+		weight=0.0037037037037];
+	"biochip
+gua_operon" -- "hologenome_theory_of_evolution
+algebra_of_physical_space"	 [label=1,
+		weight=0.015625];
+	"biochip
+gua_operon" -- "exchange_bias
+timeline_of_electromagnetic_theory"	 [label=50,
+		weight=0.5];
+	"biochip
+gua_operon" -- "quantum_nonlocality
+standard_model"	 [label=11,
+		weight=0.111111111111];
+	"biochip
+gua_operon" -- "ring_strain
+stereoisomerism"	 [label=14,
+		weight=0.142857142857];
+	"biochip
+gua_operon" -- "power_(physics)
+kelvin_probe_force_microscope"	 [label=∞,
+		weight=inf];
+	"biochip
+gua_operon" -- "cosmological_principle
+physical_cosmology"	 [label=25,
+		weight=0.25];
+	"biochip
+gua_operon" -- "cell_death
+pharming_(genetics)"	 [label=6,
+		weight=0.0625];
+	"hologenome_theory_of_evolution
+algebra_of_physical_space" -- "hologenome_theory_of_evolution
+algebra_of_physical_space"	 [label=0,
+		weight=0.000374391613628];
+	"hologenome_theory_of_evolution
+algebra_of_physical_space" -- "exchange_bias
+timeline_of_electromagnetic_theory"	 [label=1,
+		weight=0.0185185185185];
+	"hologenome_theory_of_evolution
+algebra_of_physical_space" -- "quantum_nonlocality
+standard_model"	 [label=0,
+		weight=0.00757575757576];
+	"hologenome_theory_of_evolution
+algebra_of_physical_space" -- "ring_strain
+stereoisomerism"	 [label=2,
+		weight=0.0208333333333];
+	"hologenome_theory_of_evolution
+algebra_of_physical_space" -- "power_(physics)
+kelvin_probe_force_microscope"	 [label=2,
+		weight=0.0222222222222];
+	"hologenome_theory_of_evolution
+algebra_of_physical_space" -- "cosmological_principle
+physical_cosmology"	 [label=4,
+		weight=0.0416666666667];
+	"hologenome_theory_of_evolution
+algebra_of_physical_space" -- "cell_death
+pharming_(genetics)"	 [label=1,
+		weight=0.0142857142857];
+	"exchange_bias
+timeline_of_electromagnetic_theory" -- "exchange_bias
+timeline_of_electromagnetic_theory"	 [label=0,
+		weight=0.00456621004566];
+	"exchange_bias
+timeline_of_electromagnetic_theory" -- "quantum_nonlocality
+standard_model"	 [label=5,
+		weight=0.0555555555556];
+	"exchange_bias
+timeline_of_electromagnetic_theory" -- "ring_strain
+stereoisomerism"	 [label=100,
+		weight=1.0];
+	"exchange_bias
+timeline_of_electromagnetic_theory" -- "power_(physics)
+kelvin_probe_force_microscope"	 [label=16,
+		weight=0.166666666667];
+	"exchange_bias
+timeline_of_electromagnetic_theory" -- "cosmological_principle
+physical_cosmology"	 [label=33,
+		weight=0.333333333333];
+	"exchange_bias
+timeline_of_electromagnetic_theory" -- "cell_death
+pharming_(genetics)"	 [label=14,
+		weight=0.142857142857];
+	"quantum_nonlocality
+standard_model" -- "quantum_nonlocality
+standard_model"	 [label=0,
+		weight=0.00162074554295];
+	"quantum_nonlocality
+standard_model" -- "ring_strain
+stereoisomerism"	 [label=10,
+		weight=0.1];
+	"quantum_nonlocality
+standard_model" -- "power_(physics)
+kelvin_probe_force_microscope"	 [label=3,
+		weight=0.0357142857143];
+	"quantum_nonlocality
+standard_model" -- "cosmological_principle
+physical_cosmology"	 [label=11,
+		weight=0.111111111111];
+	"quantum_nonlocality
+standard_model" -- "cell_death
+pharming_(genetics)"	 [label=7,
+		weight=0.0769230769231];
+	"ring_strain
+stereoisomerism" -- "ring_strain
+stereoisomerism"	 [label=0,
+		weight=0.00442477876106];
+	"ring_strain
+stereoisomerism" -- "power_(physics)
+kelvin_probe_force_microscope"	 [label=33,
+		weight=0.333333333333];
+	"ring_strain
+stereoisomerism" -- "cosmological_principle
+physical_cosmology"	 [label=100,
+		weight=1.0];
+	"ring_strain
+stereoisomerism" -- "cell_death
+pharming_(genetics)"	 [label=8,
+		weight=0.0833333333333];
+	"power_(physics)
+kelvin_probe_force_microscope" -- "power_(physics)
+kelvin_probe_force_microscope"	 [label=0,
+		weight=0.00526315789474];
+	"power_(physics)
+kelvin_probe_force_microscope" -- "cosmological_principle
+physical_cosmology"	 [label=100,
+		weight=1.0];
+	"power_(physics)
+kelvin_probe_force_microscope" -- "cell_death
+pharming_(genetics)"	 [label=33,
+		weight=0.333333333333];
+	"cosmological_principle
+physical_cosmology" -- "cosmological_principle
+physical_cosmology"	 [label=0,
+		weight=0.00694444444444];
+	"cosmological_principle
+physical_cosmology" -- "cell_death
+pharming_(genetics)"	 [label=25,
+		weight=0.25];
+	"cell_death
+pharming_(genetics)" -- "cell_death
+pharming_(genetics)"	 [label=0,
+		weight=0.0030303030303];
+}

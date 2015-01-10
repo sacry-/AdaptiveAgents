@@ -1,0 +1,247 @@
+strict graph wikigraph {
+	graph [label="wikigraph - n=8, it=3",
+		ratio=1.0,
+		size="45!",
+		splines=none
+	];
+	node [fontsize=6,
+		shape=ellipse,
+		style=filled
+	];
+	edge [fontsize=7,
+		style="setlinewidth(0.1)",
+		weight=1
+	];
+	"timeline_of_electromagnetic_theory
+lagrangian
+algebra_of_physical_space
+vitalism" -- "timeline_of_electromagnetic_theory
+lagrangian
+algebra_of_physical_space
+vitalism"	 [label=0,
+		weight=0.000330687830688];
+	"timeline_of_electromagnetic_theory
+lagrangian
+algebra_of_physical_space
+vitalism" -- "cosmological_principle
+dark_matter_in_fiction
+contributors_to_general_relativity
+creationist_cosmologies"	 [label=3,
+		weight=0.030303030303];
+	"timeline_of_electromagnetic_theory
+lagrangian
+algebra_of_physical_space
+vitalism" -- "quantum_nonlocality
+particle_physics_and_representation_theory
+monte_carlo_methods_for_electron_transport
+asymptotic_safety_in_quantum_\
+gravity"	 [label=1,
+		weight=0.010101010101];
+	"timeline_of_electromagnetic_theory
+lagrangian
+algebra_of_physical_space
+vitalism" -- "cell_death
+biochip
+immunogold_labelling
+acid-hydrolyzed_vegetable_protein"	 [label=0,
+		weight=0.00917431192661];
+	"timeline_of_electromagnetic_theory
+lagrangian
+algebra_of_physical_space
+vitalism" -- "food_chemistry
+aeration
+cosmogenic_nuclide
+azeotrope"	 [label=1,
+		weight=0.0111111111111];
+	"timeline_of_electromagnetic_theory
+lagrangian
+algebra_of_physical_space
+vitalism" -- "electron_diffraction
+uruz_project
+dna_sequencing
+nuclear_binding_energy"	 [label=2,
+		weight=0.0294117647059];
+	"timeline_of_electromagnetic_theory
+lagrangian
+algebra_of_physical_space
+vitalism" -- "cross_section_(physics)
+azomethine_ylide
+nucleophilic_addition
+hydronium"	 [label=1,
+		weight=0.0144927536232];
+	"cosmological_principle
+dark_matter_in_fiction
+contributors_to_general_relativity
+creationist_cosmologies" -- "cosmological_principle
+dark_matter_in_fiction
+contributors_to_general_relativity
+creationist_cosmologies"	 [label=0,
+		weight=0.00537634408602];
+	"cosmological_principle
+dark_matter_in_fiction
+contributors_to_general_relativity
+creationist_cosmologies" -- "quantum_nonlocality
+particle_physics_and_representation_theory
+monte_carlo_methods_for_electron_transport
+asymptotic_safety_in_quantum_\
+gravity"	 [label=33,
+		weight=0.333333333333];
+	"cosmological_principle
+dark_matter_in_fiction
+contributors_to_general_relativity
+creationist_cosmologies" -- "cell_death
+biochip
+immunogold_labelling
+acid-hydrolyzed_vegetable_protein"	 [label=10,
+		weight=0.1];
+	"cosmological_principle
+dark_matter_in_fiction
+contributors_to_general_relativity
+creationist_cosmologies" -- "food_chemistry
+aeration
+cosmogenic_nuclide
+azeotrope"	 [label=100,
+		weight=1.0];
+	"cosmological_principle
+dark_matter_in_fiction
+contributors_to_general_relativity
+creationist_cosmologies" -- "electron_diffraction
+uruz_project
+dna_sequencing
+nuclear_binding_energy"	 [label=25,
+		weight=0.25];
+	"cosmological_principle
+dark_matter_in_fiction
+contributors_to_general_relativity
+creationist_cosmologies" -- "cross_section_(physics)
+azomethine_ylide
+nucleophilic_addition
+hydronium"	 [label=20,
+		weight=0.2];
+	"quantum_nonlocality
+particle_physics_and_representation_theory
+monte_carlo_methods_for_electron_transport
+asymptotic_safety_in_quantum_\
+gravity" -- "quantum_nonlocality
+particle_physics_and_representation_theory
+monte_carlo_methods_for_electron_transport
+asymptotic_safety_in_quantum_\
+gravity"	 [label=0,
+		weight=0.00248756218905];
+	"quantum_nonlocality
+particle_physics_and_representation_theory
+monte_carlo_methods_for_electron_transport
+asymptotic_safety_in_quantum_\
+gravity" -- "cell_death
+biochip
+immunogold_labelling
+acid-hydrolyzed_vegetable_protein"	 [label=10,
+		weight=0.1];
+	"quantum_nonlocality
+particle_physics_and_representation_theory
+monte_carlo_methods_for_electron_transport
+asymptotic_safety_in_quantum_\
+gravity" -- "food_chemistry
+aeration
+cosmogenic_nuclide
+azeotrope"	 [label=12,
+		weight=0.125];
+	"quantum_nonlocality
+particle_physics_and_representation_theory
+monte_carlo_methods_for_electron_transport
+asymptotic_safety_in_quantum_\
+gravity" -- "electron_diffraction
+uruz_project
+dna_sequencing
+nuclear_binding_energy"	 [label=16,
+		weight=0.166666666667];
+	"quantum_nonlocality
+particle_physics_and_representation_theory
+monte_carlo_methods_for_electron_transport
+asymptotic_safety_in_quantum_\
+gravity" -- "cross_section_(physics)
+azomethine_ylide
+nucleophilic_addition
+hydronium"	 [label=11,
+		weight=0.111111111111];
+	"cell_death
+biochip
+immunogold_labelling
+acid-hydrolyzed_vegetable_protein" -- "cell_death
+biochip
+immunogold_labelling
+acid-hydrolyzed_vegetable_protein"	 [label=0,
+		weight=0.00182481751825];
+	"cell_death
+biochip
+immunogold_labelling
+acid-hydrolyzed_vegetable_protein" -- "food_chemistry
+aeration
+cosmogenic_nuclide
+azeotrope"	 [label=6,
+		weight=0.0625];
+	"cell_death
+biochip
+immunogold_labelling
+acid-hydrolyzed_vegetable_protein" -- "electron_diffraction
+uruz_project
+dna_sequencing
+nuclear_binding_energy"	 [label=11,
+		weight=0.111111111111];
+	"cell_death
+biochip
+immunogold_labelling
+acid-hydrolyzed_vegetable_protein" -- "cross_section_(physics)
+azomethine_ylide
+nucleophilic_addition
+hydronium"	 [label=6,
+		weight=0.0625];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+azeotrope" -- "food_chemistry
+aeration
+cosmogenic_nuclide
+azeotrope"	 [label=0,
+		weight=0.0028901734104];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+azeotrope" -- "electron_diffraction
+uruz_project
+dna_sequencing
+nuclear_binding_energy"	 [label=50,
+		weight=0.5];
+	"food_chemistry
+aeration
+cosmogenic_nuclide
+azeotrope" -- "cross_section_(physics)
+azomethine_ylide
+nucleophilic_addition
+hydronium"	 [label=6,
+		weight=0.0625];
+	"electron_diffraction
+uruz_project
+dna_sequencing
+nuclear_binding_energy" -- "electron_diffraction
+uruz_project
+dna_sequencing
+nuclear_binding_energy"	 [label=0,
+		weight=0.00735294117647];
+	"electron_diffraction
+uruz_project
+dna_sequencing
+nuclear_binding_energy" -- "cross_section_(physics)
+azomethine_ylide
+nucleophilic_addition
+hydronium"	 [label=16,
+		weight=0.166666666667];
+	"cross_section_(physics)
+azomethine_ylide
+nucleophilic_addition
+hydronium" -- "cross_section_(physics)
+azomethine_ylide
+nucleophilic_addition
+hydronium"	 [label=0,
+		weight=0.00355871886121];
+}

@@ -1,0 +1,156 @@
+strict graph wikigraph {
+	graph [ratio=1.0,
+		size="25!"
+	];
+	node [fontsize=6,
+		shape=ellipse,
+		style=filled
+	];
+	edge [fontsize=5,
+		style="setlinewidth(0.5)"
+	];
+	"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "partial_molar_property
+conjugate_variables_(thermodynamics)" [key=0.004,
+	label=0];
+"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "biochip
+gua_operon" [key=0.25,
+label=25];
+"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "carbide_lamp
+equivalent_carbon_content" [key=0.0833333333333,
+label=8];
+"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "photonic_metamaterial
+timeline_of_electromagnetism_and_classical_optics" [key=0.25,
+label=25];
+"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "immunogold_labelling
+topological_index" [key=0.0416666666667,
+label=4];
+"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "power_(physics)
+kelvin_probe_force_microscope" [key=0.0909090909091,
+label=9];
+"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "cosmological_principle
+standard_model" [key=0.333333333333,
+label=33];
+"partial_molar_property
+conjugate_variables_(thermodynamics)" -- "non-ferrous_extractive_metallurgy
+hologenome_theory_of_evolution" [key=0.0185185185185,
+label=1];
+"biochip
+gua_operon" -- "biochip
+gua_operon" [key=0.00380228136882,
+label=0];
+"biochip
+gua_operon" -- "carbide_lamp
+equivalent_carbon_content" [key=1.0,
+label=100];
+"biochip
+gua_operon" -- "photonic_metamaterial
+timeline_of_electromagnetism_and_classical_optics" [key=0.5,
+label=50];
+"biochip
+gua_operon" -- "immunogold_labelling
+topological_index" [key=0.0666666666667,
+label=6];
+"biochip
+gua_operon" -- "power_(physics)
+kelvin_probe_force_microscope" [key=0.25,
+label=25];
+"biochip
+gua_operon" -- "cosmological_principle
+standard_model" [key=0.333333333333,
+label=33];
+"biochip
+gua_operon" -- "non-ferrous_extractive_metallurgy
+hologenome_theory_of_evolution" [key=0.0151515151515,
+label=1];
+"carbide_lamp
+equivalent_carbon_content" -- "carbide_lamp
+equivalent_carbon_content" [key=0.00335570469799,
+label=0];
+"carbide_lamp
+equivalent_carbon_content" -- "photonic_metamaterial
+timeline_of_electromagnetism_and_classical_optics" [key=0.333333333333,
+label=33];
+"carbide_lamp
+equivalent_carbon_content" -- "immunogold_labelling
+topological_index" [key=0.0625,
+label=6];
+"carbide_lamp
+equivalent_carbon_content" -- "power_(physics)
+kelvin_probe_force_microscope" [key=0.0833333333333,
+label=8];
+"carbide_lamp
+equivalent_carbon_content" -- "cosmological_principle
+standard_model" [key=0.25,
+label=25];
+"carbide_lamp
+equivalent_carbon_content" -- "non-ferrous_extractive_metallurgy
+hologenome_theory_of_evolution" [key=0.0181818181818,
+label=1];
+"photonic_metamaterial
+timeline_of_electromagnetism_and_classical_optics" -- "photonic_metamaterial
+timeline_of_electromagnetism_and_classical_optics" [key=0.00746268656716,
+label=0];
+"photonic_metamaterial
+timeline_of_electromagnetism_and_classical_optics" -- "immunogold_labelling
+topological_index" [key=0.1,
+label=10];
+"photonic_metamaterial
+timeline_of_electromagnetism_and_classical_optics" -- "power_(physics)
+kelvin_probe_force_microscope" [key=0.0666666666667,
+label=6];
+"photonic_metamaterial
+timeline_of_electromagnetism_and_classical_optics" -- "cosmological_principle
+standard_model" [key=0.5,
+label=50];
+"photonic_metamaterial
+timeline_of_electromagnetism_and_classical_optics" -- "non-ferrous_extractive_metallurgy
+hologenome_theory_of_evolution" [key=0.0285714285714,
+label=2];
+"immunogold_labelling
+topological_index" -- "immunogold_labelling
+topological_index" [key=0.0014450867052,
+label=0];
+"immunogold_labelling
+topological_index" -- "power_(physics)
+kelvin_probe_force_microscope" [key=0.0285714285714,
+label=2];
+"immunogold_labelling
+topological_index" -- "cosmological_principle
+standard_model" [key=0.25,
+label=25];
+"immunogold_labelling
+topological_index" -- "non-ferrous_extractive_metallurgy
+hologenome_theory_of_evolution" [key=0.00653594771242,
+label=0];
+"power_(physics)
+kelvin_probe_force_microscope" -- "power_(physics)
+kelvin_probe_force_microscope" [key=0.00226757369615,
+label=0];
+"power_(physics)
+kelvin_probe_force_microscope" -- "cosmological_principle
+standard_model" [key=0.166666666667,
+label=16];
+"power_(physics)
+kelvin_probe_force_microscope" -- "non-ferrous_extractive_metallurgy
+hologenome_theory_of_evolution" [key=0.0106382978723,
+label=1];
+"cosmological_principle
+standard_model" -- "cosmological_principle
+standard_model" [key=0.0062893081761,
+label=0];
+"cosmological_principle
+standard_model" -- "non-ferrous_extractive_metallurgy
+hologenome_theory_of_evolution" [key=0.0322580645161,
+label=3];
+"non-ferrous_extractive_metallurgy
+hologenome_theory_of_evolution" -- "non-ferrous_extractive_metallurgy
+hologenome_theory_of_evolution" [key=0.000362187613184,
+label=0];
+}

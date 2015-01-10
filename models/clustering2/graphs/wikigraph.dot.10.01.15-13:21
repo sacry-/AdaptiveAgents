@@ -1,0 +1,23 @@
+strict graph wikigraph {
+	graph [label="wikigraph - n=4, it=5",
+		ratio=1.0,
+		size="45!",
+		splines=none
+	];
+	node [fontsize=6,
+		shape=ellipse,
+		style=filled
+	];
+	edge [fontsize=7,
+		style="setlinewidth(0.1)",
+		weight=1
+	];
+	"cosmological_principle
+immunogold_labelling
+timeline_of_electromagnetic_theory
+lagrangian" -- "cosmological_principle
+immunogold_labelling
+timeline_of_electromagnetic_theory
+lagrangian"	 [label=0,
+		weight=0.00022502250225];
+}
