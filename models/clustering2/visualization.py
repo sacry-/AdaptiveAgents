@@ -51,6 +51,7 @@ def dist_to_string(d):
     else:
         return str(d*100).split('.')[0]
 
+
 if __name__ == '__main__':
   import warnings
   import pygraphviz as pgv
@@ -77,9 +78,6 @@ if __name__ == '__main__':
         if dist < 0.1:
           G.get_edge(title1, title2).attr['label'] = d
         distances.append( (dist, title1, title2) )
-        
-  for node in G.nodes():
-    assign_color_by_category(node,G)
 
   if True:
     print ("few sample distances")
@@ -91,8 +89,6 @@ if __name__ == '__main__':
   to_disc(G)
   
 
-def assign_color_by_category(node, G):
-  
 
 
 
