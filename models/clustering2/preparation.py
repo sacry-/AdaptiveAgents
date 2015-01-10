@@ -14,7 +14,8 @@ class Cluster():
     return self.elems.values()
 
   def name(self):
-    return self.elems.keys()[0]
+    xs = self.elems.keys()
+    return '\n'.join(xs[:2]) if len(xs) > 2 else "DuMMy"
 
 # filter_dummies_dict :: Dict(Title, Vector) -> Dict(Title, Vector)
 def filter_dummies_dict(d):

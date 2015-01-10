@@ -45,7 +45,7 @@ def cluster_distance(c1, c2):
   ws1 = words(c1)
   ws2 = words(c2)
   dist, inters = calculate_distance(ws1,ws2)
-  print len(inters)
+  # print len(inters)
   return dist
 
 
