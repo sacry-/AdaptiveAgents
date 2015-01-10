@@ -1,0 +1,73 @@
+strict graph wikigraph {
+	graph [ratio=1.0,
+		size="25!"
+	];
+	node [fixedsize=true,
+		fontsize=6,
+		shape=ellipse,
+		style=filled
+	];
+	edge [fontsize=5,
+		style="setlinewidth(0.5)"
+	];
+	"plasma-enhanced_chemical_vapor_deposition
+effective_atomic_number" -- "plasma-enhanced_chemical_vapor_deposition
+effective_atomic_number" [key=0.00342465753425,
+	label=0];
+"plasma-enhanced_chemical_vapor_deposition
+effective_atomic_number" -- "magnetic_resonance_therapy
+exchange_bias" [key=0.0909090909091,
+label=9];
+"plasma-enhanced_chemical_vapor_deposition
+effective_atomic_number" -- "cosmological_principle
+immunogold_labelling" [key=0.0126582278481,
+label=1];
+"plasma-enhanced_chemical_vapor_deposition
+effective_atomic_number" -- "cell_death
+human_stem_cells_institute" [key=0.142857142857,
+label=14];
+"plasma-enhanced_chemical_vapor_deposition
+effective_atomic_number" -- "bjerrum_plot
+partial_molar_property" [key=0.0833333333333,
+label=8];
+"magnetic_resonance_therapy
+exchange_bias" -- "magnetic_resonance_therapy
+exchange_bias" [key=0.00355871886121,
+label=0];
+"magnetic_resonance_therapy
+exchange_bias" -- "cosmological_principle
+immunogold_labelling" [key=0.0138888888889,
+label=1];
+"magnetic_resonance_therapy
+exchange_bias" -- "cell_death
+human_stem_cells_institute" [key=0.2,
+label=20];
+"magnetic_resonance_therapy
+exchange_bias" -- "bjerrum_plot
+partial_molar_property" [key=0.125,
+label=12];
+"cosmological_principle
+immunogold_labelling" -- "cosmological_principle
+immunogold_labelling" [key=0.000282406099972,
+label=0];
+"cosmological_principle
+immunogold_labelling" -- "cell_death
+human_stem_cells_institute" [key=0.0147058823529,
+label=1];
+"cosmological_principle
+immunogold_labelling" -- "bjerrum_plot
+partial_molar_property" [key=0.0108695652174,
+label=1];
+"cell_death
+human_stem_cells_institute" -- "cell_death
+human_stem_cells_institute" [key=0.00367647058824,
+label=0];
+"cell_death
+human_stem_cells_institute" -- "bjerrum_plot
+partial_molar_property" [key=0.0666666666667,
+label=6];
+"bjerrum_plot
+partial_molar_property" -- "bjerrum_plot
+partial_molar_property" [key=0.00254452926209,
+label=0];
+}
