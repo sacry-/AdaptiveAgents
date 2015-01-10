@@ -12,27 +12,29 @@ import centroidation
 from cluster_utils import *
 
 
-def clustering_algorithm(n=50, iterations=15):
-  print "n = %s and iterations = %s" % (n, iterations)
+def clustering_algorithm(n=50, iterations=15,verbose=True):
+  print "Clustering with: n = %s and iterations = %s" % (n, iterations)
   # {title : Vector}
   feature_3000 = dict(RFeature().key_value_by_pattern("*"))
   master = preparation.filter_dummies_dict(feature_3000)
 
   # clusters :: [Cluster]
   data = RIdf().key_value_by_pattern("*")
-  clusters = preparation.initial_clusters(master, n, data)
+  clusters = preparation.initial_clusters(master, n, data, verbose=verbose)
 
   for i in range(0, iterations):
-    print "%s iteration" % (i + 1)
-    print "Cluster sizes: %s" % cluster_sizes(clusters)
+    print "Iteration: %s" % (i + 1)
+    if verbose:
+        print "Cluster sizes: %s" % cluster_sizes(clusters)
     centroids = map(centroidation.cluster_centroid_vector, clusters)
     clusters = distance.assign_nodes_to_centroids(centroids, master)
 
   print "Cluster sizes: %s" % cluster_sizes(clusters)
+  print "Finished clustering."
   return clusters
 
 if __name__ == "__main__":
-  clustering_algorithm(35, 50)
+  clustering_algorithm(35, 15, verbose=True)
 
 
 '''
