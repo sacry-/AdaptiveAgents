@@ -18,23 +18,15 @@ def base_graph(_name,n,iterations):
   
   # http://www.graphviz.org/doc/info/attrs.html
   # http://www.graphviz.org/content/faq
-  
+
   G.graph_attr['label']="%s - n=%s, it=%s" % (_name, n, iterations)
-  G.graph_attr['size'] = "%s!" % (n*3)
-  G.graph_attr['ratio']='1.0'
-  G.node_attr['fontsize']='74'
-  G.graph_attr['splines'] = "curved" # don't draw edges
-  
+  G.graph_attr['outputorder']='nodesfirst'
+
   G.node_attr['shape']='ellipse'
-  # G.node_attr['fixedsize']='true'
-  # G.node_attr['font']='Arial'
-  G.node_attr['fontsize']='74'
   G.node_attr['style']='filled'
   
   G.edge_attr['style']='setlinewidth(0.5)'
-  G.edge_attr['fontsize']='74'
   G.edge_attr['font']='Arial'
-#   G.edge_attr['weight'] = 1 # for fdp
   
   return G
 
@@ -43,7 +35,7 @@ def to_disc(G):
   filename = "%s.png" % G.name
   G.write(graphname)
   # prog=[’neato’|’dot’|’twopi’|’circo’|’fdp’|’nop’]
-  G.draw(filename,prog='dot')
+  G.draw(filename,prog='circo')
   os.system("./bak.sh")
   print("Finished. Output in %s and %s." % (graphname, filename))
 
@@ -77,9 +69,11 @@ if __name__ == '__main__':
     for title2, (c2, cent2) in ds.iteritems():
       # add_edge
       dist = distance.cluster_distance(c1, c2)
-      G.add_edge(title1, title2, weight=-dist) # weight is negated distance
-      G.get_edge(title1, title2).attr['label'] = dist_to_string(dist)
-      distances.append( (dist, title1, title2) )
+      d = dist_to_string(dist)
+      if d.strip() != "0":
+        G.add_edge(title1, title2, weight=-dist) # weight is negated distance
+        G.get_edge(title1, title2).attr['label'] = d
+        distances.append( (dist, title1, title2) )
 
   if True:
     print ("few sample distances")
