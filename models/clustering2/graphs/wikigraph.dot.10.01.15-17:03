@@ -1,0 +1,797 @@
+strict graph wikigraph {
+	graph [label="wikigraph - n=10, it=5",
+		outputorder=nodesfirst
+	];
+	node [shape=ellipse,
+		style=filled
+	];
+	edge [font=Arial,
+		style="setlinewidth(0.2)"
+	];
+	"dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+maser(346.309479874)
+
+dark_matter
+astrophysical_x-ray_source
+cosmic_\
+distance_ladder
+big_bang" -- "dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+maser(346.309479874)
+
+dark_matter
+astrophysical_x-ray_source
+cosmic_\
+distance_ladder
+big_bang"	 [label=0,
+		weight=-0.00714285714286];
+	"dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+maser(346.309479874)
+
+dark_matter
+astrophysical_x-ray_source
+cosmic_\
+distance_ladder
+big_bang" -- "gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+gender
+fluorescent_lamp
+jameson_cell
+virus"	 [label=14,
+		weight=-0.142857142857];
+	"dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+maser(346.309479874)
+
+dark_matter
+astrophysical_x-ray_source
+cosmic_\
+distance_ladder
+big_bang" -- "radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+nuclear_fission
+history_of_aspirin
+radon
+\
+sr_protein"	 [label=12,
+		weight=-0.125];
+	"dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+maser(346.309479874)
+
+dark_matter
+astrophysical_x-ray_source
+cosmic_\
+distance_ladder
+big_bang" -- "weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+welding
+oxy-fuel_welding_and_cutting
+history_of_\
+manufactured_gas
+liquefied_natural_gas"	 [weight=-0.333333333333];
+	"dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+maser(346.309479874)
+
+dark_matter
+astrophysical_x-ray_source
+cosmic_\
+distance_ladder
+big_bang" -- "refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+heat_capacity
+cold_fusion
+thermodynamics
+\
+refrigeration"	 [weight=-0.333333333333];
+	"dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+maser(346.309479874)
+
+dark_matter
+astrophysical_x-ray_source
+cosmic_\
+distance_ladder
+big_bang" -- "bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+bicycle_and_motorcycle_dynamics
+isasmelt
+\
+the_big_bang_theory
+joseph_priestley"	 [label=5,
+		weight=-0.05];
+	"dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+maser(346.309479874)
+
+dark_matter
+astrophysical_x-ray_source
+cosmic_\
+distance_ladder
+big_bang" -- "cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+cocaine
+conditioned_place_preference
+lift_(\
+force)
+magnetic_field"	 [weight=-0.2];
+	"gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+gender
+fluorescent_lamp
+jameson_cell
+virus" -- "gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+gender
+fluorescent_lamp
+jameson_cell
+virus"	 [label=0,
+		weight=-0.00263157894737];
+	"gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+gender
+fluorescent_lamp
+jameson_cell
+virus" -- "radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+nuclear_fission
+history_of_aspirin
+radon
+\
+sr_protein"	 [label=3,
+		weight=-0.0322580645161];
+	"gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+gender
+fluorescent_lamp
+jameson_cell
+virus" -- "weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+welding
+oxy-fuel_welding_and_cutting
+history_of_\
+manufactured_gas
+liquefied_natural_gas"	 [label=16,
+		weight=-0.166666666667];
+	"gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+gender
+fluorescent_lamp
+jameson_cell
+virus" -- "refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+heat_capacity
+cold_fusion
+thermodynamics
+\
+refrigeration"	 [label=16,
+		weight=-0.166666666667];
+	"gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+gender
+fluorescent_lamp
+jameson_cell
+virus" -- "bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+bicycle_and_motorcycle_dynamics
+isasmelt
+\
+the_big_bang_theory
+joseph_priestley"	 [label=1,
+		weight=-0.0125];
+	"gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+gender
+fluorescent_lamp
+jameson_cell
+virus" -- "cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+cocaine
+conditioned_place_preference
+lift_(\
+force)
+magnetic_field"	 [label=7,
+		weight=-0.0769230769231];
+	"gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+gender
+fluorescent_lamp
+jameson_cell
+virus" -- "sequenc(409.035546955)
+plasmid(406.381425981)
+gel(377.914397552)
+genom(366.64785723)
+
+evolution
+snp_genotyping
+gene_therapy
+dna_\
+sequencing"	 [label=12,
+		weight=-0.125];
+	"gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+gender
+fluorescent_lamp
+jameson_cell
+virus" -- "string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+general_relativity
+string_theory
+bell's_\
+theorem
+atomic_orbital"	 [label=11,
+		weight=-0.111111111111];
+	"radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+nuclear_fission
+history_of_aspirin
+radon
+\
+sr_protein" -- "radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+nuclear_fission
+history_of_aspirin
+radon
+\
+sr_protein"	 [label=0,
+		weight=-0.00144717800289];
+	"radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+nuclear_fission
+history_of_aspirin
+radon
+\
+sr_protein" -- "weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+welding
+oxy-fuel_welding_and_cutting
+history_of_\
+manufactured_gas
+liquefied_natural_gas"	 [label=7,
+		weight=-0.0714285714286];
+	"radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+nuclear_fission
+history_of_aspirin
+radon
+\
+sr_protein" -- "refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+heat_capacity
+cold_fusion
+thermodynamics
+\
+refrigeration"	 [label=6,
+		weight=-0.0625];
+	"radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+nuclear_fission
+history_of_aspirin
+radon
+\
+sr_protein" -- "bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+bicycle_and_motorcycle_dynamics
+isasmelt
+\
+the_big_bang_theory
+joseph_priestley"	 [label=0,
+		weight=-0.00763358778626];
+	"radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+nuclear_fission
+history_of_aspirin
+radon
+\
+sr_protein" -- "cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+cocaine
+conditioned_place_preference
+lift_(\
+force)
+magnetic_field"	 [label=3,
+		weight=-0.0333333333333];
+	"radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+nuclear_fission
+history_of_aspirin
+radon
+\
+sr_protein" -- "string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+general_relativity
+string_theory
+bell's_\
+theorem
+atomic_orbital"	 [label=6,
+		weight=-0.0666666666667];
+	"weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+welding
+oxy-fuel_welding_and_cutting
+history_of_\
+manufactured_gas
+liquefied_natural_gas" -- "weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+welding
+oxy-fuel_welding_and_cutting
+history_of_\
+manufactured_gas
+liquefied_natural_gas"	 [label=0,
+		weight=-0.00334448160535];
+	"weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+welding
+oxy-fuel_welding_and_cutting
+history_of_\
+manufactured_gas
+liquefied_natural_gas" -- "refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+heat_capacity
+cold_fusion
+thermodynamics
+\
+refrigeration"	 [label=11,
+		weight=-0.111111111111];
+	"weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+welding
+oxy-fuel_welding_and_cutting
+history_of_\
+manufactured_gas
+liquefied_natural_gas" -- "bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+bicycle_and_motorcycle_dynamics
+isasmelt
+\
+the_big_bang_theory
+joseph_priestley"	 [label=1,
+		weight=-0.0185185185185];
+	"weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+welding
+oxy-fuel_welding_and_cutting
+history_of_\
+manufactured_gas
+liquefied_natural_gas" -- "cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+cocaine
+conditioned_place_preference
+lift_(\
+force)
+magnetic_field"	 [label=6,
+		weight=-0.0666666666667];
+	"weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+welding
+oxy-fuel_welding_and_cutting
+history_of_\
+manufactured_gas
+liquefied_natural_gas" -- "string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+general_relativity
+string_theory
+bell's_\
+theorem
+atomic_orbital"	 [label=6,
+		weight=-0.0666666666667];
+	"refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+heat_capacity
+cold_fusion
+thermodynamics
+\
+refrigeration" -- "refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+heat_capacity
+cold_fusion
+thermodynamics
+\
+refrigeration"	 [label=0,
+		weight=-0.00561797752809];
+	"refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+heat_capacity
+cold_fusion
+thermodynamics
+\
+refrigeration" -- "bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+bicycle_and_motorcycle_dynamics
+isasmelt
+\
+the_big_bang_theory
+joseph_priestley"	 [label=2,
+		weight=-0.0243902439024];
+	"refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+heat_capacity
+cold_fusion
+thermodynamics
+\
+refrigeration" -- "cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+cocaine
+conditioned_place_preference
+lift_(\
+force)
+magnetic_field"	 [label=16,
+		weight=-0.166666666667];
+	"refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+heat_capacity
+cold_fusion
+thermodynamics
+\
+refrigeration" -- "string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+general_relativity
+string_theory
+bell's_\
+theorem
+atomic_orbital"	 [label=16,
+		weight=-0.166666666667];
+	"bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+bicycle_and_motorcycle_dynamics
+isasmelt
+\
+the_big_bang_theory
+joseph_priestley" -- "bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+bicycle_and_motorcycle_dynamics
+isasmelt
+\
+the_big_bang_theory
+joseph_priestley"	 [label=0,
+		weight=-0.000413052457662];
+	"bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+bicycle_and_motorcycle_dynamics
+isasmelt
+\
+the_big_bang_theory
+joseph_priestley" -- "cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+cocaine
+conditioned_place_preference
+lift_(\
+force)
+magnetic_field"	 [label=1,
+		weight=-0.0113636363636];
+	"cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+cocaine
+conditioned_place_preference
+lift_(\
+force)
+magnetic_field" -- "cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+cocaine
+conditioned_place_preference
+lift_(\
+force)
+magnetic_field"	 [label=0,
+		weight=-0.0021645021645];
+	"sequenc(409.035546955)
+plasmid(406.381425981)
+gel(377.914397552)
+genom(366.64785723)
+
+evolution
+snp_genotyping
+gene_therapy
+dna_\
+sequencing" -- "radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+nuclear_fission
+history_of_aspirin
+radon
+\
+sr_protein"	 [label=10,
+		weight=-0.1];
+	"sequenc(409.035546955)
+plasmid(406.381425981)
+gel(377.914397552)
+genom(366.64785723)
+
+evolution
+snp_genotyping
+gene_therapy
+dna_\
+sequencing" -- "bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+bicycle_and_motorcycle_dynamics
+isasmelt
+\
+the_big_bang_theory
+joseph_priestley"	 [label=2,
+		weight=-0.025641025641];
+	"sequenc(409.035546955)
+plasmid(406.381425981)
+gel(377.914397552)
+genom(366.64785723)
+
+evolution
+snp_genotyping
+gene_therapy
+dna_\
+sequencing" -- "sequenc(409.035546955)
+plasmid(406.381425981)
+gel(377.914397552)
+genom(366.64785723)
+
+evolution
+snp_genotyping
+gene_therapy
+dna_\
+sequencing"	 [label=0,
+		weight=-0.0062893081761];
+	"sequenc(409.035546955)
+plasmid(406.381425981)
+gel(377.914397552)
+genom(366.64785723)
+
+evolution
+snp_genotyping
+gene_therapy
+dna_\
+sequencing" -- "string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+general_relativity
+string_theory
+bell's_\
+theorem
+atomic_orbital"	 [weight=-0.333333333333];
+	"string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+general_relativity
+string_theory
+bell's_\
+theorem
+atomic_orbital" -- "bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+bicycle_and_motorcycle_dynamics
+isasmelt
+\
+the_big_bang_theory
+joseph_priestley"	 [label=1,
+		weight=-0.013698630137];
+	"string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+general_relativity
+string_theory
+bell's_\
+theorem
+atomic_orbital" -- "cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+cocaine
+conditioned_place_preference
+lift_(\
+force)
+magnetic_field"	 [label=4,
+		weight=-0.0416666666667];
+	"string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+general_relativity
+string_theory
+bell's_\
+theorem
+atomic_orbital" -- "string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+general_relativity
+string_theory
+bell's_\
+theorem
+atomic_orbital"	 [label=0,
+		weight=-0.0028901734104];
+}

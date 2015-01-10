@@ -1,0 +1,5156 @@
+strict graph wikigraph {
+	graph [label="wikigraph - n=30, it=25",
+		outputorder=nodesfirst
+	];
+	node [shape=ellipse,
+		style=filled
+	];
+	edge [font=Arial,
+		style="setlinewidth(0.5)"
+	];
+	"diathermal_wall
+thermodynamic_cycle
+latent_heat
+entropy
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(557.942891816)
+\
+bump(358.01449333)" -- "diathermal_wall
+thermodynamic_cycle
+latent_heat
+entropy
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(557.942891816)
+\
+bump(358.01449333)"	 [label=1,
+		weight=-0.0185185185185];
+	"diathermal_wall
+thermodynamic_cycle
+latent_heat
+entropy
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(557.942891816)
+\
+bump(358.01449333)" -- "chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)"	 [weight=-0.25];
+	"diathermal_wall
+thermodynamic_cycle
+latent_heat
+entropy
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(557.942891816)
+\
+bump(358.01449333)" -- "vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)"	 [weight=-0.25];
+	"diathermal_wall
+thermodynamic_cycle
+latent_heat
+entropy
+
+refriger(688.407369116)
+entropi(684.782651565)
+thermodynam(557.942891816)
+\
+bump(358.01449333)" -- "quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)"	 [weight=-0.333333333333];
+	"chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)" -- "chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)"	 [label=0,
+		weight=-0.00452488687783];
+	"chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)" -- "vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)"	 [label=10,
+		weight=-0.1];
+	"chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)" -- "quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)"	 [weight=-0.2];
+	"chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)" -- "creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)"	 [label=16,
+		weight=-0.166666666667];
+	"chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)" -- "ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)"	 [label=12,
+		weight=-0.125];
+	"chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)" -- "health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)"	 [weight=-0.333333333333];
+	"chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)" -- "cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)"	 [label=16,
+		weight=-0.166666666667];
+	"chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)" -- "the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)"	 [weight=-0.2];
+	"chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)" -- "timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)"	 [weight=-0.2];
+	"chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)"	 [label=14,
+		weight=-0.142857142857];
+	"chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)" -- "rule_of_mixtures
+sandwich_theory
+martensite
+plane_stress
+
+stress(467.697093064)
+superalloy(387.37865822)
+refractori(382.992808009)
+\
+stress(349.700120044)"	 [weight=-0.333333333333];
+	"chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=7,
+		weight=-0.0769230769231];
+	"chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)" -- "gibbs_paradox
+carbide_lamp
+acetylene
+air_compressor
+
+weld(1300.10795223)
+priestley(1120.40828439)
+weld(620.947081661)
+steril(576.569504343)"	 [weight=-0.2];
+	"chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)" -- "pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)"	 [weight=-0.333333333333];
+	"chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)" -- "nitrogen_trifluoride
+coronal_seismology
+cosmic_dust
+effective_temperature
+
+teleport(1395.8116097)
+aurora(563.995434698)
+sagan(436.028511056)
+\
+sun(399.76625071)"	 [weight=-0.2];
+	"vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)" -- "vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)"	 [label=0,
+		weight=-0.00327868852459];
+	"vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)" -- "quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)"	 [label=10,
+		weight=-0.1];
+	"vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)" -- "health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)"	 [weight=-0.2];
+	"vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)" -- "cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)"	 [label=10,
+		weight=-0.1];
+	"vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)" -- "x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)"	 [label=12,
+		weight=-0.125];
+	"vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)" -- "timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)"	 [label=10,
+		weight=-0.1];
+	"vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)" -- "photonic_metamaterial
+crystal_optics
+theories_of_cloaking
+color_of_water
+
+polar(594.619573646)
+refract(446.288091175)
+terahertz(\
+389.773807991)
+antenna(384.066449451)"	 [weight=-0.333333333333];
+	"vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)"	 [label=12,
+		weight=-0.125];
+	"vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)" -- "rule_of_mixtures
+sandwich_theory
+martensite
+plane_stress
+
+stress(467.697093064)
+superalloy(387.37865822)
+refractori(382.992808009)
+\
+stress(349.700120044)"	 [label=14,
+		weight=-0.142857142857];
+	"vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=9,
+		weight=-0.0909090909091];
+	"vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)" -- "gibbs_paradox
+carbide_lamp
+acetylene
+air_compressor
+
+weld(1300.10795223)
+priestley(1120.40828439)
+weld(620.947081661)
+steril(576.569504343)"	 [weight=-0.25];
+	"vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)" -- "pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)"	 [label=14,
+		weight=-0.142857142857];
+	"vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)" -- "bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)"	 [weight=-0.333333333333];
+	"vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)" -- "nitrogen_trifluoride
+coronal_seismology
+cosmic_dust
+effective_temperature
+
+teleport(1395.8116097)
+aurora(563.995434698)
+sagan(436.028511056)
+\
+sun(399.76625071)"	 [label=14,
+		weight=-0.142857142857];
+	"vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)" -- "polymerase_chain_reaction
+2_base_encoding
+uruz_project
+biochip
+
+virus(763.132499824)
+viru(490.947089069)
+sequenc(409.035546955)
+\
+gel(377.914397552)"	 [weight=-0.333333333333];
+	"quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)" -- "quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)"	 [label=0,
+		weight=-0.0030487804878];
+	"quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)" -- "cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)"	 [label=10,
+		weight=-0.1];
+	"quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)" -- "x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)"	 [weight=-0.333333333333];
+	"quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)" -- "the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)"	 [weight=-0.25];
+	"quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)" -- "timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)"	 [label=10,
+		weight=-0.1];
+	"quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)" -- "photonic_metamaterial
+crystal_optics
+theories_of_cloaking
+color_of_water
+
+polar(594.619573646)
+refract(446.288091175)
+terahertz(\
+389.773807991)
+antenna(384.066449451)"	 [label=11,
+		weight=-0.111111111111];
+	"quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)"	 [label=16,
+		weight=-0.166666666667];
+	"quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)" -- "rule_of_mixtures
+sandwich_theory
+martensite
+plane_stress
+
+stress(467.697093064)
+superalloy(387.37865822)
+refractori(382.992808009)
+\
+stress(349.700120044)"	 [weight=-0.333333333333];
+	"quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=7,
+		weight=-0.0769230769231];
+	"quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)" -- "bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)"	 [weight=-0.2];
+	"quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)" -- "polymerase_chain_reaction
+2_base_encoding
+uruz_project
+biochip
+
+virus(763.132499824)
+viru(490.947089069)
+sequenc(409.035546955)
+\
+gel(377.914397552)"	 [weight=-0.333333333333];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)"	 [weight=-0.25];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)"	 [label=16,
+		weight=-0.166666666667];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)"	 [label=11,
+		weight=-0.111111111111];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)"	 [label=0,
+		weight=-0.00671140939597];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)"	 [weight=-0.333333333333];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)"	 [weight=-0.333333333333];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)"	 [weight=-0.25];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)"	 [weight=-0.2];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)"	 [label=12,
+		weight=-0.125];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)"	 [weight=-0.2];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)"	 [weight=-0.25];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)"	 [weight=-0.25];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)"	 [weight=-0.2];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "photonic_metamaterial
+crystal_optics
+theories_of_cloaking
+color_of_water
+
+polar(594.619573646)
+refract(446.288091175)
+terahertz(\
+389.773807991)
+antenna(384.066449451)"	 [weight=-0.333333333333];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)"	 [weight=-0.25];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "rule_of_mixtures
+sandwich_theory
+martensite
+plane_stress
+
+stress(467.697093064)
+superalloy(387.37865822)
+refractori(382.992808009)
+\
+stress(349.700120044)"	 [weight=-0.333333333333];
+	"spherical_wave_transformation
+spinor
+lode_coordinates
+causal_dynamical_triangulation
+
+vector(540.476956904)
+tensor(443.414110224)
+\
+laguerr(321.859483311)
+semigroup(315.087857134)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=8,
+		weight=-0.0833333333333];
+	"biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)" -- "chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)"	 [weight=-0.2];
+	"biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)" -- "vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)"	 [label=16,
+		weight=-0.166666666667];
+	"biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)" -- "quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)"	 [weight=-0.2];
+	"biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)" -- "biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)"	 [label=0,
+		weight=-0.00709219858156];
+	"biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)" -- "creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)"	 [weight=-0.333333333333];
+	"biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)" -- "biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)"	 [label=14,
+		weight=-0.142857142857];
+	"biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)" -- "ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)"	 [label=16,
+		weight=-0.166666666667];
+	"biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)" -- "cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)"	 [weight=-0.333333333333];
+	"biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)" -- "photonic_metamaterial
+crystal_optics
+theories_of_cloaking
+color_of_water
+
+polar(594.619573646)
+refract(446.288091175)
+terahertz(\
+389.773807991)
+antenna(384.066449451)"	 [weight=-0.333333333333];
+	"biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)"	 [label=16,
+		weight=-0.166666666667];
+	"biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=9,
+		weight=-0.0909090909091];
+	"biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)" -- "kelvin_probe_force_microscope
+galling
+quantum_reflection
+patina
+
+bike(1417.1972003)
+steer(713.901346584)
+wheel(584.429172739)
+friction(\
+567.85931469)"	 [weight=-0.333333333333];
+	"biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)" -- "gibbs_paradox
+carbide_lamp
+acetylene
+air_compressor
+
+weld(1300.10795223)
+priestley(1120.40828439)
+weld(620.947081661)
+steril(576.569504343)"	 [weight=-0.333333333333];
+	"biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)" -- "pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)"	 [weight=-0.333333333333];
+	"biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)" -- "bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)"	 [weight=-0.333333333333];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)"	 [label=7,
+		weight=-0.0714285714286];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)"	 [label=6,
+		weight=-0.0666666666667];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)"	 [label=0,
+		weight=-0.00363636363636];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)"	 [weight=-0.2];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)"	 [label=7,
+		weight=-0.0769230769231];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)"	 [weight=-0.2];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)"	 [label=6,
+		weight=-0.0625];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)"	 [label=10,
+		weight=-0.1];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)"	 [label=10,
+		weight=-0.1];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "photonic_metamaterial
+crystal_optics
+theories_of_cloaking
+color_of_water
+
+polar(594.619573646)
+refract(446.288091175)
+terahertz(\
+389.773807991)
+antenna(384.066449451)"	 [label=16,
+		weight=-0.166666666667];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)"	 [label=14,
+		weight=-0.142857142857];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "rule_of_mixtures
+sandwich_theory
+martensite
+plane_stress
+
+stress(467.697093064)
+superalloy(387.37865822)
+refractori(382.992808009)
+\
+stress(349.700120044)"	 [label=14,
+		weight=-0.142857142857];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=5,
+		weight=-0.0526315789474];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "fission_products_(by_element)
+tritium
+relap5-3d
+nuclear_binding_energy
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)"	 [weight=-0.2];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "gibbs_paradox
+carbide_lamp
+acetylene
+air_compressor
+
+weld(1300.10795223)
+priestley(1120.40828439)
+weld(620.947081661)
+steril(576.569504343)"	 [label=12,
+		weight=-0.125];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)"	 [weight=-0.2];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)"	 [weight=-0.2];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "nitrogen_trifluoride
+coronal_seismology
+cosmic_dust
+effective_temperature
+
+teleport(1395.8116097)
+aurora(563.995434698)
+sagan(436.028511056)
+\
+sun(399.76625071)"	 [weight=-0.25];
+	"creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)" -- "cosmological_perturbation_theory
+quantum_electrodynamics
+renormalization
+asymptotic_safety_in_quantum_gravity
+
+string(543.456386826)
+\
+gaug(376.960337886)
+gaug(269.650460678)
+perturb(240.615634081)"	 [weight=-0.2];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)"	 [weight=-0.2];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)"	 [label=11,
+		weight=-0.111111111111];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)"	 [label=0,
+		weight=-0.00675675675676];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)"	 [label=12,
+		weight=-0.125];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)"	 [label=12,
+		weight=-0.125];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)"	 [weight=-0.25];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)"	 [weight=-0.333333333333];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)"	 [weight=-0.333333333333];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "photonic_metamaterial
+crystal_optics
+theories_of_cloaking
+color_of_water
+
+polar(594.619573646)
+refract(446.288091175)
+terahertz(\
+389.773807991)
+antenna(384.066449451)"	 [weight=-0.333333333333];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)"	 [label=12,
+		weight=-0.125];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "rule_of_mixtures
+sandwich_theory
+martensite
+plane_stress
+
+stress(467.697093064)
+superalloy(387.37865822)
+refractori(382.992808009)
+\
+stress(349.700120044)"	 [weight=-0.25];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=8,
+		weight=-0.0833333333333];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "fission_products_(by_element)
+tritium
+relap5-3d
+nuclear_binding_energy
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)"	 [weight=-0.333333333333];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "gibbs_paradox
+carbide_lamp
+acetylene
+air_compressor
+
+weld(1300.10795223)
+priestley(1120.40828439)
+weld(620.947081661)
+steril(576.569504343)"	 [weight=-0.333333333333];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)"	 [weight=-0.333333333333];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)"	 [weight=-0.333333333333];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "polymerase_chain_reaction
+2_base_encoding
+uruz_project
+biochip
+
+virus(763.132499824)
+viru(490.947089069)
+sequenc(409.035546955)
+\
+gel(377.914397552)"	 [weight=-0.25];
+	"biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)" -- "cosmological_perturbation_theory
+quantum_electrodynamics
+renormalization
+asymptotic_safety_in_quantum_gravity
+
+string(543.456386826)
+\
+gaug(376.960337886)
+gaug(269.650460678)
+perturb(240.615634081)"	 [weight=-0.25];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)"	 [label=12,
+		weight=-0.125];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)"	 [label=6,
+		weight=-0.0666666666667];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)"	 [label=0,
+		weight=-0.00308641975309];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)"	 [weight=-0.25];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)"	 [label=12,
+		weight=-0.125];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)"	 [label=14,
+		weight=-0.142857142857];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)"	 [weight=-0.2];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)"	 [label=14,
+		weight=-0.142857142857];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "photonic_metamaterial
+crystal_optics
+theories_of_cloaking
+color_of_water
+
+polar(594.619573646)
+refract(446.288091175)
+terahertz(\
+389.773807991)
+antenna(384.066449451)"	 [label=16,
+		weight=-0.166666666667];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)"	 [weight=-0.25];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "rule_of_mixtures
+sandwich_theory
+martensite
+plane_stress
+
+stress(467.697093064)
+superalloy(387.37865822)
+refractori(382.992808009)
+\
+stress(349.700120044)"	 [weight=-0.25];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=4,
+		weight=-0.0454545454545];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "fission_products_(by_element)
+tritium
+relap5-3d
+nuclear_binding_energy
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)"	 [weight=-0.2];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)"	 [label=14,
+		weight=-0.142857142857];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)"	 [label=16,
+		weight=-0.166666666667];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "nitrogen_trifluoride
+coronal_seismology
+cosmic_dust
+effective_temperature
+
+teleport(1395.8116097)
+aurora(563.995434698)
+sagan(436.028511056)
+\
+sun(399.76625071)"	 [weight=-0.333333333333];
+	"ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)" -- "polymerase_chain_reaction
+2_base_encoding
+uruz_project
+biochip
+
+virus(763.132499824)
+viru(490.947089069)
+sequenc(409.035546955)
+\
+gel(377.914397552)"	 [label=16,
+		weight=-0.166666666667];
+	"health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)" -- "quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)"	 [weight=-0.25];
+	"health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)" -- "health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)"	 [label=0,
+		weight=-0.00531914893617];
+	"health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)" -- "cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)"	 [label=6,
+		weight=-0.0666666666667];
+	"health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)" -- "x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)"	 [weight=-0.25];
+	"health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)" -- "the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)"	 [weight=-0.333333333333];
+	"health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)" -- "timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)"	 [label=11,
+		weight=-0.111111111111];
+	"health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)" -- "photonic_metamaterial
+crystal_optics
+theories_of_cloaking
+color_of_water
+
+polar(594.619573646)
+refract(446.288091175)
+terahertz(\
+389.773807991)
+antenna(384.066449451)"	 [weight=-0.2];
+	"health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)"	 [weight=-0.25];
+	"health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=8,
+		weight=-0.0833333333333];
+	"health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)" -- "gibbs_paradox
+carbide_lamp
+acetylene
+air_compressor
+
+weld(1300.10795223)
+priestley(1120.40828439)
+weld(620.947081661)
+steril(576.569504343)"	 [weight=-0.25];
+	"health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)" -- "pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)"	 [weight=-0.25];
+	"cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)" -- "cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)"	 [label=0,
+		weight=-0.00367647058824];
+	"cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)" -- "x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)"	 [weight=-0.2];
+	"cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)" -- "timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)"	 [weight=-0.2];
+	"cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)" -- "photonic_metamaterial
+crystal_optics
+theories_of_cloaking
+color_of_water
+
+polar(594.619573646)
+refract(446.288091175)
+terahertz(\
+389.773807991)
+antenna(384.066449451)"	 [weight=-0.25];
+	"cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)"	 [weight=-0.25];
+	"cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)" -- "rule_of_mixtures
+sandwich_theory
+martensite
+plane_stress
+
+stress(467.697093064)
+superalloy(387.37865822)
+refractori(382.992808009)
+\
+stress(349.700120044)"	 [weight=-0.2];
+	"cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=5,
+		weight=-0.0555555555556];
+	"cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)" -- "pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)"	 [weight=-0.25];
+	"cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)" -- "bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)"	 [weight=-0.2];
+	"cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)" -- "polymerase_chain_reaction
+2_base_encoding
+uruz_project
+biochip
+
+virus(763.132499824)
+viru(490.947089069)
+sequenc(409.035546955)
+\
+gel(377.914397552)"	 [label=16,
+		weight=-0.166666666667];
+	"x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)" -- "x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)"	 [label=0,
+		weight=-0.00591715976331];
+	"x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)" -- "the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)"	 [weight=-0.25];
+	"x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)" -- "timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)"	 [weight=-0.25];
+	"x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)" -- "rule_of_mixtures
+sandwich_theory
+martensite
+plane_stress
+
+stress(467.697093064)
+superalloy(387.37865822)
+refractori(382.992808009)
+\
+stress(349.700120044)"	 [weight=-0.25];
+	"x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=7,
+		weight=-0.0714285714286];
+	"x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)" -- "pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)"	 [weight=-0.333333333333];
+	"the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)" -- "the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)"	 [label=0,
+		weight=-0.00657894736842];
+	"the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)" -- "photonic_metamaterial
+crystal_optics
+theories_of_cloaking
+color_of_water
+
+polar(594.619573646)
+refract(446.288091175)
+terahertz(\
+389.773807991)
+antenna(384.066449451)"	 [weight=-0.333333333333];
+	"the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)"	 [weight=-0.25];
+	"the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=9,
+		weight=-0.0909090909091];
+	"the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)" -- "bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)"	 [weight=-0.333333333333];
+	"the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)" -- "polymerase_chain_reaction
+2_base_encoding
+uruz_project
+biochip
+
+virus(763.132499824)
+viru(490.947089069)
+sequenc(409.035546955)
+\
+gel(377.914397552)"	 [label=12,
+		weight=-0.125];
+	"timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)" -- "timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)"	 [label=0,
+		weight=-0.00408163265306];
+	"timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)" -- "photonic_metamaterial
+crystal_optics
+theories_of_cloaking
+color_of_water
+
+polar(594.619573646)
+refract(446.288091175)
+terahertz(\
+389.773807991)
+antenna(384.066449451)"	 [label=14,
+		weight=-0.142857142857];
+	"timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=5,
+		weight=-0.0526315789474];
+	"timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)" -- "nitrogen_trifluoride
+coronal_seismology
+cosmic_dust
+effective_temperature
+
+teleport(1395.8116097)
+aurora(563.995434698)
+sagan(436.028511056)
+\
+sun(399.76625071)"	 [weight=-0.25];
+	"photonic_metamaterial
+crystal_optics
+theories_of_cloaking
+color_of_water
+
+polar(594.619573646)
+refract(446.288091175)
+terahertz(\
+389.773807991)
+antenna(384.066449451)" -- "photonic_metamaterial
+crystal_optics
+theories_of_cloaking
+color_of_water
+
+polar(594.619573646)
+refract(446.288091175)
+terahertz(\
+389.773807991)
+antenna(384.066449451)"	 [label=0,
+		weight=-0.00840336134454];
+	"photonic_metamaterial
+crystal_optics
+theories_of_cloaking
+color_of_water
+
+polar(594.619573646)
+refract(446.288091175)
+terahertz(\
+389.773807991)
+antenna(384.066449451)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)"	 [weight=-0.2];
+	"photonic_metamaterial
+crystal_optics
+theories_of_cloaking
+color_of_water
+
+polar(594.619573646)
+refract(446.288091175)
+terahertz(\
+389.773807991)
+antenna(384.066449451)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [weight=-0.333333333333];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)"	 [label=0,
+		weight=-0.00507614213198];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)" -- "rule_of_mixtures
+sandwich_theory
+martensite
+plane_stress
+
+stress(467.697093064)
+superalloy(387.37865822)
+refractori(382.992808009)
+\
+stress(349.700120044)"	 [weight=-0.25];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=7,
+		weight=-0.0769230769231];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)" -- "bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)"	 [weight=-0.333333333333];
+	"cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)" -- "polymerase_chain_reaction
+2_base_encoding
+uruz_project
+biochip
+
+virus(763.132499824)
+viru(490.947089069)
+sequenc(409.035546955)
+\
+gel(377.914397552)"	 [label=10,
+		weight=-0.1];
+	"rule_of_mixtures
+sandwich_theory
+martensite
+plane_stress
+
+stress(467.697093064)
+superalloy(387.37865822)
+refractori(382.992808009)
+\
+stress(349.700120044)" -- "rule_of_mixtures
+sandwich_theory
+martensite
+plane_stress
+
+stress(467.697093064)
+superalloy(387.37865822)
+refractori(382.992808009)
+\
+stress(349.700120044)"	 [label=0,
+		weight=-0.00826446280992];
+	"rule_of_mixtures
+sandwich_theory
+martensite
+plane_stress
+
+stress(467.697093064)
+superalloy(387.37865822)
+refractori(382.992808009)
+\
+stress(349.700120044)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=12,
+		weight=-0.125];
+	"rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=0,
+		weight=-0.0019267822736];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)"	 [label=7,
+		weight=-0.0714285714286];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)"	 [label=9,
+		weight=-0.0909090909091];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)"	 [label=8,
+		weight=-0.0833333333333];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "biological_network
+vital_heat
+intraspecific_competition
+deformulation
+
+gender(1508.17695098)
+landrac(884.378257811)
+bioblitz(578.865768749)
+\
+territori(474.924847312)"	 [weight=-0.2];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)"	 [label=11,
+		weight=-0.111111111111];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)"	 [label=11,
+		weight=-0.111111111111];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)"	 [label=5,
+		weight=-0.0555555555556];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)"	 [weight=-0.2];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)"	 [label=8,
+		weight=-0.0833333333333];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)"	 [label=8,
+		weight=-0.0833333333333];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)"	 [label=11,
+		weight=-0.111111111111];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)"	 [weight=-0.2];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)"	 [label=8,
+		weight=-0.0833333333333];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "rule_of_mixtures
+sandwich_theory
+martensite
+plane_stress
+
+stress(467.697093064)
+superalloy(387.37865822)
+refractori(382.992808009)
+\
+stress(349.700120044)"	 [label=14,
+		weight=-0.142857142857];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=3,
+		weight=-0.0357142857143];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)"	 [label=0,
+		weight=-0.00332225913621];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "extractive_metallurgy
+equivalent_carbon_content
+flash_smelting
+liga
+
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+cast(567.182774795)
+\
+electrotyp(565.692447565)"	 [weight=-0.25];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+dark(610.232188426)
+redshift(545.023525411)
+\
+galaxi(364.773453052)
+matter(346.27809602)"	 [weight=-0.2];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "kelvin_probe_force_microscope
+galling
+quantum_reflection
+patina
+
+bike(1417.1972003)
+steer(713.901346584)
+wheel(584.429172739)
+friction(\
+567.85931469)"	 [weight=-0.333333333333];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "pde5_drug_design
+drug_design
+ligand_(biochemistry)
+clandestine_chemistry
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+\
+flunitrazepam(594.945373437)"	 [label=16,
+		weight=-0.166666666667];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "fission_products_(by_element)
+tritium
+relap5-3d
+nuclear_binding_energy
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)"	 [weight=-0.333333333333];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "gibbs_paradox
+carbide_lamp
+acetylene
+air_compressor
+
+weld(1300.10795223)
+priestley(1120.40828439)
+weld(620.947081661)
+steril(576.569504343)"	 [weight=-0.2];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)"	 [label=11,
+		weight=-0.111111111111];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)"	 [label=14,
+		weight=-0.142857142857];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "nitrogen_trifluoride
+coronal_seismology
+cosmic_dust
+effective_temperature
+
+teleport(1395.8116097)
+aurora(563.995434698)
+sagan(436.028511056)
+\
+sun(399.76625071)"	 [weight=-0.25];
+	"acid-hydrolyzed_vegetable_protein
+azomethine_ylide
+nucleophilic_addition
+hydronium
+
+ammonia(681.595182649)
+dendrim(519.98942121)
+\
+oligonucleotid(474.694623906)
+chlorin(457.681671695)" -- "polymerase_chain_reaction
+2_base_encoding
+uruz_project
+biochip
+
+virus(763.132499824)
+viru(490.947089069)
+sequenc(409.035546955)
+\
+gel(377.914397552)"	 [label=11,
+		weight=-0.111111111111];
+	"extractive_metallurgy
+equivalent_carbon_content
+flash_smelting
+liga
+
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+cast(567.182774795)
+\
+electrotyp(565.692447565)" -- "chemical_engineering
+actinides_in_the_environment
+operation_steel_box
+steam_reforming
+
+lng(916.557789502)
+nitrou(515.345342419)
+\
+methan(488.93337651)
+syria(458.530684266)"	 [weight=-0.25];
+	"extractive_metallurgy
+equivalent_carbon_content
+flash_smelting
+liga
+
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+cast(567.182774795)
+\
+electrotyp(565.692447565)" -- "vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)"	 [weight=-0.2];
+	"extractive_metallurgy
+equivalent_carbon_content
+flash_smelting
+liga
+
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+cast(567.182774795)
+\
+electrotyp(565.692447565)" -- "biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)"	 [weight=-0.25];
+	"extractive_metallurgy
+equivalent_carbon_content
+flash_smelting
+liga
+
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+cast(567.182774795)
+\
+electrotyp(565.692447565)" -- "ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)"	 [weight=-0.333333333333];
+	"extractive_metallurgy
+equivalent_carbon_content
+flash_smelting
+liga
+
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+cast(567.182774795)
+\
+electrotyp(565.692447565)" -- "x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)"	 [weight=-0.2];
+	"extractive_metallurgy
+equivalent_carbon_content
+flash_smelting
+liga
+
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+cast(567.182774795)
+\
+electrotyp(565.692447565)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=11,
+		weight=-0.111111111111];
+	"extractive_metallurgy
+equivalent_carbon_content
+flash_smelting
+liga
+
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+cast(567.182774795)
+\
+electrotyp(565.692447565)" -- "extractive_metallurgy
+equivalent_carbon_content
+flash_smelting
+liga
+
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+cast(567.182774795)
+\
+electrotyp(565.692447565)"	 [label=1,
+		weight=-0.0103092783505];
+	"extractive_metallurgy
+equivalent_carbon_content
+flash_smelting
+liga
+
+jameson(1069.29371172)
+isasmelt(1013.01509531)
+cast(567.182774795)
+\
+electrotyp(565.692447565)" -- "pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)"	 [weight=-0.2];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+dark(610.232188426)
+redshift(545.023525411)
+\
+galaxi(364.773453052)
+matter(346.27809602)" -- "creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)"	 [label=16,
+		weight=-0.166666666667];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+dark(610.232188426)
+redshift(545.023525411)
+\
+galaxi(364.773453052)
+matter(346.27809602)" -- "cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)"	 [weight=-0.25];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+dark(610.232188426)
+redshift(545.023525411)
+\
+galaxi(364.773453052)
+matter(346.27809602)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [weight=-0.25];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+dark(610.232188426)
+redshift(545.023525411)
+\
+galaxi(364.773453052)
+matter(346.27809602)" -- "cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+dark(610.232188426)
+redshift(545.023525411)
+\
+galaxi(364.773453052)
+matter(346.27809602)"	 [label=0,
+		weight=-0.00869565217391];
+	"cosmological_principle
+chronology_of_the_universe
+baryon_acoustic_oscillations
+redshift
+
+dark(610.232188426)
+redshift(545.023525411)
+\
+galaxi(364.773453052)
+matter(346.27809602)" -- "nitrogen_trifluoride
+coronal_seismology
+cosmic_dust
+effective_temperature
+
+teleport(1395.8116097)
+aurora(563.995434698)
+sagan(436.028511056)
+\
+sun(399.76625071)"	 [weight=-0.333333333333];
+	"kelvin_probe_force_microscope
+galling
+quantum_reflection
+patina
+
+bike(1417.1972003)
+steer(713.901346584)
+wheel(584.429172739)
+friction(\
+567.85931469)" -- "vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)"	 [weight=-0.25];
+	"kelvin_probe_force_microscope
+galling
+quantum_reflection
+patina
+
+bike(1417.1972003)
+steer(713.901346584)
+wheel(584.429172739)
+friction(\
+567.85931469)" -- "ring_strain
+trihydrogen_cation
+stereoisomerism
+jemmis_mno_rules
+
+isotop(483.481632402)
+electroneg(349.89388412)
+radic(343.79961091)
+\
+bond(339.798093316)"	 [weight=-0.333333333333];
+	"kelvin_probe_force_microscope
+galling
+quantum_reflection
+patina
+
+bike(1417.1972003)
+steer(713.901346584)
+wheel(584.429172739)
+friction(\
+567.85931469)" -- "health_effects_of_caffeine
+power_(physics)
+history_of_special_relativity
+quantum_reference_frame
+
+caffein(864.119202259)
+muscl(802.595586323)
+\
+truss(643.718966622)
+inertia(516.418878138)"	 [weight=-0.333333333333];
+	"kelvin_probe_force_microscope
+galling
+quantum_reflection
+patina
+
+bike(1417.1972003)
+steer(713.901346584)
+wheel(584.429172739)
+friction(\
+567.85931469)" -- "cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)"	 [weight=-0.333333333333];
+	"kelvin_probe_force_microscope
+galling
+quantum_reflection
+patina
+
+bike(1417.1972003)
+steer(713.901346584)
+wheel(584.429172739)
+friction(\
+567.85931469)" -- "x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)"	 [weight=-0.25];
+	"kelvin_probe_force_microscope
+galling
+quantum_reflection
+patina
+
+bike(1417.1972003)
+steer(713.901346584)
+wheel(584.429172739)
+friction(\
+567.85931469)" -- "the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)"	 [weight=-0.25];
+	"kelvin_probe_force_microscope
+galling
+quantum_reflection
+patina
+
+bike(1417.1972003)
+steer(713.901346584)
+wheel(584.429172739)
+friction(\
+567.85931469)" -- "rule_of_mixtures
+sandwich_theory
+martensite
+plane_stress
+
+stress(467.697093064)
+superalloy(387.37865822)
+refractori(382.992808009)
+\
+stress(349.700120044)"	 [weight=-0.2];
+	"kelvin_probe_force_microscope
+galling
+quantum_reflection
+patina
+
+bike(1417.1972003)
+steer(713.901346584)
+wheel(584.429172739)
+friction(\
+567.85931469)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=14,
+		weight=-0.142857142857];
+	"kelvin_probe_force_microscope
+galling
+quantum_reflection
+patina
+
+bike(1417.1972003)
+steer(713.901346584)
+wheel(584.429172739)
+friction(\
+567.85931469)" -- "kelvin_probe_force_microscope
+galling
+quantum_reflection
+patina
+
+bike(1417.1972003)
+steer(713.901346584)
+wheel(584.429172739)
+friction(\
+567.85931469)"	 [label=1,
+		weight=-0.010989010989];
+	"kelvin_probe_force_microscope
+galling
+quantum_reflection
+patina
+
+bike(1417.1972003)
+steer(713.901346584)
+wheel(584.429172739)
+friction(\
+567.85931469)" -- "gibbs_paradox
+carbide_lamp
+acetylene
+air_compressor
+
+weld(1300.10795223)
+priestley(1120.40828439)
+weld(620.947081661)
+steril(576.569504343)"	 [weight=-0.333333333333];
+	"kelvin_probe_force_microscope
+galling
+quantum_reflection
+patina
+
+bike(1417.1972003)
+steer(713.901346584)
+wheel(584.429172739)
+friction(\
+567.85931469)" -- "bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)"	 [weight=-0.333333333333];
+	"pde5_drug_design
+drug_design
+ligand_(biochemistry)
+clandestine_chemistry
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+\
+flunitrazepam(594.945373437)" -- "vorticity
+aeration
+theoretical_plate
+column_chromatography
+
+airfoil(794.350084235)
+azeotrop(744.731733364)
+distil(639.412251345)
+\
+lift(580.734478935)"	 [weight=-0.25];
+	"pde5_drug_design
+drug_design
+ligand_(biochemistry)
+clandestine_chemistry
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+\
+flunitrazepam(594.945373437)" -- "quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)"	 [weight=-0.333333333333];
+	"pde5_drug_design
+drug_design
+ligand_(biochemistry)
+clandestine_chemistry
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+\
+flunitrazepam(594.945373437)" -- "creaming_(chemistry)
+cp_violation
+baryogenesis
+particle_physics_and_representation_theory
+
+quark(621.191324781)
+equipartit(531.988575771)
+\
+silk(449.944681321)
+lightfront(410.029919531)"	 [weight=-0.333333333333];
+	"pde5_drug_design
+drug_design
+ligand_(biochemistry)
+clandestine_chemistry
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+\
+flunitrazepam(594.945373437)" -- "biogeography
+precambrian_rabbit
+preformationism
+biological_classification
+
+huxley(1093.38368993)
+camouflag(793.909517076)
+cambrian(\
+530.168620937)
+haeckel(514.146843443)"	 [weight=-0.25];
+	"pde5_drug_design
+drug_design
+ligand_(biochemistry)
+clandestine_chemistry
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+\
+flunitrazepam(594.945373437)" -- "cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)"	 [weight=-0.333333333333];
+	"pde5_drug_design
+drug_design
+ligand_(biochemistry)
+clandestine_chemistry
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+\
+flunitrazepam(594.945373437)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)"	 [weight=-0.25];
+	"pde5_drug_design
+drug_design
+ligand_(biochemistry)
+clandestine_chemistry
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+\
+flunitrazepam(594.945373437)" -- "rule_of_mixtures
+sandwich_theory
+martensite
+plane_stress
+
+stress(467.697093064)
+superalloy(387.37865822)
+refractori(382.992808009)
+\
+stress(349.700120044)"	 [weight=-0.25];
+	"pde5_drug_design
+drug_design
+ligand_(biochemistry)
+clandestine_chemistry
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+\
+flunitrazepam(594.945373437)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [weight=-0.2];
+	"pde5_drug_design
+drug_design
+ligand_(biochemistry)
+clandestine_chemistry
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+\
+flunitrazepam(594.945373437)" -- "pde5_drug_design
+drug_design
+ligand_(biochemistry)
+clandestine_chemistry
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+\
+flunitrazepam(594.945373437)"	 [label=1,
+		weight=-0.013698630137];
+	"pde5_drug_design
+drug_design
+ligand_(biochemistry)
+clandestine_chemistry
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+\
+flunitrazepam(594.945373437)" -- "pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)"	 [weight=-0.25];
+	"pde5_drug_design
+drug_design
+ligand_(biochemistry)
+clandestine_chemistry
+
+cocain(1895.20047255)
+placebo(1303.28053339)
+aspirin(817.960887296)
+\
+flunitrazepam(594.945373437)" -- "polymerase_chain_reaction
+2_base_encoding
+uruz_project
+biochip
+
+virus(763.132499824)
+viru(490.947089069)
+sequenc(409.035546955)
+\
+gel(377.914397552)"	 [weight=-0.333333333333];
+	"fission_products_(by_element)
+tritium
+relap5-3d
+nuclear_binding_energy
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)" -- "cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)"	 [weight=-0.333333333333];
+	"fission_products_(by_element)
+tritium
+relap5-3d
+nuclear_binding_energy
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)" -- "x-ray_astronomy_detector
+pole_figure
+synchrotron_light_source
+homeostasis
+
+cocryst(569.177584516)
+scintil(506.860815406)
+biosensor(\
+447.713157827)
+biomark(409.978073286)"	 [weight=-0.333333333333];
+	"fission_products_(by_element)
+tritium
+relap5-3d
+nuclear_binding_energy
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [weight=-0.25];
+	"fission_products_(by_element)
+tritium
+relap5-3d
+nuclear_binding_energy
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)" -- "fission_products_(by_element)
+tritium
+relap5-3d
+nuclear_binding_energy
+
+xenon(791.892507305)
+fission(742.189194828)
+tritium(501.852644977)
+\
+fuel(470.56539748)"	 [label=1,
+		weight=-0.015625];
+	"gibbs_paradox
+carbide_lamp
+acetylene
+air_compressor
+
+weld(1300.10795223)
+priestley(1120.40828439)
+weld(620.947081661)
+steril(576.569504343)" -- "the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)"	 [weight=-0.333333333333];
+	"gibbs_paradox
+carbide_lamp
+acetylene
+air_compressor
+
+weld(1300.10795223)
+priestley(1120.40828439)
+weld(620.947081661)
+steril(576.569504343)" -- "timeline_of_electromagnetic_theory
+ewald_summation
+coercivity
+voltage
+
+magnet(748.938550194)
+monopol(477.010236039)
+lightn(446.376551156)
+\
+insul(393.781736293)"	 [weight=-0.25];
+	"gibbs_paradox
+carbide_lamp
+acetylene
+air_compressor
+
+weld(1300.10795223)
+priestley(1120.40828439)
+weld(620.947081661)
+steril(576.569504343)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=8,
+		weight=-0.0833333333333];
+	"gibbs_paradox
+carbide_lamp
+acetylene
+air_compressor
+
+weld(1300.10795223)
+priestley(1120.40828439)
+weld(620.947081661)
+steril(576.569504343)" -- "gibbs_paradox
+carbide_lamp
+acetylene
+air_compressor
+
+weld(1300.10795223)
+priestley(1120.40828439)
+weld(620.947081661)
+steril(576.569504343)"	 [label=0,
+		weight=-0.00714285714286];
+	"gibbs_paradox
+carbide_lamp
+acetylene
+air_compressor
+
+weld(1300.10795223)
+priestley(1120.40828439)
+weld(620.947081661)
+steril(576.569504343)" -- "bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)"	 [weight=-0.333333333333];
+	"pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)" -- "cell_death
+human_stem_cells_institute
+cell_theory
+stem_cell
+
+stem(560.628192113)
+mycoplasma(455.721065779)
+cell(434.624290191)
+plasmid(\
+406.381425981)"	 [label=7,
+		weight=-0.0769230769231];
+	"pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=6,
+		weight=-0.0666666666667];
+	"pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)" -- "pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)"	 [label=0,
+		weight=-0.00617283950617];
+	"pharming_(genetics)
+immunogold_labelling
+size-exclusion_chromatography
+fixation_(histology)
+
+sr(610.510826523)
+biotinyl(378.656338549)
+\
+receptor(360.470670009)
+skimmer(353.445747291)" -- "polymerase_chain_reaction
+2_base_encoding
+uruz_project
+biochip
+
+virus(763.132499824)
+viru(490.947089069)
+sequenc(409.035546955)
+\
+gel(377.914397552)"	 [weight=-0.25];
+	"bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=16,
+		weight=-0.166666666667];
+	"bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)" -- "bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)"	 [label=0,
+		weight=-0.00787401574803];
+	"bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)" -- "nitrogen_trifluoride
+coronal_seismology
+cosmic_dust
+effective_temperature
+
+teleport(1395.8116097)
+aurora(563.995434698)
+sagan(436.028511056)
+\
+sun(399.76625071)"	 [weight=-0.333333333333];
+	"bioremediation
+sensor-pesticides
+exposure_assessment
+phytoremediation
+
+radon(1059.33748203)
+ozon(922.727100881)
+herbicid(585.48050444)
+\
+pesticid(553.181025034)" -- "polymerase_chain_reaction
+2_base_encoding
+uruz_project
+biochip
+
+virus(763.132499824)
+viru(490.947089069)
+sequenc(409.035546955)
+\
+gel(377.914397552)"	 [weight=-0.333333333333];
+	"nitrogen_trifluoride
+coronal_seismology
+cosmic_dust
+effective_temperature
+
+teleport(1395.8116097)
+aurora(563.995434698)
+sagan(436.028511056)
+\
+sun(399.76625071)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=16,
+		weight=-0.166666666667];
+	"nitrogen_trifluoride
+coronal_seismology
+cosmic_dust
+effective_temperature
+
+teleport(1395.8116097)
+aurora(563.995434698)
+sagan(436.028511056)
+\
+sun(399.76625071)" -- "nitrogen_trifluoride
+coronal_seismology
+cosmic_dust
+effective_temperature
+
+teleport(1395.8116097)
+aurora(563.995434698)
+sagan(436.028511056)
+\
+sun(399.76625071)"	 [label=0,
+		weight=-0.00900900900901];
+	"polymerase_chain_reaction
+2_base_encoding
+uruz_project
+biochip
+
+virus(763.132499824)
+viru(490.947089069)
+sequenc(409.035546955)
+\
+gel(377.914397552)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [label=8,
+		weight=-0.0833333333333];
+	"polymerase_chain_reaction
+2_base_encoding
+uruz_project
+biochip
+
+virus(763.132499824)
+viru(490.947089069)
+sequenc(409.035546955)
+\
+gel(377.914397552)" -- "polymerase_chain_reaction
+2_base_encoding
+uruz_project
+biochip
+
+virus(763.132499824)
+viru(490.947089069)
+sequenc(409.035546955)
+\
+gel(377.914397552)"	 [label=0,
+		weight=-0.00680272108844];
+	"cosmological_perturbation_theory
+quantum_electrodynamics
+renormalization
+asymptotic_safety_in_quantum_gravity
+
+string(543.456386826)
+\
+gaug(376.960337886)
+gaug(269.650460678)
+perturb(240.615634081)" -- "quantum_nonlocality
+exchange_bias
+monte_carlo_methods_for_electron_transport
+action_(physics)
+
+fourier(650.46212019)
+hilbert(491.152398558)
+\
+entangl(461.169177019)
+orbit(330.360158401)"	 [weight=-0.2];
+	"cosmological_perturbation_theory
+quantum_electrodynamics
+renormalization
+asymptotic_safety_in_quantum_gravity
+
+string(543.456386826)
+\
+gaug(376.960337886)
+gaug(269.650460678)
+perturb(240.615634081)" -- "cross_section_(physics)
+classical_central-force_problem
+conjugate_variables_(thermodynamics)
+work_(physics)
+
+woodward(458.977380059)
+\
+sage(452.973242972)
+convect(415.125624469)
+tractor(351.661287322)"	 [weight=-0.333333333333];
+	"cosmological_perturbation_theory
+quantum_electrodynamics
+renormalization
+asymptotic_safety_in_quantum_gravity
+
+string(543.456386826)
+\
+gaug(376.960337886)
+gaug(269.650460678)
+perturb(240.615634081)" -- "the_big_bang_theory
+saltmod
+spermicide
+sawdust
+
+bogdanov(646.50565436)
+murmur(619.064780468)
+haber(524.822426551)
+sheldon(512.348271595)"	 [weight=-0.333333333333];
+	"cosmological_perturbation_theory
+quantum_electrodynamics
+renormalization
+asymptotic_safety_in_quantum_gravity
+
+string(543.456386826)
+\
+gaug(376.960337886)
+gaug(269.650460678)
+perturb(240.615634081)" -- "rowena_green_matthews
+ziryab
+gradsect
+discrimination_testing
+
+lamp(1173.02149667)
+microplasma(699.462803905)
+ballast(535.981171739)
+\
+cathod(426.573922499)"	 [weight=-0.333333333333];
+	"cosmological_perturbation_theory
+quantum_electrodynamics
+renormalization
+asymptotic_safety_in_quantum_gravity
+
+string(543.456386826)
+\
+gaug(376.960337886)
+gaug(269.650460678)
+perturb(240.615634081)" -- "cosmological_perturbation_theory
+quantum_electrodynamics
+renormalization
+asymptotic_safety_in_quantum_gravity
+
+string(543.456386826)
+\
+gaug(376.960337886)
+gaug(269.650460678)
+perturb(240.615634081)"	 [label=1,
+		weight=-0.0166666666667];
+}

@@ -1,0 +1,807 @@
+strict graph wikigraph {
+	graph [label="wikigraph - n=10, it=5",
+		outputorder=nodesfirst
+	];
+	node [shape=ellipse,
+		style=filled
+	];
+	edge [font=Arial,
+		style="setlinewidth(0.5)"
+	];
+	"radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+pharming_(genetics)
+singlet_oxygen
+enzyme_\
+inhibitor
+physical_organic_chemistry" -- "radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+pharming_(genetics)
+singlet_oxygen
+enzyme_\
+inhibitor
+physical_organic_chemistry"	 [label=0,
+		weight=-0.00144717800289];
+	"radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+pharming_(genetics)
+singlet_oxygen
+enzyme_\
+inhibitor
+physical_organic_chemistry" -- "bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+timeline_of_electromagnetic_theory
+hologenome_\
+theory_of_evolution
+lattice_boltzmann_methods
+evolutionary_biology"	 [label=0,
+		weight=-0.00763358778626];
+	"radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+pharming_(genetics)
+singlet_oxygen
+enzyme_\
+inhibitor
+physical_organic_chemistry" -- "string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+quantum_nonlocality
+monte_carlo_methods_\
+for_electron_transport
+asymptotic_safety_in_quantum_gravity
+master_equation"	 [label=6,
+		weight=-0.0666666666667];
+	"radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+pharming_(genetics)
+singlet_oxygen
+enzyme_\
+inhibitor
+physical_organic_chemistry" -- "cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+power_(physics)
+kelvin_probe_force_microscope
+\
+vorticity
+classical_central-force_problem"	 [label=3,
+		weight=-0.0333333333333];
+	"radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+pharming_(genetics)
+singlet_oxygen
+enzyme_\
+inhibitor
+physical_organic_chemistry" -- "refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+volume_(thermodynamics)
+evaporation
+\
+entropy
+relativistic_heat_conduction"	 [label=6,
+		weight=-0.0625];
+	"radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+pharming_(genetics)
+singlet_oxygen
+enzyme_\
+inhibitor
+physical_organic_chemistry" -- "gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+cell_death
+laminin_111
+immunogold_labelling
+\
+human_stem_cells_institute"	 [label=3,
+		weight=-0.0322580645161];
+	"radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+pharming_(genetics)
+singlet_oxygen
+enzyme_\
+inhibitor
+physical_organic_chemistry" -- "weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+carbide_lamp
+equivalent_carbon_content
+particle_\
+physics_and_representation_theory
+standard_model"	 [label=7,
+		weight=-0.0714285714286];
+	"radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+pharming_(genetics)
+singlet_oxygen
+enzyme_\
+inhibitor
+physical_organic_chemistry" -- "dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+maser(346.309479874)
+
+cosmological_principle
+physical_cosmology
+\
+baryon_acoustic_oscillations
+redshift"	 [label=12,
+		weight=-0.125];
+	"radon(1059.33748203)
+aspirin(817.960887296)
+fission(742.189194828)
+ammonia(681.595182649)
+
+pharming_(genetics)
+singlet_oxygen
+enzyme_\
+inhibitor
+physical_organic_chemistry" -- "sequenc(409.035546955)
+plasmid(406.381425981)
+gel(377.914397552)
+genom(366.64785723)
+
+biochip
+gua_operon
+dna-encoded_chemical_library
+\
+in_vitro_compartmentalization"	 [label=10,
+		weight=-0.1];
+	"bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+timeline_of_electromagnetic_theory
+hologenome_\
+theory_of_evolution
+lattice_boltzmann_methods
+evolutionary_biology" -- "bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+timeline_of_electromagnetic_theory
+hologenome_\
+theory_of_evolution
+lattice_boltzmann_methods
+evolutionary_biology"	 [label=0,
+		weight=-0.000413052457662];
+	"bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+timeline_of_electromagnetic_theory
+hologenome_\
+theory_of_evolution
+lattice_boltzmann_methods
+evolutionary_biology" -- "string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+quantum_nonlocality
+monte_carlo_methods_\
+for_electron_transport
+asymptotic_safety_in_quantum_gravity
+master_equation"	 [label=1,
+		weight=-0.013698630137];
+	"bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+timeline_of_electromagnetic_theory
+hologenome_\
+theory_of_evolution
+lattice_boltzmann_methods
+evolutionary_biology" -- "cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+power_(physics)
+kelvin_probe_force_microscope
+\
+vorticity
+classical_central-force_problem"	 [label=1,
+		weight=-0.0113636363636];
+	"bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+timeline_of_electromagnetic_theory
+hologenome_\
+theory_of_evolution
+lattice_boltzmann_methods
+evolutionary_biology" -- "refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+volume_(thermodynamics)
+evaporation
+\
+entropy
+relativistic_heat_conduction"	 [label=2,
+		weight=-0.0243902439024];
+	"bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+timeline_of_electromagnetic_theory
+hologenome_\
+theory_of_evolution
+lattice_boltzmann_methods
+evolutionary_biology" -- "gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+cell_death
+laminin_111
+immunogold_labelling
+\
+human_stem_cells_institute"	 [label=1,
+		weight=-0.0125];
+	"bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+timeline_of_electromagnetic_theory
+hologenome_\
+theory_of_evolution
+lattice_boltzmann_methods
+evolutionary_biology" -- "weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+carbide_lamp
+equivalent_carbon_content
+particle_\
+physics_and_representation_theory
+standard_model"	 [label=1,
+		weight=-0.0185185185185];
+	"bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+timeline_of_electromagnetic_theory
+hologenome_\
+theory_of_evolution
+lattice_boltzmann_methods
+evolutionary_biology" -- "dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+maser(346.309479874)
+
+cosmological_principle
+physical_cosmology
+\
+baryon_acoustic_oscillations
+redshift"	 [label=5,
+		weight=-0.05];
+	"bike(1417.1972003)
+teleport(1395.8116097)
+placebo(1303.28053339)
+priestley(1120.40828439)
+
+timeline_of_electromagnetic_theory
+hologenome_\
+theory_of_evolution
+lattice_boltzmann_methods
+evolutionary_biology" -- "sequenc(409.035546955)
+plasmid(406.381425981)
+gel(377.914397552)
+genom(366.64785723)
+
+biochip
+gua_operon
+dna-encoded_chemical_library
+\
+in_vitro_compartmentalization"	 [label=2,
+		weight=-0.025641025641];
+	"string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+quantum_nonlocality
+monte_carlo_methods_\
+for_electron_transport
+asymptotic_safety_in_quantum_gravity
+master_equation" -- "string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+quantum_nonlocality
+monte_carlo_methods_\
+for_electron_transport
+asymptotic_safety_in_quantum_gravity
+master_equation"	 [label=0,
+		weight=-0.0028901734104];
+	"string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+quantum_nonlocality
+monte_carlo_methods_\
+for_electron_transport
+asymptotic_safety_in_quantum_gravity
+master_equation" -- "cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+power_(physics)
+kelvin_probe_force_microscope
+\
+vorticity
+classical_central-force_problem"	 [label=4,
+		weight=-0.0416666666667];
+	"string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+quantum_nonlocality
+monte_carlo_methods_\
+for_electron_transport
+asymptotic_safety_in_quantum_gravity
+master_equation" -- "refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+volume_(thermodynamics)
+evaporation
+\
+entropy
+relativistic_heat_conduction"	 [label=16,
+		weight=-0.166666666667];
+	"string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+quantum_nonlocality
+monte_carlo_methods_\
+for_electron_transport
+asymptotic_safety_in_quantum_gravity
+master_equation" -- "gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+cell_death
+laminin_111
+immunogold_labelling
+\
+human_stem_cells_institute"	 [label=11,
+		weight=-0.111111111111];
+	"string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+quantum_nonlocality
+monte_carlo_methods_\
+for_electron_transport
+asymptotic_safety_in_quantum_gravity
+master_equation" -- "weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+carbide_lamp
+equivalent_carbon_content
+particle_\
+physics_and_representation_theory
+standard_model"	 [label=6,
+		weight=-0.0666666666667];
+	"string(543.456386826)
+entangl(461.169177019)
+gaug(376.960337886)
+pariti(368.490635684)
+
+quantum_nonlocality
+monte_carlo_methods_\
+for_electron_transport
+asymptotic_safety_in_quantum_gravity
+master_equation" -- "sequenc(409.035546955)
+plasmid(406.381425981)
+gel(377.914397552)
+genom(366.64785723)
+
+biochip
+gua_operon
+dna-encoded_chemical_library
+\
+in_vitro_compartmentalization"	 [weight=-0.333333333333];
+	"cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+power_(physics)
+kelvin_probe_force_microscope
+\
+vorticity
+classical_central-force_problem" -- "cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+power_(physics)
+kelvin_probe_force_microscope
+\
+vorticity
+classical_central-force_problem"	 [label=0,
+		weight=-0.0021645021645];
+	"cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+power_(physics)
+kelvin_probe_force_microscope
+\
+vorticity
+classical_central-force_problem" -- "refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+volume_(thermodynamics)
+evaporation
+\
+entropy
+relativistic_heat_conduction"	 [label=16,
+		weight=-0.166666666667];
+	"cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+power_(physics)
+kelvin_probe_force_microscope
+\
+vorticity
+classical_central-force_problem" -- "gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+cell_death
+laminin_111
+immunogold_labelling
+\
+human_stem_cells_institute"	 [label=7,
+		weight=-0.0769230769231];
+	"cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+power_(physics)
+kelvin_probe_force_microscope
+\
+vorticity
+classical_central-force_problem" -- "weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+carbide_lamp
+equivalent_carbon_content
+particle_\
+physics_and_representation_theory
+standard_model"	 [label=6,
+		weight=-0.0666666666667];
+	"cocain(1895.20047255)
+airfoil(794.350084235)
+magnet(748.938550194)
+truss(643.718966622)
+
+power_(physics)
+kelvin_probe_force_microscope
+\
+vorticity
+classical_central-force_problem" -- "dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+maser(346.309479874)
+
+cosmological_principle
+physical_cosmology
+\
+baryon_acoustic_oscillations
+redshift"	 [weight=-0.2];
+	"refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+volume_(thermodynamics)
+evaporation
+\
+entropy
+relativistic_heat_conduction" -- "refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+volume_(thermodynamics)
+evaporation
+\
+entropy
+relativistic_heat_conduction"	 [label=0,
+		weight=-0.00561797752809];
+	"refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+volume_(thermodynamics)
+evaporation
+\
+entropy
+relativistic_heat_conduction" -- "gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+cell_death
+laminin_111
+immunogold_labelling
+\
+human_stem_cells_institute"	 [label=16,
+		weight=-0.166666666667];
+	"refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+volume_(thermodynamics)
+evaporation
+\
+entropy
+relativistic_heat_conduction" -- "weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+carbide_lamp
+equivalent_carbon_content
+particle_\
+physics_and_representation_theory
+standard_model"	 [label=11,
+		weight=-0.111111111111];
+	"refriger(688.407369116)
+entropi(684.782651565)
+steril(576.569504343)
+thermodynam(557.942891816)
+
+volume_(thermodynamics)
+evaporation
+\
+entropy
+relativistic_heat_conduction" -- "dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+maser(346.309479874)
+
+cosmological_principle
+physical_cosmology
+\
+baryon_acoustic_oscillations
+redshift"	 [weight=-0.333333333333];
+	"gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+cell_death
+laminin_111
+immunogold_labelling
+\
+human_stem_cells_institute" -- "gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+cell_death
+laminin_111
+immunogold_labelling
+\
+human_stem_cells_institute"	 [label=0,
+		weight=-0.00263157894737];
+	"gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+cell_death
+laminin_111
+immunogold_labelling
+\
+human_stem_cells_institute" -- "weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+carbide_lamp
+equivalent_carbon_content
+particle_\
+physics_and_representation_theory
+standard_model"	 [label=16,
+		weight=-0.166666666667];
+	"gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+cell_death
+laminin_111
+immunogold_labelling
+\
+human_stem_cells_institute" -- "dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+maser(346.309479874)
+
+cosmological_principle
+physical_cosmology
+\
+baryon_acoustic_oscillations
+redshift"	 [label=14,
+		weight=-0.142857142857];
+	"gender(1508.17695098)
+lamp(1173.02149667)
+jameson(1069.29371172)
+virus(763.132499824)
+
+cell_death
+laminin_111
+immunogold_labelling
+\
+human_stem_cells_institute" -- "sequenc(409.035546955)
+plasmid(406.381425981)
+gel(377.914397552)
+genom(366.64785723)
+
+biochip
+gua_operon
+dna-encoded_chemical_library
+\
+in_vitro_compartmentalization"	 [label=12,
+		weight=-0.125];
+	"weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+carbide_lamp
+equivalent_carbon_content
+particle_\
+physics_and_representation_theory
+standard_model" -- "weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+carbide_lamp
+equivalent_carbon_content
+particle_\
+physics_and_representation_theory
+standard_model"	 [label=0,
+		weight=-0.00334448160535];
+	"weld(1300.10795223)
+lng(916.557789502)
+xenon(791.892507305)
+quark(621.191324781)
+
+carbide_lamp
+equivalent_carbon_content
+particle_\
+physics_and_representation_theory
+standard_model" -- "dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+maser(346.309479874)
+
+cosmological_principle
+physical_cosmology
+\
+baryon_acoustic_oscillations
+redshift"	 [weight=-0.333333333333];
+	"dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+maser(346.309479874)
+
+cosmological_principle
+physical_cosmology
+\
+baryon_acoustic_oscillations
+redshift" -- "dark(610.232188426)
+redshift(545.023525411)
+galaxi(364.773453052)
+maser(346.309479874)
+
+cosmological_principle
+physical_cosmology
+\
+baryon_acoustic_oscillations
+redshift"	 [label=0,
+		weight=-0.00714285714286];
+	"sequenc(409.035546955)
+plasmid(406.381425981)
+gel(377.914397552)
+genom(366.64785723)
+
+biochip
+gua_operon
+dna-encoded_chemical_library
+\
+in_vitro_compartmentalization" -- "sequenc(409.035546955)
+plasmid(406.381425981)
+gel(377.914397552)
+genom(366.64785723)
+
+biochip
+gua_operon
+dna-encoded_chemical_library
+\
+in_vitro_compartmentalization"	 [label=0,
+		weight=-0.0062893081761];
+}

@@ -1,0 +1,11 @@
+strict graph wikigraph {
+	graph [label="wikigraph - n=30, it=25",
+		outputorder=nodesfirst
+	];
+	node [shape=ellipse,
+		style=filled
+	];
+	edge [font=Arial,
+		style="setlinewidth(0.5)"
+	];
+}
