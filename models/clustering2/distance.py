@@ -30,7 +30,7 @@ def calculate_distance(v1, v2):
   try:
     rset = v1.intersection(v2)
     #print "%s %s %s" % (len(v1), len(v2), len(rset))
-    return (1 / len(rset), rset)
+    return (float(1) / float(len(rset)), rset)
   except ZeroDivisionError:
     return (INF, set([]))
 
@@ -45,6 +45,7 @@ def cluster_distance(c1, c2):
   ws1 = words(c1)
   ws2 = words(c2)
   dist, inters = calculate_distance(ws1,ws2)
+  print len(inters)
   return dist
 
 
