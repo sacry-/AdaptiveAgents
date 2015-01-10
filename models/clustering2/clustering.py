@@ -32,7 +32,7 @@ def clustering_algorithm(n=50, iterations=15):
   return clusters
 
 if __name__ == "__main__":
-  clustering_algorithm(35, 15)
+  clustering_algorithm(35, 50)
 
 
 '''

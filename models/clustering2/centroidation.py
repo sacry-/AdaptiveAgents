@@ -4,7 +4,6 @@ sys.path.insert(0, p)
 
 from rediss import RFeature
 
-from Levenshtein import ratio
 from itertools import groupby
 from math import sqrt
 from math import log
@@ -31,13 +30,13 @@ def relevance(tpl, debug=False):
     a, b = tpl
     w1, wt1 = a
     w2, wt2 = b
-    weight = ratio(str(w1),str(w2))*log(1+wt1+wt2) # sqrt(wt1*wt2)
+    weight = levenshtein_ratio(w1,w2)*log(1+wt1+wt2) # sqrt(wt1*wt2)
     res = (w1, weight) if wt1 > wt2 else (w2, weight)
     if debug and weight > 5:
         print "::::::::\n%s -> %s\n%s -> %s\nbecame %s" % (w1,wt1,w2,wt2,res)
     return res
 
-# collapse a 625 length vector to a 25 length representative vector
+# collapse a ~22.500~ length vector to a 25 length representative vector
 # collapse :: [(Word, Weight)] -> [(Word, Weight)]
 def collapse(ls, debug=False):
   sls = sorted(ls, key=fst)
@@ -65,6 +64,7 @@ def compare_all(v,  debug=False):
     return distance_vector
 
 # Vector -> Vector
+# sum weights for identical words
 def reduce_duplicates(weighted_words):
     new_vector = {}
     for w, wt in weighted_words:
@@ -73,7 +73,6 @@ def reduce_duplicates(weighted_words):
         else:
             new_vector[w] = wt
     return list(new_vector.iteritems())
-    # raise "sum weights of identical words, or not?"
 
 # Cluster -> Vector
 def cluster_centroid_vector(cluster):

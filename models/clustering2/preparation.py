@@ -1,4 +1,3 @@
-from Levenshtein import ratio
 from cluster_utils import *
 
 
@@ -29,7 +28,7 @@ def find_closest(vector, lexicon):
   best_rat = -1
   best_lex = ""
   for lex in lexicon:
-    rat = ratio(str(w),str(lex))
+    rat = levenshtein_ratio(w,lex)
     if rat > best_rat:
       best_rat = rat
       best_lex = lex
