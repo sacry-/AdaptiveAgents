@@ -20,12 +20,13 @@ def base_graph(_name,n,iterations):
   # http://www.graphviz.org/content/faq
 
   G.graph_attr['label']="%s - n=%s, it=%s" % (_name, n, iterations)
+  # G.graph_attr['splines'] = "none"
   G.graph_attr['outputorder']='nodesfirst'
 
   G.node_attr['shape']='ellipse'
   G.node_attr['style']='filled'
   
-  G.edge_attr['style']='setlinewidth(0.5)'
+  G.edge_attr['style']='setlinewidth(0.2)'
   G.edge_attr['font']='Arial'
   
   return G
@@ -58,8 +59,8 @@ if __name__ == '__main__':
   name = "wikigraph"
   # drawing complexity seems to increase quadratic/cubic with N
   # ~1min for n = 32
-  n=30
-  iterations=25
+  n=20
+  iterations=15
   G = base_graph(name,n,iterations)
   clusters = clustering_algorithm(n=n, iterations=iterations, verbose=True)
   ds = prepare_visualization(clusters)
@@ -70,9 +71,10 @@ if __name__ == '__main__':
       # add_edge
       dist = distance.cluster_distance(c1, c2)
       d = dist_to_string(dist)
-      if d.strip() != "0":
+      if dist < 0.5:
         G.add_edge(title1, title2, weight=-dist) # weight is negated distance
-        G.get_edge(title1, title2).attr['label'] = d
+        if dist < 0.1:
+          G.get_edge(title1, title2).attr['label'] = d
         distances.append( (dist, title1, title2) )
 
   if True:
@@ -80,7 +82,7 @@ if __name__ == '__main__':
     import random
     random.shuffle(distances)
     for d, t1, t2 in distances[:8]:
-      print ("%s :: %s <-> %s" % (d, t1, t2))
+      print (d)
 
   to_disc(G)
   
