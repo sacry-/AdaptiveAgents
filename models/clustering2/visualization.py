@@ -72,11 +72,10 @@ if __name__ == '__main__':
     for title2, (c2, cent2) in ds.iteritems():
       # add_edge
       dist = distance.cluster_distance(c1, c2)
-      d = dist_to_string(dist)
       if dist < 0.5:
         G.add_edge(title1, title2, weight=-dist) # weight is negated distance
         if dist < 0.1:
-          G.get_edge(title1, title2).attr['label'] = d
+          G.get_edge(title1, title2).attr['label'] = dist_to_string(dist)
         distances.append( (dist, title1, title2) )
 
   if True:
